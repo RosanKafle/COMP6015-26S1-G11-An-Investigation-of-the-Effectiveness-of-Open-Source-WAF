@@ -1,0 +1,11 @@
+The Week 3 tuning exercise helped show the relationship between precision and recall in a practical way. 
+When the threshold is set lower, the rule becomes more sensitive and is more likely to detect suspicious behaviour quickly. 
+This improves recall because fewer attacks are missed. 
+However, the downside is that a lower threshold can also create more false positives, which reduces precision. 
+On the other hand, when the threshold is increased, the rule becomes stricter and may create fewer unnecessary alerts, which can improve precision, but it also increases the chance of missing slower or smaller attack activity.
+
+In my lab, the SYN scan still triggered alerts even when the threshold was increased because the scan volume was high enough to exceed the stricter setting. 
+This means the rule still worked well for the aggressive scan used in testing. 
+Even so, the exercise showed that very strict thresholds can be risky, because a stealthier scan may not be detected as easily. 
+Based on this, the best setting is usually one that reduces unnecessary noise but still allows repeated suspicious behaviour to stand out clearly.
+The main lesson from this week was that a detection rule should not only work in one test, but should also be tuned so that it stays useful and manageable in practice.
