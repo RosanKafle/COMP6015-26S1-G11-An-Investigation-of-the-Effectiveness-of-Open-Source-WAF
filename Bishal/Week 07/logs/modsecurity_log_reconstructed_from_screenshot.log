@@ -1,0 +1,16 @@
+ModSecurity log summary
+Evidence type: reconstructed from screenshot, not raw exported log
+Source screenshot: screenshots/SQL injection blocked error log.png
+
+Visible details:
+- Log path shown: /var/log/apache2/error.log
+- Apache/ModSecurity messages are visible.
+- CRS version visible in log lines: OWASP_CRS/3.3.7
+- Requests from attacker host 192.168.56.10 to target host 192.168.56.20 are visible.
+- DVWA paths visible include /DVWA/login.php and /DVWA/vulnerabilities/sqli/
+- Multiple CRS warning/error entries are shown.
+- Rule category visible: protocol enforcement / numeric IP address in Host header.
+- Paranoia level tag visible: paranoia-level/1.
+
+Command reference:
+sudo tail -n 200 /var/log/apache2/error.log > week07_modsecurity_error_log.txt
