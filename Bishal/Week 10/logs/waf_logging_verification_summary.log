@@ -1,0 +1,19 @@
+WAF logging verification summary
+Evidence type: screenshot-supported summary
+
+Evidence files:
+- screenshots/SQL injection blocked error log.png
+- screenshots/SQL injection Blocked.png
+
+Summary:
+- Apache/ModSecurity error logs were monitored during SQL injection testing.
+- The screenshot shows ModSecurity/OWASP CRS log entries related to DVWA requests.
+- Blocking behavior is supported by a SQL injection blocked screenshot.
+
+Command reference:
+sudo tail -n 300 /var/log/apache2/error.log > week10_modsecurity_error_log.txt
+
+Recommended mapping:
+- Add a timestamped test ID before each attack.
+- Capture the matching log lines immediately after each test.
+- Save browser/tool screenshot and raw log under the same test ID.

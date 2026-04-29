@@ -1,0 +1,25 @@
+Week 10 activity log
+Evidence type: configuration refinement and documentation summary
+Reported weekly period in PDF: 20/04/2026 to 24/05/2026
+
+Date note:
+- The end date appears inconsistent because the PDF was created in April 2026. It likely should be 24/04/2026.
+
+Activities covered from weekly report:
+- Improved and refined ModSecurity plus CRS tuning.
+- Supported repeated attack simulation by stabilising the environment.
+- Verified WAF logging during testing.
+- Continued setup/exploration of a second WAF.
+- Documented configuration changes and environment setup.
+
+Artifacts in this week folder:
+- docs/Adjusting OWASP CRS Parameters.docx
+- screenshots/crs paranoia level changed.png
+- screenshots/SQL injection blocked error log.png
+- screenshots/SQL injection Blocked.png
+- tool-output/github_coraza_waf2_evidence/
+
+Evidence notes:
+- ModSecurity/CRS tuning evidence is recorded.
+- WAF log verification is recorded.
+- Coraza/WAF #2 SQLMap, Wapiti, and performance outputs are included from shared group evidence.
