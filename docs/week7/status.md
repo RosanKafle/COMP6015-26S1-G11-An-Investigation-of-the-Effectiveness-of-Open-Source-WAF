@@ -1,9 +1,15 @@
-## Week 7 Completion
+# Week 7 Completion
 
-Advanced evasion testing was completed using Burp Suite and sqlmap.
+Advanced evasion testing was completed against the ModSecurity path using Burp Suite Repeater and sqlmap.
 
-All tested variations (URL encoding, case/spacing changes, tamper scripts, and request structure modifications) were blocked by the WAF, with responses including 403 Forbidden and 400 Bad Request.
+Evidence-backed saved results:
 
-This indicates strong detection capability but suggests a strict rule set that may impact usability.
+- `W7-01` URL-encoded SQLi: blocked with `403 Forbidden`
+- `W7-02` case and spacing SQLi variation: blocked with `403 Forbidden`
+- `W7-03` sqlmap `--tamper=space2comment`: blocked with `403 Forbidden` repeated 149 times
+- `W7-04` URL-encoded reflected XSS: blocked with `400 Bad Request`
+- `W7-05` mixed-case reflected XSS: blocked with `403 Forbidden`
+- `W7-06` request-structure SQLi is recorded in the test matrix, but a dedicated raw request and response export was not preserved in `docs/week7/`
 
-All evidence has been collected and stored for final analysis.
+Outcome:
+All saved Week 7 artifacts show blocked obfuscated SQLi and XSS attempts against ModSecurity. The current docs export does not preserve a successful bypass.

@@ -4,6 +4,5 @@
 - Tool: sqlmap (--batch --risk=2 --level=2)
 - Result: No injectable parameter detected.
 - HTTP errors: ~900 responses with status 500 during the run.
-- Interpretation: DVWA was exploitable in the baseline (Week 3),
-  but with WAF #1 enabled and tuned, sqlmap can no longer exploit the SQLi.
-  Many payloads now trigger internal errors, consistent with WAF disruption.
+- Baseline reference: manual Week 3 testing confirmed the DVWA page was vulnerable without a WAF, while the saved automated sqlmap baseline remained inconclusive because of login and session issues.
+- Interpretation: with WAF #1 enabled, the saved sqlmap run could no longer identify an injectable parameter. Many payloads triggered internal errors, which is consistent with WAF disruption but also shows the response path was not cleanly tuned.

@@ -1,3 +1,6 @@
+Note:
+This file relates to a separate Suricata threshold-tuning exercise and is excluded from the final DVWA WAF analysis.
+
 The Week 3 tuning exercise helped show the relationship between precision and recall in a practical way. 
 When the threshold is set lower, the rule becomes more sensitive and is more likely to detect suspicious behaviour quickly. 
 This improves recall because fewer attacks are missed. 

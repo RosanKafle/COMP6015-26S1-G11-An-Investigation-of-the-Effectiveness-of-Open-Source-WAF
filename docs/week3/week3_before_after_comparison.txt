@@ -1,3 +1,6 @@
+Note:
+This file relates to a separate Suricata threshold-tuning exercise and is excluded from the final DVWA WAF analysis.
+
 This week also included threshold tuning to compare how different settings affected alert behaviour.
  For the SYN scan rule, I first tested a lower threshold, which made the rule more sensitive and allowed scan activity to be detected quickly.
  After that, I increased the threshold to reduce alert noise and see whether the rule would still work.
