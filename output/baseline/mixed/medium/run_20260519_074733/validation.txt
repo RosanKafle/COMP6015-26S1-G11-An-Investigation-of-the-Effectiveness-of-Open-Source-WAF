@@ -1,0 +1,10 @@
+Run validation: PASS
+
+Checks:
+- PASS: CSV exists - output/baseline/mixed/medium/run_20260519_074733/detailed.csv
+- PASS: attack rows present - required for attack_only and mixed phases
+- PASS: benign rows present when phase is benign_only or mixed - not required for attack_only
+- PASS: no all-302 failure
+- PASS: response_time_ms present
+- PASS: target does not point to ZAP API - http://192.168.209.130/DVWA
+- PASS: expected WAF state confirmed - manual confirmation
