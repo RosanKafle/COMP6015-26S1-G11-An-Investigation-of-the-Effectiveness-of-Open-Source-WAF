@@ -1,0 +1,10 @@
+phase,load_level,comparison,reference_environment,candidate_environment,detection_rate_difference,false_positive_difference,latency_overhead_ms,latency_overhead_percent,server_error_difference
+attack_only,none,baseline_vs_modsec,baseline,modsec,34.773,0.0,2.857,45.077,0.049
+attack_only,none,baseline_vs_coraza,baseline,coraza,35.088,0.0,6.838,107.889,-0.101
+attack_only,none,modsec_vs_coraza,modsec,coraza,0.315,0.0,3.981,43.295,-0.15
+mixed,medium,baseline_vs_modsec,baseline,modsec,0.0,0.0,0.866,14.862,0.001
+mixed,medium,baseline_vs_coraza,baseline,coraza,35.123,0.0,13.28,227.905,0.012
+mixed,medium,modsec_vs_coraza,modsec,coraza,35.123,0.0,12.414,185.477,0.011
+setup,setup,baseline_vs_modsec,baseline,modsec,0.0,0.0,2.206,9.44,0.0
+setup,setup,baseline_vs_coraza,baseline,coraza,0.0,0.0,4.961,21.23,0.0
+setup,setup,modsec_vs_coraza,modsec,coraza,0.0,0.0,2.755,10.773,0.0

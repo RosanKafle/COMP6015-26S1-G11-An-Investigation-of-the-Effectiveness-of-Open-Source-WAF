@@ -1,0 +1,8 @@
+run_id,environment,waf_type,phase,load_level,traffic_type,attack_type,total_requests,allowed_count,blocked_count,redirect_count,client_error_count,server_error_count,timeout_count,success_count,failed_count,detection_rate_percent,false_negative_rate_percent,false_positive_rate_percent,avg_response_time_ms,min_response_time_ms,max_response_time_ms
+20260519_064610,modsec,modsecurity,attack_only,none,attack,authorization_bypass,40,40,0,0,0,0,0,20,20,0.0,100.0,0.0,8.03,4.556,11.832
+20260519_064610,modsec,modsecurity,attack_only,none,attack,brute_force,100,60,40,0,0,0,0,40,60,40.0,60.0,0.0,8.541,3.59,16.494
+20260519_064610,modsec,modsecurity,attack_only,none,attack,csrf,40,40,0,0,0,0,0,0,40,0.0,100.0,0.0,9.092,4.702,13.072
+20260519_064610,modsec,modsecurity,attack_only,none,attack,javascript,60,40,20,0,0,0,0,0,60,33.333,66.667,0.0,5.533,2.793,11.647
+20260519_064610,modsec,modsecurity,attack_only,none,attack,sqli,84,21,42,0,0,21,0,0,84,50.0,25.0,0.0,8.095,2.463,13.934
+20260519_064610,modsec,modsecurity,attack_only,none,attack,weak_session_ids,60,60,0,0,0,0,0,0,60,0.0,100.0,0.0,8.458,4.062,12.349
+20260519_064610,modsec,modsecurity,attack_only,none,attack,xss,81,21,60,0,0,0,0,0,81,74.074,25.926,0.0,7.859,2.829,13.549
