@@ -1,1 +1,14 @@
+<<<<<<< HEAD
+.venv/
+__pycache__/
+*.pyc
+*.log
+.zap/
 .DS_Store
+.cache/
+
+# Local/generated output backups
+output_mac_incomplete_backup/
+output_old_flat_backup/
+output-week 10-14/
+>>>>>>> 9f8a2df (Ignore local generated output backups)
