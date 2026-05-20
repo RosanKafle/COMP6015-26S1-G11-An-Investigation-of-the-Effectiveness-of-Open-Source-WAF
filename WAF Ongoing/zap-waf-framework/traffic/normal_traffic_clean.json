@@ -1,0 +1,416 @@
+[
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/login.php",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "POST",
+    "url": "http://192.168.56.20/DVWA/login.php",
+    "request_body": "username=admin&password=password&Login=Login&user_token=42029adc30af124c0c6156abb60a2ca2"
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/index.php",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/brute/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/exec/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/csrf/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/fi/?page=include.php",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/upload/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/captcha/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/sqli/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/xss_d/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/xss_r/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/xss_s/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/xss_d/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/sqli/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/xss_s/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/csp/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/javascript/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/authbypass/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/authbypass/get_user_data.php",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/open_redirect/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/cryptography/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/api/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/cryptography/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/open_redirect/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/authbypass/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/authbypass/get_user_data.php",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/javascript/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/csp/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/xss_s/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/xss_r/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/xss_d/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/weak_id/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/sqli_blind/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/sqli/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/upload/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/fi/?page=include.php",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/csrf/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/exec/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/brute/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/xss_d/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/csp/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/javascript/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/javascript/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/authbypass/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/authbypass/get_user_data.php",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/open_redirect/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/cryptography/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/xss_r/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/xss_d/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/sqli_blind/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/sqli/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/sqli_blind/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/weak_id/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/xss_d/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/xss_r/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/xss_s/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/csp/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/javascript/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/open_redirect/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/authbypass/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/authbypass/get_user_data.php",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/cryptography/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/open_redirect/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/sqli_blind/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/sqli/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/captcha/",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "normal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/xss_s/",
+    "request_body": ""
+  }
+]

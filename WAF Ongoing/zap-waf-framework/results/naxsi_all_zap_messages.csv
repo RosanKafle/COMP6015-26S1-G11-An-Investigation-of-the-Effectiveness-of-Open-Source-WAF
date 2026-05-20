@@ -1,0 +1,1742 @@
+mode,attack_type,method,url,status_code,result
+naxsi,Header / User-Agent Fuzzing,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,0,other
+naxsi,Header / User-Agent Fuzzing,,,0,other
+naxsi,Header / User-Agent Fuzzing,,,0,other
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Path Traversal / File Inclusion,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Path Traversal / File Inclusion,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Path Traversal / File Inclusion,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Path Traversal / File Inclusion,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Path Traversal / File Inclusion,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Path Traversal / File Inclusion,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,File Upload,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Path Traversal / File Inclusion,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Path Traversal / File Inclusion,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Path Traversal / File Inclusion,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Path Traversal / File Inclusion,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Path Traversal / File Inclusion,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Path Traversal / File Inclusion,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Path Traversal / File Inclusion,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Path Traversal / File Inclusion,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Path Traversal / File Inclusion,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Path Traversal / File Inclusion,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Path Traversal / File Inclusion,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Path Traversal / File Inclusion,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Path Traversal / File Inclusion,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Path Traversal / File Inclusion,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Path Traversal / File Inclusion,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Forced Browsing / Directory Discovery,,,200,allowed
+naxsi,Forced Browsing / Directory Discovery,,,200,allowed
+naxsi,Forced Browsing / Directory Discovery,,,0,other
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,302,allowed
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,404,client_error
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,SQL Injection,,,403,blocked
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Brute Force / Authentication,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,200,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed
+naxsi,Header / User-Agent Fuzzing,,,301,allowed

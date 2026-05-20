@@ -1,0 +1,1225 @@
+
+===== SQL Injection =====
+[1/300] 403 -> blocked | 1' OR '1'='1
+[2/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[3/300] 403 -> blocked | admin' --
+[4/300] 403 -> blocked | 1' AND SLEEP(5)#
+[5/300] 403 -> blocked | ' OR 1=1#
+[6/300] 403 -> blocked | 1' OR '1'='1
+[7/300] 403 -> blocked | ' OR 1=1#
+[8/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[9/300] 403 -> blocked | admin' --
+[10/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[11/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[12/300] 403 -> blocked | ' OR 1=1#
+[13/300] 403 -> blocked | admin' --
+[14/300] 403 -> blocked | 1' OR '1'='1
+[15/300] 403 -> blocked | 1' AND SLEEP(5)#
+[16/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[17/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[18/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[19/300] 403 -> blocked | admin' --
+[20/300] 403 -> blocked | admin' --
+[21/300] 403 -> blocked | 1' OR '1'='1
+[22/300] 403 -> blocked | admin' --
+[23/300] 403 -> blocked | 1' OR '1'='1
+[24/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[25/300] 403 -> blocked | 1' AND SLEEP(5)#
+[26/300] 403 -> blocked | ' OR 1=1#
+[27/300] 403 -> blocked | 1' OR '1'='1
+[28/300] 403 -> blocked | ' OR 1=1#
+[29/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[30/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[31/300] 403 -> blocked | ' OR 1=1#
+[32/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[33/300] 403 -> blocked | 1' OR '1'='1
+[34/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[35/300] 403 -> blocked | 1' AND SLEEP(5)#
+[36/300] 403 -> blocked | ' OR 1=1#
+[37/300] 403 -> blocked | 1' OR '1'='1
+[38/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[39/300] 403 -> blocked | admin' --
+[40/300] 403 -> blocked | 1' OR '1'='1
+[41/300] 403 -> blocked | 1' AND SLEEP(5)#
+[42/300] 403 -> blocked | 1' AND SLEEP(5)#
+[43/300] 403 -> blocked | 1' OR '1'='1
+[44/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[45/300] 403 -> blocked | admin' --
+[46/300] 403 -> blocked | 1' OR '1'='1
+[47/300] 403 -> blocked | 1' OR '1'='1
+[48/300] 403 -> blocked | 1' AND SLEEP(5)#
+[49/300] 403 -> blocked | 1' AND SLEEP(5)#
+[50/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[51/300] 403 -> blocked | admin' --
+[52/300] 403 -> blocked | ' OR 1=1#
+[53/300] 403 -> blocked | 1' AND SLEEP(5)#
+[54/300] 403 -> blocked | ' OR 1=1#
+[55/300] 403 -> blocked | 1' AND SLEEP(5)#
+[56/300] 403 -> blocked | 1' OR '1'='1
+[57/300] 403 -> blocked | 1' OR '1'='1
+[58/300] 403 -> blocked | admin' --
+[59/300] 403 -> blocked | ' OR 1=1#
+[60/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[61/300] 403 -> blocked | admin' --
+[62/300] 403 -> blocked | admin' --
+[63/300] 403 -> blocked | ' OR 1=1#
+[64/300] 403 -> blocked | 1' OR '1'='1
+[65/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[66/300] 403 -> blocked | admin' --
+[67/300] 403 -> blocked | admin' --
+[68/300] 403 -> blocked | 1' AND SLEEP(5)#
+[69/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[70/300] 403 -> blocked | ' OR 1=1#
+[71/300] 403 -> blocked | 1' AND SLEEP(5)#
+[72/300] 403 -> blocked | ' OR 1=1#
+[73/300] 403 -> blocked | ' OR 1=1#
+[74/300] 403 -> blocked | ' OR 1=1#
+[75/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[76/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[77/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[78/300] 403 -> blocked | admin' --
+[79/300] 403 -> blocked | 1' OR '1'='1
+[80/300] 403 -> blocked | ' OR 1=1#
+[81/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[82/300] 403 -> blocked | 1' AND SLEEP(5)#
+[83/300] 403 -> blocked | 1' AND SLEEP(5)#
+[84/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[85/300] 403 -> blocked | ' OR 1=1#
+[86/300] 403 -> blocked | admin' --
+[87/300] 403 -> blocked | ' OR 1=1#
+[88/300] 403 -> blocked | ' OR 1=1#
+[89/300] 403 -> blocked | admin' --
+[90/300] 403 -> blocked | 1' OR '1'='1
+[91/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[92/300] 403 -> blocked | 1' OR '1'='1
+[93/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[94/300] 403 -> blocked | ' OR 1=1#
+[95/300] 403 -> blocked | admin' --
+[96/300] 403 -> blocked | ' OR 1=1#
+[97/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[98/300] 403 -> blocked | 1' AND SLEEP(5)#
+[99/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[100/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[101/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[102/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[103/300] 403 -> blocked | ' OR 1=1#
+[104/300] 403 -> blocked | admin' --
+[105/300] 403 -> blocked | 1' AND SLEEP(5)#
+[106/300] 403 -> blocked | 1' AND SLEEP(5)#
+[107/300] 403 -> blocked | ' OR 1=1#
+[108/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[109/300] 403 -> blocked | ' OR 1=1#
+[110/300] 403 -> blocked | 1' AND SLEEP(5)#
+[111/300] 403 -> blocked | admin' --
+[112/300] 403 -> blocked | admin' --
+[113/300] 403 -> blocked | admin' --
+[114/300] 403 -> blocked | 1' OR '1'='1
+[115/300] 403 -> blocked | admin' --
+[116/300] 403 -> blocked | 1' AND SLEEP(5)#
+[117/300] 403 -> blocked | 1' AND SLEEP(5)#
+[118/300] 403 -> blocked | 1' OR '1'='1
+[119/300] 403 -> blocked | ' OR 1=1#
+[120/300] 403 -> blocked | admin' --
+[121/300] 403 -> blocked | 1' AND SLEEP(5)#
+[122/300] 403 -> blocked | ' OR 1=1#
+[123/300] 403 -> blocked | 1' OR '1'='1
+[124/300] 403 -> blocked | 1' OR '1'='1
+[125/300] 403 -> blocked | 1' AND SLEEP(5)#
+[126/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[127/300] 403 -> blocked | 1' OR '1'='1
+[128/300] 403 -> blocked | 1' OR '1'='1
+[129/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[130/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[131/300] 403 -> blocked | 1' AND SLEEP(5)#
+[132/300] 403 -> blocked | ' OR 1=1#
+[133/300] 403 -> blocked | 1' AND SLEEP(5)#
+[134/300] 403 -> blocked | admin' --
+[135/300] 403 -> blocked | 1' AND SLEEP(5)#
+[136/300] 403 -> blocked | admin' --
+[137/300] 403 -> blocked | admin' --
+[138/300] 403 -> blocked | admin' --
+[139/300] 403 -> blocked | 1' AND SLEEP(5)#
+[140/300] 403 -> blocked | admin' --
+[141/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[142/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[143/300] 403 -> blocked | ' OR 1=1#
+[144/300] 403 -> blocked | 1' OR '1'='1
+[145/300] 403 -> blocked | 1' AND SLEEP(5)#
+[146/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[147/300] 403 -> blocked | 1' OR '1'='1
+[148/300] 403 -> blocked | admin' --
+[149/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[150/300] 403 -> blocked | 1' OR '1'='1
+[151/300] 403 -> blocked | 1' AND SLEEP(5)#
+[152/300] 403 -> blocked | 1' AND SLEEP(5)#
+[153/300] 403 -> blocked | 1' OR '1'='1
+[154/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[155/300] 403 -> blocked | ' OR 1=1#
+[156/300] 403 -> blocked | admin' --
+[157/300] 403 -> blocked | ' OR 1=1#
+[158/300] 403 -> blocked | 1' AND SLEEP(5)#
+[159/300] 403 -> blocked | 1' AND SLEEP(5)#
+[160/300] 403 -> blocked | ' OR 1=1#
+[161/300] 403 -> blocked | admin' --
+[162/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[163/300] 403 -> blocked | ' OR 1=1#
+[164/300] 403 -> blocked | ' OR 1=1#
+[165/300] 403 -> blocked | ' OR 1=1#
+[166/300] 403 -> blocked | 1' AND SLEEP(5)#
+[167/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[168/300] 403 -> blocked | 1' OR '1'='1
+[169/300] 403 -> blocked | 1' AND SLEEP(5)#
+[170/300] 403 -> blocked | 1' AND SLEEP(5)#
+[171/300] 403 -> blocked | 1' OR '1'='1
+[172/300] 403 -> blocked | ' OR 1=1#
+[173/300] 403 -> blocked | ' OR 1=1#
+[174/300] 403 -> blocked | 1' AND SLEEP(5)#
+[175/300] 403 -> blocked | 1' AND SLEEP(5)#
+[176/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[177/300] 403 -> blocked | 1' OR '1'='1
+[178/300] 403 -> blocked | 1' AND SLEEP(5)#
+[179/300] 403 -> blocked | ' OR 1=1#
+[180/300] 403 -> blocked | admin' --
+[181/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[182/300] 403 -> blocked | ' OR 1=1#
+[183/300] 403 -> blocked | admin' --
+[184/300] 403 -> blocked | 1' OR '1'='1
+[185/300] 403 -> blocked | ' OR 1=1#
+[186/300] 403 -> blocked | 1' AND SLEEP(5)#
+[187/300] 403 -> blocked | 1' AND SLEEP(5)#
+[188/300] 403 -> blocked | 1' AND SLEEP(5)#
+[189/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[190/300] 403 -> blocked | admin' --
+[191/300] 403 -> blocked | 1' AND SLEEP(5)#
+[192/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[193/300] 403 -> blocked | ' OR 1=1#
+[194/300] 403 -> blocked | 1' OR '1'='1
+[195/300] 403 -> blocked | admin' --
+[196/300] 403 -> blocked | 1' AND SLEEP(5)#
+[197/300] 403 -> blocked | 1' OR '1'='1
+[198/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[199/300] 403 -> blocked | admin' --
+[200/300] 403 -> blocked | 1' OR '1'='1
+[201/300] 403 -> blocked | 1' AND SLEEP(5)#
+[202/300] 403 -> blocked | 1' AND SLEEP(5)#
+[203/300] 403 -> blocked | 1' OR '1'='1
+[204/300] 403 -> blocked | 1' AND SLEEP(5)#
+[205/300] 403 -> blocked | 1' AND SLEEP(5)#
+[206/300] 403 -> blocked | 1' AND SLEEP(5)#
+[207/300] 403 -> blocked | ' OR 1=1#
+[208/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[209/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[210/300] 403 -> blocked | ' OR 1=1#
+[211/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[212/300] 403 -> blocked | admin' --
+[213/300] 403 -> blocked | 1' AND SLEEP(5)#
+[214/300] 403 -> blocked | 1' AND SLEEP(5)#
+[215/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[216/300] 403 -> blocked | admin' --
+[217/300] 403 -> blocked | ' OR 1=1#
+[218/300] 403 -> blocked | admin' --
+[219/300] 403 -> blocked | 1' AND SLEEP(5)#
+[220/300] 403 -> blocked | admin' --
+[221/300] 403 -> blocked | 1' AND SLEEP(5)#
+[222/300] 403 -> blocked | admin' --
+[223/300] 403 -> blocked | 1' AND SLEEP(5)#
+[224/300] 403 -> blocked | 1' OR '1'='1
+[225/300] 403 -> blocked | 1' AND SLEEP(5)#
+[226/300] 403 -> blocked | ' OR 1=1#
+[227/300] 403 -> blocked | 1' OR '1'='1
+[228/300] 403 -> blocked | 1' AND SLEEP(5)#
+[229/300] 403 -> blocked | admin' --
+[230/300] 403 -> blocked | 1' OR '1'='1
+[231/300] 403 -> blocked | 1' AND SLEEP(5)#
+[232/300] 403 -> blocked | admin' --
+[233/300] 403 -> blocked | ' OR 1=1#
+[234/300] 403 -> blocked | admin' --
+[235/300] 403 -> blocked | ' OR 1=1#
+[236/300] 403 -> blocked | 1' OR '1'='1
+[237/300] 403 -> blocked | 1' AND SLEEP(5)#
+[238/300] 403 -> blocked | 1' AND SLEEP(5)#
+[239/300] 403 -> blocked | 1' AND SLEEP(5)#
+[240/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[241/300] 403 -> blocked | 1' OR '1'='1
+[242/300] 403 -> blocked | admin' --
+[243/300] 403 -> blocked | 1' AND SLEEP(5)#
+[244/300] 403 -> blocked | 1' AND SLEEP(5)#
+[245/300] 403 -> blocked | ' OR 1=1#
+[246/300] 403 -> blocked | ' OR 1=1#
+[247/300] 403 -> blocked | admin' --
+[248/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[249/300] 403 -> blocked | ' OR 1=1#
+[250/300] 403 -> blocked | 1' AND SLEEP(5)#
+[251/300] 403 -> blocked | ' OR 1=1#
+[252/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[253/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[254/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[255/300] 403 -> blocked | 1' AND SLEEP(5)#
+[256/300] 403 -> blocked | admin' --
+[257/300] 403 -> blocked | 1' OR '1'='1
+[258/300] 403 -> blocked | admin' --
+[259/300] 403 -> blocked | 1' OR '1'='1
+[260/300] 403 -> blocked | admin' --
+[261/300] 403 -> blocked | admin' --
+[262/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[263/300] 403 -> blocked | ' OR 1=1#
+[264/300] 403 -> blocked | 1' OR '1'='1
+[265/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[266/300] 403 -> blocked | 1' OR '1'='1
+[267/300] 403 -> blocked | admin' --
+[268/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[269/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[270/300] 403 -> blocked | admin' --
+[271/300] 403 -> blocked | ' OR 1=1#
+[272/300] 403 -> blocked | ' OR 1=1#
+[273/300] 403 -> blocked | 1' OR '1'='1
+[274/300] 403 -> blocked | admin' --
+[275/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[276/300] 403 -> blocked | 1' OR '1'='1
+[277/300] 403 -> blocked | 1' OR '1'='1
+[278/300] 403 -> blocked | ' OR 1=1#
+[279/300] 403 -> blocked | 1' OR '1'='1
+[280/300] 403 -> blocked | ' OR 1=1#
+[281/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[282/300] 403 -> blocked | 1' AND SLEEP(5)#
+[283/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[284/300] 403 -> blocked | admin' --
+[285/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[286/300] 403 -> blocked | 1' OR '1'='1
+[287/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[288/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[289/300] 403 -> blocked | ' OR 1=1#
+[290/300] 403 -> blocked | 1' AND SLEEP(5)#
+[291/300] 403 -> blocked | 1 UNION SELECT user,password FROM users
+[292/300] 403 -> blocked | admin' --
+[293/300] 403 -> blocked | ' OR 1=1#
+[294/300] 403 -> blocked | ' OR 1=1#
+[295/300] 403 -> blocked | 1' AND SLEEP(5)#
+[296/300] 403 -> blocked | 1' OR '1'='1
+[297/300] 403 -> blocked | 1' AND SLEEP(5)#
+[298/300] 403 -> blocked | 1' OR '1'='1
+[299/300] 403 -> blocked | admin' --
+[300/300] 403 -> blocked | ' OR 1=1#
+[!] Timeout for pattern 942
+
+===== XSS =====
+[!] Timeout for pattern 941
+[1/300] 403 -> blocked | <svg/onload=alert(1)>
+[2/300] 403 -> blocked | <svg/onload=alert(1)>
+[3/300] 403 -> blocked | <body onload=alert(1)>
+[4/300] 403 -> blocked | <script>alert(1)</script>
+[5/300] 403 -> blocked | "><script>alert(1)</script>
+[6/300] 403 -> blocked | <svg/onload=alert(1)>
+[7/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[8/300] 403 -> blocked | <script>alert(1)</script>
+[9/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[10/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[11/300] 403 -> blocked | <svg/onload=alert(1)>
+[12/300] 403 -> blocked | <body onload=alert(1)>
+[13/300] 403 -> blocked | <body onload=alert(1)>
+[14/300] 403 -> blocked | <script>alert(1)</script>
+[15/300] 403 -> blocked | <svg/onload=alert(1)>
+[16/300] 403 -> blocked | <script>alert(1)</script>
+[17/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[18/300] 403 -> blocked | "><script>alert(1)</script>
+[19/300] 403 -> blocked | <script>alert(1)</script>
+[20/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[21/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[22/300] 403 -> blocked | "><script>alert(1)</script>
+[23/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[24/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[25/300] 403 -> blocked | <svg/onload=alert(1)>
+[26/300] 403 -> blocked | "><script>alert(1)</script>
+[27/300] 403 -> blocked | <script>alert(1)</script>
+[28/300] 403 -> blocked | "><script>alert(1)</script>
+[29/300] 403 -> blocked | "><script>alert(1)</script>
+[30/300] 403 -> blocked | <script>alert(1)</script>
+[31/300] 403 -> blocked | <script>alert(1)</script>
+[32/300] 403 -> blocked | <svg/onload=alert(1)>
+[33/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[34/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[35/300] 403 -> blocked | <body onload=alert(1)>
+[36/300] 403 -> blocked | <script>alert(1)</script>
+[37/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[38/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[39/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[40/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[41/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[42/300] 403 -> blocked | <svg/onload=alert(1)>
+[43/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[44/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[45/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[46/300] 403 -> blocked | <body onload=alert(1)>
+[47/300] 403 -> blocked | <body onload=alert(1)>
+[48/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[49/300] 403 -> blocked | "><script>alert(1)</script>
+[50/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[51/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[52/300] 403 -> blocked | <script>alert(1)</script>
+[53/300] 403 -> blocked | <svg/onload=alert(1)>
+[54/300] 403 -> blocked | <body onload=alert(1)>
+[55/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[56/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[57/300] 403 -> blocked | <body onload=alert(1)>
+[58/300] 403 -> blocked | <body onload=alert(1)>
+[59/300] 403 -> blocked | <body onload=alert(1)>
+[60/300] 403 -> blocked | <body onload=alert(1)>
+[61/300] 403 -> blocked | "><script>alert(1)</script>
+[62/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[63/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[64/300] 403 -> blocked | <body onload=alert(1)>
+[65/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[66/300] 403 -> blocked | <svg/onload=alert(1)>
+[67/300] 403 -> blocked | "><script>alert(1)</script>
+[68/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[69/300] 403 -> blocked | <body onload=alert(1)>
+[70/300] 403 -> blocked | <script>alert(1)</script>
+[71/300] 403 -> blocked | <svg/onload=alert(1)>
+[72/300] 403 -> blocked | <body onload=alert(1)>
+[73/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[74/300] 403 -> blocked | "><script>alert(1)</script>
+[75/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[76/300] 403 -> blocked | "><script>alert(1)</script>
+[77/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[78/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[79/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[80/300] 403 -> blocked | "><script>alert(1)</script>
+[81/300] 403 -> blocked | <body onload=alert(1)>
+[82/300] 403 -> blocked | <script>alert(1)</script>
+[83/300] 403 -> blocked | <body onload=alert(1)>
+[84/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[85/300] 403 -> blocked | <body onload=alert(1)>
+[86/300] 403 -> blocked | <svg/onload=alert(1)>
+[87/300] 403 -> blocked | <script>alert(1)</script>
+[88/300] 403 -> blocked | <svg/onload=alert(1)>
+[89/300] 403 -> blocked | <body onload=alert(1)>
+[90/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[91/300] 403 -> blocked | "><script>alert(1)</script>
+[92/300] 403 -> blocked | <svg/onload=alert(1)>
+[93/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[94/300] 403 -> blocked | <script>alert(1)</script>
+[95/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[96/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[97/300] 403 -> blocked | <svg/onload=alert(1)>
+[98/300] 403 -> blocked | "><script>alert(1)</script>
+[99/300] 403 -> blocked | <script>alert(1)</script>
+[100/300] 403 -> blocked | "><script>alert(1)</script>
+[101/300] 403 -> blocked | <svg/onload=alert(1)>
+[102/300] 403 -> blocked | "><script>alert(1)</script>
+[103/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[104/300] 403 -> blocked | "><script>alert(1)</script>
+[105/300] 403 -> blocked | <script>alert(1)</script>
+[106/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[107/300] 403 -> blocked | <script>alert(1)</script>
+[108/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[109/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[110/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[111/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[112/300] 403 -> blocked | <svg/onload=alert(1)>
+[113/300] 403 -> blocked | <body onload=alert(1)>
+[114/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[115/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[116/300] 403 -> blocked | <body onload=alert(1)>
+[117/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[118/300] 403 -> blocked | <body onload=alert(1)>
+[119/300] 403 -> blocked | "><script>alert(1)</script>
+[120/300] 403 -> blocked | "><script>alert(1)</script>
+[121/300] 403 -> blocked | <script>alert(1)</script>
+[122/300] 403 -> blocked | <body onload=alert(1)>
+[123/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[124/300] 403 -> blocked | <body onload=alert(1)>
+[125/300] 403 -> blocked | <svg/onload=alert(1)>
+[126/300] 403 -> blocked | <svg/onload=alert(1)>
+[127/300] 403 -> blocked | <script>alert(1)</script>
+[128/300] 403 -> blocked | <script>alert(1)</script>
+[129/300] 403 -> blocked | "><script>alert(1)</script>
+[130/300] 403 -> blocked | <body onload=alert(1)>
+[131/300] 403 -> blocked | <svg/onload=alert(1)>
+[132/300] 403 -> blocked | <body onload=alert(1)>
+[133/300] 403 -> blocked | <body onload=alert(1)>
+[134/300] 403 -> blocked | "><script>alert(1)</script>
+[135/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[136/300] 403 -> blocked | <script>alert(1)</script>
+[137/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[138/300] 403 -> blocked | <script>alert(1)</script>
+[139/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[140/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[141/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[142/300] 403 -> blocked | <svg/onload=alert(1)>
+[143/300] 403 -> blocked | <svg/onload=alert(1)>
+[144/300] 403 -> blocked | <script>alert(1)</script>
+[145/300] 403 -> blocked | <svg/onload=alert(1)>
+[146/300] 403 -> blocked | <script>alert(1)</script>
+[147/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[148/300] 403 -> blocked | "><script>alert(1)</script>
+[149/300] 403 -> blocked | <script>alert(1)</script>
+[150/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[151/300] 403 -> blocked | <body onload=alert(1)>
+[152/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[153/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[154/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[155/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[156/300] 403 -> blocked | <body onload=alert(1)>
+[157/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[158/300] 403 -> blocked | "><script>alert(1)</script>
+[159/300] 403 -> blocked | <svg/onload=alert(1)>
+[160/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[161/300] 403 -> blocked | <script>alert(1)</script>
+[162/300] 403 -> blocked | <svg/onload=alert(1)>
+[163/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[164/300] 403 -> blocked | <script>alert(1)</script>
+[165/300] 403 -> blocked | <svg/onload=alert(1)>
+[166/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[167/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[168/300] 403 -> blocked | <script>alert(1)</script>
+[169/300] 403 -> blocked | "><script>alert(1)</script>
+[170/300] 403 -> blocked | <body onload=alert(1)>
+[171/300] 403 -> blocked | <body onload=alert(1)>
+[172/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[173/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[174/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[175/300] 403 -> blocked | "><script>alert(1)</script>
+[176/300] 403 -> blocked | <script>alert(1)</script>
+[177/300] 403 -> blocked | <svg/onload=alert(1)>
+[178/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[179/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[180/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[181/300] 403 -> blocked | <script>alert(1)</script>
+[182/300] 403 -> blocked | <script>alert(1)</script>
+[183/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[184/300] 403 -> blocked | <svg/onload=alert(1)>
+[185/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[186/300] 403 -> blocked | <script>alert(1)</script>
+[187/300] 403 -> blocked | <body onload=alert(1)>
+[188/300] 403 -> blocked | <svg/onload=alert(1)>
+[189/300] 403 -> blocked | <body onload=alert(1)>
+[190/300] 403 -> blocked | <script>alert(1)</script>
+[191/300] 403 -> blocked | <svg/onload=alert(1)>
+[192/300] 403 -> blocked | "><script>alert(1)</script>
+[193/300] 403 -> blocked | "><script>alert(1)</script>
+[194/300] 403 -> blocked | <svg/onload=alert(1)>
+[195/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[196/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[197/300] 403 -> blocked | <svg/onload=alert(1)>
+[198/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[199/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[200/300] 403 -> blocked | <svg/onload=alert(1)>
+[201/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[202/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[203/300] 403 -> blocked | "><script>alert(1)</script>
+[204/300] 403 -> blocked | <script>alert(1)</script>
+[205/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[206/300] 403 -> blocked | <script>alert(1)</script>
+[207/300] 403 -> blocked | <body onload=alert(1)>
+[208/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[209/300] 403 -> blocked | <body onload=alert(1)>
+[210/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[211/300] 403 -> blocked | <script>alert(1)</script>
+[212/300] 403 -> blocked | "><script>alert(1)</script>
+[213/300] 403 -> blocked | <body onload=alert(1)>
+[214/300] 403 -> blocked | <body onload=alert(1)>
+[215/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[216/300] 403 -> blocked | <body onload=alert(1)>
+[217/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[218/300] 403 -> blocked | "><script>alert(1)</script>
+[219/300] 403 -> blocked | <script>alert(1)</script>
+[220/300] 403 -> blocked | <body onload=alert(1)>
+[221/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[222/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[223/300] 403 -> blocked | "><script>alert(1)</script>
+[224/300] 403 -> blocked | <svg/onload=alert(1)>
+[225/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[226/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[227/300] 403 -> blocked | <script>alert(1)</script>
+[228/300] 403 -> blocked | <svg/onload=alert(1)>
+[229/300] 403 -> blocked | <svg/onload=alert(1)>
+[230/300] 403 -> blocked | <svg/onload=alert(1)>
+[231/300] 403 -> blocked | <body onload=alert(1)>
+[232/300] 403 -> blocked | <script>alert(1)</script>
+[233/300] 403 -> blocked | <svg/onload=alert(1)>
+[234/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[235/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[236/300] 403 -> blocked | <body onload=alert(1)>
+[237/300] 403 -> blocked | <body onload=alert(1)>
+[238/300] 403 -> blocked | <body onload=alert(1)>
+[239/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[240/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[241/300] 403 -> blocked | "><script>alert(1)</script>
+[242/300] 403 -> blocked | <body onload=alert(1)>
+[243/300] 403 -> blocked | <svg/onload=alert(1)>
+[244/300] 403 -> blocked | <body onload=alert(1)>
+[245/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[246/300] 403 -> blocked | <svg/onload=alert(1)>
+[247/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[248/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[249/300] 403 -> blocked | "><script>alert(1)</script>
+[250/300] 403 -> blocked | <svg/onload=alert(1)>
+[251/300] 403 -> blocked | "><script>alert(1)</script>
+[252/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[253/300] 403 -> blocked | <svg/onload=alert(1)>
+[254/300] 403 -> blocked | "><script>alert(1)</script>
+[255/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[256/300] 403 -> blocked | <script>alert(1)</script>
+[257/300] 403 -> blocked | "><script>alert(1)</script>
+[258/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[259/300] 403 -> blocked | "><script>alert(1)</script>
+[260/300] 403 -> blocked | <svg/onload=alert(1)>
+[261/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[262/300] 403 -> blocked | <body onload=alert(1)>
+[263/300] 403 -> blocked | <script>alert(1)</script>
+[264/300] 403 -> blocked | <body onload=alert(1)>
+[265/300] 403 -> blocked | "><script>alert(1)</script>
+[266/300] 403 -> blocked | <script>alert(1)</script>
+[267/300] 403 -> blocked | <script>alert(1)</script>
+[268/300] 403 -> blocked | "><script>alert(1)</script>
+[269/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[270/300] 403 -> blocked | <body onload=alert(1)>
+[271/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[272/300] 403 -> blocked | <script>alert(1)</script>
+[273/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[274/300] 403 -> blocked | "><script>alert(1)</script>
+[275/300] 403 -> blocked | <script>alert(1)</script>
+[276/300] 403 -> blocked | <svg/onload=alert(1)>
+[277/300] 403 -> blocked | <svg/onload=alert(1)>
+[278/300] 403 -> blocked | <svg/onload=alert(1)>
+[279/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[280/300] 403 -> blocked | "><script>alert(1)</script>
+[281/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[282/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[283/300] 403 -> blocked | "><script>alert(1)</script>
+[284/300] 403 -> blocked | <body onload=alert(1)>
+[285/300] 403 -> blocked | <svg/onload=alert(1)>
+[286/300] 403 -> blocked | <script>alert(1)</script>
+[287/300] 403 -> blocked | "><script>alert(1)</script>
+[288/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[289/300] 403 -> blocked | <svg/onload=alert(1)>
+[290/300] 403 -> blocked | "><script>alert(1)</script>
+[291/300] 403 -> blocked | <script>alert(1)</script>
+[292/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[293/300] 403 -> blocked | <script>alert(1)</script>
+[294/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[295/300] 403 -> blocked | <script>alert(1)</script>
+[296/300] 403 -> blocked | <body onload=alert(1)>
+[297/300] 403 -> blocked | <svg/onload=alert(1)>
+[298/300] 403 -> blocked | <body onload=alert(1)>
+[299/300] 403 -> blocked | <img src=x onerror=alert(1)>
+[300/300] 403 -> blocked | <iframe src=javascript:alert(1)>
+[!] Timeout for pattern 941
+
+===== Command Injection =====
+[!] Timeout for pattern 932
+[1/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[2/300] 403 -> blocked | 127.0.0.1 && id
+[3/300] 403 -> blocked | 127.0.0.1 && id
+[4/300] 403 -> blocked | 127.0.0.1; whoami
+[5/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[6/300] 403 -> blocked | 127.0.0.1 && id
+[7/300] 403 -> blocked | 127.0.0.1 && id
+[8/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[9/300] 403 -> blocked | 127.0.0.1; whoami
+[10/300] 403 -> blocked | 127.0.0.1 | whoami
+[11/300] 403 -> blocked | 127.0.0.1 | whoami
+[12/300] 403 -> blocked | 127.0.0.1 && id
+[13/300] 403 -> blocked | 127.0.0.1 && id
+[14/300] 403 -> blocked | 127.0.0.1 && id
+[15/300] 403 -> blocked | 127.0.0.1 | whoami
+[16/300] 403 -> blocked | 127.0.0.1; whoami
+[17/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[18/300] 403 -> blocked | 127.0.0.1 | whoami
+[19/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[20/300] 403 -> blocked | 127.0.0.1; whoami
+[21/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[22/300] 403 -> blocked | 127.0.0.1 | whoami
+[23/300] 403 -> blocked | 127.0.0.1; whoami
+[24/300] 403 -> blocked | 127.0.0.1; whoami
+[25/300] 403 -> blocked | 127.0.0.1 | whoami
+[26/300] 403 -> blocked | 127.0.0.1 | whoami
+[27/300] 403 -> blocked | 127.0.0.1 && id
+[28/300] 403 -> blocked | 127.0.0.1 | whoami
+[29/300] 403 -> blocked | 127.0.0.1; whoami
+[30/300] 403 -> blocked | 127.0.0.1 | whoami
+[31/300] 403 -> blocked | 127.0.0.1 && id
+[32/300] 403 -> blocked | 127.0.0.1 && id
+[33/300] 403 -> blocked | 127.0.0.1 && id
+[34/300] 403 -> blocked | 127.0.0.1; whoami
+[35/300] 403 -> blocked | 127.0.0.1; whoami
+[36/300] 403 -> blocked | 127.0.0.1; whoami
+[37/300] 403 -> blocked | 127.0.0.1 | whoami
+[38/300] 403 -> blocked | 127.0.0.1 && id
+[39/300] 403 -> blocked | 127.0.0.1 && id
+[40/300] 403 -> blocked | 127.0.0.1 | whoami
+[41/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[42/300] 403 -> blocked | 127.0.0.1 && id
+[43/300] 403 -> blocked | 127.0.0.1 | whoami
+[44/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[45/300] 403 -> blocked | 127.0.0.1 | whoami
+[46/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[47/300] 403 -> blocked | 127.0.0.1 && id
+[48/300] 403 -> blocked | 127.0.0.1 && id
+[49/300] 403 -> blocked | 127.0.0.1 | whoami
+[50/300] 403 -> blocked | 127.0.0.1; whoami
+[51/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[52/300] 403 -> blocked | 127.0.0.1 | whoami
+[53/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[54/300] 403 -> blocked | 127.0.0.1 && id
+[55/300] 403 -> blocked | 127.0.0.1 | whoami
+[56/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[57/300] 403 -> blocked | 127.0.0.1 && id
+[58/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[59/300] 403 -> blocked | 127.0.0.1; whoami
+[60/300] 403 -> blocked | 127.0.0.1 | whoami
+[61/300] 403 -> blocked | 127.0.0.1 | whoami
+[62/300] 403 -> blocked | 127.0.0.1 | whoami
+[63/300] 403 -> blocked | 127.0.0.1 && id
+[64/300] 403 -> blocked | 127.0.0.1 | whoami
+[65/300] 403 -> blocked | 127.0.0.1; whoami
+[66/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[67/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[68/300] 403 -> blocked | 127.0.0.1 | whoami
+[69/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[70/300] 403 -> blocked | 127.0.0.1 && id
+[71/300] 403 -> blocked | 127.0.0.1 && id
+[72/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[73/300] 403 -> blocked | 127.0.0.1 | whoami
+[74/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[75/300] 403 -> blocked | 127.0.0.1; whoami
+[76/300] 403 -> blocked | 127.0.0.1 | whoami
+[77/300] 403 -> blocked | 127.0.0.1 && id
+[78/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[79/300] 403 -> blocked | 127.0.0.1; whoami
+[80/300] 403 -> blocked | 127.0.0.1 | whoami
+[81/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[82/300] 403 -> blocked | 127.0.0.1; whoami
+[83/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[84/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[85/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[86/300] 403 -> blocked | 127.0.0.1; whoami
+[87/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[88/300] 403 -> blocked | 127.0.0.1 && id
+[89/300] 403 -> blocked | 127.0.0.1 | whoami
+[90/300] 403 -> blocked | 127.0.0.1 | whoami
+[91/300] 403 -> blocked | 127.0.0.1 && id
+[92/300] 403 -> blocked | 127.0.0.1 && id
+[93/300] 403 -> blocked | 127.0.0.1; whoami
+[94/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[95/300] 403 -> blocked | 127.0.0.1; whoami
+[96/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[97/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[98/300] 403 -> blocked | 127.0.0.1 && id
+[99/300] 403 -> blocked | 127.0.0.1; whoami
+[100/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[101/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[102/300] 403 -> blocked | 127.0.0.1 && id
+[103/300] 403 -> blocked | 127.0.0.1 | whoami
+[104/300] 403 -> blocked | 127.0.0.1; whoami
+[105/300] 403 -> blocked | 127.0.0.1 | whoami
+[106/300] 403 -> blocked | 127.0.0.1 | whoami
+[107/300] 403 -> blocked | 127.0.0.1 && id
+[108/300] 403 -> blocked | 127.0.0.1 && id
+[109/300] 403 -> blocked | 127.0.0.1 && id
+[110/300] 403 -> blocked | 127.0.0.1 | whoami
+[111/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[112/300] 403 -> blocked | 127.0.0.1 | whoami
+[113/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[114/300] 403 -> blocked | 127.0.0.1 | whoami
+[115/300] 403 -> blocked | 127.0.0.1 && id
+[116/300] 403 -> blocked | 127.0.0.1; whoami
+[117/300] 403 -> blocked | 127.0.0.1 | whoami
+[118/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[119/300] 403 -> blocked | 127.0.0.1 | whoami
+[120/300] 403 -> blocked | 127.0.0.1 && id
+[121/300] 403 -> blocked | 127.0.0.1; whoami
+[122/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[123/300] 403 -> blocked | 127.0.0.1 && id
+[124/300] 403 -> blocked | 127.0.0.1 | whoami
+[125/300] 403 -> blocked | 127.0.0.1 | whoami
+[126/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[127/300] 403 -> blocked | 127.0.0.1; whoami
+[128/300] 403 -> blocked | 127.0.0.1 | whoami
+[129/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[130/300] 403 -> blocked | 127.0.0.1 | whoami
+[131/300] 403 -> blocked | 127.0.0.1; whoami
+[132/300] 403 -> blocked | 127.0.0.1; whoami
+[133/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[134/300] 403 -> blocked | 127.0.0.1; whoami
+[135/300] 403 -> blocked | 127.0.0.1; whoami
+[136/300] 403 -> blocked | 127.0.0.1 | whoami
+[137/300] 403 -> blocked | 127.0.0.1; whoami
+[138/300] 403 -> blocked | 127.0.0.1 && id
+[139/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[140/300] 403 -> blocked | 127.0.0.1 | whoami
+[141/300] 403 -> blocked | 127.0.0.1 | whoami
+[142/300] 403 -> blocked | 127.0.0.1 | whoami
+[143/300] 403 -> blocked | 127.0.0.1 && id
+[144/300] 403 -> blocked | 127.0.0.1; whoami
+[145/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[146/300] 403 -> blocked | 127.0.0.1; whoami
+[147/300] 403 -> blocked | 127.0.0.1 | whoami
+[148/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[149/300] 403 -> blocked | 127.0.0.1; whoami
+[150/300] 403 -> blocked | 127.0.0.1 | whoami
+[151/300] 403 -> blocked | 127.0.0.1 && id
+[152/300] 403 -> blocked | 127.0.0.1; whoami
+[153/300] 403 -> blocked | 127.0.0.1 && id
+[154/300] 403 -> blocked | 127.0.0.1 && id
+[155/300] 403 -> blocked | 127.0.0.1; whoami
+[156/300] 403 -> blocked | 127.0.0.1 && id
+[157/300] 403 -> blocked | 127.0.0.1 && id
+[158/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[159/300] 403 -> blocked | 127.0.0.1 | whoami
+[160/300] 403 -> blocked | 127.0.0.1; whoami
+[161/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[162/300] 403 -> blocked | 127.0.0.1; whoami
+[163/300] 403 -> blocked | 127.0.0.1; whoami
+[164/300] 403 -> blocked | 127.0.0.1 && id
+[165/300] 403 -> blocked | 127.0.0.1; whoami
+[166/300] 403 -> blocked | 127.0.0.1; whoami
+[167/300] 403 -> blocked | 127.0.0.1 && id
+[168/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[169/300] 403 -> blocked | 127.0.0.1; whoami
+[170/300] 403 -> blocked | 127.0.0.1; whoami
+[171/300] 403 -> blocked | 127.0.0.1; whoami
+[172/300] 403 -> blocked | 127.0.0.1 && id
+[173/300] 403 -> blocked | 127.0.0.1 && id
+[174/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[175/300] 403 -> blocked | 127.0.0.1; whoami
+[176/300] 403 -> blocked | 127.0.0.1; whoami
+[177/300] 403 -> blocked | 127.0.0.1 && id
+[178/300] 403 -> blocked | 127.0.0.1 && id
+[179/300] 403 -> blocked | 127.0.0.1 | whoami
+[180/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[181/300] 403 -> blocked | 127.0.0.1 && id
+[182/300] 403 -> blocked | 127.0.0.1; whoami
+[183/300] 403 -> blocked | 127.0.0.1 && id
+[184/300] 403 -> blocked | 127.0.0.1 && id
+[185/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[186/300] 403 -> blocked | 127.0.0.1; whoami
+[187/300] 403 -> blocked | 127.0.0.1 | whoami
+[188/300] 403 -> blocked | 127.0.0.1 && id
+[189/300] 403 -> blocked | 127.0.0.1; whoami
+[190/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[191/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[192/300] 403 -> blocked | 127.0.0.1 && id
+[193/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[194/300] 403 -> blocked | 127.0.0.1; whoami
+[195/300] 403 -> blocked | 127.0.0.1 && id
+[196/300] 403 -> blocked | 127.0.0.1 && id
+[197/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[198/300] 403 -> blocked | 127.0.0.1 && id
+[199/300] 403 -> blocked | 127.0.0.1 && id
+[200/300] 403 -> blocked | 127.0.0.1; whoami
+[201/300] 403 -> blocked | 127.0.0.1 && id
+[202/300] 403 -> blocked | 127.0.0.1 && id
+[203/300] 403 -> blocked | 127.0.0.1 | whoami
+[204/300] 403 -> blocked | 127.0.0.1; whoami
+[205/300] 403 -> blocked | 127.0.0.1 | whoami
+[206/300] 403 -> blocked | 127.0.0.1 && id
+[207/300] 403 -> blocked | 127.0.0.1 | whoami
+[208/300] 403 -> blocked | 127.0.0.1; whoami
+[209/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[210/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[211/300] 403 -> blocked | 127.0.0.1 && id
+[212/300] 403 -> blocked | 127.0.0.1 | whoami
+[213/300] 403 -> blocked | 127.0.0.1 | whoami
+[214/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[215/300] 403 -> blocked | 127.0.0.1 | whoami
+[216/300] 403 -> blocked | 127.0.0.1 && id
+[217/300] 403 -> blocked | 127.0.0.1; whoami
+[218/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[219/300] 403 -> blocked | 127.0.0.1 | whoami
+[220/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[221/300] 403 -> blocked | 127.0.0.1 | whoami
+[222/300] 403 -> blocked | 127.0.0.1 | whoami
+[223/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[224/300] 403 -> blocked | 127.0.0.1; whoami
+[225/300] 403 -> blocked | 127.0.0.1 && id
+[226/300] 403 -> blocked | 127.0.0.1; whoami
+[227/300] 403 -> blocked | 127.0.0.1 | whoami
+[228/300] 403 -> blocked | 127.0.0.1 && id
+[229/300] 403 -> blocked | 127.0.0.1 && id
+[230/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[231/300] 403 -> blocked | 127.0.0.1; whoami
+[232/300] 403 -> blocked | 127.0.0.1 && id
+[233/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[234/300] 403 -> blocked | 127.0.0.1; whoami
+[235/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[236/300] 403 -> blocked | 127.0.0.1 | whoami
+[237/300] 403 -> blocked | 127.0.0.1 && id
+[238/300] 403 -> blocked | 127.0.0.1 && id
+[239/300] 403 -> blocked | 127.0.0.1 && id
+[240/300] 403 -> blocked | 127.0.0.1; whoami
+[241/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[242/300] 403 -> blocked | 127.0.0.1; whoami
+[243/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[244/300] 403 -> blocked | 127.0.0.1 && id
+[245/300] 403 -> blocked | 127.0.0.1 && id
+[246/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[247/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[248/300] 403 -> blocked | 127.0.0.1 | whoami
+[249/300] 403 -> blocked | 127.0.0.1 && id
+[250/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[251/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[252/300] 403 -> blocked | 127.0.0.1 && id
+[253/300] 403 -> blocked | 127.0.0.1 | whoami
+[254/300] 403 -> blocked | 127.0.0.1 && id
+[255/300] 403 -> blocked | 127.0.0.1 && id
+[256/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[257/300] 403 -> blocked | 127.0.0.1 | whoami
+[258/300] 403 -> blocked | 127.0.0.1 && id
+[259/300] 403 -> blocked | 127.0.0.1 | whoami
+[260/300] 403 -> blocked | 127.0.0.1 && id
+[261/300] 403 -> blocked | 127.0.0.1 && id
+[262/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[263/300] 403 -> blocked | 127.0.0.1 | whoami
+[264/300] 403 -> blocked | 127.0.0.1 && id
+[265/300] 403 -> blocked | 127.0.0.1 && id
+[266/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[267/300] 403 -> blocked | 127.0.0.1 | whoami
+[268/300] 403 -> blocked | 127.0.0.1 | whoami
+[269/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[270/300] 403 -> blocked | 127.0.0.1 && id
+[271/300] 403 -> blocked | 127.0.0.1; whoami
+[272/300] 403 -> blocked | 127.0.0.1; whoami
+[273/300] 403 -> blocked | 127.0.0.1; whoami
+[274/300] 403 -> blocked | 127.0.0.1 && id
+[275/300] 403 -> blocked | 127.0.0.1 | whoami
+[276/300] 403 -> blocked | 127.0.0.1 && id
+[277/300] 403 -> blocked | 127.0.0.1; whoami
+[278/300] 403 -> blocked | 127.0.0.1 | whoami
+[279/300] 403 -> blocked | 127.0.0.1 | whoami
+[280/300] 403 -> blocked | 127.0.0.1 | whoami
+[281/300] 403 -> blocked | 127.0.0.1; whoami
+[282/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[283/300] 403 -> blocked | 127.0.0.1 && id
+[284/300] 403 -> blocked | 127.0.0.1; whoami
+[285/300] 403 -> blocked | 127.0.0.1 | whoami
+[286/300] 403 -> blocked | 127.0.0.1; whoami
+[287/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[288/300] 403 -> blocked | 127.0.0.1 | whoami
+[289/300] 403 -> blocked | 127.0.0.1 && id
+[290/300] 403 -> blocked | 127.0.0.1 && id
+[291/300] 403 -> blocked | 127.0.0.1 | whoami
+[292/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[293/300] 403 -> blocked | 127.0.0.1; cat /etc/passwd
+[294/300] 403 -> blocked | 127.0.0.1 && id
+[295/300] 403 -> blocked | 127.0.0.1 | whoami
+[296/300] 403 -> blocked | 127.0.0.1 && id
+[297/300] 403 -> blocked | 127.0.0.1; whoami
+[298/300] 403 -> blocked | 127.0.0.1 | whoami
+[299/300] 403 -> blocked | 127.0.0.1 | whoami
+[300/300] 403 -> blocked | 127.0.0.1; whoami
+[!] Timeout for pattern 932
+
+===== Path Traversal =====
+[!] Timeout for pattern 930
+[1/300] 403 -> blocked | /etc/passwd
+[2/300] 403 -> blocked | ../../../../etc/passwd
+[3/300] 403 -> blocked | ../../../../../etc/passwd
+[4/300] 403 -> blocked | ../../../../etc/passwd
+[5/300] 403 -> blocked | ../../../../../etc/passwd
+[6/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[7/300] 403 -> blocked | ../../../../../etc/passwd
+[8/300] 403 -> blocked | ../../../../../etc/passwd
+[9/300] 403 -> blocked | ../../../../etc/passwd
+[10/300] 403 -> blocked | ../../../../../etc/passwd
+[11/300] 403 -> blocked | ../../../../etc/passwd
+[12/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[13/300] 403 -> blocked | ../../../../../etc/passwd
+[14/300] 403 -> blocked | ../../../../../etc/passwd
+[15/300] 403 -> blocked | ../../../../../etc/passwd
+[16/300] 403 -> blocked | ../../../../etc/passwd
+[17/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[18/300] 403 -> blocked | /etc/passwd
+[19/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[20/300] 403 -> blocked | ../../../../../etc/passwd
+[21/300] 403 -> blocked | /etc/passwd
+[22/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[23/300] 403 -> blocked | ../../../../etc/passwd
+[24/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[25/300] 403 -> blocked | ../../../../etc/passwd
+[26/300] 403 -> blocked | /etc/passwd
+[27/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[28/300] 403 -> blocked | ../../../../etc/passwd
+[29/300] 403 -> blocked | ../../../../etc/passwd
+[30/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[31/300] 403 -> blocked | /etc/passwd
+[32/300] 403 -> blocked | /etc/passwd
+[33/300] 403 -> blocked | /etc/passwd
+[34/300] 403 -> blocked | /etc/passwd
+[35/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[36/300] 403 -> blocked | /etc/passwd
+[37/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[38/300] 403 -> blocked | /etc/passwd
+[39/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[40/300] 403 -> blocked | ../../../../../etc/passwd
+[41/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[42/300] 403 -> blocked | ../../../../etc/passwd
+[43/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[44/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[45/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[46/300] 403 -> blocked | ../../../../etc/passwd
+[47/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[48/300] 403 -> blocked | /etc/passwd
+[49/300] 403 -> blocked | ../../../../../etc/passwd
+[50/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[51/300] 403 -> blocked | /etc/passwd
+[52/300] 403 -> blocked | ../../../../../etc/passwd
+[53/300] 403 -> blocked | /etc/passwd
+[54/300] 403 -> blocked | ../../../../etc/passwd
+[55/300] 403 -> blocked | ../../../../etc/passwd
+[56/300] 403 -> blocked | ../../../../../etc/passwd
+[57/300] 403 -> blocked | ../../../../../etc/passwd
+[58/300] 403 -> blocked | ../../../../etc/passwd
+[59/300] 403 -> blocked | /etc/passwd
+[60/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[61/300] 403 -> blocked | ../../../../../etc/passwd
+[62/300] 403 -> blocked | ../../../../../etc/passwd
+[63/300] 403 -> blocked | /etc/passwd
+[64/300] 403 -> blocked | /etc/passwd
+[65/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[66/300] 403 -> blocked | ../../../../etc/passwd
+[67/300] 403 -> blocked | ../../../../../etc/passwd
+[68/300] 403 -> blocked | ../../../../etc/passwd
+[69/300] 403 -> blocked | ../../../../etc/passwd
+[70/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[71/300] 403 -> blocked | /etc/passwd
+[72/300] 403 -> blocked | ../../../../etc/passwd
+[73/300] 403 -> blocked | /etc/passwd
+[74/300] 403 -> blocked | ../../../../etc/passwd
+[75/300] 403 -> blocked | /etc/passwd
+[76/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[77/300] 403 -> blocked | /etc/passwd
+[78/300] 403 -> blocked | ../../../../etc/passwd
+[79/300] 403 -> blocked | /etc/passwd
+[80/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[81/300] 403 -> blocked | /etc/passwd
+[82/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[83/300] 403 -> blocked | /etc/passwd
+[84/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[85/300] 403 -> blocked | ../../../../../etc/passwd
+[86/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[87/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[88/300] 403 -> blocked | ../../../../../etc/passwd
+[89/300] 403 -> blocked | ../../../../etc/passwd
+[90/300] 403 -> blocked | /etc/passwd
+[91/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[92/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[93/300] 403 -> blocked | ../../../../../etc/passwd
+[94/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[95/300] 403 -> blocked | ../../../../etc/passwd
+[96/300] 403 -> blocked | /etc/passwd
+[97/300] 403 -> blocked | ../../../../etc/passwd
+[98/300] 403 -> blocked | ../../../../etc/passwd
+[99/300] 403 -> blocked | /etc/passwd
+[100/300] 403 -> blocked | ../../../../../etc/passwd
+[101/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[102/300] 403 -> blocked | ../../../../etc/passwd
+[103/300] 403 -> blocked | /etc/passwd
+[104/300] 403 -> blocked | ../../../../../etc/passwd
+[105/300] 403 -> blocked | /etc/passwd
+[106/300] 403 -> blocked | ../../../../../etc/passwd
+[107/300] 403 -> blocked | /etc/passwd
+[108/300] 403 -> blocked | ../../../../../etc/passwd
+[109/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[110/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[111/300] 403 -> blocked | ../../../../etc/passwd
+[112/300] 403 -> blocked | /etc/passwd
+[113/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[114/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[115/300] 403 -> blocked | ../../../../../etc/passwd
+[116/300] 403 -> blocked | /etc/passwd
+[117/300] 403 -> blocked | ../../../../etc/passwd
+[118/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[119/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[120/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[121/300] 403 -> blocked | /etc/passwd
+[122/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[123/300] 403 -> blocked | /etc/passwd
+[124/300] 403 -> blocked | ../../../../../etc/passwd
+[125/300] 403 -> blocked | /etc/passwd
+[126/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[127/300] 403 -> blocked | ../../../../etc/passwd
+[128/300] 403 -> blocked | /etc/passwd
+[129/300] 403 -> blocked | ../../../../etc/passwd
+[130/300] 403 -> blocked | /etc/passwd
+[131/300] 403 -> blocked | ../../../../../etc/passwd
+[132/300] 403 -> blocked | ../../../../../etc/passwd
+[133/300] 403 -> blocked | ../../../../etc/passwd
+[134/300] 403 -> blocked | ../../../../etc/passwd
+[135/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[136/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[137/300] 403 -> blocked | ../../../../../etc/passwd
+[138/300] 403 -> blocked | /etc/passwd
+[139/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[140/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[141/300] 403 -> blocked | ../../../../../etc/passwd
+[142/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[143/300] 403 -> blocked | ../../../../../etc/passwd
+[144/300] 403 -> blocked | /etc/passwd
+[145/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[146/300] 403 -> blocked | ../../../../../etc/passwd
+[147/300] 403 -> blocked | ../../../../../etc/passwd
+[148/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[149/300] 403 -> blocked | /etc/passwd
+[150/300] 403 -> blocked | ../../../../etc/passwd
+[151/300] 403 -> blocked | ../../../../../etc/passwd
+[152/300] 403 -> blocked | ../../../../etc/passwd
+[153/300] 403 -> blocked | /etc/passwd
+[154/300] 403 -> blocked | /etc/passwd
+[155/300] 403 -> blocked | ../../../../../etc/passwd
+[156/300] 403 -> blocked | ../../../../../etc/passwd
+[157/300] 403 -> blocked | ../../../../../etc/passwd
+[158/300] 403 -> blocked | ../../../../etc/passwd
+[159/300] 403 -> blocked | ../../../../../etc/passwd
+[160/300] 403 -> blocked | /etc/passwd
+[161/300] 403 -> blocked | ../../../../etc/passwd
+[162/300] 403 -> blocked | ../../../../etc/passwd
+[163/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[164/300] 403 -> blocked | ../../../../../etc/passwd
+[165/300] 403 -> blocked | ../../../../../etc/passwd
+[166/300] 403 -> blocked | ../../../../../etc/passwd
+[167/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[168/300] 403 -> blocked | ../../../../etc/passwd
+[169/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[170/300] 403 -> blocked | ../../../../etc/passwd
+[171/300] 403 -> blocked | ../../../../etc/passwd
+[172/300] 403 -> blocked | /etc/passwd
+[173/300] 403 -> blocked | ../../../../etc/passwd
+[174/300] 403 -> blocked | /etc/passwd
+[175/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[176/300] 403 -> blocked | ../../../../../etc/passwd
+[177/300] 403 -> blocked | ../../../../../etc/passwd
+[178/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[179/300] 403 -> blocked | /etc/passwd
+[180/300] 403 -> blocked | /etc/passwd
+[181/300] 403 -> blocked | ../../../../etc/passwd
+[182/300] 403 -> blocked | /etc/passwd
+[183/300] 403 -> blocked | /etc/passwd
+[184/300] 403 -> blocked | ../../../../../etc/passwd
+[185/300] 403 -> blocked | ../../../../etc/passwd
+[186/300] 403 -> blocked | /etc/passwd
+[187/300] 403 -> blocked | /etc/passwd
+[188/300] 403 -> blocked | ../../../../etc/passwd
+[189/300] 403 -> blocked | ../../../../../etc/passwd
+[190/300] 403 -> blocked | ../../../../etc/passwd
+[191/300] 403 -> blocked | /etc/passwd
+[192/300] 403 -> blocked | ../../../../etc/passwd
+[193/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[194/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[195/300] 403 -> blocked | ../../../../etc/passwd
+[196/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[197/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[198/300] 403 -> blocked | ../../../../../etc/passwd
+[199/300] 403 -> blocked | ../../../../etc/passwd
+[200/300] 403 -> blocked | /etc/passwd
+[201/300] 403 -> blocked | ../../../../../etc/passwd
+[202/300] 403 -> blocked | /etc/passwd
+[203/300] 403 -> blocked | ../../../../etc/passwd
+[204/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[205/300] 403 -> blocked | /etc/passwd
+[206/300] 403 -> blocked | /etc/passwd
+[207/300] 403 -> blocked | ../../../../../etc/passwd
+[208/300] 403 -> blocked | ../../../../etc/passwd
+[209/300] 403 -> blocked | ../../../../etc/passwd
+[210/300] 403 -> blocked | ../../../../etc/passwd
+[211/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[212/300] 403 -> blocked | ../../../../etc/passwd
+[213/300] 403 -> blocked | ../../../../etc/passwd
+[214/300] 403 -> blocked | /etc/passwd
+[215/300] 403 -> blocked | ../../../../../etc/passwd
+[216/300] 403 -> blocked | ../../../../etc/passwd
+[217/300] 403 -> blocked | ../../../../../etc/passwd
+[218/300] 403 -> blocked | ../../../../etc/passwd
+[219/300] 403 -> blocked | ../../../../etc/passwd
+[220/300] 403 -> blocked | /etc/passwd
+[221/300] 403 -> blocked | ../../../../etc/passwd
+[222/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[223/300] 403 -> blocked | ../../../../etc/passwd
+[224/300] 403 -> blocked | ../../../../etc/passwd
+[225/300] 403 -> blocked | ../../../../../etc/passwd
+[226/300] 403 -> blocked | ../../../../etc/passwd
+[227/300] 403 -> blocked | ../../../../../etc/passwd
+[228/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[229/300] 403 -> blocked | ../../../../../etc/passwd
+[230/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[231/300] 403 -> blocked | /etc/passwd
+[232/300] 403 -> blocked | ../../../../etc/passwd
+[233/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[234/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[235/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[236/300] 403 -> blocked | /etc/passwd
+[237/300] 403 -> blocked | ../../../../etc/passwd
+[238/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[239/300] 403 -> blocked | /etc/passwd
+[240/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[241/300] 403 -> blocked | ../../../../etc/passwd
+[242/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[243/300] 403 -> blocked | /etc/passwd
+[244/300] 403 -> blocked | /etc/passwd
+[245/300] 403 -> blocked | ../../../../../etc/passwd
+[246/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[247/300] 403 -> blocked | ../../../../../etc/passwd
+[248/300] 403 -> blocked | /etc/passwd
+[249/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[250/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[251/300] 403 -> blocked | /etc/passwd
+[252/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[253/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[254/300] 403 -> blocked | ../../../../etc/passwd
+[255/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[256/300] 403 -> blocked | /etc/passwd
+[257/300] 403 -> blocked | ../../../../etc/passwd
+[258/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[259/300] 403 -> blocked | ../../../../../etc/passwd
+[260/300] 403 -> blocked | ../../../../etc/passwd
+[261/300] 403 -> blocked | ../../../../etc/passwd
+[262/300] 403 -> blocked | ../../../../etc/passwd
+[263/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[264/300] 403 -> blocked | ../../../../../etc/passwd
+[265/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[266/300] 403 -> blocked | ../../../../../etc/passwd
+[267/300] 403 -> blocked | /etc/passwd
+[268/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[269/300] 403 -> blocked | ../../../../etc/passwd
+[270/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[271/300] 403 -> blocked | ../../../../etc/passwd
+[272/300] 403 -> blocked | ../../../../../etc/passwd
+[273/300] 403 -> blocked | ../../../../etc/passwd
+[274/300] 403 -> blocked | /etc/passwd
+[275/300] 403 -> blocked | ../../../../etc/passwd
+[276/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[277/300] 403 -> blocked | ../../../../etc/passwd
+[278/300] 403 -> blocked | /etc/passwd
+[279/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[280/300] 403 -> blocked | ../../../../../etc/passwd
+[281/300] 403 -> blocked | /etc/passwd
+[282/300] 403 -> blocked | /etc/passwd
+[283/300] 403 -> blocked | ../../../../etc/passwd
+[284/300] 403 -> blocked | ../../../../../etc/passwd
+[285/300] 403 -> blocked | ../../../../etc/passwd
+[286/300] 403 -> blocked | /etc/passwd
+[287/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[288/300] 403 -> blocked | ../../../../etc/passwd
+[289/300] 403 -> blocked | ../../../../../etc/passwd
+[290/300] 403 -> blocked | ../../../../../etc/passwd
+[291/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[292/300] 403 -> blocked | ../../../../../etc/passwd
+[293/300] 403 -> blocked | /etc/passwd
+[294/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[295/300] 403 -> blocked | ..%2F..%2F..%2Fetc%2Fpasswd
+[296/300] 403 -> blocked | /etc/passwd
+[297/300] 403 -> blocked | /etc/passwd
+[298/300] 403 -> blocked | ../../../../../etc/passwd
+[299/300] 403 -> blocked | ../../../../../etc/passwd
+[300/300] 403 -> blocked | /etc/passwd
+[!] Timeout for pattern 930
+
+===== FINAL SUMMARY =====
+{'attack_type': 'SQL Injection', 'total_requests': 300, 'blocked': 300, 'allowed': 0, 'redirect': 0, 'client_error': 0, 'server_error': 0, 'unknown': 0, 'waf_rule_group': '942', 'waf_rule_hits': -17560, 'detection_rate_percent': 100.0, 'false_negative_rate_percent': 0.0}
+{'attack_type': 'XSS', 'total_requests': 300, 'blocked': 300, 'allowed': 0, 'redirect': 0, 'client_error': 0, 'server_error': 0, 'unknown': 0, 'waf_rule_group': '941', 'waf_rule_hits': 0, 'detection_rate_percent': 100.0, 'false_negative_rate_percent': 0.0}
+{'attack_type': 'Command Injection', 'total_requests': 300, 'blocked': 300, 'allowed': 0, 'redirect': 0, 'client_error': 0, 'server_error': 0, 'unknown': 0, 'waf_rule_group': '932', 'waf_rule_hits': 0, 'detection_rate_percent': 100.0, 'false_negative_rate_percent': 0.0}
+{'attack_type': 'Path Traversal', 'total_requests': 300, 'blocked': 300, 'allowed': 0, 'redirect': 0, 'client_error': 0, 'server_error': 0, 'unknown': 0, 'waf_rule_group': '930', 'waf_rule_hits': 0, 'detection_rate_percent': 100.0, 'false_negative_rate_percent': 0.0}
+
+[+] Detail CSV: results/modsecurity_all_tests_detail.csv
+[+] Summary CSV: results/modsecurity_all_tests_summary.csv
+[+] Matrix CSV: results/modsecurity_attack_matrix.csv

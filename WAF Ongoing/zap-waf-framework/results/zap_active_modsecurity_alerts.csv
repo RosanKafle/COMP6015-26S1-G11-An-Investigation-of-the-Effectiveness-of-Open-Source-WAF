@@ -1,0 +1,81 @@
+attack_type,alert,risk,confidence,url,param
+SQL Injection,Content Security Policy (CSP) Header Not Set,Medium,High,http://192.168.56.20/sitemap.xml,
+SQL Injection,In Page Banner Information Leak,Low,High,http://192.168.56.20/sitemap.xml,
+SQL Injection,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/sitemap.xml,
+SQL Injection,Content Security Policy (CSP) Header Not Set,Medium,High,http://192.168.56.20/robots.txt,
+SQL Injection,In Page Banner Information Leak,Low,High,http://192.168.56.20/robots.txt,
+SQL Injection,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/robots.txt,
+SQL Injection,Cookie without SameSite Attribute,Low,Medium,http://192.168.56.20/DVWA/,security
+SQL Injection,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/DVWA/,
+SQL Injection,Session Management Response Identified,Informational,Medium,http://192.168.56.20/DVWA/,security
+SQL Injection,Missing Anti-clickjacking Header,Medium,Medium,http://192.168.56.20/DVWA/login.php,x-frame-options
+SQL Injection,Content Security Policy (CSP) Header Not Set,Medium,High,http://192.168.56.20/DVWA/login.php,
+SQL Injection,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/DVWA/dvwa/css/login.css,
+SQL Injection,X-Content-Type-Options Header Missing,Low,Medium,http://192.168.56.20/DVWA/dvwa/css/login.css,x-content-type-options
+SQL Injection,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/DVWA/login.php,
+SQL Injection,X-Content-Type-Options Header Missing,Low,Medium,http://192.168.56.20/DVWA/login.php,x-content-type-options
+SQL Injection,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/DVWA/dvwa/images/login_logo.png,
+SQL Injection,X-Content-Type-Options Header Missing,Low,Medium,http://192.168.56.20/DVWA/dvwa/images/login_logo.png,x-content-type-options
+SQL Injection,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/DVWA/login.php,
+SQL Injection,Authentication Request Identified,Informational,High,http://192.168.56.20/DVWA/login.php,Login
+SQL Injection,Session Management Response Identified,Informational,Medium,http://192.168.56.20/DVWA/login.php,PHPSESSID
+XSS,Content Security Policy (CSP) Header Not Set,Medium,High,http://192.168.56.20/robots.txt,
+XSS,In Page Banner Information Leak,Low,High,http://192.168.56.20/robots.txt,
+XSS,Cookie without SameSite Attribute,Low,Medium,http://192.168.56.20/DVWA/,security
+XSS,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/DVWA/,
+XSS,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/robots.txt,
+XSS,Content Security Policy (CSP) Header Not Set,Medium,High,http://192.168.56.20/sitemap.xml,
+XSS,In Page Banner Information Leak,Low,High,http://192.168.56.20/sitemap.xml,
+XSS,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/sitemap.xml,
+XSS,Session Management Response Identified,Informational,Medium,http://192.168.56.20/DVWA/,security
+XSS,Missing Anti-clickjacking Header,Medium,Medium,http://192.168.56.20/DVWA/login.php,x-frame-options
+XSS,Content Security Policy (CSP) Header Not Set,Medium,High,http://192.168.56.20/DVWA/login.php,
+XSS,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/DVWA/login.php,
+XSS,X-Content-Type-Options Header Missing,Low,Medium,http://192.168.56.20/DVWA/login.php,x-content-type-options
+XSS,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/DVWA/dvwa/images/login_logo.png,
+XSS,X-Content-Type-Options Header Missing,Low,Medium,http://192.168.56.20/DVWA/dvwa/images/login_logo.png,x-content-type-options
+XSS,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/DVWA/dvwa/css/login.css,
+XSS,X-Content-Type-Options Header Missing,Low,Medium,http://192.168.56.20/DVWA/dvwa/css/login.css,x-content-type-options
+XSS,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/DVWA/login.php,
+XSS,Authentication Request Identified,Informational,High,http://192.168.56.20/DVWA/login.php,Login
+XSS,Session Management Response Identified,Informational,Medium,http://192.168.56.20/DVWA/login.php,PHPSESSID
+Path Traversal,Content Security Policy (CSP) Header Not Set,Medium,High,http://192.168.56.20/robots.txt,
+Path Traversal,Content Security Policy (CSP) Header Not Set,Medium,High,http://192.168.56.20/sitemap.xml,
+Path Traversal,In Page Banner Information Leak,Low,High,http://192.168.56.20/robots.txt,
+Path Traversal,In Page Banner Information Leak,Low,High,http://192.168.56.20/sitemap.xml,
+Path Traversal,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/sitemap.xml,
+Path Traversal,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/robots.txt,
+Path Traversal,Cookie without SameSite Attribute,Low,Medium,http://192.168.56.20/DVWA/,security
+Path Traversal,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/DVWA/,
+Path Traversal,Missing Anti-clickjacking Header,Medium,Medium,http://192.168.56.20/DVWA/login.php,x-frame-options
+Path Traversal,Content Security Policy (CSP) Header Not Set,Medium,High,http://192.168.56.20/DVWA/login.php,
+Path Traversal,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/DVWA/login.php,
+Path Traversal,Session Management Response Identified,Informational,Medium,http://192.168.56.20/DVWA/,security
+Path Traversal,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/DVWA/dvwa/css/login.css,
+Path Traversal,X-Content-Type-Options Header Missing,Low,Medium,http://192.168.56.20/DVWA/dvwa/css/login.css,x-content-type-options
+Path Traversal,X-Content-Type-Options Header Missing,Low,Medium,http://192.168.56.20/DVWA/login.php,x-content-type-options
+Path Traversal,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/DVWA/login.php,
+Path Traversal,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/DVWA/dvwa/images/login_logo.png,
+Path Traversal,X-Content-Type-Options Header Missing,Low,Medium,http://192.168.56.20/DVWA/dvwa/images/login_logo.png,x-content-type-options
+Path Traversal,Authentication Request Identified,Informational,High,http://192.168.56.20/DVWA/login.php,Login
+Path Traversal,Session Management Response Identified,Informational,Medium,http://192.168.56.20/DVWA/login.php,PHPSESSID
+Command Injection,Content Security Policy (CSP) Header Not Set,Medium,High,http://192.168.56.20/robots.txt,
+Command Injection,Content Security Policy (CSP) Header Not Set,Medium,High,http://192.168.56.20/sitemap.xml,
+Command Injection,In Page Banner Information Leak,Low,High,http://192.168.56.20/robots.txt,
+Command Injection,In Page Banner Information Leak,Low,High,http://192.168.56.20/sitemap.xml,
+Command Injection,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/sitemap.xml,
+Command Injection,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/robots.txt,
+Command Injection,Cookie without SameSite Attribute,Low,Medium,http://192.168.56.20/DVWA/,security
+Command Injection,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/DVWA/,
+Command Injection,Missing Anti-clickjacking Header,Medium,Medium,http://192.168.56.20/DVWA/login.php,x-frame-options
+Command Injection,Content Security Policy (CSP) Header Not Set,Medium,High,http://192.168.56.20/DVWA/login.php,
+Command Injection,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/DVWA/login.php,
+Command Injection,Session Management Response Identified,Informational,Medium,http://192.168.56.20/DVWA/,security
+Command Injection,X-Content-Type-Options Header Missing,Low,Medium,http://192.168.56.20/DVWA/login.php,x-content-type-options
+Command Injection,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/DVWA/dvwa/css/login.css,
+Command Injection,X-Content-Type-Options Header Missing,Low,Medium,http://192.168.56.20/DVWA/dvwa/css/login.css,x-content-type-options
+Command Injection,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/DVWA/dvwa/images/login_logo.png,
+Command Injection,X-Content-Type-Options Header Missing,Low,Medium,http://192.168.56.20/DVWA/dvwa/images/login_logo.png,x-content-type-options
+Command Injection,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20/DVWA/login.php,
+Command Injection,Authentication Request Identified,Informational,High,http://192.168.56.20/DVWA/login.php,Login
+Command Injection,Session Management Response Identified,Informational,Medium,http://192.168.56.20/DVWA/login.php,PHPSESSID

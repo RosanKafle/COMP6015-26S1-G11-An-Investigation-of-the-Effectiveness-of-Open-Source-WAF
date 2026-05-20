@@ -1,0 +1,91 @@
+mode,alert,risk,confidence,url,param,attack,evidence,cweid,wascid
+naxsi,Cookie without SameSite Attribute,Low,Medium,http://192.168.56.20:8080/DVWA/,security,,Set-Cookie: security,1275,13
+naxsi,Missing Anti-clickjacking Header,Medium,Medium,http://192.168.56.20:8080/DVWA/login.php,x-frame-options,,,1021,15
+naxsi,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20:8080/DVWA/,,,nginx/1.28.0 (Ubuntu),497,13
+naxsi,Content Security Policy (CSP) Header Not Set,Medium,High,http://192.168.56.20:8080/DVWA/login.php,,,,693,15
+naxsi,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20:8080/DVWA/login.php,,,nginx/1.28.0 (Ubuntu),497,13
+naxsi,X-Content-Type-Options Header Missing,Low,Medium,http://192.168.56.20:8080/DVWA/login.php,x-content-type-options,,,693,15
+naxsi,Session Management Response Identified,Informational,Medium,http://192.168.56.20:8080/DVWA/,security,,security,-1,-1
+naxsi,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20:8080/DVWA/dvwa/css/login.css,,,nginx/1.28.0 (Ubuntu),497,13
+naxsi,X-Content-Type-Options Header Missing,Low,Medium,http://192.168.56.20:8080/DVWA/dvwa/css/login.css,x-content-type-options,,,693,15
+naxsi,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20:8080/DVWA/dvwa/images/login_logo.png,,,nginx/1.28.0 (Ubuntu),497,13
+naxsi,X-Content-Type-Options Header Missing,Low,Medium,http://192.168.56.20:8080/DVWA/dvwa/images/login_logo.png,x-content-type-options,,,693,15
+naxsi,"Server Leaks Version Information via ""Server"" HTTP Response Header Field",Low,High,http://192.168.56.20:8080/DVWA/login.php,,,nginx/1.28.0 (Ubuntu),497,13
+naxsi,Authentication Request Identified,Informational,High,http://192.168.56.20:8080/DVWA/login.php,Login,,password,-1,-1
+naxsi,Session Management Response Identified,Informational,Medium,http://192.168.56.20:8080/DVWA/login.php,PHPSESSID,,PHPSESSID,-1,-1
+naxsi,Directory Browsing,Medium,Medium,http://192.168.56.20:8080/DVWA/dvwa/css/,,http://192.168.56.20:8080/DVWA/dvwa/css/,Parent Directory,548,48
+naxsi,Directory Browsing,Medium,Medium,http://192.168.56.20:8080/DVWA/dvwa/,,http://192.168.56.20:8080/DVWA/dvwa/,Parent Directory,548,48
+naxsi,Directory Browsing,Medium,Medium,http://192.168.56.20:8080/DVWA/dvwa/images/,,http://192.168.56.20:8080/DVWA/dvwa/images/,Parent Directory,548,48
+naxsi,Hidden File Found,Medium,High,http://192.168.56.20:8080/DVWA/.git/config,,,HTTP/1.1 200 OK,538,13
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/,Header User-Agent,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/login.php,Header User-Agent,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa,Header User-Agent,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/,Header User-Agent,Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/login.php,Header User-Agent,Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/,Header User-Agent,Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa,Header User-Agent,Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/,Header User-Agent,Mozilla/5.0 (Windows NT 10.0; Trident/7.0; rv:11.0) like Gecko,,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa,Header User-Agent,Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/,Header User-Agent,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3739.0 Safari/537.36 Edg/75.0.109.0",,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/login.php,Header User-Agent,Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa,Header User-Agent,Mozilla/5.0 (Windows NT 10.0; Trident/7.0; rv:11.0) like Gecko,,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/,Header User-Agent,Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa,Header User-Agent,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3739.0 Safari/537.36 Edg/75.0.109.0",,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/login.php,Header User-Agent,Mozilla/5.0 (Windows NT 10.0; Trident/7.0; rv:11.0) like Gecko,,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa,Header User-Agent,Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/,Header User-Agent,msnbot/1.1 (+http://search.msn.com/msnbot.htm),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/,Header User-Agent,Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa,Header User-Agent,msnbot/1.1 (+http://search.msn.com/msnbot.htm),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/login.php,Header User-Agent,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3739.0 Safari/537.36 Edg/75.0.109.0",,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa,Header User-Agent,Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/,Header User-Agent,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16",,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa,Header User-Agent,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16",,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/,Header User-Agent,"Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A366 Safari/600.1.4",,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa,Header User-Agent,"Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A366 Safari/600.1.4",,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/,Header User-Agent,Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/91.0,,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa,Header User-Agent,Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/91.0,,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/login.php,Header User-Agent,Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/,Header User-Agent,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa,Header User-Agent,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/login.php,Header User-Agent,msnbot/1.1 (+http://search.msn.com/msnbot.htm),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/login.php,Header User-Agent,Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/login.php,Header User-Agent,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16",,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/login.php,Header User-Agent,"Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A366 Safari/600.1.4",,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/login.php,Header User-Agent,Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/91.0,,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/login.php,Header User-Agent,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa/css,Header User-Agent,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa/images,Header User-Agent,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa/css,Header User-Agent,Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa/images,Header User-Agent,Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa/css,Header User-Agent,Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa/images,Header User-Agent,Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa/css,Header User-Agent,Mozilla/5.0 (Windows NT 10.0; Trident/7.0; rv:11.0) like Gecko,,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa/images,Header User-Agent,Mozilla/5.0 (Windows NT 10.0; Trident/7.0; rv:11.0) like Gecko,,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa/css,Header User-Agent,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3739.0 Safari/537.36 Edg/75.0.109.0",,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa/css,Header User-Agent,Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa/images,Header User-Agent,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3739.0 Safari/537.36 Edg/75.0.109.0",,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa/css,Header User-Agent,msnbot/1.1 (+http://search.msn.com/msnbot.htm),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa/images,Header User-Agent,Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa/css,Header User-Agent,Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa/images,Header User-Agent,msnbot/1.1 (+http://search.msn.com/msnbot.htm),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa/images,Header User-Agent,Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa/css,Header User-Agent,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16",,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa/css,Header User-Agent,"Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A366 Safari/600.1.4",,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa/images,Header User-Agent,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16",,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa/css,Header User-Agent,Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/91.0,,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa/images,Header User-Agent,"Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A366 Safari/600.1.4",,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa/images,Header User-Agent,Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/91.0,,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa/css,Header User-Agent,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/dvwa/images,Header User-Agent,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/login.php,Header User-Agent,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/login.php,Header User-Agent,Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/login.php,Header User-Agent,Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/login.php,Header User-Agent,Mozilla/5.0 (Windows NT 10.0; Trident/7.0; rv:11.0) like Gecko,,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/login.php,Header User-Agent,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3739.0 Safari/537.36 Edg/75.0.109.0",,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/login.php,Header User-Agent,Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/login.php,Header User-Agent,msnbot/1.1 (+http://search.msn.com/msnbot.htm),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/login.php,Header User-Agent,Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp),,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/login.php,Header User-Agent,"Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16",,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/login.php,Header User-Agent,"Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A366 Safari/600.1.4",,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/login.php,Header User-Agent,Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/91.0,,0,0
+naxsi,User Agent Fuzzer,Informational,Medium,http://192.168.56.20:8080/DVWA/login.php,Header User-Agent,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",,0,0
