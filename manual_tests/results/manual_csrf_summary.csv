@@ -1,0 +1,16 @@
+environment,attack_type,attack_subtype,evasion_type,sent,clean_blocked,allowed,redirected,client_errors,server_errors,timeouts,changed_markers,mismatch_markers,avg_response_time_ms,clean_block_rate_percent,allowed_rate_percent,redirect_rate_percent
+baseline,csrf,password_change,long_value,1,0,1,0,0,0,0,1,0,1.89,0.0,100.0,0.0
+baseline,csrf,password_change,mismatched_confirmation,1,0,1,0,0,0,0,0,1,1.69,0.0,100.0,0.0
+baseline,csrf,password_change,missing_confirmation,1,0,1,0,0,0,0,0,1,1.52,0.0,100.0,0.0
+baseline,csrf,password_change,normal_get,1,0,1,0,0,0,0,1,0,2.51,0.0,100.0,0.0
+baseline,csrf,password_change,special_chars,1,0,1,0,0,0,0,1,0,2.08,0.0,100.0,0.0
+coraza,csrf,password_change,long_value,1,0,0,1,0,0,0,0,0,5.02,0.0,0.0,100.0
+coraza,csrf,password_change,mismatched_confirmation,1,0,0,1,0,0,0,0,0,4.77,0.0,0.0,100.0
+coraza,csrf,password_change,missing_confirmation,1,0,0,1,0,0,0,0,0,4.41,0.0,0.0,100.0
+coraza,csrf,password_change,normal_get,1,0,0,1,0,0,0,0,0,4.96,0.0,0.0,100.0
+coraza,csrf,password_change,special_chars,1,1,0,0,0,0,0,0,0,2.7,100.0,0.0,0.0
+modsec,csrf,password_change,long_value,1,0,0,1,0,0,0,0,0,3.13,0.0,0.0,100.0
+modsec,csrf,password_change,mismatched_confirmation,1,0,0,1,0,0,0,0,0,3.03,0.0,0.0,100.0
+modsec,csrf,password_change,missing_confirmation,1,0,0,1,0,0,0,0,0,2.75,0.0,0.0,100.0
+modsec,csrf,password_change,normal_get,1,0,0,1,0,0,0,0,0,3.08,0.0,0.0,100.0
+modsec,csrf,password_change,special_chars,1,1,0,0,0,0,0,0,0,2.7,100.0,0.0,0.0

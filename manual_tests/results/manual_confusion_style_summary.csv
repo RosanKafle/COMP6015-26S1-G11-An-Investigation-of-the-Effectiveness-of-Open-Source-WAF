@@ -1,0 +1,5 @@
+attack_family,environment,attack_requests,true_positive_clean_blocks,false_negative_allowed,redirected_not_clean_block,server_error_not_clean_block,clean_block_recall_percent,note
+csrf,coraza,5,1,0,4,0,20.0,Manual attack-only evidence; benign true negatives/false positives require mixed or benign traffic data.
+csrf,modsec,5,1,0,4,0,20.0,Manual attack-only evidence; benign true negatives/false positives require mixed or benign traffic data.
+sqli,coraza,12,10,0,0,2,83.33,Manual attack-only evidence; benign true negatives/false positives require mixed or benign traffic data.
+sqli,modsec,12,10,0,0,2,83.33,Manual attack-only evidence; benign true negatives/false positives require mixed or benign traffic data.
