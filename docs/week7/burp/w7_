@@ -1,9 +1,0 @@
-Test ID: W7-01
-Tool: Burp Suite Repeater
-Attack Type: SQL Injection
-Variation Type: URL encoding
-Payload: %27%20OR%20%271%27%3D%271
-Target: DVWA SQL Injection
-HTTP Status: 403 Forbidden
-Result: Blocked
-Observation: The URL-encoded SQL injection payload was denied by the WAF/Apache response before normal DVWA output was returned.

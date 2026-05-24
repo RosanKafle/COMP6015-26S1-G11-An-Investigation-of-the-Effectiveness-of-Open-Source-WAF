@@ -1,7 +1,0 @@
-environment,waf_type,phase,load_level,total_benign_requests,benign_allowed,benign_blocked,false_positive_rate_percent,avg_benign_response_time_ms
-baseline,none,mixed,medium,5328,5328,0,0.0,5.975
-baseline,none,setup,setup,102,68,0,0.0,23.368
-coraza,coraza,mixed,medium,5190,5190,0,0.0,20.202
-coraza,coraza,setup,setup,102,68,0,0.0,28.329
-modsec,modsecurity,mixed,medium,5318,5318,0,0.0,6.865
-modsec,modsecurity,setup,setup,102,68,0,0.0,25.574

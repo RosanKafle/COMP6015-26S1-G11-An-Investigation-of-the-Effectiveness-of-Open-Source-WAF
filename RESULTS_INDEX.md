@@ -12,7 +12,7 @@ The data compares:
 - ModSecurity
 - Coraza
 
-NAXSI folders are placeholders unless partner results are added separately.
+NAXSI structured outputs are not present unless partner results are added separately.
 
 ## Experiment Modes
 

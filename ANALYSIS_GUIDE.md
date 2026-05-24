@@ -1,6 +1,6 @@
 # WAF Evaluation Data Guide
 
-This folder contains automated empirical results for the WAF evaluation project.
+This repository contains automated empirical results for the WAF evaluation project.
 
 ## Environments tested
 

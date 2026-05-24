@@ -46,6 +46,4 @@ See `environment.md` for the lab context and provenance note.
 
 - `week3/` retains original baseline tool outputs. For final reporting, use `clean-evidence/baseline/` and `week3/status.md` as the authoritative Week 3 interpretation.
 - `week4/status.md` explains the limitation in the saved Week 4 artifact. The exported evidence does not preserve a clean DetectionOnly pass-through example.
-- `week3/week3_rule_rationale.md`, `week3/week3_precision_recall.txt`, and `week3/week3_before_after_comparison.txt` are unrelated Suricata threshold-tuning notes and are excluded from the final DVWA WAF analysis.
-- `week7/burp/w7_` is an unlabeled duplicate export and should not be cited as primary evidence.
-- `week10/` contains only a status note because no additional experimental artifact was exported into that folder.
+Empty logs, unlabeled duplicate exports, and unrelated Suricata threshold-tuning notes have been removed from the supervisor-facing evidence tree.

@@ -9,7 +9,3 @@ Authoritative raw files:
 Matrix-only entry:
 
 - `W7-06` appears in `week7-test-matrix.md`, but no dedicated Burp export for that case is preserved in the current docs folder.
-
-File handling note:
-
-- `burp/w7_` is an unlabeled duplicate export and should not be cited as primary evidence.

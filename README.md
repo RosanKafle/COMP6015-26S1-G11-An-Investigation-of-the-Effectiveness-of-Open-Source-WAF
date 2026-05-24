@@ -6,18 +6,28 @@ Automation repository for:
 
 ## Supervisor Review
 
-Start with `SUPERVISOR_START_HERE.md` for the clean review order and evidence map.
+Use this README as the first review page.
+
+Recommended review order:
+
+1. `reports/final/COMP6015_Group11_WAF_Final_Report_SubmissionReady.docx`
+2. `analysis/final/report_summary.md`
+3. `analysis/final/key_findings.txt`
+4. `analysis/final/*.csv`
+5. `output/`
+6. `evidence/manual_validation/`
+7. `docs/`
+8. `framework/`, `tools/manual_validation/`, and `scripts/` for reproducibility details
 
 ## Project Map
 
-- `SUPERVISOR_START_HERE.md` - first page for supervisor review.
-- `SUBMISSION_INDEX.md` - detailed supervisor-facing folder map.
 - `framework/` - executable Python framework source.
 - `output/` - raw structured experiment runs.
 - `analysis/final/` - generated final CSV and Markdown analysis outputs.
 - `evidence/manual_validation/` - manual SQLi and CSRF validation evidence.
-- `reports/` - Word report documents and table exports.
+- `reports/final/` - submission-ready Word report.
 - `docs/` - historical weekly evidence and cleaned evidence notes.
+- `tools/manual_validation/` - manual validation helper scripts.
 - `scripts/` - validation and coverage helper scripts.
 
 ## Start ZAP

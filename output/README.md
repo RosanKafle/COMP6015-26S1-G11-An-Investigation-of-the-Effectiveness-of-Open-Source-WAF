@@ -30,6 +30,6 @@ Mixed traffic:
 - `modsec/mixed/medium/run_20260519_033300_rerun/`
 - `coraza/mixed/medium/run_20260519_064803/`
 
-Current completed environments are Baseline, ModSecurity, and Coraza. NAXSI folders are placeholders unless partner results are added later.
+Current completed environments are Baseline, ModSecurity, and Coraza. NAXSI structured outputs are not present unless partner results are added later.
 
 Run `python3 scripts/list_experiment_coverage.py` from the repository root to print the current coverage table.
