@@ -18,19 +18,30 @@ Controlled malicious requests were sent while benign live traffic was also gener
 
 ## Main analysis files
 
-- `analysis/report_summary.md` — report-ready summary tables
-- `analysis/final_attack_type_summary.csv` — detection by attack type
-- `analysis/final_benign_summary.csv` — benign traffic and false positive results
-- `analysis/final_waf_comparison.csv` — comparison between WAFs
+- `analysis/final/report_summary.md` - report-ready summary tables.
+- `analysis/final/key_findings.txt` - concise generated findings.
+- `analysis/final/final_summary.csv` - per-environment summary metrics.
+- `analysis/final/final_attack_type_summary.csv` - detection by attack type.
+- `analysis/final/final_benign_summary.csv` - benign traffic and false positive results.
+- `analysis/final/final_waf_comparison.csv` - comparison between WAFs.
+- `analysis/final/final_classification_summary.csv` - detected attack classification summary.
 
 ## Raw evidence files
 
-- `output/baseline_attack_only.csv`
-- `output/modsec_attack_only.csv`
-- `output/coraza_attack_only.csv`
-- `output/baseline_mixed_medium.csv`
-- `output/modsec_mixed_medium.csv`
-- `output/coraza_mixed_medium.csv`
+Raw automated evidence is stored in nested run folders:
+
+```text
+output/<environment>/<phase>/<load_level>/run_<run_id>/
+```
+
+Completed runs:
+
+- `output/baseline/attack_only/none/run_20260519_063833/`
+- `output/baseline/mixed/medium/run_20260519_074733/`
+- `output/modsec/attack_only/none/run_20260519_064610/`
+- `output/modsec/mixed/medium/run_20260519_033300_rerun/`
+- `output/coraza/attack_only/none/run_20260519_074907/`
+- `output/coraza/mixed/medium/run_20260519_064803/`
 
 ## Key interpretation
 

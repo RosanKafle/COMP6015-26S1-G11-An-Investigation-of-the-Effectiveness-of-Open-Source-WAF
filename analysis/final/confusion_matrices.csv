@@ -1,0 +1,7 @@
+environment,waf_type,phase,load_level,attack_rows,benign_rows,true_positive,false_negative,false_positive,true_negative,precision,recall,f1_score
+baseline,none,attack_only,none,468,0,0,447,0,0,0.0,0.0,0.0
+baseline,none,mixed,medium,665,5325,0,636,0,5325,0.0,0.0,0.0
+coraza,coraza,attack_only,none,463,0,161,281,0,0,1.0,0.364253,0.533996
+coraza,coraza,mixed,medium,653,5220,229,395,0,5220,1.0,0.366987,0.536928
+modsec,modsecurity,attack_only,none,465,0,162,282,0,0,1.0,0.364865,0.534654
+modsec,modsecurity,mixed,medium,661,5278,231,399,0,5278,1.0,0.366667,0.536586

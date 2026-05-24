@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This folder contains automated empirical testing results for the project:
+This repository contains automated and manual empirical testing results for the project:
 
 **An Investigation of the Effectiveness of Open-Source Web Application Firewalls**
 
@@ -12,11 +12,9 @@ The data compares:
 - ModSecurity
 - Coraza
 
-NAXSI is not included in this dataset unless added separately by another team member.
+NAXSI folders are placeholders unless partner results are added separately.
 
----
-
-## Experiment modes
+## Experiment Modes
 
 ### Attack-only
 
@@ -26,36 +24,58 @@ Only controlled malicious traffic was sent. This measures direct WAF detection e
 
 Benign live traffic and malicious attack traffic were sent at the same time. This measures WAF behaviour under more realistic traffic conditions.
 
----
-
-## Main files for report writing
+## Main Files For Report Writing
 
 Use these first:
 
-- `analysis/report_summary.md`
-- `analysis/final_attack_type_summary.csv`
-- `analysis/final_benign_summary.csv`
-- `analysis/final_waf_comparison.csv`
+- `analysis/final/report_summary.md`
+- `analysis/final/key_findings.txt`
+- `analysis/final/final_summary.csv`
+- `analysis/final/final_attack_type_summary.csv`
+- `analysis/final/final_benign_summary.csv`
+- `analysis/final/final_waf_comparison.csv`
+- `analysis/final/final_repetition_summary.csv`
+- `analysis/final/final_classification_summary.csv`
+- `analysis/final/final_classification_matrix.csv`
 
----
+## Completed Raw Automated Runs
 
-## Raw evidence files
+Each completed run is stored in:
 
-Attack-only:
+```text
+output/<environment>/<phase>/<load_level>/run_<run_id>/
+```
 
-- `output/baseline_attack_only.csv`
-- `output/modsec_attack_only.csv`
-- `output/coraza_attack_only.csv`
+Completed attack-only runs:
 
-Mixed traffic:
+- `output/baseline/attack_only/none/run_20260519_063833/`
+- `output/modsec/attack_only/none/run_20260519_064610/`
+- `output/coraza/attack_only/none/run_20260519_074907/`
 
-- `output/baseline_mixed_medium.csv`
-- `output/modsec_mixed_medium.csv`
-- `output/coraza_mixed_medium.csv`
+Completed mixed-traffic runs:
 
----
+- `output/baseline/mixed/medium/run_20260519_074733/`
+- `output/modsec/mixed/medium/run_20260519_033300_rerun/`
+- `output/coraza/mixed/medium/run_20260519_064803/`
 
-## Key metrics
+Each run folder contains:
+
+- `detailed.csv`
+- `summary.csv`
+- `run_summary.json`
+- `metadata.json`
+- `validation.txt`
+
+## Manual Validation Evidence
+
+Manual SQLi and CSRF evidence is under:
+
+- `evidence/manual_validation/payloads/`
+- `evidence/manual_validation/results/`
+- `evidence/manual_validation/results/manual_classification_summary.md`
+- `evidence/manual_validation/ATTACK_TAXONOMY_AND_TEST_DESIGN.md`
+
+## Key Metrics
 
 The analysis includes:
 
@@ -66,13 +86,14 @@ The analysis includes:
 - Average response latency
 - Detection change under mixed traffic
 - Performance impact
+- Manual clean-block recall for selected SQLi and CSRF validation cases
 
----
-
-## Current key findings
+## Current Key Findings
 
 - Coraza showed higher detection rates than ModSecurity for SQL injection, XSS, brute-force, and JavaScript-related tests.
 - Neither ModSecurity nor Coraza blocked benign traffic in the tested dataset, producing a 0.00% false positive rate.
 - Coraza maintained stable detection under mixed traffic.
-- ModSecurity mixed-traffic detection showed an unexpected drop and should be verified with a repeat run before being treated as a final conclusion.
 - Logic-based weaknesses such as CSRF, weak session IDs, and authorization bypass were not meaningfully blocked by either WAF.
+- Manual validation showed strong clean-block behaviour for selected SQLi payloads but weak semantic coverage for CSRF-style requests.
+
+Run `python3 scripts/list_experiment_coverage.py` to print available and missing automated datasets.

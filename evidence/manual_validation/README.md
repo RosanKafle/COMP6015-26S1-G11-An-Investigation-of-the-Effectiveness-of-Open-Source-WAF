@@ -22,3 +22,7 @@ The manual tests were designed to supplement the automated attack-only and mixed
 ## Interpretation rule
 
 Only HTTP 403, 406, and 501 were counted as clean WAF blocks. Redirects and HTTP 500 responses were recorded separately and were not counted as clean WAF detections.
+
+## Traceability
+
+Manual summaries in `results/` were generated from the payload definitions in `payloads/` using the scripts in `tools/manual_validation/`.
