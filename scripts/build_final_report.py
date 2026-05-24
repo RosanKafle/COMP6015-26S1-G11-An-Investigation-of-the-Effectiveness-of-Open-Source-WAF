@@ -334,7 +334,7 @@ def make_blocks() -> list[str]:
         ["Member", "Student ID", "Contribution summary"],
         [
             ["Sadaiba Kumar Acharya", "21647381", "Framework support, testing support and documentation review."],
-            ["Bishal Giri", "22902243", "Payload testing support and result checking."],
+            ["Bishal Giri", "22902243", "Separate XSS/NAXSI payload evidence contribution and result checking. The current quantitative claims use only evidence files present in this cleaned repository."],
             ["Pabin Gurung", "22343460", "Report consolidation, evidence mapping and submission preparation."],
             ["Roshan Kafle", "22393096", "Project support, review, documentation and result checking."],
         ],
@@ -359,7 +359,7 @@ def make_blocks() -> list[str]:
         "docs/ - historical supporting evidence.",
     ]:
         add(bullet(item))
-    add(paragraph("Older draft wording referred to focused NAXSI/XSS artefacts outside this package. Those files are not present in the cleaned evidence tree, so the revised report avoids unsupported NAXSI conclusions."))
+    add(paragraph("A separate XSS/NAXSI contribution was provided by a group member. However, the cleaned repository currently does not contain the source CSVs or screenshots for that package. To keep the report accurate, this version credits that contribution in the student details but does not include NAXSI performance figures as verified quantitative evidence. Those figures can be added later if the source evidence is added to the submission package."))
     add(paragraph("3. Background for Non-Technical Readers", "Heading1"))
     add(paragraph("A Web Application Firewall, or WAF, sits in front of a website and inspects web requests before the application handles them. It is useful when an attack has a recognisable pattern, such as SQL keywords or script text. It is weaker when the weakness is in application logic, such as a missing permission check or missing CSRF token."))
     add(table_xml(
