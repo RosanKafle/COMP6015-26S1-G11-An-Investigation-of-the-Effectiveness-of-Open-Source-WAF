@@ -1,0 +1,627 @@
+[+] Building mixed traffic dataset...
+[1/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[2/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[3/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[4/600] actual=Normal detected=Normal status=404 outcome=client_error
+[5/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[6/600] actual=Normal detected=Normal status=404 outcome=client_error
+[7/600] actual=XSS detected=XSS status=403 outcome=blocked
+[8/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[9/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[10/600] actual=XSS detected=XSS status=403 outcome=blocked
+[11/600] actual=XSS detected=XSS status=403 outcome=blocked
+[12/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[13/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[14/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[15/600] actual=Normal detected=Normal status=404 outcome=client_error
+[16/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[17/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[18/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[19/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[20/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[21/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[22/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[23/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[24/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[25/600] actual=XSS detected=XSS status=403 outcome=blocked
+[26/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[27/600] actual=Normal detected=Normal status=404 outcome=client_error
+[28/600] actual=XSS detected=XSS status=403 outcome=blocked
+[29/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[30/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[31/600] actual=XSS detected=XSS status=403 outcome=blocked
+[32/600] actual=Normal detected=Normal status=404 outcome=client_error
+[33/600] actual=XSS detected=XSS status=403 outcome=blocked
+[34/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[35/600] actual=XSS detected=XSS status=403 outcome=blocked
+[36/600] actual=XSS detected=XSS status=403 outcome=blocked
+[37/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[38/600] actual=Normal detected=Normal status=404 outcome=client_error
+[39/600] actual=XSS detected=XSS status=403 outcome=blocked
+[40/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[41/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[42/600] actual=XSS detected=XSS status=403 outcome=blocked
+[43/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[44/600] actual=XSS detected=XSS status=403 outcome=blocked
+[45/600] actual=Normal detected=Normal status=404 outcome=client_error
+[46/600] actual=XSS detected=XSS status=403 outcome=blocked
+[47/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[48/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[49/600] actual=Normal detected=Normal status=404 outcome=client_error
+[50/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[51/600] actual=Normal detected=Normal status=404 outcome=client_error
+[52/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[53/600] actual=Normal detected=Normal status=404 outcome=client_error
+[54/600] actual=XSS detected=XSS status=403 outcome=blocked
+[55/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[56/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[57/600] actual=XSS detected=XSS status=403 outcome=blocked
+[58/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[59/600] actual=Normal detected=Normal status=404 outcome=client_error
+[60/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[61/600] actual=XSS detected=XSS status=403 outcome=blocked
+[62/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[63/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[64/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[65/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[66/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[67/600] actual=XSS detected=XSS status=403 outcome=blocked
+[68/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[69/600] actual=XSS detected=XSS status=403 outcome=blocked
+[70/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[71/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[72/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[73/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[74/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[75/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[76/600] actual=Normal detected=Normal status=404 outcome=client_error
+[77/600] actual=Normal detected=Normal status=404 outcome=client_error
+[78/600] actual=Normal detected=Normal status=404 outcome=client_error
+[79/600] actual=Normal detected=Normal status=404 outcome=client_error
+[80/600] actual=XSS detected=XSS status=403 outcome=blocked
+[81/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[82/600] actual=XSS detected=XSS status=403 outcome=blocked
+[83/600] actual=XSS detected=XSS status=403 outcome=blocked
+[84/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[85/600] actual=Normal detected=Normal status=404 outcome=client_error
+[86/600] actual=XSS detected=XSS status=403 outcome=blocked
+[87/600] actual=XSS detected=XSS status=403 outcome=blocked
+[88/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[89/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[90/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[91/600] actual=XSS detected=XSS status=403 outcome=blocked
+[92/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[93/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[94/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[95/600] actual=Normal detected=Normal status=404 outcome=client_error
+[96/600] actual=XSS detected=XSS status=403 outcome=blocked
+[97/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[98/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[99/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[100/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[101/600] actual=XSS detected=XSS status=403 outcome=blocked
+[102/600] actual=Normal detected=Normal status=404 outcome=client_error
+[103/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[104/600] actual=Normal detected=Normal status=404 outcome=client_error
+[105/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[106/600] actual=Normal detected=Normal status=404 outcome=client_error
+[107/600] actual=XSS detected=XSS status=403 outcome=blocked
+[108/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[109/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[110/600] actual=Normal detected=Normal status=404 outcome=client_error
+[111/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[112/600] actual=XSS detected=XSS status=403 outcome=blocked
+[113/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[114/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[115/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[116/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[117/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[118/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[119/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[120/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[121/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[122/600] actual=XSS detected=XSS status=403 outcome=blocked
+[123/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[124/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[125/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[126/600] actual=XSS detected=XSS status=403 outcome=blocked
+[127/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[128/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[129/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[130/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[131/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[132/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[133/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[134/600] actual=Normal detected=Normal status=404 outcome=client_error
+[135/600] actual=Normal detected=Normal status=404 outcome=client_error
+[136/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[137/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[138/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[139/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[140/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[141/600] actual=Normal detected=Normal status=404 outcome=client_error
+[142/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[143/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[144/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[145/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[146/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[147/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[148/600] actual=Normal detected=Normal status=404 outcome=client_error
+[149/600] actual=XSS detected=XSS status=403 outcome=blocked
+[150/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[151/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[152/600] actual=XSS detected=XSS status=403 outcome=blocked
+[153/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[154/600] actual=XSS detected=XSS status=403 outcome=blocked
+[155/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[156/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[157/600] actual=XSS detected=XSS status=403 outcome=blocked
+[158/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[159/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[160/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[161/600] actual=Normal detected=Normal status=404 outcome=client_error
+[162/600] actual=Normal detected=Normal status=404 outcome=client_error
+[163/600] actual=XSS detected=XSS status=403 outcome=blocked
+[164/600] actual=XSS detected=XSS status=403 outcome=blocked
+[165/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[166/600] actual=XSS detected=XSS status=403 outcome=blocked
+[167/600] actual=XSS detected=XSS status=403 outcome=blocked
+[168/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[169/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[170/600] actual=XSS detected=XSS status=403 outcome=blocked
+[171/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[172/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[173/600] actual=XSS detected=XSS status=403 outcome=blocked
+[174/600] actual=Normal detected=Normal status=404 outcome=client_error
+[175/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[176/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[177/600] actual=Normal detected=Normal status=404 outcome=client_error
+[178/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[179/600] actual=XSS detected=XSS status=403 outcome=blocked
+[180/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[181/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[182/600] actual=XSS detected=XSS status=403 outcome=blocked
+[183/600] actual=XSS detected=XSS status=403 outcome=blocked
+[184/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[185/600] actual=Normal detected=Normal status=404 outcome=client_error
+[186/600] actual=XSS detected=XSS status=403 outcome=blocked
+[187/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[188/600] actual=XSS detected=XSS status=403 outcome=blocked
+[189/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[190/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[191/600] actual=Normal detected=Normal status=404 outcome=client_error
+[192/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[193/600] actual=XSS detected=XSS status=403 outcome=blocked
+[194/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[195/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[196/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[197/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[198/600] actual=XSS detected=XSS status=403 outcome=blocked
+[199/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[200/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[201/600] actual=XSS detected=XSS status=403 outcome=blocked
+[202/600] actual=XSS detected=XSS status=403 outcome=blocked
+[203/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[204/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[205/600] actual=Normal detected=Normal status=404 outcome=client_error
+[206/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[207/600] actual=Normal detected=Normal status=404 outcome=client_error
+[208/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[209/600] actual=Normal detected=Normal status=404 outcome=client_error
+[210/600] actual=XSS detected=XSS status=403 outcome=blocked
+[211/600] actual=XSS detected=XSS status=403 outcome=blocked
+[212/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[213/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[214/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[215/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[216/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[217/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[218/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[219/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[220/600] actual=Normal detected=Normal status=404 outcome=client_error
+[221/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[222/600] actual=XSS detected=XSS status=403 outcome=blocked
+[223/600] actual=Normal detected=Normal status=404 outcome=client_error
+[224/600] actual=XSS detected=XSS status=403 outcome=blocked
+[225/600] actual=XSS detected=XSS status=403 outcome=blocked
+[226/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[227/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[228/600] actual=Normal detected=Normal status=404 outcome=client_error
+[229/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[230/600] actual=Normal detected=Normal status=404 outcome=client_error
+[231/600] actual=Normal detected=Normal status=404 outcome=client_error
+[232/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[233/600] actual=Normal detected=Normal status=404 outcome=client_error
+[234/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[235/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[236/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[237/600] actual=Normal detected=Normal status=404 outcome=client_error
+[238/600] actual=Normal detected=Normal status=404 outcome=client_error
+[239/600] actual=XSS detected=XSS status=403 outcome=blocked
+[240/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[241/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[242/600] actual=Normal detected=Normal status=404 outcome=client_error
+[243/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[244/600] actual=XSS detected=XSS status=403 outcome=blocked
+[245/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[246/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[247/600] actual=Normal detected=Normal status=404 outcome=client_error
+[248/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[249/600] actual=XSS detected=XSS status=403 outcome=blocked
+[250/600] actual=Normal detected=Normal status=404 outcome=client_error
+[251/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[252/600] actual=XSS detected=XSS status=403 outcome=blocked
+[253/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[254/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[255/600] actual=XSS detected=XSS status=403 outcome=blocked
+[256/600] actual=Normal detected=Normal status=404 outcome=client_error
+[257/600] actual=XSS detected=XSS status=403 outcome=blocked
+[258/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[259/600] actual=Normal detected=Normal status=404 outcome=client_error
+[260/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[261/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[262/600] actual=Normal detected=Normal status=404 outcome=client_error
+[263/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[264/600] actual=XSS detected=XSS status=403 outcome=blocked
+[265/600] actual=Normal detected=Normal status=404 outcome=client_error
+[266/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[267/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[268/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[269/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[270/600] actual=Normal detected=Normal status=404 outcome=client_error
+[271/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[272/600] actual=XSS detected=XSS status=403 outcome=blocked
+[273/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[274/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[275/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[276/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[277/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[278/600] actual=Normal detected=Normal status=404 outcome=client_error
+[279/600] actual=XSS detected=XSS status=403 outcome=blocked
+[280/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[281/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[282/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[283/600] actual=Normal detected=Normal status=404 outcome=client_error
+[284/600] actual=Normal detected=Normal status=404 outcome=client_error
+[285/600] actual=Normal detected=Normal status=404 outcome=client_error
+[286/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[287/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[288/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[289/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[290/600] actual=XSS detected=XSS status=403 outcome=blocked
+[291/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[292/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[293/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[294/600] actual=Normal detected=Normal status=404 outcome=client_error
+[295/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[296/600] actual=Normal detected=Normal status=404 outcome=client_error
+[297/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[298/600] actual=XSS detected=XSS status=403 outcome=blocked
+[299/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[300/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[301/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[302/600] actual=Normal detected=Normal status=404 outcome=client_error
+[303/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[304/600] actual=Normal detected=Normal status=404 outcome=client_error
+[305/600] actual=XSS detected=XSS status=403 outcome=blocked
+[306/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[307/600] actual=XSS detected=XSS status=403 outcome=blocked
+[308/600] actual=XSS detected=XSS status=403 outcome=blocked
+[309/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[310/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[311/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[312/600] actual=XSS detected=XSS status=403 outcome=blocked
+[313/600] actual=Normal detected=Normal status=404 outcome=client_error
+[314/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[315/600] actual=XSS detected=XSS status=403 outcome=blocked
+[316/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[317/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[318/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[319/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[320/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[321/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[322/600] actual=Normal detected=Normal status=404 outcome=client_error
+[323/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[324/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[325/600] actual=XSS detected=XSS status=403 outcome=blocked
+[326/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[327/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[328/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[329/600] actual=XSS detected=XSS status=403 outcome=blocked
+[330/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[331/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[332/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[333/600] actual=Normal detected=Normal status=404 outcome=client_error
+[334/600] actual=Normal detected=Normal status=404 outcome=client_error
+[335/600] actual=Normal detected=Normal status=404 outcome=client_error
+[336/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[337/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[338/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[339/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[340/600] actual=Normal detected=Normal status=404 outcome=client_error
+[341/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[342/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[343/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[344/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[345/600] actual=XSS detected=XSS status=403 outcome=blocked
+[346/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[347/600] actual=XSS detected=XSS status=403 outcome=blocked
+[348/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[349/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[350/600] actual=XSS detected=XSS status=403 outcome=blocked
+[351/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[352/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[353/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[354/600] actual=XSS detected=XSS status=403 outcome=blocked
+[355/600] actual=Normal detected=Normal status=404 outcome=client_error
+[356/600] actual=Normal detected=Normal status=404 outcome=client_error
+[357/600] actual=XSS detected=XSS status=403 outcome=blocked
+[358/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[359/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[360/600] actual=Normal detected=Normal status=404 outcome=client_error
+[361/600] actual=Normal detected=Normal status=404 outcome=client_error
+[362/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[363/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[364/600] actual=XSS detected=XSS status=403 outcome=blocked
+[365/600] actual=Normal detected=Normal status=404 outcome=client_error
+[366/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[367/600] actual=XSS detected=XSS status=403 outcome=blocked
+[368/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[369/600] actual=Normal detected=Normal status=404 outcome=client_error
+[370/600] actual=XSS detected=XSS status=403 outcome=blocked
+[371/600] actual=Normal detected=Normal status=404 outcome=client_error
+[372/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[373/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[374/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[375/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[376/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[377/600] actual=XSS detected=XSS status=403 outcome=blocked
+[378/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[379/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[380/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[381/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[382/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[383/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[384/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[385/600] actual=Normal detected=Normal status=404 outcome=client_error
+[386/600] actual=XSS detected=XSS status=403 outcome=blocked
+[387/600] actual=XSS detected=XSS status=403 outcome=blocked
+[388/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[389/600] actual=Normal detected=Normal status=404 outcome=client_error
+[390/600] actual=Normal detected=Normal status=404 outcome=client_error
+[391/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[392/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[393/600] actual=XSS detected=XSS status=403 outcome=blocked
+[394/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[395/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[396/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[397/600] actual=Normal detected=Normal status=404 outcome=client_error
+[398/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[399/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[400/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[401/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[402/600] actual=XSS detected=XSS status=403 outcome=blocked
+[403/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[404/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[405/600] actual=XSS detected=XSS status=403 outcome=blocked
+[406/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[407/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[408/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[409/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[410/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[411/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[412/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[413/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[414/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[415/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[416/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[417/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[418/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[419/600] actual=XSS detected=XSS status=403 outcome=blocked
+[420/600] actual=Normal detected=Normal status=404 outcome=client_error
+[421/600] actual=Normal detected=Normal status=404 outcome=client_error
+[422/600] actual=Normal detected=Normal status=404 outcome=client_error
+[423/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[424/600] actual=Normal detected=Normal status=404 outcome=client_error
+[425/600] actual=Normal detected=Normal status=404 outcome=client_error
+[426/600] actual=Normal detected=Normal status=404 outcome=client_error
+[427/600] actual=Normal detected=Normal status=404 outcome=client_error
+[428/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[429/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[430/600] actual=XSS detected=XSS status=403 outcome=blocked
+[431/600] actual=Normal detected=Normal status=404 outcome=client_error
+[432/600] actual=Normal detected=Normal status=404 outcome=client_error
+[433/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[434/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[435/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[436/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[437/600] actual=XSS detected=XSS status=403 outcome=blocked
+[438/600] actual=Normal detected=Normal status=404 outcome=client_error
+[439/600] actual=XSS detected=XSS status=403 outcome=blocked
+[440/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[441/600] actual=XSS detected=XSS status=403 outcome=blocked
+[442/600] actual=XSS detected=XSS status=403 outcome=blocked
+[443/600] actual=Normal detected=Normal status=404 outcome=client_error
+[444/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[445/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[446/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[447/600] actual=XSS detected=XSS status=403 outcome=blocked
+[448/600] actual=Normal detected=Normal status=404 outcome=client_error
+[449/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[450/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[451/600] actual=XSS detected=XSS status=403 outcome=blocked
+[452/600] actual=XSS detected=XSS status=403 outcome=blocked
+[453/600] actual=XSS detected=XSS status=403 outcome=blocked
+[454/600] actual=Normal detected=Normal status=404 outcome=client_error
+[455/600] actual=Normal detected=Normal status=404 outcome=client_error
+[456/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[457/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[458/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[459/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[460/600] actual=Normal detected=Normal status=404 outcome=client_error
+[461/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[462/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[463/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[464/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[465/600] actual=XSS detected=XSS status=403 outcome=blocked
+[466/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[467/600] actual=Normal detected=Normal status=404 outcome=client_error
+[468/600] actual=Normal detected=Normal status=404 outcome=client_error
+[469/600] actual=Normal detected=Normal status=404 outcome=client_error
+[470/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[471/600] actual=Normal detected=Normal status=404 outcome=client_error
+[472/600] actual=Normal detected=Normal status=404 outcome=client_error
+[473/600] actual=XSS detected=XSS status=403 outcome=blocked
+[474/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[475/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[476/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[477/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[478/600] actual=XSS detected=XSS status=403 outcome=blocked
+[479/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[480/600] actual=XSS detected=XSS status=403 outcome=blocked
+[481/600] actual=XSS detected=XSS status=403 outcome=blocked
+[482/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[483/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[484/600] actual=Normal detected=Normal status=404 outcome=client_error
+[485/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[486/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[487/600] actual=XSS detected=XSS status=403 outcome=blocked
+[488/600] actual=Normal detected=Normal status=404 outcome=client_error
+[489/600] actual=XSS detected=XSS status=403 outcome=blocked
+[490/600] actual=XSS detected=XSS status=403 outcome=blocked
+[491/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[492/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[493/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[494/600] actual=Normal detected=Normal status=404 outcome=client_error
+[495/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[496/600] actual=XSS detected=XSS status=403 outcome=blocked
+[497/600] actual=XSS detected=XSS status=403 outcome=blocked
+[498/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[499/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[500/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[501/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[502/600] actual=Normal detected=Normal status=404 outcome=client_error
+[503/600] actual=XSS detected=XSS status=403 outcome=blocked
+[504/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[505/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[506/600] actual=Normal detected=Normal status=404 outcome=client_error
+[507/600] actual=XSS detected=XSS status=403 outcome=blocked
+[508/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[509/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[510/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[511/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[512/600] actual=Normal detected=Normal status=404 outcome=client_error
+[513/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[514/600] actual=Normal detected=Normal status=404 outcome=client_error
+[515/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[516/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[517/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[518/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[519/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[520/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[521/600] actual=XSS detected=XSS status=403 outcome=blocked
+[522/600] actual=XSS detected=XSS status=403 outcome=blocked
+[523/600] actual=Normal detected=Normal status=404 outcome=client_error
+[524/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[525/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[526/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[527/600] actual=XSS detected=XSS status=403 outcome=blocked
+[528/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[529/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[530/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[531/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[532/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[533/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[534/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[535/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[536/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[537/600] actual=Normal detected=Normal status=404 outcome=client_error
+[538/600] actual=Normal detected=Normal status=404 outcome=client_error
+[539/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[540/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[541/600] actual=Normal detected=Normal status=404 outcome=client_error
+[542/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[543/600] actual=Normal detected=Normal status=404 outcome=client_error
+[544/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[545/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[546/600] actual=Normal detected=Normal status=404 outcome=client_error
+[547/600] actual=Normal detected=Normal status=404 outcome=client_error
+[548/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[549/600] actual=Normal detected=Normal status=404 outcome=client_error
+[550/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[551/600] actual=Normal detected=Normal status=404 outcome=client_error
+[552/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[553/600] actual=XSS detected=XSS status=403 outcome=blocked
+[554/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[555/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[556/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[557/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[558/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[559/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[560/600] actual=XSS detected=XSS status=403 outcome=blocked
+[561/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[562/600] actual=XSS detected=XSS status=403 outcome=blocked
+[563/600] actual=Normal detected=Normal status=404 outcome=client_error
+[564/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[565/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[566/600] actual=Normal detected=Normal status=404 outcome=client_error
+[567/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[568/600] actual=Normal detected=Normal status=404 outcome=client_error
+[569/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[570/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[571/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[572/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[573/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[574/600] actual=XSS detected=XSS status=403 outcome=blocked
+[575/600] actual=XSS detected=XSS status=403 outcome=blocked
+[576/600] actual=XSS detected=XSS status=403 outcome=blocked
+[577/600] actual=XSS detected=XSS status=403 outcome=blocked
+[578/600] actual=Normal detected=Normal status=404 outcome=client_error
+[579/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[580/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[581/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[582/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[583/600] actual=XSS detected=XSS status=403 outcome=blocked
+[584/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[585/600] actual=Normal detected=Normal status=404 outcome=client_error
+[586/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[587/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[588/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[589/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[590/600] actual=Normal detected=Normal status=404 outcome=client_error
+[591/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[592/600] actual=Normal detected=Normal status=404 outcome=client_error
+[593/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[594/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[595/600] actual=Command Injection detected=Command Injection status=403 outcome=blocked
+[596/600] actual=Path Traversal detected=Path Traversal status=403 outcome=blocked
+[597/600] actual=Normal detected=Normal status=404 outcome=client_error
+[598/600] actual=Normal detected=Normal status=404 outcome=client_error
+[599/600] actual=SQL Injection detected=SQL Injection status=403 outcome=blocked
+[600/600] actual=XSS detected=XSS status=403 outcome=blocked
+
+===== MIXED TRAFFIC SUMMARY =====
+mode: modsecurity_mixed_fast
+total_requests: 600
+normal_total: 120
+normal_allowed: 120
+normal_blocked_false_positive: 0
+malicious_total: 480
+malicious_blocked: 480
+malicious_allowed_false_negative: 0
+client_errors: 120
+server_errors: 0
+redirects: 0
+unknown: 0
+access_denied_events: 960
+false_positive_rate_percent: 0.0
+false_negative_rate_percent: 0.0
+attack_block_rate_percent: 100.0
+crs_941_hits: 960
+crs_942_hits: 1734
+crs_930_hits: 1825
+crs_932_hits: 590
+
+[+] Detail saved: results/modsecurity_mixed_detail.csv
+[+] Summary saved: results/modsecurity_mixed_summary.csv
+[+] Matrix saved: results/modsecurity_classification_matrix.csv

@@ -1,0 +1,2 @@
+mode,target,total_zap_requests,total_allowed,total_blocked,total_client_errors,total_server_errors,total_alerts,overall_block_rate_percent,overall_allowed_rate_percent
+naxsi,http://192.168.56.20:8080/DVWA/,1741,1169,497,71,0,90,28.55,67.15

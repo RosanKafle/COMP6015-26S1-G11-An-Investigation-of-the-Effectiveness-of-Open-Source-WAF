@@ -1,0 +1,2 @@
+mode,attack_type,total_requests,blocked_403_406,allowed_200,redirect_301_302,client_errors,server_errors,unknown,detection_rate_percent,false_negative_rate_percent,crs_942_rule_matches,modsec_access_denied_events
+modsecurity,SQL Injection,304,304,0,0,0,0,0,100.0,0.0,13025,2604

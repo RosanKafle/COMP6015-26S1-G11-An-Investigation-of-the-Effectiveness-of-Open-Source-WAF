@@ -1,0 +1,5 @@
+attack_type,total_requests,blocked,allowed,redirect,client_error,server_error,unknown,waf_rule_group,waf_rule_hits,detection_rate_percent,false_negative_rate_percent
+SQL Injection,300,300,0,0,0,0,0,942,-17560,100.0,0.0
+XSS,300,300,0,0,0,0,0,941,0,100.0,0.0
+Command Injection,300,300,0,0,0,0,0,932,0,100.0,0.0
+Path Traversal,300,300,0,0,0,0,0,930,0,100.0,0.0

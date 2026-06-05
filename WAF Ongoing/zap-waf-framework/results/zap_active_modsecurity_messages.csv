@@ -1,0 +1,840 @@
+url,status_code,outcome,attack_type
+GET http://192.168.56.20/sitemap.xml HTTP/1.1,404,client_error,SQL Injection
+GET http://192.168.56.20 HTTP/1.1,0,unknown,SQL Injection
+GET http://192.168.56.20/robots.txt HTTP/1.1,404,client_error,SQL Injection
+GET http://192.168.56.20/DVWA/ HTTP/1.1,302,redirect,SQL Injection
+GET http://192.168.56.20/DVWA HTTP/1.1,0,unknown,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa/css/login.css HTTP/1.1,200,allowed,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa HTTP/1.1,0,unknown,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa/css HTTP/1.1,0,unknown,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa/images HTTP/1.1,0,unknown,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,SQL Injection
+GET http://192.168.56.20/DVWA/89013603689835969.php HTTP/1.1,404,client_error,SQL Injection
+GET http://192.168.56.20/DVWA/89013603689835969.php HTTP/1.1,404,client_error,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa/896052278113476987 HTTP/1.1,404,client_error,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa/896052278113476987 HTTP/1.1,404,client_error,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa/css/2933176997288331234 HTTP/1.1,404,client_error,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa/css/2933176997288331234 HTTP/1.1,404,client_error,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa/images/2106420455399302470 HTTP/1.1,404,client_error,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa/images/2106420455399302470 HTTP/1.1,404,client_error,SQL Injection
+GET http://192.168.56.20/DVWA HTTP/1.1,301,redirect,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa HTTP/1.1,301,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa/css HTTP/1.1,301,redirect,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa/images HTTP/1.1,301,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,SQL Injection
+GET http://192.168.56.20/DVWA HTTP/1.1,301,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa HTTP/1.1,301,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa/css HTTP/1.1,301,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa/images HTTP/1.1,301,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA HTTP/1.1,301,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa HTTP/1.1,301,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa/css HTTP/1.1,301,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa/images HTTP/1.1,301,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA HTTP/1.1,301,redirect,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa HTTP/1.1,301,redirect,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa/css HTTP/1.1,301,redirect,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa/images HTTP/1.1,301,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA HTTP/1.1,301,redirect,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa HTTP/1.1,301,redirect,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa/css HTTP/1.1,301,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa/images HTTP/1.1,301,redirect,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA HTTP/1.1,301,redirect,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa HTTP/1.1,301,redirect,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa/css HTTP/1.1,301,redirect,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/dvwa/images HTTP/1.1,301,redirect,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,SQL Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,SQL Injection
+GET http://192.168.56.20/DVWA/ HTTP/1.1,302,redirect,XSS
+GET http://192.168.56.20 HTTP/1.1,0,unknown,XSS
+GET http://192.168.56.20/DVWA HTTP/1.1,0,unknown,XSS
+GET http://192.168.56.20/robots.txt HTTP/1.1,404,client_error,XSS
+GET http://192.168.56.20/sitemap.xml HTTP/1.1,404,client_error,XSS
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/DVWA/dvwa HTTP/1.1,0,unknown,XSS
+GET http://192.168.56.20/DVWA/dvwa/images HTTP/1.1,0,unknown,XSS
+GET http://192.168.56.20/DVWA/dvwa/css/login.css HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/DVWA/dvwa/css HTTP/1.1,0,unknown,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,XSS
+GET http://192.168.56.20/DVWA/4396417298022210999.php HTTP/1.1,404,client_error,XSS
+GET http://192.168.56.20/DVWA/4396417298022210999.php HTTP/1.1,404,client_error,XSS
+GET http://192.168.56.20/DVWA/dvwa/2012328053858691335 HTTP/1.1,404,client_error,XSS
+GET http://192.168.56.20/DVWA/dvwa/2012328053858691335 HTTP/1.1,404,client_error,XSS
+GET http://192.168.56.20/DVWA/dvwa/css/3914758114779198035 HTTP/1.1,404,client_error,XSS
+GET http://192.168.56.20/DVWA/dvwa/css/3914758114779198035 HTTP/1.1,404,client_error,XSS
+GET http://192.168.56.20/DVWA/dvwa/images/2016668440852953128 HTTP/1.1,404,client_error,XSS
+GET http://192.168.56.20/DVWA/dvwa/images/2016668440852953128 HTTP/1.1,404,client_error,XSS
+GET http://192.168.56.20/DVWA HTTP/1.1,301,redirect,XSS
+GET http://192.168.56.20/DVWA/dvwa HTTP/1.1,301,redirect,XSS
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/DVWA/dvwa/css HTTP/1.1,301,redirect,XSS
+GET http://192.168.56.20/DVWA/dvwa/images HTTP/1.1,301,redirect,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,XSS
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,XSS
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,XSS
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,XSS
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,XSS
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,XSS
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,XSS
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,XSS
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,XSS
+GET http://192.168.56.20/DVWA HTTP/1.1,301,redirect,XSS
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/DVWA/dvwa HTTP/1.1,301,redirect,XSS
+GET http://192.168.56.20/DVWA/dvwa/css HTTP/1.1,301,redirect,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,XSS
+GET http://192.168.56.20/DVWA/dvwa/images HTTP/1.1,301,redirect,XSS
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,XSS
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,XSS
+GET http://192.168.56.20/DVWA HTTP/1.1,301,redirect,XSS
+GET http://192.168.56.20/DVWA/ HTTP/1.1,302,redirect,XSS
+GET http://192.168.56.20/DVWA HTTP/1.1,301,redirect,XSS
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/DVWA/dvwa HTTP/1.1,301,redirect,XSS
+GET http://192.168.56.20/DVWA/dvwa HTTP/1.1,301,redirect,XSS
+GET http://192.168.56.20/DVWA/dvwa/css HTTP/1.1,301,redirect,XSS
+GET http://192.168.56.20/DVWA/dvwa/css HTTP/1.1,301,redirect,XSS
+GET http://192.168.56.20/DVWA/dvwa/images HTTP/1.1,301,redirect,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,XSS
+GET http://192.168.56.20/DVWA/dvwa/css/login.css HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/DVWA/dvwa/images HTTP/1.1,301,redirect,XSS
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/DVWA HTTP/1.1,301,redirect,XSS
+GET http://192.168.56.20/DVWA/dvwa HTTP/1.1,301,redirect,XSS
+GET http://192.168.56.20/DVWA/dvwa/css HTTP/1.1,301,redirect,XSS
+GET http://192.168.56.20/DVWA/dvwa/images HTTP/1.1,301,redirect,XSS
+GET http://192.168.56.20/DVWA HTTP/1.1,301,redirect,XSS
+GET http://192.168.56.20/DVWA/dvwa HTTP/1.1,301,redirect,XSS
+GET http://192.168.56.20/DVWA/dvwa/css HTTP/1.1,301,redirect,XSS
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/DVWA/dvwa/css/login.css HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/DVWA/dvwa HTTP/1.1,403,blocked,XSS
+GET http://192.168.56.20/DVWA/dvwa?name=abc HTTP/1.1,403,blocked,XSS
+GET http://192.168.56.20/DVWA/ HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/DVWA/dvwa/css/login.css HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/DVWA/dvwa/css HTTP/1.1,403,blocked,XSS
+GET http://192.168.56.20/DVWA/dvwa/css?name=abc HTTP/1.1,403,blocked,XSS
+GET http://192.168.56.20/DVWA HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/DVWA/dvwa/images HTTP/1.1,301,redirect,XSS
+GET http://192.168.56.20/DVWA/dvwa/css/login.css HTTP/1.1,200,allowed,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,XSS
+GET http://192.168.56.20/dvwa/css/login.css HTTP/1.1,404,client_error,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,XSS
+GET http://192.168.56.20/DVWA/dvwa/css/login.css?name=abc HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/DVWA/login.php?name=abc HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/DVWA/dvwa/images HTTP/1.1,403,blocked,XSS
+GET http://192.168.56.20/DVWA/dvwa/images?name=abc HTTP/1.1,403,blocked,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,XSS
+GET http://192.168.56.20/DVWA/ HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,XSS
+POST http://192.168.56.20/login.php HTTP/1.1,403,blocked,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,XSS
+GET http://192.168.56.20/DVWA/login.php?name=abc HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/DVWA HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/dvwa/css/login.css HTTP/1.1,404,client_error,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,XSS
+GET http://192.168.56.20/DVWA/login.php?name=abc HTTP/1.1,200,allowed,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,XSS
+GET http://192.168.56.20/DVWA/ HTTP/1.1,200,allowed,XSS
+POST http://192.168.56.20/login.php HTTP/1.1,403,blocked,XSS
+GET http://192.168.56.20/DVWA HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/dvwa/css/login.css HTTP/1.1,404,client_error,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,XSS
+GET http://192.168.56.20/DVWA/login.php?name=abc HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/DVWA/?name=abc HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/DVWA?name=abc HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/dvwa/css/login.css HTTP/1.1,404,client_error,XSS
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,XSS
+GET http://192.168.56.20/DVWA/?name=abc HTTP/1.1,200,allowed,XSS
+POST http://192.168.56.20/login.php HTTP/1.1,403,blocked,XSS
+GET http://192.168.56.20/DVWA?name=abc HTTP/1.1,200,allowed,XSS
+GET http://192.168.56.20/dvwa/css/login.css HTTP/1.1,404,client_error,XSS
+GET http://192.168.56.20/robots.txt HTTP/1.1,404,client_error,Path Traversal
+GET http://192.168.56.20 HTTP/1.1,0,unknown,Path Traversal
+GET http://192.168.56.20/sitemap.xml HTTP/1.1,404,client_error,Path Traversal
+GET http://192.168.56.20/DVWA/ HTTP/1.1,302,redirect,Path Traversal
+GET http://192.168.56.20/DVWA HTTP/1.1,0,unknown,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/dvwa/css/login.css HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/dvwa HTTP/1.1,0,unknown,Path Traversal
+GET http://192.168.56.20/DVWA/dvwa/css HTTP/1.1,0,unknown,Path Traversal
+GET http://192.168.56.20/DVWA/dvwa/images HTTP/1.1,0,unknown,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Path Traversal
+GET http://192.168.56.20/DVWA/3890973029568071388.php HTTP/1.1,404,client_error,Path Traversal
+GET http://192.168.56.20/DVWA/3890973029568071388.php HTTP/1.1,404,client_error,Path Traversal
+GET http://192.168.56.20/DVWA/dvwa/6375297990758458282 HTTP/1.1,404,client_error,Path Traversal
+GET http://192.168.56.20/DVWA/dvwa/6375297990758458282 HTTP/1.1,404,client_error,Path Traversal
+GET http://192.168.56.20/DVWA/dvwa/css/964437131941079500 HTTP/1.1,404,client_error,Path Traversal
+GET http://192.168.56.20/DVWA/dvwa/css/964437131941079500 HTTP/1.1,404,client_error,Path Traversal
+GET http://192.168.56.20/DVWA/dvwa/images/1440232421997037541 HTTP/1.1,404,client_error,Path Traversal
+GET http://192.168.56.20/DVWA/dvwa/images/1440232421997037541 HTTP/1.1,404,client_error,Path Traversal
+GET http://192.168.56.20/DVWA HTTP/1.1,301,redirect,Path Traversal
+GET http://192.168.56.20/DVWA/dvwa HTTP/1.1,301,redirect,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/dvwa/css HTTP/1.1,301,redirect,Path Traversal
+GET http://192.168.56.20/DVWA/dvwa/images HTTP/1.1,301,redirect,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA HTTP/1.1,301,redirect,Path Traversal
+GET http://192.168.56.20/DVWA/dvwa HTTP/1.1,301,redirect,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+GET http://192.168.56.20/DVWA/dvwa/css HTTP/1.1,301,redirect,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/dvwa/images HTTP/1.1,301,redirect,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Path Traversal
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Path Traversal
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Path Traversal
+GET http://192.168.56.20/robots.txt HTTP/1.1,404,client_error,Command Injection
+GET http://192.168.56.20 HTTP/1.1,0,unknown,Command Injection
+GET http://192.168.56.20/sitemap.xml HTTP/1.1,404,client_error,Command Injection
+GET http://192.168.56.20/DVWA/ HTTP/1.1,302,redirect,Command Injection
+GET http://192.168.56.20/DVWA HTTP/1.1,0,unknown,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+GET http://192.168.56.20/DVWA/dvwa/css/login.css HTTP/1.1,200,allowed,Command Injection
+GET http://192.168.56.20/DVWA/dvwa HTTP/1.1,0,unknown,Command Injection
+GET http://192.168.56.20/DVWA/dvwa/css HTTP/1.1,0,unknown,Command Injection
+GET http://192.168.56.20/DVWA/dvwa/images HTTP/1.1,0,unknown,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Command Injection
+GET http://192.168.56.20/DVWA/4814198694858213953.php HTTP/1.1,404,client_error,Command Injection
+GET http://192.168.56.20/DVWA/4814198694858213953.php HTTP/1.1,404,client_error,Command Injection
+GET http://192.168.56.20/DVWA/dvwa/523077159651771452 HTTP/1.1,404,client_error,Command Injection
+GET http://192.168.56.20/DVWA/dvwa/523077159651771452 HTTP/1.1,404,client_error,Command Injection
+GET http://192.168.56.20/DVWA/dvwa/css/8651045968271541343 HTTP/1.1,404,client_error,Command Injection
+GET http://192.168.56.20/DVWA/dvwa/css/8651045968271541343 HTTP/1.1,404,client_error,Command Injection
+GET http://192.168.56.20/DVWA/dvwa/images/974847400616798070 HTTP/1.1,404,client_error,Command Injection
+GET http://192.168.56.20/DVWA/dvwa/images/974847400616798070 HTTP/1.1,404,client_error,Command Injection
+GET http://192.168.56.20/DVWA HTTP/1.1,301,redirect,Command Injection
+GET http://192.168.56.20/DVWA/dvwa HTTP/1.1,301,redirect,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+GET http://192.168.56.20/DVWA/dvwa/css HTTP/1.1,301,redirect,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/dvwa/images HTTP/1.1,301,redirect,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,302,redirect,Command Injection
+GET http://192.168.56.20/DVWA HTTP/1.1,301,redirect,Command Injection
+GET http://192.168.56.20/DVWA/dvwa HTTP/1.1,301,redirect,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+GET http://192.168.56.20/DVWA/dvwa/css HTTP/1.1,301,redirect,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/dvwa/images HTTP/1.1,301,redirect,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection
+GET http://192.168.56.20/DVWA/login.php HTTP/1.1,200,allowed,Command Injection
+POST http://192.168.56.20/DVWA/login.php HTTP/1.1,403,blocked,Command Injection

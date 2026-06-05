@@ -1,0 +1,15 @@
+Week 01 activity log
+Evidence type: initial WAF behaviour test
+
+Activities covered:
+- Tested SQL injection payload behaviour against DVWA.
+- Compared WAF DetectionOnly-style behaviour with WAF blocking behaviour.
+- Recorded result notes in manual_sql_injection_results.txt.
+- Saved screenshots showing the detection-only and blocking outcomes.
+
+Artifacts in this week folder:
+- docs/COMpSCI.docx
+- tool-output/manual_sql_injection_results.txt
+- screenshots/WAF Detection Only.png
+- screenshots/WAF Mode On.png
+

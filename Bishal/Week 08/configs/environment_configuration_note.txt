@@ -1,0 +1,22 @@
+Environment configuration note
+Evidence type: configuration summary/template
+
+Recommended consistent lab network, based on screenshot evidence:
+
+- Attacker: Kali Linux, 192.168.56.10
+- Target: Ubuntu Server with Apache, DVWA, ModSecurity, and OWASP CRS, 192.168.56.20
+- Target service: HTTP on port 80
+
+Important consistency issue:
+- DVWA Tests.docx mentions 10.10.10.10 and 10.10.10.20.
+- Most screenshots support 192.168.56.10 and 192.168.56.20.
+
+Action:
+- Use one IP range in final documents, or explain that two lab networks were used.
+
+Environment reference commands:
+- Kali ip addr screenshot/output.
+- Ubuntu ip addr screenshot/output.
+- Apache virtual host configuration.
+- DVWA config, with sensitive passwords redacted.
+- ModSecurity rule engine setting.
