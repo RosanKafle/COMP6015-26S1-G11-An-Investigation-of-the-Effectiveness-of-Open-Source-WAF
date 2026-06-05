@@ -1,0 +1,24 @@
+Manual SQL Injection Baseline
+
+Condition: No WAF
+Application: DVWA
+Security level: Low
+Target page: /DVWA/vulnerabilities/sqli/
+
+Normal input tested:
+1
+
+Normal result:
+Returned admin / user ID 1.
+
+Payload tested:
+1 OR 1=1
+
+Attack result:
+DVWA returned user details for the injected input:
+ID: 1 OR 1=1
+First name: admin
+Surname: admin
+
+Observation:
+The SQL injection payload was accepted by DVWA without WAF protection. This confirms baseline vulnerable behaviour before applying ModSecurity or Coraza filtering.

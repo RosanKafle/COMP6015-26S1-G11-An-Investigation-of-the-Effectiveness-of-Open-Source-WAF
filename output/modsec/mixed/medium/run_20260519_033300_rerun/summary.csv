@@ -1,0 +1,9 @@
+run_id,environment,waf_type,phase,load_level,traffic_type,attack_type,total_requests,allowed_count,blocked_count,redirect_count,client_error_count,server_error_count,timeout_count,success_count,failed_count,detection_rate_percent,false_negative_rate_percent,false_positive_rate_percent,avg_response_time_ms,min_response_time_ms,max_response_time_ms
+20260519_073041,modsec,modsecurity,mixed,medium,attack,authorization_bypass,56,56,0,0,0,0,0,28,28,0.0,100.0,0.0,7.851,3.937,24.257
+20260519_073041,modsec,modsecurity,mixed,medium,attack,brute_force,145,87,58,0,0,0,0,58,87,40.0,60.0,0.0,7.226,2.132,41.349
+20260519_073041,modsec,modsecurity,mixed,medium,attack,csrf,58,56,0,0,0,2,0,0,58,0.0,96.552,0.0,7.43,3.557,16.698
+20260519_073041,modsec,modsecurity,mixed,medium,attack,javascript,86,58,28,0,0,0,0,0,86,32.558,67.442,0.0,6.136,2.205,14.519
+20260519_073041,modsec,modsecurity,mixed,medium,attack,sqli,116,29,58,0,0,29,0,0,116,50.0,25.0,0.0,6.565,2.29,14.059
+20260519_073041,modsec,modsecurity,mixed,medium,attack,weak_session_ids,84,84,0,0,0,0,0,0,84,0.0,100.0,0.0,7.025,3.709,16.871
+20260519_073041,modsec,modsecurity,mixed,medium,attack,xss,116,29,87,0,0,0,0,0,116,75.0,25.0,0.0,6.091,2.391,15.196
+20260519_073041,modsec,modsecurity,mixed,medium,benign,none,5278,5278,0,0,0,0,0,5278,0,0.0,0.0,0.0,10.315,2.456,103.156

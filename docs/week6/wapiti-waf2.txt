@@ -1,0 +1,38 @@
+
+     __      __               .__  __  .__________
+    /  \    /  \_____  ______ |__|/  |_|__\_____  \
+    \   \/\/   /\__  \ \____ \|  \   __\  | _(__  <
+     \        /  / __ \|  |_> >  ||  | |  |/       \
+      \__/\  /  (____  /   __/|__||__| |__/______  /
+           \/        \/|__|                      \/
+Wapiti 3.2.10 (wapiti-scanner.github.io)
+CSP is not set for URL: http://localhost:8080/
+X-Frame-Options is not set on http://localhost:8080/
+X-Content-Type-Options is not set on http://localhost:8080/
+Host localhost:8080 serves HTTP content without redirecting to HTTPS.
+[*] Saving scan state, please wait...
+This scan has been saved in the file /home/kali/.wapiti/scans/localhost_8080_page_387db443.db
+[*] Wapiti found 1 URLs and forms during the scan
+
+[*] Launching module xss
+
+[*] Launching module ssl
+
+[*] Launching module redirect
+
+[*] Launching module file
+
+[*] Launching module upload
+
+[*] Launching module sql
+
+[*] Launching module exec
+
+[*] Launching module ssrf
+[*] Asking endpoint URL https://wapiti3.ovh/get_ssrf.php?session_id=j4pdv4 for results, please wait...
+
+[*] Launching module permanentxss
+
+[*] Generating report...
+A report has been generated in the file /home/kali/.wapiti/generated_report
+Open /home/kali/.wapiti/generated_report/localhost_8080_04122026_0929.html with a browser to see this report.

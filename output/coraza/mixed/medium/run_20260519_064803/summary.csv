@@ -1,0 +1,9 @@
+run_id,environment,waf_type,phase,load_level,traffic_type,attack_type,total_requests,allowed_count,blocked_count,redirect_count,client_error_count,server_error_count,timeout_count,success_count,failed_count,detection_rate_percent,false_negative_rate_percent,false_positive_rate_percent,avg_response_time_ms,min_response_time_ms,max_response_time_ms
+20260519_064803,coraza,coraza,mixed,medium,attack,authorization_bypass,56,56,0,0,0,0,0,28,28,0.0,100.0,0.0,11.498,6.989,38.565
+20260519_064803,coraza,coraza,mixed,medium,attack,brute_force,141,85,56,0,0,0,0,56,85,39.716,60.284,0.0,10.451,2.707,44.306
+20260519_064803,coraza,coraza,mixed,medium,attack,csrf,56,56,0,0,0,0,0,0,56,0.0,100.0,0.0,12.194,6.683,22.195
+20260519_064803,coraza,coraza,mixed,medium,attack,javascript,84,56,28,0,0,0,0,0,84,33.333,66.667,0.0,10.103,2.575,57.706
+20260519_064803,coraza,coraza,mixed,medium,attack,sqli,116,29,58,0,0,29,0,0,116,50.0,25.0,0.0,8.642,2.213,53.221
+20260519_064803,coraza,coraza,mixed,medium,attack,weak_session_ids,84,84,0,0,0,0,0,0,84,0.0,100.0,0.0,12.24,6.057,72.184
+20260519_064803,coraza,coraza,mixed,medium,attack,xss,116,29,87,0,0,0,0,0,116,75.0,25.0,0.0,7.867,2.225,29.89
+20260519_064803,coraza,coraza,mixed,medium,benign,none,5220,5220,0,0,0,0,0,5220,0,0.0,0.0,0.0,17.51,4.284,96.856

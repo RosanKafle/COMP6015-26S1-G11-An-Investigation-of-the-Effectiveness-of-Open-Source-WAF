@@ -1,0 +1,6 @@
+test_id,attack_type,attack_subtype,evasion_type,dvwa_endpoint,method,password_new,password_conf,expected_baseline_behavior,notes
+CSRF001,csrf,password_change,normal_get,/vulnerabilities/csrf/,GET,csrfpass123,csrfpass123,password_change_attempt,Standard CSRF-style password change request using GET parameters
+CSRF002,csrf,password_change,mismatched_confirmation,/vulnerabilities/csrf/,GET,csrfpass123,differentpass,rejected_or_error,Password confirmation mismatch test
+CSRF003,csrf,password_change,special_chars,/vulnerabilities/csrf/,GET,csrf!@#123,csrf!@#123,password_change_attempt,Special character password value
+CSRF004,csrf,password_change,long_value,/vulnerabilities/csrf/,GET,csrfpasswordcsrfpasswordcsrfpassword123,csrfpasswordcsrfpasswordcsrfpassword123,password_change_attempt,Long but benign-looking password value
+CSRF005,csrf,password_change,missing_confirmation,/vulnerabilities/csrf/,GET,csrfpass123,,rejected_or_error,Missing password confirmation parameter

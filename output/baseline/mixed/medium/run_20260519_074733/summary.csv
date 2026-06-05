@@ -1,0 +1,9 @@
+run_id,environment,waf_type,phase,load_level,traffic_type,attack_type,total_requests,allowed_count,blocked_count,redirect_count,client_error_count,server_error_count,timeout_count,success_count,failed_count,detection_rate_percent,false_negative_rate_percent,false_positive_rate_percent,avg_response_time_ms,min_response_time_ms,max_response_time_ms
+20260519_074733,baseline,none,mixed,medium,attack,authorization_bypass,56,56,0,0,0,0,0,28,28,0.0,100.0,0.0,5.165,2.804,12.795
+20260519_074733,baseline,none,mixed,medium,attack,brute_force,145,145,0,0,0,0,0,116,29,0.0,100.0,0.0,5.559,2.95,16.259
+20260519_074733,baseline,none,mixed,medium,attack,csrf,58,58,0,0,0,0,0,0,58,0.0,100.0,0.0,5.183,2.557,13.947
+20260519_074733,baseline,none,mixed,medium,attack,javascript,87,87,0,0,0,0,0,0,87,0.0,100.0,0.0,5.165,2.896,19.218
+20260519_074733,baseline,none,mixed,medium,attack,sqli,116,87,0,0,0,29,0,58,58,0.0,75.0,0.0,5.843,3.109,23.375
+20260519_074733,baseline,none,mixed,medium,attack,weak_session_ids,87,87,0,0,0,0,0,0,87,0.0,100.0,0.0,4.715,2.865,15.154
+20260519_074733,baseline,none,mixed,medium,attack,xss,116,116,0,0,0,0,0,87,29,0.0,100.0,0.0,4.902,2.436,13.592
+20260519_074733,baseline,none,mixed,medium,benign,none,5325,5325,0,0,0,0,0,5325,0,0.0,0.0,0.0,6.339,1.484,62.803

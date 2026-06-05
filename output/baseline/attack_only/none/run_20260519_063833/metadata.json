@@ -1,0 +1,23 @@
+{
+  "run_id": "20260519_063833",
+  "timestamp_start": "2026-05-19T06:38:33Z",
+  "timestamp_end": "2026-05-19T06:40:36Z",
+  "environment": "baseline",
+  "waf_type": "none",
+  "phase": "attack_only",
+  "load_level": "none",
+  "duration_seconds": 120,
+  "target_url": "http://192.168.209.130/DVWA",
+  "zap_api": "http://127.0.0.1:8080",
+  "zap_proxy_used": true,
+  "dvwa_security_level": "low",
+  "modsecurity_expected_state": "disabled",
+  "coraza_expected_state": "not_used",
+  "naxsi_expected_state": "not_used",
+  "expected_waf_state_label": "ModSecurity DISABLED",
+  "manual_state_confirmed": true,
+  "remote_state_check": {
+    "checked": false,
+    "confirmed": false
+  }
+}

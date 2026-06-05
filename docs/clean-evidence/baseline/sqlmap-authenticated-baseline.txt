@@ -1,0 +1,23 @@
+Attempted Authenticated sqlmap Baseline
+
+Condition: No WAF
+Application: DVWA
+Security level: Low
+Target: /DVWA/vulnerabilities/sqli/
+
+Command used:
+sqlmap -u "http://127.0.0.1/DVWA/vulnerabilities/sqli/?id=1&Submit=Submit" \
+--cookie="security=low; PHPSESSID=..." \
+-p id --level=5 --risk=3 --batch
+
+Result:
+sqlmap did not detect the 'id' parameter as injectable.
+
+Raw output note:
+The exported run in `sqlmap-authenticated-baseline-test-output.txt` still shows a redirect to `login.php`. That means the saved session was not a clean fully authenticated automated baseline, even though the command included a cookie placeholder.
+
+Observation:
+This file should be treated as an attempted automated baseline rather than conclusive proof that sqlmap successfully tested an authenticated vulnerable page.
+
+Manual verification:
+Manual SQL injection using the payload `1 OR 1=1` successfully returned user data, confirming that the application itself was vulnerable without WAF protection.

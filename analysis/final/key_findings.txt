@@ -1,0 +1,14 @@
+Key Findings
+============
+
+Overall attack detection rate by environment:
+- baseline: 0.00%
+- coraza: 34.95%
+- modsec: 34.90%
+
+Overall benign false positive rate by environment:
+- baseline: 0.00%
+- coraza: 0.00%
+- modsec: 0.00%
+
+Highest observed server-error rate: coraza attack_only none (4.54%).
