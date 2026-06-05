@@ -559,7 +559,7 @@ def write_docx(path: Path, blocks: list[str]) -> None:
 </cp:coreProperties>"""
     app = """<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties" xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes">
-  <Application>Codex Report Builder</Application>
+  <Application>COMP6015 Report Builder</Application>
 </Properties>"""
     with ZipFile(path, "w", ZIP_DEFLATED) as docx:
         docx.writestr("[Content_Types].xml", content_types)
