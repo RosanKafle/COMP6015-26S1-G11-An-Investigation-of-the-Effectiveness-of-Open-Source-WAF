@@ -1,0 +1,21 @@
+Manual Reflected XSS Baseline
+
+Condition: No WAF
+Application: DVWA
+Security level: Low
+Target page: /DVWA/vulnerabilities/xss_r/
+
+Normal input tested:
+hello
+
+Normal result:
+The page returned "Hello hello" with no issues.
+
+Payload tested:
+<script>alert(1)</script>
+
+Attack result:
+A JavaScript alert popup was triggered in the browser displaying "1".
+
+Observation:
+The reflected XSS payload executed successfully without any filtering or blocking. This confirms that DVWA is vulnerable to reflected XSS under baseline conditions without WAF protection.

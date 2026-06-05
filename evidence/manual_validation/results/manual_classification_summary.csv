@@ -1,0 +1,12 @@
+attack_family,environment,outcome_class,classification_correctness,count,avg_response_time_ms
+csrf,baseline,baseline_allowed_expected,expected_baseline_vulnerable,5,1.938
+csrf,coraza,clean_waf_block,blocked_but_likely_generic_input_rule,1,2.7
+csrf,coraza,redirected_not_clean_block,not_clean_detection_redirect,4,4.79
+csrf,modsec,clean_waf_block,blocked_but_likely_generic_input_rule,1,2.7
+csrf,modsec,redirected_not_clean_block,not_clean_detection_redirect,4,2.9975
+sqli,baseline,baseline_allowed_expected,expected_baseline_vulnerable,10,1.916
+sqli,baseline,server_error_not_clean_block,baseline_application_error,2,1.755
+sqli,coraza,clean_waf_block,correct_attack_block,10,2.348
+sqli,coraza,server_error_not_clean_block,not_clean_detection_server_error,2,5.58
+sqli,modsec,clean_waf_block,correct_attack_block,10,1.956
+sqli,modsec,server_error_not_clean_block,not_clean_detection_server_error,2,3.285

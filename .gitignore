@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+*.log
+.zap/
+.DS_Store
+.cache/
+*.zip
+~$*
+
+# Local/generated output backups
+output_mac_incomplete_backup/
+output_old_flat_backup/
+output-week 10-14/

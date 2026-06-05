@@ -1,0 +1,4 @@
+environment,sent,clean_blocked,allowed,redirected,server_errors,timeouts,avg_response_time_ms,clean_block_rate_percent,allowed_rate_percent,server_error_rate_percent
+baseline,40,0,36,0,4,0,279.96950000000004,0.0,90.0,10.0
+coraza,40,33,5,0,2,0,2.43075,82.5,12.5,5.0
+modsec,40,33,5,0,2,0,1.887,82.5,12.5,5.0

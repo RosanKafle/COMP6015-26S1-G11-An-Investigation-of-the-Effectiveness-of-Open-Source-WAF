@@ -1,0 +1,10 @@
+environment,waf_type,phase,load_level,detection_rate_percent,false_positive_rate_percent,avg_response_time_ms,server_error_rate_percent
+baseline,none,attack_only,none,0.0,0.0,6.196,4.487
+baseline,none,mixed,medium,0.0,0.0,6.22,0.484
+baseline,none,setup,setup,0.0,0.0,21.933,0.0
+coraza,coraza,attack_only,none,34.773,0.0,9.022,4.536
+coraza,coraza,mixed,medium,35.069,0.0,16.686,0.494
+coraza,coraza,setup,setup,0.0,0.0,37.083,0.0
+modsec,modsecurity,attack_only,none,34.839,0.0,7.946,4.516
+modsec,modsecurity,mixed,medium,34.947,0.0,9.925,0.522
+modsec,modsecurity,setup,setup,0.0,0.0,32.954,0.0

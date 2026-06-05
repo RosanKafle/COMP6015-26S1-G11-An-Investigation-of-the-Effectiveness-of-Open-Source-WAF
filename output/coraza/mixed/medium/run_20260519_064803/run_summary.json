@@ -1,0 +1,69 @@
+{
+  "run_id": "20260519_064803",
+  "environment": "coraza",
+  "waf_type": "coraza",
+  "phase": "mixed",
+  "load_level": "medium",
+  "duration_seconds": 180,
+  "total_requests": 5873,
+  "total_attack_requests": 653,
+  "total_benign_requests": 5220,
+  "attacks_by_type": {
+    "sqli": {
+      "sent": 116,
+      "allowed": 29,
+      "blocked": 58,
+      "server_errors": 29,
+      "detection_rate_percent": 50.0
+    },
+    "xss": {
+      "sent": 116,
+      "allowed": 29,
+      "blocked": 87,
+      "server_errors": 0,
+      "detection_rate_percent": 75.0
+    },
+    "brute_force": {
+      "sent": 141,
+      "allowed": 85,
+      "blocked": 56,
+      "server_errors": 0,
+      "detection_rate_percent": 39.716
+    },
+    "csrf": {
+      "sent": 56,
+      "allowed": 56,
+      "blocked": 0,
+      "server_errors": 0,
+      "detection_rate_percent": 0.0
+    },
+    "javascript": {
+      "sent": 84,
+      "allowed": 56,
+      "blocked": 28,
+      "server_errors": 0,
+      "detection_rate_percent": 33.333
+    },
+    "weak_session_ids": {
+      "sent": 84,
+      "allowed": 84,
+      "blocked": 0,
+      "server_errors": 0,
+      "detection_rate_percent": 0.0
+    },
+    "authorization_bypass": {
+      "sent": 56,
+      "allowed": 56,
+      "blocked": 0,
+      "server_errors": 0,
+      "detection_rate_percent": 0.0
+    }
+  },
+  "benign_traffic": {
+    "sent": 5220,
+    "allowed": 5220,
+    "blocked": 0,
+    "false_positive_rate_percent": 0.0,
+    "avg_response_time_ms": 17.51
+  }
+}

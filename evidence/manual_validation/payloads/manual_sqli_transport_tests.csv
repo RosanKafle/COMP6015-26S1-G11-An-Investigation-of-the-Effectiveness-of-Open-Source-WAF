@@ -1,0 +1,9 @@
+test_id,attack_type,attack_subtype,transport,evasion_type,dvwa_endpoint,param,method,content_type,payload,expected_behavior,notes
+SQLIT001,sqli,boolean_based,get_param,basic_or_true,/vulnerabilities/sqli/,id,GET,query,1 OR 1=1,block_or_allow,SQLi in URL query parameter
+SQLIT002,sqli,boolean_based,post_form,basic_or_true,/vulnerabilities/sqli/,id,POST,application/x-www-form-urlencoded,1 OR 1=1,block_or_allow,SQLi in POST form body
+SQLIT003,sqli,boolean_based,json_body,basic_or_true,/vulnerabilities/sqli/,id,POST,application/json,1 OR 1=1,block_or_allow,SQLi in JSON body
+SQLIT004,sqli,boolean_based,header,basic_or_true,/vulnerabilities/sqli/,id,GET,header,1 OR 1=1,block_or_allow,SQLi placed in custom HTTP header
+SQLIT005,sqli,boolean_based,cookie,basic_or_true,/vulnerabilities/sqli/,id,GET,cookie,1 OR 1=1,block_or_allow,SQLi placed in cookie value
+SQLIT006,sqli,waf_bypass,get_param,double_encoded,/vulnerabilities/sqli/,id,GET,query,%2527%2520OR%25201%253D1,block_or_allow,Double-encoded SQLi in URL parameter
+SQLIT007,sqli,waf_bypass,post_form,no_space_comment,/vulnerabilities/sqli/,id,POST,application/x-www-form-urlencoded,1/**/OR/**/1=1,block_or_allow,Comment-obfuscated SQLi in POST body
+SQLIT008,sqli,waf_bypass,json_body,case_modification,/vulnerabilities/sqli/,id,POST,application/json,1 oR 1=1,block_or_allow,Mixed-case SQLi in JSON body
