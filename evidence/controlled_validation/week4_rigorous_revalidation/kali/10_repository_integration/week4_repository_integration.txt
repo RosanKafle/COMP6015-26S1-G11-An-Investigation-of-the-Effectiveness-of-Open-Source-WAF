@@ -1,0 +1,15 @@
+===== WEEK 4 EVIDENCE REPOSITORY INTEGRATION =====
+UTC=2026-09-04T05:19:57+00:00
+kali
+Branch=comp6016-controlled-testing
+Current_commit=0556c96b852de21c5c1f31b4985ebbd662cea8f7
+Validated_base_commit=0556c96b852de21c5c1f31b4985ebbd662cea8f7
+Repository collision checks: PASS
+
+===== VERIFY IMPORTED UBUNTU ARCHIVE =====
+Expected_archive_SHA256=6f14c5083320fbecd5f0fe42468ee1269e27e6158bda0a67e9c0d12be0f86026
+Actual_archive_SHA256=6f14c5083320fbecd5f0fe42468ee1269e27e6158bda0a67e9c0d12be0f86026
+Imported archive verification: PASS
+
+===== CONSOLIDATE EVIDENCE =====
+Embedded Ubuntu manifest: PASS

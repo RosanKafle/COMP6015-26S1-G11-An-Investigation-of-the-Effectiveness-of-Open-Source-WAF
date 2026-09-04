@@ -1,0 +1,88 @@
+===== WEEK 4 FOUR-PATH ROUTING TOPOLOGY =====
+UTC=2026-09-04T04:34:26+00:00
+sadaiba-VMware20-1
+
+===== LISTENER OWNERSHIP =====
+ModSecurity port=80
+LISTEN 0      511                *:80          *:* users:(("apache2",pid=29411,fd=5),("apache2",pid=29410,fd=5),("apache2",pid=29409,fd=5),("apache2",pid=29408,fd=5),("apache2",pid=29407,fd=5),("apache2",pid=1773,fd=5))
+ModSecurity listener: PASS
+Baseline port=8081
+LISTEN 0      511                *:8081        *:* users:(("apache2",pid=29411,fd=7),("apache2",pid=29410,fd=7),("apache2",pid=29409,fd=7),("apache2",pid=29408,fd=7),("apache2",pid=29407,fd=7),("apache2",pid=1773,fd=7))
+Baseline listener: PASS
+Coraza port=8080
+LISTEN 0      511          0.0.0.0:8080  0.0.0.0:* users:(("nginx",pid=6890,fd=6),("nginx",pid=6889,fd=6),("nginx",pid=6888,fd=6),("nginx",pid=6797,fd=6))                                                                 
+Coraza listener: PASS
+NAXSI port=8084
+LISTEN 0      511          0.0.0.0:8084  0.0.0.0:* users:(("nginx",pid=21978,fd=5),("nginx",pid=21977,fd=5),("nginx",pid=21976,fd=5),("nginx",pid=21970,fd=5))                                                             
+NAXSI listener: PASS
+
+===== APACHE VIRTUAL-HOST MAP =====
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+VirtualHost configuration:
+*:80                   127.0.1.1 (/etc/apache2/sites-enabled/000-default.conf:1)
+*:8081                 dvwa-baseline.local (/etc/apache2/sites-enabled/comp6016-baseline.conf:1)
+ServerRoot: "/etc/apache2"
+Main DocumentRoot: "/var/www/html"
+Main ErrorLog: "/var/log/apache2/error.log"
+Mutex watchdog-callback: using_defaults
+Mutex default: dir="/run/apache2/" mechanism=default 
+Mutex mpm-accept: using_defaults
+PidFile: "/run/apache2/apache2.pid"
+Define: DUMP_VHOSTS
+Define: DUMP_RUN_CFG
+Define: MODSEC_2.5
+Define: MODSEC_2.9
+User: name="www-data" id=33
+Group: name="www-data" id=33
+
+===== RELEVANT APACHE ROUTES =====
+*:80                   127.0.1.1 (/etc/apache2/sites-enabled/000-default.conf:1)
+*:8081                 dvwa-baseline.local (/etc/apache2/sites-enabled/comp6016-baseline.conf:1)
+
+===== APACHE DOCUMENT ROOTS AND WAF CONTROL =====
+/etc/apache2/sites-enabled/000-default.conf:1:<VirtualHost *:80>
+/etc/apache2/sites-enabled/000-default.conf:12:	DocumentRoot /var/www/html
+/etc/apache2/sites-enabled/000-default.conf:29:</VirtualHost>
+/etc/apache2/sites-enabled/comp6016-baseline.conf:1:<VirtualHost *:8081>
+/etc/apache2/sites-enabled/comp6016-baseline.conf:3:    DocumentRoot /var/www/html
+/etc/apache2/sites-enabled/comp6016-baseline.conf:6:        SecRuleEngine Off
+/etc/apache2/sites-enabled/comp6016-baseline.conf:17:</VirtualHost>
+Global ModSecurity engine=On: PASS
+Baseline document root=/var/www/html: PASS
+Baseline WAF override=Off: PASS
+
+===== CORAZA CONTAINER ROUTING =====
+Name=/coraza-waf Status=running NetworkMode=host Ports={}
+Selected non-sensitive routing variables:
+BACKEND=127.0.0.1:8081
+PORT=8080
+SERVER_NAME=localhost
+Effective Coraza routing directives:
+30:    upstream backend {
+35:        listen 8080 default_server;
+46:            proxy_pass http://backend;
+58:        listen 8443 ssl;
+77:            proxy_pass http://backend;
+Coraza backend route to control application: PASS
+
+===== NAXSI ROUTING =====
+27:    upstream comp6016_dvwa_backend {
+28:        server 127.0.0.1:8081;
+33:        listen 0.0.0.0:8084;
+60:            proxy_pass http://comp6016_dvwa_backend;
+NAXSI backend route to port 8081: PASS
+
+===== SERVICE STATES =====
+Apache=active
+Coraza=running
+NAXSI=active
+
+===== ROUTING EVIDENCE HASHES =====
+9833ba26e150953651c8a4047aeee6e1c270878f471c1a8297c23314955428d9  /home/sadaiba/COMP6016_S2_2026/03_week4_rigorous_revalidation/ubuntu/05_routing_topology/apache_vhost_map.txt
+d5ade5ad2e758396d75faab6ebb3adc250514bbba71934fe8a58f0e430ae89bd  /home/sadaiba/COMP6016_S2_2026/03_week4_rigorous_revalidation/ubuntu/05_routing_topology/apache_route_controls.txt
+f16d8a8ead66ca569e9c336c491d227e81c273165c775e870a85714f7578aea7  /home/sadaiba/COMP6016_S2_2026/03_week4_rigorous_revalidation/ubuntu/05_routing_topology/coraza_effective_nginx.conf
+539bebd411dc991fe49411fee2ea5300669148acd325ff87c72376c6520405cc  /home/sadaiba/COMP6016_S2_2026/03_week4_rigorous_revalidation/ubuntu/05_routing_topology/coraza_route_variables.txt
+5b89967dacbd40db47782a80447a4fcbaf6cb4db977e91b7a1b954a81a2a3f42  /home/sadaiba/COMP6016_S2_2026/03_week4_rigorous_revalidation/ubuntu/05_routing_topology/coraza_route_directives.txt
+356ad6f9fb912d8b1672eed8adaefe6b7bee07d798bcc914e4fbab26bbd7eb84  /home/sadaiba/COMP6016_S2_2026/03_week4_rigorous_revalidation/ubuntu/05_routing_topology/naxsi_route_directives.txt
+
+Four-path routing topology: PASS

@@ -1,0 +1,3 @@
+ACCESSLOG=/dev/stdout
+ERRORLOG=/dev/stderr
+LOGLEVEL=warn

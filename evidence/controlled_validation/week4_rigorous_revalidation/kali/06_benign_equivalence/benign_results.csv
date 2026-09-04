@@ -1,0 +1,13 @@
+environment,run,http_code,bytes,time_seconds,content_type,normalized_sha256
+baseline,1,200,1342,0.004073,text/html;charset=utf-8,1ad1d42c25f0b6015a532e5373fd7cf5f6f0a5d55eb8f6a09ac3ade3e4799e2b
+baseline,2,200,1342,0.001732,text/html;charset=utf-8,1ad1d42c25f0b6015a532e5373fd7cf5f6f0a5d55eb8f6a09ac3ade3e4799e2b
+baseline,3,200,1342,0.001425,text/html;charset=utf-8,1ad1d42c25f0b6015a532e5373fd7cf5f6f0a5d55eb8f6a09ac3ade3e4799e2b
+modsec,1,200,1342,0.003486,text/html;charset=utf-8,1ad1d42c25f0b6015a532e5373fd7cf5f6f0a5d55eb8f6a09ac3ade3e4799e2b
+modsec,2,200,1342,0.004408,text/html;charset=utf-8,1ad1d42c25f0b6015a532e5373fd7cf5f6f0a5d55eb8f6a09ac3ade3e4799e2b
+modsec,3,200,1342,0.002876,text/html;charset=utf-8,1ad1d42c25f0b6015a532e5373fd7cf5f6f0a5d55eb8f6a09ac3ade3e4799e2b
+coraza,1,200,1342,0.003478,text/html;charset=utf-8,1ad1d42c25f0b6015a532e5373fd7cf5f6f0a5d55eb8f6a09ac3ade3e4799e2b
+coraza,2,200,1342,0.003801,text/html;charset=utf-8,1ad1d42c25f0b6015a532e5373fd7cf5f6f0a5d55eb8f6a09ac3ade3e4799e2b
+coraza,3,200,1342,0.004434,text/html;charset=utf-8,1ad1d42c25f0b6015a532e5373fd7cf5f6f0a5d55eb8f6a09ac3ade3e4799e2b
+naxsi,1,200,1342,0.002032,text/html;charset=utf-8,1ad1d42c25f0b6015a532e5373fd7cf5f6f0a5d55eb8f6a09ac3ade3e4799e2b
+naxsi,2,200,1342,0.001719,text/html;charset=utf-8,1ad1d42c25f0b6015a532e5373fd7cf5f6f0a5d55eb8f6a09ac3ade3e4799e2b
+naxsi,3,200,1342,0.001834,text/html;charset=utf-8,1ad1d42c25f0b6015a532e5373fd7cf5f6f0a5d55eb8f6a09ac3ade3e4799e2b

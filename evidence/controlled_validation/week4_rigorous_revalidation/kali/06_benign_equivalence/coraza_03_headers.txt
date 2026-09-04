@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 04 Sep 2026 04:51:26 GMT
+Content-Type: text/html;charset=utf-8
+Content-Length: 1342
+Connection: keep-alive
+Set-Cookie: security=impossible; path=/; HttpOnly
+Set-Cookie: PHPSESSID=14ac272611a2d8d5899c0ac2bb8806ac; expires=Sat, 05 Sep 2026 04:51:26 GMT; Max-Age=86400; path=/; HttpOnly; SameSite=Strict
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Set-Cookie: PHPSESSID=66ea53620f5467db32f483f1ef8d12c9; expires=Sat, 05 Sep 2026 04:51:26 GMT; Max-Age=86400; path=/; HttpOnly; SameSite=Strict
+Vary: Accept-Encoding
+

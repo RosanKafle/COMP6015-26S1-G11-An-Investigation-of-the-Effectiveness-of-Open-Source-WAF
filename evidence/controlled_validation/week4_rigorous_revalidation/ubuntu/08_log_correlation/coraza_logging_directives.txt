@@ -1,0 +1,6 @@
+1:2026/09/04 05:01:08 [notice] 83#83: coraza: rules collected inline/local: 0/1 (WAFs will be created in worker processes)
+5:load_module "/usr/lib/nginx/modules/ngx_http_coraza_module.so";
+9:error_log /dev/stderr warn;
+20:    coraza on;
+21:    coraza_rules_file /opt/coraza/config/coraza-rules.conf;
+23:    access_log /dev/stdout;

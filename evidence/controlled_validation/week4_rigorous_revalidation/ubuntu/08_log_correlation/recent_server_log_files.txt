@@ -1,0 +1,7 @@
+Modified=2026-09-04T12:28:20.9629910000 Size=570 File=/var/log/apache2/error.log.1
+Modified=2026-09-04T12:56:25.4443544800 Size=1943 File=/var/log/apache2/comp6016_baseline_access.log
+Modified=2026-09-04T12:56:25.4673136130 Size=14298 File=/var/log/apache2/error.log
+Modified=2026-09-04T12:56:25.4673136130 Size=27229 File=/var/log/apache2/modsec_audit.log
+Modified=2026-09-04T12:56:25.4673136130 Size=884 File=/var/log/apache2/access.log
+Modified=2026-09-04T12:56:25.5042478700 Size=2487 File=/var/log/nginx/comp6016_naxsi_access.log.1
+Modified=2026-09-04T12:56:25.5042478700 Size=4698 File=/var/log/nginx/comp6016_naxsi_error.log.1
