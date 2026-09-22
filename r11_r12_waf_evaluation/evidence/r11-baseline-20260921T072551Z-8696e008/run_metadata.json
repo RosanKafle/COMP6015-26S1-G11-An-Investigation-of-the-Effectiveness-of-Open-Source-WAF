@@ -1,0 +1,46 @@
+{
+  "run_id": "r11-baseline-20260921T072551Z-8696e008",
+  "phase": "baseline",
+  "started_utc": "2026-09-21T07:25:51.106270+00:00",
+  "baseline_url": "http://waf-lab.local:8081",
+  "catalogue_sha256": "ed557ae6df5ce8c7028bb68ba634af7b80ce26825779f061296983b2c12b0211",
+  "cases_planned": 28,
+  "cases_sent": 28,
+  "xml": "NOT_EXECUTED",
+  "runner_sha256": "830974d3ff2dc10b58f4b668e48a8dcb6dc758090f8f3a94aca792a3a94a0c38",
+  "authentication": {
+    "passed": true,
+    "http_status": 200,
+    "final_url": "http://waf-lab.local:8081/DVWA/index.php",
+    "security_cookie": "low",
+    "security": {
+      "passed": true,
+      "security_cookie_before": "impossible",
+      "security_cookie_after_post": "low",
+      "security_cookie_entries_before": [
+        {
+          "domain": "waf-lab.local",
+          "path": "/",
+          "value": "impossible"
+        }
+      ],
+      "security_cookie_entries_after_post": [
+        {
+          "domain": "waf-lab.local",
+          "path": "/",
+          "value": "low"
+        }
+      ],
+      "security_cookie": "low",
+      "manual_cookie_override": false,
+      "security_page_get_http_status": 200,
+      "security_page_token_found": true,
+      "post_http_status": 200,
+      "probe_url_not_sent": "http://waf-lab.local:8081/DVWA/index.php"
+    }
+  },
+  "security_verification": "outgoing_cookie_only; baseline effects require separate validation",
+  "completed_utc": "2026-09-21T07:26:07.043119+00:00",
+  "observations": 28,
+  "collection_status": "COMPLETE_UNVALIDATED"
+}

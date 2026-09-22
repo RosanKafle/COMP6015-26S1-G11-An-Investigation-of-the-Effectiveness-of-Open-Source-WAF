@@ -1,0 +1,17 @@
+{
+  "method": "POST",
+  "url": "http://waf-lab.local:8084/DVWA/vulnerabilities/exec/index.php",
+  "headers": {
+    "User-Agent": "COMP6016-Corrected-v11/1.0",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "X-WAF-Test-ID": "R11-CMD-E04",
+    "X-WAF-Run-ID": "r11-protected-20260922T060455Z-5abafbad",
+    "X-WAF-Repetition": "2",
+    "Content-Type": "application/x-www-form-urlencoded",
+    "Content-Length": "55"
+  },
+  "body": "ip=127.0.0.1%20%26%26%20printf%20W10CMD04&Submit=Submit",
+  "intended_encoded_parameter_string": "ip=127.0.0.1%20%26%26%20printf%20W10CMD04&Submit=Submit"
+}
