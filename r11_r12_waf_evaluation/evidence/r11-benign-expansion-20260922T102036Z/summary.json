@@ -1,0 +1,28 @@
+{
+  "generated_utc": "2026-09-22T10:20:37Z",
+  "run_id": "r11-benign-expansion-20260922T102036Z",
+  "baseline_ok": true,
+  "cases": [
+    "R11-BEN-CMD01",
+    "R11-BEN-CMD02",
+    "R11-BEN-PTH01",
+    "R11-BEN-SQL02"
+  ],
+  "by_env": {
+    "modsec": {
+      "total": 12,
+      "blocked": 0,
+      "passed": 12
+    },
+    "coraza": {
+      "total": 12,
+      "blocked": 0,
+      "passed": 12
+    },
+    "naxsi": {
+      "total": 12,
+      "blocked": 12,
+      "passed": 0
+    }
+  }
+}

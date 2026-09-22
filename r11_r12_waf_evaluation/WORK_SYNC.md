@@ -224,3 +224,35 @@ unresolved points and next actions. Update after each meaningful step.
   not by live-origin browser execution with original response headers."
   It now has been, for all seven, with 0 discrepancies from the original
   offline-replay result.
+
+## 2026-09-22 (continued) — Benign/false-positive corpus expanded (CMD/PTH-shaped)
+
+- Gap identified: the existing 4 benign controls (R11-BEN-SQL01/E01/E02/E05)
+  only covered SQLi- and XSS-shaped benign text. Zero benign coverage
+  existed for command-injection-shaped or path-traversal-shaped text,
+  despite CMD injection being the central finding of this investigation
+  (R11-CMD-E03 / R12 newline miss).
+- Added 4 new benign controls (`r11_benign_corpus_expansion.py`), all
+  routed through the same safe, display-only reflected-XSS sink the
+  existing 4 use (never executed as a command or file path, so no risk to
+  the DVWA host regardless of WAF outcome):
+  - R11-BEN-CMD01: "Chain steps with a semicolon; then pipe output | to a
+    log" (contains `;` and `|`, the exact separators tested in R12)
+  - R11-BEN-CMD02: "Both success && failure paths are logged for audit"
+  - R11-BEN-PTH01: "Store nightly backups under ../archive/2026 per our
+    folder convention"
+  - R11-BEN-SQL02: "Please select your preferred delivery date from the
+    list below"
+- Baseline sanity check: all 4 reflected cleanly (HTTP 200, text present
+  in body) before any WAF comparison -- confirmed genuinely benign, not
+  malformed.
+- Protected phase (3 WAFs x 4 cases x 3 reps = 36 observations):
+  **ModSecurity 0/12 false-positive-blocked. Coraza 0/12
+  false-positive-blocked. NAXSI 12/12 (100%) false-positive-blocked** --
+  every single new benign case, every repetition.
+- This substantially strengthens (does not newly establish) the existing
+  NAXSI false-positive pattern from the original 4-control set, and
+  extends it specifically into command/path-shaped benign text, which had
+  no prior coverage. Still a small purposive set (4 new cases), not a
+  statistically representative benign population -- do not present this
+  as a population-level false-positive rate.
