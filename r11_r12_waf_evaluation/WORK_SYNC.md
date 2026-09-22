@@ -202,3 +202,25 @@ unresolved points and next actions. Update after each meaningful step.
   of re-running `nginx -T` (e.g. a header/blank line), not a rule or
   threshold change. This closes the item — was previously "noted, not
   fully explained."
+
+## 2026-09-22 (continued) — Live-origin XSS confirmation CLOSED (7/7)
+
+- Wrote `r11_live_xss_confirmation.py` (Playwright/Chromium, headless):
+  authenticates via `legacy_v10.login()` (admin, security=low), then
+  navigates a real browser directly to the live baseline origin
+  (`http://waf-lab.local:8081`, unprotected -- same origin the original R11
+  baseline used) for each of the 7 validated XSS cases, listening for the
+  actual `alert()` dialog rather than replaying a saved HTML file offline.
+- Run `evidence/r11-live-xss-confirmation-20260922T101343Z` is INVALID
+  (placeholder password literally sent -- `auth.passed: False,
+  reason: login_failed`). Left on disk, not deleted, must not be cited.
+- Run `evidence/r11-live-xss-confirmation-20260922T101436Z` is VALID:
+  auth confirmed (`security_cookie: low`, correct impossible->low
+  transition), and **7/7 cases fired the expected alert() with the correct
+  marker text** (R11-XSS-E01, E02, E03, E05, E06, E07, E08 -- E04 excluded
+  per the existing double-encoding exclusion, unchanged).
+- This closes the gap stated in START_HERE.md / WORK_SYNC_R11_REVIEW.md:
+  "XSS execution was verified by isolated offline replay for seven cases,
+  not by live-origin browser execution with original response headers."
+  It now has been, for all seven, with 0 discrepancies from the original
+  offline-replay result.
