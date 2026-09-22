@@ -1,0 +1,2 @@
+c9927f1c0929cfded027004f633b412d848bd1d311b5298eb2724df849ccf4b9  Week_06/test_cases/variants/generated_variants.csv
+a3773a3fe819f15261815f48be7deb941e5922a53e2b46f942eb3d396863f378  Week_06/outputs/variant_semantic_validation.csv

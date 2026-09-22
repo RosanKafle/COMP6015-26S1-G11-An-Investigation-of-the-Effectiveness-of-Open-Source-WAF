@@ -1,0 +1,344 @@
+[
+  {
+    "source_id": "LEGACY_SQLI_01",
+    "category": "sqli",
+    "endpoint": "/vulnerabilities/sqli/",
+    "parameter": "id",
+    "method": "GET",
+    "payload": "1' OR '1'='1",
+    "change": "Legacy payload retained; review on DVWA Low.",
+    "original_payload_sha256": "eaf2a73d03b0156d14dc88891c7ac97cdb5953be2abf6a292cec46b96866f9c9"
+  },
+  {
+    "source_id": "LEGACY_SQLI_02",
+    "category": "sqli",
+    "endpoint": "/vulnerabilities/sqli/",
+    "parameter": "id",
+    "method": "GET",
+    "payload": "1 UNION SELECT user,password FROM users",
+    "change": "Legacy payload retained; review on DVWA Low.",
+    "original_payload_sha256": "6ad4c2aa17cea8bfbec7a72a480aedd35a5803f304ab46b784414aa3716a1838"
+  },
+  {
+    "source_id": "LEGACY_SQLI_03",
+    "category": "sqli",
+    "endpoint": "/vulnerabilities/sqli/",
+    "parameter": "id",
+    "method": "GET",
+    "payload": "' OR 1=1#",
+    "change": "Legacy payload retained; review on DVWA Low.",
+    "original_payload_sha256": "960631d6083a0ffdf98f16e326e14b0042885fae7ea02ef5bba19fefb271c877"
+  },
+  {
+    "source_id": "LEGACY_SQLI_04",
+    "category": "sqli",
+    "endpoint": "/vulnerabilities/sqli/",
+    "parameter": "id",
+    "method": "GET",
+    "payload": "admin' --",
+    "change": "Legacy payload retained; review on DVWA Low.",
+    "original_payload_sha256": "ef11b83dd75bc1db3454c26680ef49322d5a99e67c379477dc14b8d32248bed6"
+  },
+  {
+    "source_id": "LEGACY_SQLI_05",
+    "category": "sqli",
+    "endpoint": "/vulnerabilities/sqli/",
+    "parameter": "id",
+    "method": "GET",
+    "payload": "1' AND SLEEP(5)#",
+    "change": "Legacy payload retained; review on DVWA Low.",
+    "original_payload_sha256": "1eeb7597fb353c37ca7db85ddfb8cecd255c2adaa788411ea05b9c573f5bf10d"
+  },
+  {
+    "source_id": "LEGACY_XSS_01",
+    "category": "xss",
+    "endpoint": "/vulnerabilities/xss_r/",
+    "parameter": "name",
+    "method": "GET",
+    "payload": "<script>alert(1)</script>",
+    "change": "Legacy payload retained; review on DVWA Low.",
+    "original_payload_sha256": "5c140d35dcb46a622e2cedf5ef5cc3638cdffd1c118c9331f8c84669f0b74783"
+  },
+  {
+    "source_id": "LEGACY_XSS_02",
+    "category": "xss",
+    "endpoint": "/vulnerabilities/xss_r/",
+    "parameter": "name",
+    "method": "GET",
+    "payload": "<img src=x onerror=alert(1)>",
+    "change": "Legacy payload retained; review on DVWA Low.",
+    "original_payload_sha256": "63b586b4a93f204837ee1e038f8ce2be880e42e59bb43cc12813cf3ac6d05d0c"
+  },
+  {
+    "source_id": "LEGACY_XSS_03",
+    "category": "xss",
+    "endpoint": "/vulnerabilities/xss_r/",
+    "parameter": "name",
+    "method": "GET",
+    "payload": "\"><script>alert(1)</script>",
+    "change": "Legacy payload retained; review on DVWA Low.",
+    "original_payload_sha256": "7b5e7ff7cc42d58cf2d522d1e6feda56d5d60ab5b8e04bd5debab07d86415de7"
+  },
+  {
+    "source_id": "LEGACY_XSS_04",
+    "category": "xss",
+    "endpoint": "/vulnerabilities/xss_r/",
+    "parameter": "name",
+    "method": "GET",
+    "payload": "<svg/onload=alert(1)>",
+    "change": "Legacy payload retained; review on DVWA Low.",
+    "original_payload_sha256": "b54afa2ea616f38ff7194f48bf88b5f1b96851929197aa367e073f93c3925956"
+  },
+  {
+    "source_id": "LEGACY_XSS_05",
+    "category": "xss",
+    "endpoint": "/vulnerabilities/xss_r/",
+    "parameter": "name",
+    "method": "GET",
+    "payload": "<body onload=alert(1)>",
+    "change": "Legacy payload retained; review on DVWA Low.",
+    "original_payload_sha256": "f04b9261100fcfbd0f948db600d3b4073788c39714d1d070c032476d02a91527"
+  },
+  {
+    "source_id": "LEGACY_PATH_TRAVERSAL_01",
+    "category": "path_traversal",
+    "endpoint": "/vulnerabilities/fi/",
+    "parameter": "page",
+    "method": "GET",
+    "payload": "../../../../tmp/waf-lab-marker.txt",
+    "change": "Legacy file target replaced with harmless /tmp/waf-lab-marker.txt fixture.",
+    "original_payload_sha256": "a032902ca26bf0d1efe11ab45b0ef4c7a22da69bc4f77ae5fd79ce8354c50e7e"
+  },
+  {
+    "source_id": "LEGACY_PATH_TRAVERSAL_02",
+    "category": "path_traversal",
+    "endpoint": "/vulnerabilities/fi/",
+    "parameter": "page",
+    "method": "GET",
+    "payload": "../../../../../tmp/waf-lab-marker.txt",
+    "change": "Legacy file target replaced with harmless /tmp/waf-lab-marker.txt fixture.",
+    "original_payload_sha256": "7383528876e4f41de63068f3ae17e8af6d71d36c9a26df7c61908dc41c0ce35c"
+  },
+  {
+    "source_id": "LEGACY_PATH_TRAVERSAL_03",
+    "category": "path_traversal",
+    "endpoint": "/vulnerabilities/fi/",
+    "parameter": "page",
+    "method": "GET",
+    "payload": "/tmp/waf-lab-marker.txt",
+    "change": "Legacy file target replaced with harmless /tmp/waf-lab-marker.txt fixture.",
+    "original_payload_sha256": "74acf31844532670be412c65b8251ee55d072549080b1cffdbea6b1a192230a0"
+  },
+  {
+    "source_id": "LEGACY_PATH_TRAVERSAL_04",
+    "category": "path_traversal",
+    "endpoint": "/vulnerabilities/fi/",
+    "parameter": "page",
+    "method": "GET",
+    "payload": "..%2F..%2F..%2Ftmp%2Fwaf-lab-marker.txt",
+    "change": "Legacy file target replaced with harmless /tmp/waf-lab-marker.txt fixture.",
+    "original_payload_sha256": "732e048e23917ff2557617792fa1ad51a28931c4a2ea4c2ab1217d813145eab3"
+  },
+  {
+    "source_id": "LEGACY_COMMAND_INJECTION_01",
+    "category": "command_injection",
+    "endpoint": "/vulnerabilities/exec/",
+    "parameter": "ip",
+    "method": "POST",
+    "payload": "127.0.0.1 ; echo WAF_LAB_MARKER",
+    "change": "Legacy command changed to marker output; corrected DVWA exec form method to POST.",
+    "original_payload_sha256": "122d62bc65e0ba1d6bcfb7dce3a506d65e79d40f04aef820113a017264668eca"
+  },
+  {
+    "source_id": "LEGACY_COMMAND_INJECTION_02",
+    "category": "command_injection",
+    "endpoint": "/vulnerabilities/exec/",
+    "parameter": "ip",
+    "method": "POST",
+    "payload": "127.0.0.1 && echo WAF_LAB_MARKER",
+    "change": "Legacy command changed to marker output; corrected DVWA exec form method to POST.",
+    "original_payload_sha256": "3021699e9e74a62bbb41845df09a41c7dfddd243939a42a1c7537020a0bad8c2"
+  },
+  {
+    "source_id": "LEGACY_COMMAND_INJECTION_03",
+    "category": "command_injection",
+    "endpoint": "/vulnerabilities/exec/",
+    "parameter": "ip",
+    "method": "POST",
+    "payload": "127.0.0.1 | echo WAF_LAB_MARKER",
+    "change": "Legacy command changed to marker output; corrected DVWA exec form method to POST.",
+    "original_payload_sha256": "1403bc78d1dcd8192f30283d35a1441abd9b4224c0ceabd3300d4eff84481d71"
+  },
+  {
+    "source_id": "LEGACY_COMMAND_INJECTION_04",
+    "category": "command_injection",
+    "endpoint": "/vulnerabilities/exec/",
+    "parameter": "ip",
+    "method": "POST",
+    "payload": "127.0.0.1 ; echo WAF_LAB_MARKER",
+    "change": "Legacy command changed to marker output; corrected DVWA exec form method to POST.",
+    "original_payload_sha256": "257a8590ae92053ad7dce66ff6b04f8d348a3d94d7951dd9b5df678a1cd12e2e"
+  },
+  {
+    "source_id": "LEGACY_NORMAL_01",
+    "category": "normal",
+    "endpoint": "/",
+    "parameter": "",
+    "payload": "",
+    "method": "GET",
+    "change": "Inherited authenticated browsing route."
+  },
+  {
+    "source_id": "LEGACY_NORMAL_02",
+    "category": "normal",
+    "endpoint": "/index.php",
+    "parameter": "",
+    "payload": "",
+    "method": "GET",
+    "change": "Inherited authenticated browsing route."
+  },
+  {
+    "source_id": "LEGACY_NORMAL_04",
+    "category": "normal",
+    "endpoint": "/instructions.php",
+    "parameter": "",
+    "payload": "",
+    "method": "GET",
+    "change": "Inherited authenticated browsing route."
+  },
+  {
+    "source_id": "LEGACY_NORMAL_05",
+    "category": "normal",
+    "endpoint": "/security.php",
+    "parameter": "",
+    "payload": "",
+    "method": "GET",
+    "change": "Inherited authenticated browsing route."
+  },
+  {
+    "source_id": "LEGACY_NORMAL_06",
+    "category": "normal",
+    "endpoint": "/vulnerabilities/sqli/",
+    "parameter": "",
+    "payload": "",
+    "method": "GET",
+    "change": "Inherited authenticated browsing route."
+  },
+  {
+    "source_id": "LEGACY_NORMAL_07",
+    "category": "normal",
+    "endpoint": "/vulnerabilities/xss_r/",
+    "parameter": "",
+    "payload": "",
+    "method": "GET",
+    "change": "Inherited authenticated browsing route."
+  },
+  {
+    "source_id": "LEGACY_NORMAL_08",
+    "category": "normal",
+    "endpoint": "/vulnerabilities/exec/",
+    "parameter": "",
+    "payload": "",
+    "method": "GET",
+    "change": "Inherited authenticated browsing route."
+  },
+  {
+    "source_id": "LEGACY_NORMAL_09",
+    "category": "normal",
+    "endpoint": "/vulnerabilities/fi/",
+    "parameter": "page",
+    "payload": "file1.php",
+    "method": "GET",
+    "change": "Inherited authenticated browsing route."
+  },
+  {
+    "source_id": "NORMAL_TEXT_01",
+    "category": "normal",
+    "endpoint": "/vulnerabilities/xss_r/",
+    "parameter": "name",
+    "payload": "Alice",
+    "method": "GET",
+    "change": "Added legitimate text for false-positive measurement."
+  },
+  {
+    "source_id": "NORMAL_TEXT_02",
+    "category": "normal",
+    "endpoint": "/vulnerabilities/xss_r/",
+    "parameter": "name",
+    "payload": "Bob",
+    "method": "GET",
+    "change": "Added legitimate text for false-positive measurement."
+  },
+  {
+    "source_id": "NORMAL_TEXT_03",
+    "category": "normal",
+    "endpoint": "/vulnerabilities/xss_r/",
+    "parameter": "name",
+    "payload": "hello world",
+    "method": "GET",
+    "change": "Added legitimate text for false-positive measurement."
+  },
+  {
+    "source_id": "NORMAL_TEXT_04",
+    "category": "normal",
+    "endpoint": "/vulnerabilities/xss_r/",
+    "parameter": "name",
+    "payload": "O'Brien",
+    "method": "GET",
+    "change": "Added legitimate text for false-positive measurement."
+  },
+  {
+    "source_id": "NORMAL_TEXT_05",
+    "category": "normal",
+    "endpoint": "/vulnerabilities/xss_r/",
+    "parameter": "name",
+    "payload": "5 < 10",
+    "method": "GET",
+    "change": "Added legitimate text for false-positive measurement."
+  },
+  {
+    "source_id": "NORMAL_TEXT_06",
+    "category": "normal",
+    "endpoint": "/vulnerabilities/xss_r/",
+    "parameter": "name",
+    "payload": "name@example.test",
+    "method": "GET",
+    "change": "Added legitimate text for false-positive measurement."
+  },
+  {
+    "source_id": "NORMAL_TEXT_07",
+    "category": "normal",
+    "endpoint": "/vulnerabilities/xss_r/",
+    "parameter": "name",
+    "payload": "A&B",
+    "method": "GET",
+    "change": "Added legitimate text for false-positive measurement."
+  },
+  {
+    "source_id": "NORMAL_TEXT_08",
+    "category": "normal",
+    "endpoint": "/vulnerabilities/xss_r/",
+    "parameter": "name",
+    "payload": "2026",
+    "method": "GET",
+    "change": "Added legitimate text for false-positive measurement."
+  },
+  {
+    "source_id": "NORMAL_TEXT_09",
+    "category": "normal",
+    "endpoint": "/vulnerabilities/xss_r/",
+    "parameter": "name",
+    "payload": "search terms",
+    "method": "GET",
+    "change": "Added legitimate text for false-positive measurement."
+  },
+  {
+    "source_id": "NORMAL_TEXT_10",
+    "category": "normal",
+    "endpoint": "/vulnerabilities/xss_r/",
+    "parameter": "name",
+    "payload": "welcome",
+    "method": "GET",
+    "change": "Added legitimate text for false-positive measurement."
+  }
+]

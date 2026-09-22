@@ -1,0 +1,121 @@
+test_id,category,variant,method,endpoint,parameter,payload,expected_class,description
+SQLI_0057,sqli,baseline,GET,/vulnerabilities/sqli/,id,' OR 1=1#,MALICIOUS,Inherited template LEGACY_SQLI_03; Legacy payload retained; review on DVWA Low.
+SQLI_0108,sqli,baseline,GET,/vulnerabilities/sqli/,id,' OR 1=1#,MALICIOUS,Inherited template LEGACY_SQLI_03; Legacy payload retained; review on DVWA Low.
+SQLI_0065,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0054,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' OR '1'='1,MALICIOUS,Inherited template LEGACY_SQLI_01; Legacy payload retained; review on DVWA Low.
+SQLI_0019,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' OR '1'='1,MALICIOUS,Inherited template LEGACY_SQLI_01; Legacy payload retained; review on DVWA Low.
+SQLI_0043,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0098,sqli,baseline,GET,/vulnerabilities/sqli/,id,' OR 1=1#,MALICIOUS,Inherited template LEGACY_SQLI_03; Legacy payload retained; review on DVWA Low.
+SQLI_0096,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+SQLI_0050,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' OR '1'='1,MALICIOUS,Inherited template LEGACY_SQLI_01; Legacy payload retained; review on DVWA Low.
+SQLI_0087,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+SQLI_0111,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0103,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0079,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0113,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0089,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' OR '1'='1,MALICIOUS,Inherited template LEGACY_SQLI_01; Legacy payload retained; review on DVWA Low.
+SQLI_0035,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+SQLI_0051,sqli,baseline,GET,/vulnerabilities/sqli/,id,' OR 1=1#,MALICIOUS,Inherited template LEGACY_SQLI_03; Legacy payload retained; review on DVWA Low.
+SQLI_0060,sqli,baseline,GET,/vulnerabilities/sqli/,id,' OR 1=1#,MALICIOUS,Inherited template LEGACY_SQLI_03; Legacy payload retained; review on DVWA Low.
+SQLI_0092,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+SQLI_0014,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' OR '1'='1,MALICIOUS,Inherited template LEGACY_SQLI_01; Legacy payload retained; review on DVWA Low.
+SQLI_0109,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0075,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0034,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0083,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' OR '1'='1,MALICIOUS,Inherited template LEGACY_SQLI_01; Legacy payload retained; review on DVWA Low.
+SQLI_0094,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+SQLI_0029,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+SQLI_0025,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0070,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+SQLI_0068,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0016,sqli,baseline,GET,/vulnerabilities/sqli/,id,' OR 1=1#,MALICIOUS,Inherited template LEGACY_SQLI_03; Legacy payload retained; review on DVWA Low.
+SQLI_0009,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0001,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0099,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0033,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' OR '1'='1,MALICIOUS,Inherited template LEGACY_SQLI_01; Legacy payload retained; review on DVWA Low.
+SQLI_0047,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' OR '1'='1,MALICIOUS,Inherited template LEGACY_SQLI_01; Legacy payload retained; review on DVWA Low.
+SQLI_0055,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0042,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+SQLI_0021,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0007,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0056,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0090,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+SQLI_0091,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0080,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' OR '1'='1,MALICIOUS,Inherited template LEGACY_SQLI_01; Legacy payload retained; review on DVWA Low.
+SQLI_0101,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0026,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+SQLI_0073,sqli,baseline,GET,/vulnerabilities/sqli/,id,' OR 1=1#,MALICIOUS,Inherited template LEGACY_SQLI_03; Legacy payload retained; review on DVWA Low.
+SQLI_0046,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' OR '1'='1,MALICIOUS,Inherited template LEGACY_SQLI_01; Legacy payload retained; review on DVWA Low.
+SQLI_0024,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+SQLI_0040,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0118,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0082,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+SQLI_0002,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' OR '1'='1,MALICIOUS,Inherited template LEGACY_SQLI_01; Legacy payload retained; review on DVWA Low.
+SQLI_0013,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0027,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0063,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0110,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0006,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0086,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0093,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0088,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0115,sqli,baseline,GET,/vulnerabilities/sqli/,id,' OR 1=1#,MALICIOUS,Inherited template LEGACY_SQLI_03; Legacy payload retained; review on DVWA Low.
+SQLI_0069,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0061,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' OR '1'='1,MALICIOUS,Inherited template LEGACY_SQLI_01; Legacy payload retained; review on DVWA Low.
+SQLI_0017,sqli,baseline,GET,/vulnerabilities/sqli/,id,' OR 1=1#,MALICIOUS,Inherited template LEGACY_SQLI_03; Legacy payload retained; review on DVWA Low.
+SQLI_0031,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0119,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' OR '1'='1,MALICIOUS,Inherited template LEGACY_SQLI_01; Legacy payload retained; review on DVWA Low.
+SQLI_0077,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' OR '1'='1,MALICIOUS,Inherited template LEGACY_SQLI_01; Legacy payload retained; review on DVWA Low.
+SQLI_0076,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+SQLI_0105,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+SQLI_0008,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' OR '1'='1,MALICIOUS,Inherited template LEGACY_SQLI_01; Legacy payload retained; review on DVWA Low.
+SQLI_0041,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0003,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' OR '1'='1,MALICIOUS,Inherited template LEGACY_SQLI_01; Legacy payload retained; review on DVWA Low.
+SQLI_0085,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' OR '1'='1,MALICIOUS,Inherited template LEGACY_SQLI_01; Legacy payload retained; review on DVWA Low.
+SQLI_0005,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0045,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0052,sqli,baseline,GET,/vulnerabilities/sqli/,id,' OR 1=1#,MALICIOUS,Inherited template LEGACY_SQLI_03; Legacy payload retained; review on DVWA Low.
+SQLI_0081,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+SQLI_0044,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+SQLI_0078,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0112,sqli,baseline,GET,/vulnerabilities/sqli/,id,' OR 1=1#,MALICIOUS,Inherited template LEGACY_SQLI_03; Legacy payload retained; review on DVWA Low.
+SQLI_0032,sqli,baseline,GET,/vulnerabilities/sqli/,id,' OR 1=1#,MALICIOUS,Inherited template LEGACY_SQLI_03; Legacy payload retained; review on DVWA Low.
+SQLI_0022,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0058,sqli,baseline,GET,/vulnerabilities/sqli/,id,' OR 1=1#,MALICIOUS,Inherited template LEGACY_SQLI_03; Legacy payload retained; review on DVWA Low.
+SQLI_0120,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0117,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0011,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+SQLI_0048,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0114,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+SQLI_0067,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+SQLI_0018,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+SQLI_0062,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0106,sqli,baseline,GET,/vulnerabilities/sqli/,id,' OR 1=1#,MALICIOUS,Inherited template LEGACY_SQLI_03; Legacy payload retained; review on DVWA Low.
+SQLI_0116,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0004,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' OR '1'='1,MALICIOUS,Inherited template LEGACY_SQLI_01; Legacy payload retained; review on DVWA Low.
+SQLI_0102,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' OR '1'='1,MALICIOUS,Inherited template LEGACY_SQLI_01; Legacy payload retained; review on DVWA Low.
+SQLI_0049,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' OR '1'='1,MALICIOUS,Inherited template LEGACY_SQLI_01; Legacy payload retained; review on DVWA Low.
+SQLI_0030,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0039,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0107,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+SQLI_0038,sqli,baseline,GET,/vulnerabilities/sqli/,id,' OR 1=1#,MALICIOUS,Inherited template LEGACY_SQLI_03; Legacy payload retained; review on DVWA Low.
+SQLI_0071,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0072,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0053,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' OR '1'='1,MALICIOUS,Inherited template LEGACY_SQLI_01; Legacy payload retained; review on DVWA Low.
+SQLI_0012,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' OR '1'='1,MALICIOUS,Inherited template LEGACY_SQLI_01; Legacy payload retained; review on DVWA Low.
+SQLI_0023,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0064,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0015,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0028,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0037,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0036,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+SQLI_0074,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0020,sqli,baseline,GET,/vulnerabilities/sqli/,id,' OR 1=1#,MALICIOUS,Inherited template LEGACY_SQLI_03; Legacy payload retained; review on DVWA Low.
+SQLI_0097,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0010,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+SQLI_0095,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+SQLI_0100,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+SQLI_0059,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0066,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+SQLI_0104,sqli,baseline,GET,/vulnerabilities/sqli/,id,' OR 1=1#,MALICIOUS,Inherited template LEGACY_SQLI_03; Legacy payload retained; review on DVWA Low.
+SQLI_0084,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.

@@ -1,0 +1,26 @@
+test_id,category,variant,method,endpoint,parameter,payload,expected_class,description
+COMMAND_INJECTION_0004,command_injection,baseline,POST,/vulnerabilities/exec/,ip,127.0.0.1 ; echo WAF_LAB_MARKER,MALICIOUS,Inherited template LEGACY_COMMAND_INJECTION_01; Legacy command changed to marker output; corrected DVWA exec form method to POST.
+NORMAL_0004,normal,baseline,GET,/vulnerabilities/xss_r/,name,search terms,NORMAL,Inherited template NORMAL_TEXT_09; Added legitimate text for false-positive measurement.
+NORMAL_0002,normal,baseline,GET,/vulnerabilities/xss_r/,name,hello world,NORMAL,Inherited template NORMAL_TEXT_03; Added legitimate text for false-positive measurement.
+XSS_0004,xss,baseline,GET,/vulnerabilities/xss_r/,name,<body onload=alert(1)>,MALICIOUS,Inherited template LEGACY_XSS_05; Legacy payload retained; review on DVWA Low.
+SQLI_0005,sqli,baseline,GET,/vulnerabilities/sqli/,id,admin' --,MALICIOUS,Inherited template LEGACY_SQLI_04; Legacy payload retained; review on DVWA Low.
+SQLI_0001,sqli,baseline,GET,/vulnerabilities/sqli/,id,"1 UNION SELECT user,password FROM users",MALICIOUS,Inherited template LEGACY_SQLI_02; Legacy payload retained; review on DVWA Low.
+PATH_TRAVERSAL_0005,path_traversal,baseline,GET,/vulnerabilities/fi/,page,/tmp/waf-lab-marker.txt,MALICIOUS,Inherited template LEGACY_PATH_TRAVERSAL_03; Legacy file target replaced with harmless /tmp/waf-lab-marker.txt fixture.
+NORMAL_0001,normal,baseline,GET,/security.php,,,NORMAL,Inherited template LEGACY_NORMAL_05; Inherited authenticated browsing route.
+PATH_TRAVERSAL_0001,path_traversal,baseline,GET,/vulnerabilities/fi/,page,../../../../tmp/waf-lab-marker.txt,MALICIOUS,Inherited template LEGACY_PATH_TRAVERSAL_01; Legacy file target replaced with harmless /tmp/waf-lab-marker.txt fixture.
+COMMAND_INJECTION_0001,command_injection,baseline,POST,/vulnerabilities/exec/,ip,127.0.0.1 && echo WAF_LAB_MARKER,MALICIOUS,Inherited template LEGACY_COMMAND_INJECTION_02; Legacy command changed to marker output; corrected DVWA exec form method to POST.
+SQLI_0003,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+COMMAND_INJECTION_0005,command_injection,baseline,POST,/vulnerabilities/exec/,ip,127.0.0.1 | echo WAF_LAB_MARKER,MALICIOUS,Inherited template LEGACY_COMMAND_INJECTION_03; Legacy command changed to marker output; corrected DVWA exec form method to POST.
+NORMAL_0005,normal,baseline,GET,/security.php,,,NORMAL,Inherited template LEGACY_NORMAL_05; Inherited authenticated browsing route.
+XSS_0005,xss,baseline,GET,/vulnerabilities/xss_r/,name,<svg/onload=alert(1)>,MALICIOUS,Inherited template LEGACY_XSS_04; Legacy payload retained; review on DVWA Low.
+PATH_TRAVERSAL_0003,path_traversal,baseline,GET,/vulnerabilities/fi/,page,../../../../tmp/waf-lab-marker.txt,MALICIOUS,Inherited template LEGACY_PATH_TRAVERSAL_01; Legacy file target replaced with harmless /tmp/waf-lab-marker.txt fixture.
+COMMAND_INJECTION_0003,command_injection,baseline,POST,/vulnerabilities/exec/,ip,127.0.0.1 ; echo WAF_LAB_MARKER,MALICIOUS,Inherited template LEGACY_COMMAND_INJECTION_01; Legacy command changed to marker output; corrected DVWA exec form method to POST.
+XSS_0001,xss,baseline,GET,/vulnerabilities/xss_r/,name,<body onload=alert(1)>,MALICIOUS,Inherited template LEGACY_XSS_05; Legacy payload retained; review on DVWA Low.
+NORMAL_0003,normal,baseline,GET,/vulnerabilities/xss_r/,name,search terms,NORMAL,Inherited template NORMAL_TEXT_09; Added legitimate text for false-positive measurement.
+COMMAND_INJECTION_0002,command_injection,baseline,POST,/vulnerabilities/exec/,ip,127.0.0.1 ; echo WAF_LAB_MARKER,MALICIOUS,Inherited template LEGACY_COMMAND_INJECTION_01; Legacy command changed to marker output; corrected DVWA exec form method to POST.
+PATH_TRAVERSAL_0004,path_traversal,baseline,GET,/vulnerabilities/fi/,page,..%2F..%2F..%2Ftmp%2Fwaf-lab-marker.txt,MALICIOUS,Inherited template LEGACY_PATH_TRAVERSAL_04; Legacy file target replaced with harmless /tmp/waf-lab-marker.txt fixture.
+PATH_TRAVERSAL_0002,path_traversal,baseline,GET,/vulnerabilities/fi/,page,..%2F..%2F..%2Ftmp%2Fwaf-lab-marker.txt,MALICIOUS,Inherited template LEGACY_PATH_TRAVERSAL_04; Legacy file target replaced with harmless /tmp/waf-lab-marker.txt fixture.
+XSS_0002,xss,baseline,GET,/vulnerabilities/xss_r/,name,<body onload=alert(1)>,MALICIOUS,Inherited template LEGACY_XSS_05; Legacy payload retained; review on DVWA Low.
+SQLI_0004,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
+XSS_0003,xss,baseline,GET,/vulnerabilities/xss_r/,name,<svg/onload=alert(1)>,MALICIOUS,Inherited template LEGACY_XSS_04; Legacy payload retained; review on DVWA Low.
+SQLI_0002,sqli,baseline,GET,/vulnerabilities/sqli/,id,1' AND SLEEP(5)#,MALICIOUS,Inherited template LEGACY_SQLI_05; Legacy payload retained; review on DVWA Low.
