@@ -181,3 +181,24 @@ unresolved points and next actions. Update after each meaningful step.
    cleanup decision on the old repo.
 3. Do not cite the five invalidated v1 baseline directories
    (070829Z-071103Z) as R12 data in any report or write-up.
+
+## 2026-09-22 (continued) — Ubuntu config snapshots transferred; NAXSI hash mismatch resolved
+
+- Transferred the 6 final Coraza/Apache/ModSecurity/NAXSI config snapshot
+  files from Ubuntu to Kali and into this repo under `configuration_r12/`
+  (previously only described in text, not present as files). File sizes on
+  Kali match the Ubuntu originals exactly (byte-for-byte transfer, verified
+  by `ls -la` on both sides).
+- NAXSI raw-config hash mismatch (previously unexplained) RESOLVED:
+  `r12-pre-naxsi-config-20260922T073528Z.txt` (266 lines, sha256
+  `b115c50d...`) vs the R11 handover's
+  `configuration/r11-naxsi-active-config.txt` (265 lines, sha256
+  `de364cadd850...`). Confirmed via targeted grep on Ubuntu that all
+  substantive directives are identical and at the same line numbers as the
+  R11 original: `SecRulesEnabled;` (line 47), and thresholds
+  `$SQL>=8 $RFI>=8 $TRAVERSAL>=4 $EVADE>=4 $XSS>=8` (lines 50-54). No
+  `LearningMode`/`SecRulesDisabled`/whitelist directive present. The one
+  extra line and differing hash are consistent with a formatting artifact
+  of re-running `nginx -T` (e.g. a header/blank line), not a rule or
+  threshold change. This closes the item — was previously "noted, not
+  fully explained."

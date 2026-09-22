@@ -1,0 +1,41 @@
+# Directives configured upstream (in the same order)
+SecRuleEngine On
+SecRequestBodyAccess On
+SecRequestBodyLimit 13107200
+SecRequestBodyNoFilesLimit 524288
+SecRequestBodyLimitAction Reject
+# SecRequestBodyJsonDepthLimit 1024
+# SecArgumentsLimit 1000
+SecResponseBodyAccess On
+SecResponseBodyMimeType text/plain text/html text/xml
+SecResponseBodyLimit 1048576
+SecResponseBodyLimitAction ProcessPartial
+SecTmpDir /tmp/coraza
+SecDataDir /tmp/coraza/data
+SecAuditEngine RelevantOnly
+SecAuditLogRelevantStatus "^(?:5|4[0-9][0-35-9])"
+SecAuditLogParts ABIJDEFHZ
+SecAuditLogType Serial
+SecAuditLog /dev/stdout
+
+# Additional directives
+SecAuditLogFormat JSON
+SecAuditLogStorageDir /var/log/coraza/audit/
+SecDebugLog /dev/null
+SecDebugLogLevel 1
+SecUploadDir /tmp/coraza/upload
+SecUploadFileMode 0600
+SecUploadKeepFiles Off
+
+# Rules configured upstream (in the same order)
+SecRule REQUEST_HEADERS:Content-Type "^(?:application(?:/soap\+|/)|text/)xml" \
+    "id:'200000',phase:1,t:none,t:lowercase,pass,nolog,ctl:requestBodyProcessor=XML"
+SecRule REQUEST_HEADERS:Content-Type "^application/json" \
+    "id:'200001',phase:1,t:none,t:lowercase,pass,nolog,ctl:requestBodyProcessor=JSON"
+SecRule &ARGS "@ge 1000" \
+    "id:'200007', phase:2,t:none,log,deny,status:400,msg:'Failed to fully parse request body due to large argument count',severity:2"
+SecRule REQBODY_ERROR "!@eq 0" \
+    "id:'200002', phase:2,t:none,log,deny,status:400,msg:'Failed to parse request body.',logdata:'%{reqbody_error_msg}',severity:2"
+SecRule MULTIPART_STRICT_ERROR "!@eq 0" \
+    "id:'200003',phase:2,t:none,log,deny,status:400, \
+    msg:'Multipart request body failed strict validation."
