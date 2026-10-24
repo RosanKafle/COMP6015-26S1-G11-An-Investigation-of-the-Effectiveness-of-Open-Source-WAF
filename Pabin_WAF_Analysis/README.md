@@ -1,4 +1,4 @@
-# WAF Results Analysis and Validation
+# WAF Results Analysis, Validation and Integrated Evidence Review
 
 **Student:** Pabin Gurung  
 **Student ID:** 22343460  
@@ -7,51 +7,56 @@
 **Role:** Measurement, Analysis and Documentation Lead  
 **Project:** An Investigation of the Effectiveness of Open-Source Web Application Firewalls
 
-## 1. Project Overview
+## 1. Overview
 
-This folder contains my results analysis, evidence validation and documentation work for the investigation of open-source web application firewalls.
+This folder contains my individual technical contribution to the group's investigation of open-source web application firewalls.
 
-The main activities are calculating evaluation metrics, checking reported classification results, analysing missed detections, comparing transformed attack requests and documenting evidence limitations.
+My work focuses on analysing test results, validating reported classification counts, investigating missed detections, comparing evidence from different experiments and documenting the limitations of the results.
 
-The work considers ModSecurity, NAXSI and Coraza. Experiment A and Experiment B are treated separately because they use different datasets and test arrangements.
+The evaluated WAFs include ModSecurity, NAXSI and Coraza. The original laboratory testing, WAF deployment and attack execution were carried out by other team members.
 
-## 2. Files and Their Purpose
+This folder contains three Python analysis programs, generated comparison outputs, evidence review documents and supporting CSV summaries.
 
-| File | Purpose |
+The experiments use different datasets and conditions. Their results must be interpreted separately rather than combined into one overall WAF effectiveness score.
+
+## 2. Files and Folder Structure
+
+| File or folder | Purpose |
 |---|---|
-| `analyze_waf_results.py` | Calculates detection metrics from reported aggregate data and generates a CSV and chart. |
-| `validate_waf_evidence.py` | Validates reviewed Experiment A classification records against expected totals. |
-| `analyze_naxsi_misses.py` | Analyses NAXSI false negatives by attack category and transformation variant. |
-| `reported_aggregates.json` | Stores the previously reported Experiment A and B classification counts. |
-| `waf_comparison.csv` | Generated comparison of detection metrics. |
-| `waf_detection_chart.png` | Generated chart of WAF detection results. |
-| `validation_results.txt` | Saved successful Experiment A validation output. |
-| `naxsi_misses_results.txt` | Saved successful NAXSI missed-detection analysis output. |
-| `DATA_VALIDATION.md` | Documents evidence provenance, checks, software tests and limitations. |
-| `TRANSFORMATION_AND_PERFORMANCE_REVIEW.md` | Reviews additional transformation evidence and clarifies classification versus system performance. |
-| `reviewed_group_evidence/` | Contains three supporting CSVs supplied through the group's preserved technical archive. |
-| `requirements.txt` | Lists the Python library dependency for the analysis chart. |
-| `.gitignore` | Excludes temporary files and the locally retained request-level source CSV. |
+| `analyze_waf_results.py` | Calculates classification metrics from reported aggregate results and generates a CSV and chart. |
+| `validate_waf_evidence.py` | Checks reviewed Experiment A request records and classification totals. |
+| `analyze_naxsi_misses.py` | Analyses Experiment A NAXSI false negatives by attack category and transformation. |
+| `reported_aggregates.json` | Stores reported classification totals for Experiments A and B. |
+| `waf_comparison.csv` | Generated classification comparison. |
+| `waf_detection_chart.png` | Generated detection comparison chart. |
+| `validation_results.txt` | Saved successful Experiment A validation results. |
+| `naxsi_misses_results.txt` | Saved NAXSI false-negative analysis output. |
+| `INTEGRATED_WAF_EVIDENCE_ANALYSIS.md` | Integrated analysis of Bishal's, Sadaiba's and earlier automated group evidence. |
+| `DATA_VALIDATION.md` | Documents evidence provenance, validation checks, integrity and limitations. |
+| `TRANSFORMATION_AND_PERFORMANCE_REVIEW.md` | Reviews transformation results and classification versus timing measurements. |
+| `reviewed_group_evidence/` | Three preserved supporting CSV files from Bishal's Experiment A analysis. |
+| `requirements.txt` | Python chart dependency. |
+| `.gitignore` | Excludes local request-level source data and temporary files. |
 
 ## 3. Development Environment
 
-The programs were executed on macOS using Python 3.13.7.
+The analysis was developed and executed using Python 3.13.7 on macOS.
 
-Python's built-in CSV, JSON and collection-processing functionality was used for analysis. Matplotlib was used to generate the chart.
+Standard Python libraries were used to read CSV and JSON data, count classifications and calculate metrics. Matplotlib was used to produce the comparison chart.
 
-The original WAF testing was conducted by project team members in a controlled laboratory environment. These analysis programs do not launch attacks or configure WAF services.
+The analysis programs process existing results. They do not deploy WAF services or execute attacks.
 
-## 4. Running the Programs
+## 4. Reproducing the Analysis
 
-Open Terminal in the `Pabin_WAF_Analysis` directory.
+Open Terminal in the `Pabin_WAF_Analysis` folder.
 
-Install the chart dependency if required:
+Install the chart dependency if necessary:
 
 ```bash
 python3 -m pip install -r requirements.txt
 ```
 
-Generate the aggregate results comparison:
+Generate the aggregate comparison:
 
 ```bash
 python3 analyze_waf_results.py
@@ -59,7 +64,7 @@ python3 analyze_waf_results.py
 
 This generates `waf_comparison.csv` and `waf_detection_chart.png`.
 
-To validate Experiment A request classifications, obtain the group's reviewed comparison CSV and save it locally as `source_comparison.csv`.
+For request-level Experiment A validation, obtain the reviewed comparison CSV from the group's preserved archive and save it in this directory as `source_comparison.csv`.
 
 Run:
 
@@ -67,39 +72,39 @@ Run:
 python3 validate_waf_evidence.py source_comparison.csv
 ```
 
-To analyse NAXSI missed detections, run:
+Analyse NAXSI missed detections:
 
 ```bash
 python3 analyze_naxsi_misses.py
 ```
 
-Both request-level programs require the separately retained `source_comparison.csv`, which is excluded from this folder's Git history.
+The request-level source CSV is intentionally not committed to this individual folder. The original group archive is required to reproduce those request-level checks.
 
-The three supporting CSVs used for the additional transformation review are provided in `reviewed_group_evidence/`.
+The three supporting Experiment A summary CSVs are included under `reviewed_group_evidence/`.
+
+The R11, R12 and earlier automated evaluation evidence is referenced in the group's integrated repository rather than copied into this folder.
 
 ## 5. Evaluation Metrics
 
-The analysis uses the following classification outcomes:
+The following classification terms are used:
 
-- True positive (TP): malicious-labelled request blocked.
-- False negative (FN): malicious-labelled request allowed.
-- False positive (FP): benign-labelled request blocked.
-- True negative (TN): benign-labelled request allowed.
+- **True positive (TP):** Malicious-labelled request blocked.
+- **False negative (FN):** Malicious-labelled request allowed.
+- **False positive (FP):** Benign-labelled request blocked.
+- **True negative (TN):** Benign-labelled request allowed.
 
-The evaluation metrics are:
+The calculated metrics are:
 
 - Recall = TP / (TP + FN) × 100
 - Precision = TP / (TP + FP) × 100
 - False-positive rate = FP / (FP + TN) × 100
 - Accuracy = (TP + TN) / (TP + TN + FP + FN) × 100
 
-Metrics are calculated separately for each WAF and experiment.
+The program calculates metrics for the reported aggregate datasets. The validity of an aggregate depends on the quality and completeness of its underlying classifications.
 
-## 6. Experiment A Classification Validation
+## 6. Experiment A: Validated Classification Counts
 
-The reviewed Experiment A comparison dataset contains 1,684 request records, comprising 1,564 malicious-labelled requests and 120 benign-labelled requests.
-
-The `validate_waf_evidence.py` program checks required columns, test identifiers, duplicates, classification values and reported confusion-matrix counts.
+Bishal's reviewed Experiment A comparison data contains 1,684 request records per WAF, with 1,564 malicious-labelled records and 120 benign-labelled records.
 
 | Classification | ModSecurity | NAXSI |
 |---|---:|---:|
@@ -108,95 +113,219 @@ The `validate_waf_evidence.py` program checks required columns, test identifiers
 | FP | 11 | 12 |
 | TN | 109 | 108 |
 
-The recorded classifications matched all eight expected counts.
+The `validate_waf_evidence.py` program checked the reviewed source CSV against the expected classification counts.
 
-The validator reported `VALIDATION PASSED`.
+All eight expected counts matched, and the saved program output recorded `VALIDATION PASSED`.
 
-## 7. NAXSI Missed-Detection Analysis
+This confirms numerical consistency with the reviewed classifications. It does not independently verify every original request against server logs.
 
-The `analyze_naxsi_misses.py` program identified 254 NAXSI false negatives in Experiment A.
+## 7. Experiment A: Missed Detections
 
-| Attack category | False negatives |
+The `analyze_naxsi_misses.py` program identified 254 NAXSI false negatives.
+
+| Attack category | Missed detections |
 |---|---:|
 | XSS | 120 |
 | SQL injection | 92 |
 | Path traversal | 42 |
 | **Total** | **254** |
 
-The transformation breakdown was:
+By transformation:
 
-| Variant | False negatives |
+| Transformation | Missed detections |
 |---|---:|
 | Baseline | 42 |
 | Double encoding | 212 |
 | **Total** | **254** |
 
-These counts matched the group's reviewed summary evidence.
+The examined double-encoded subset contained 240 malicious-labelled requests per WAF.
 
-An allowed malicious-labelled request is a classification false negative; it does not necessarily establish successful exploitation.
+ModSecurity blocked all 240, while NAXSI blocked 28 and allowed 212.
 
-## 8. Additional Transformation Review
+These results describe detection of the tested requests under the evaluated configurations. An allowed malicious-labelled request does not automatically establish successful backend exploitation.
 
-The additional CSV evidence supplied by Bishal Giri was examined to compare ModSecurity and NAXSI detection of transformed malicious requests.
+## 8. Experiment B: Reported Aggregate Comparison
 
-The most substantial difference concerned double encoding.
+The `reported_aggregates.json` file also contains the previously reported Experiment B results for ModSecurity, Coraza and NAXSI.
 
-| Double-encoded category | ModSecurity detected | NAXSI detected | NAXSI missed |
-|---|---:|---:|---:|
-| SQL injection | 120/120 | 28/120 | 92 |
-| XSS | 120/120 | 0/120 | 120 |
-| **Total** | **240/240** | **28/240** | **212** |
+Experiment B is maintained separately from Experiment A because its corpus and test conditions differ.
 
-The observed detection rates were 100% for ModSecurity and 11.67% for NAXSI within this particular subset.
+The existing aggregate comparison program can calculate metrics from those reported results, but Experiment B has not been independently reconciled against the latest complete request-level evidence.
 
-A detailed review of the transformations and evidence limitations is provided in `TRANSFORMATION_AND_PERFORMANCE_REVIEW.md`.
+Its figures should therefore be described as reported aggregates rather than fully validated request-level results.
 
-## 9. Classification Performance and Latency Limitations
+Experiment B must also remain distinct from Sadaiba's R11 and R12 protected test observations.
 
-The supplied `performance_metrics.csv` includes precision, recall, F1-score, specificity, false-positive rate, false-negative rate and accuracy.
+## 9. Integrated Review: Sadaiba's R11 and R12
 
-Although its filename includes the word performance, this file contains classification metrics rather than response-time or resource-utilisation measurements.
+The document `INTEGRATED_WAF_EVIDENCE_ANALYSIS.md` extends my analysis to additional testing evidence included in the group's `comp6016-final-integration` branch.
 
-It cannot independently support conclusions about WAF processing overhead or throughput.
+### R11 protected observations
 
-Earlier response-time results are client-observed end-to-end measurements and should not be presented as isolated WAF latency overhead.
+The R11 evidence records 225 protected observations across three WAFs, including 189 attack observations and 36 original benign-control observations.
 
-## 10. Software Testing
+Each WAF received 63 validated attack observations and 12 benign observations.
 
-The aggregate-analysis script was tested with a temporary negative true-positive count. It rejected the invalid input.
+| WAF | Attacks blocked | Original benign requests blocked |
+|---|---:|---:|
+| ModSecurity | 63/63 | 0/12 |
+| Coraza | 63/63 | 0/12 |
+| NAXSI | 60/63 | 3/12 |
 
-The request-level validator was tested with a separate dataset containing a duplicate test identifier. It rejected the modified file with:
+NAXSI missed three repetitions of one newline separator command injection case.
+
+Three additional double-encoded attack candidates were excluded from the effective attack denominator because their baseline application effect was not established.
+
+### R12 protected observations
+
+R12 examined command separator variants using authenticated laboratory testing.
+
+The protected phase recorded 81 observations across three WAFs.
+
+| WAF | Eligible attack observations blocked |
+|---|---:|
+| ModSecurity | 24/24 |
+| Coraza | 24/24 |
+| NAXSI | 18/24 |
+
+NAXSI missed two newline separator variants, each repeated three times.
+
+The group evidence records application effect confirmation and correlated logs for the six missed observations.
+
+Five earlier R12 baseline runs were invalid because the required authenticated session was not established. They are excluded from the valid results.
+
+### Expanded benign testing
+
+Four additional, deliberately selected benign cases were repeated three times per WAF.
+
+| WAF | Additional benign requests incorrectly blocked |
+|---|---:|
+| ModSecurity | 0/12 |
+| Coraza | 0/12 |
+| NAXSI | 12/12 |
+
+These findings describe the tested cases and WAF configurations. The small, purposively selected corpus does not support a general population false-positive estimate.
+
+## 10. Earlier Automated ModSecurity and Coraza Results
+
+The integrated repository also contains earlier automated attack-only and mixed-traffic evaluation results.
+
+Relevant files include:
+
+- `analysis/final/report_summary.md`
+- `analysis/final/confusion_matrices.csv`
+
+These data describe a separate experimental corpus and must not be pooled with Experiment A, Experiment B or R11/R12.
+
+The confusion matrix summary contains some differences between total attack rows and the sum of true positives and false negatives.
+
+Those differences require reconciliation before the corresponding classification rates can be treated as final independently checked results.
+
+The automated timing evidence includes baseline, ModSecurity and Coraza measurements. It does not provide equivalent NAXSI timing rows for that same evaluation.
+
+## 11. Classification Metrics Versus System Performance
+
+The Experiment A file `performance_metrics.csv` contains classification statistics such as precision, recall, specificity, F1-score and accuracy.
+
+It does not measure CPU usage, memory consumption, throughput or response latency.
+
+The earlier automated group evaluation includes client-observed end-to-end response times.
+
+These timing measurements should not be described as isolated WAF processing overhead because other system and workload effects may contribute.
+
+Detection effectiveness and system performance are therefore documented separately.
+
+## 12. Software Validation
+
+The analysis scripts were syntax-checked and successfully executed.
+
+The aggregate-analysis program rejected a deliberately invalid negative true-positive count.
+
+The request-level validator also rejected a temporary CSV containing a duplicate test identifier, reporting:
 
 `ValueError: Duplicate test IDs found`
 
-The original request-level source file was not modified.
+The original reviewed source file was preserved separately.
 
-All three analysis programs were also syntax-checked and executed successfully before the initial GitHub commit.
+Successful Experiment A validation and NAXSI missed-detection outputs are retained as text files.
 
-## 11. Data Management and Reproducibility
+These checks demonstrate working analysis and selected input validation. They do not constitute independent re-execution of the original WAF attacks.
 
-The reviewed Experiment A comparison CSV was extracted from the group's preserved technical archive.
+## 13. Data Provenance and Integrity
 
-The original source file is retained separately and excluded from this contribution's Git history. Its archive location and SHA-256 checksum are documented in `DATA_VALIDATION.md`.
+The Experiment A request-level CSV was obtained from Bishal's preserved group archive:
 
-The three supporting summary CSVs are included in `reviewed_group_evidence/` for transparency and review.
+`COMP6016_Group11_BishalGiri_Complete_Code_Data.zip`
 
-The classification validation checks agreement between preserved reviewed labels and reported totals. It does not independently adjudicate every original WAF decision against raw logs.
+Internal archive location:
 
-Experiment B is maintained separately. Its aggregate results have not been independently reconciled against the latest full request-level evidence.
+`Final_Submission_Complete/Project/Week_06/results/processed/comparison.csv`
 
-## 12. Individual Contribution
+Recorded SHA-256:
 
-My individual contribution includes writing and running the analysis and validation scripts, calculating evaluation metrics, verifying reviewed request classifications, analysing false negatives, generating comparison outputs and documenting additional group evidence.
+`20154dff8b3c20580e0b94bc208d68b89dd8d34983d4e611580b308bbda021c2`
 
-The original attack execution, WAF configuration and production of the supporting group test records were carried out by other team members.
+The request-level file remains excluded from this individual Git history.
 
-This distinction is maintained to ensure that the individual contribution accurately represents the work performed.
+Three supporting CSV summaries are included under `reviewed_group_evidence/`.
 
-## 13. Future Work
+The R11, R12 and earlier automated results are documented through the shared integration branch, rather than being presented as newly collected individual experiments.
 
-Further improvements could include checking individual classification records against original WAF and Apache logs, validating additional Experiment B data, and extending the analysis to controlled latency and resource-utilisation measurements.
+## 14. Individual Contribution
 
-Any additional datasets should be reviewed independently before inclusion in the final project comparison.
+As the Measurement, Analysis and Documentation Lead, my technical contribution includes:
 
-The final report should incorporate the verified transformation findings while clearly describing their scope, denominators and limitations.
+1. Developing and running three Python programs for classification analysis, evidence validation and false-negative analysis.
+2. Preparing the aggregate comparison CSV and visual chart.
+3. Checking reviewed Experiment A request classifications against reported totals.
+4. Analysing NAXSI misses by category and transformation.
+5. Reviewing supplementary transformation and classification evidence supplied by Bishal.
+6. Reviewing the reported R11, R12, expanded benign and automated evaluation findings from the integrated repository.
+7. Documenting data provenance, test limitations, evidence discrepancies and reproducibility requirements.
+
+I did not personally perform all the original attacks, configure all WAFs or generate the raw group testing evidence.
+
+The distinction between my analytical contribution and the team's testing contribution is maintained throughout this documentation.
+
+## 15. Known Limitations
+
+The main limitations are:
+
+- Experiment A validation checks consistency with reviewed labels, not every underlying raw server record.
+- Experiment B aggregate results still require independent request-level reconciliation.
+- R11 and R12 results apply to their selected eligible cases and configurations.
+- Some baseline candidates were excluded because the intended attack effect was not established.
+- The expanded benign corpus was small and deliberately selected.
+- Earlier automated confusion matrix discrepancies remain unresolved in this review.
+- Classification results cannot independently establish successful exploitation or WAF latency overhead.
+- Different experimental corpora must not be combined into a single effectiveness percentage.
+- The group's integrated evidence audit remains pending.
+
+## 16. Repository References and Handover
+
+Individual analysis location:
+
+`Pabin_WAF_Analysis/`
+
+Individual working branch:
+
+`role4`
+
+Group integration reference branch:
+
+`comp6016-final-integration`
+
+Primary integrated review:
+
+`INTEGRATED_WAF_EVIDENCE_ANALYSIS.md`
+
+Relevant shared evidence:
+
+- `Bishal/Final_Evidence/Results/`
+- `r11_r12_waf_evaluation/WORK_SYNC.md`
+- `analysis/final/report_summary.md`
+- `analysis/final/confusion_matrices.csv`
+
+The individual technical ZIP contains the committed analysis folder and outputs. It does not replace the complete group evidence handover.
+
+For final submission, the exact Git commit and any remaining validation limitations should be recorded alongside the supporting source files.
