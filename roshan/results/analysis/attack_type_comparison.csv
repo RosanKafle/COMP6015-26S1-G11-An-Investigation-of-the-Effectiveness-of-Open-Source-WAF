@@ -1,0 +1,15 @@
+phase,load_level,attack_type,baseline_detection_percent,baseline_allowed,baseline_blocked,baseline_errors,coraza_detection_percent,coraza_allowed,coraza_blocked,coraza_errors,modsec_detection_percent,modsec_allowed,modsec_blocked,modsec_errors
+attack_only,none,authorization_bypass,0,40,0,0,0,40,0,0,0,40,0,0
+attack_only,none,brute_force,0,100,0,0,40,60,40,0,40,60,40,0
+attack_only,none,csrf,0,40,0,0,0,40,0,0,0,40,0,0
+attack_only,none,javascript,0,60,0,0,33.333,40,20,0,33.333,40,20,0
+attack_only,none,sqli,0,63,0,21,49.398,21,41,21,50,21,42,21
+attack_only,none,weak_session_ids,0,60,0,0,0,60,0,0,0,60,0,0
+attack_only,none,xss,0,84,0,0,75,20,60,0,74.074,21,60,0
+mixed,medium,authorization_bypass,0,56,0,0,0,56,0,0,0,56,0,0
+mixed,medium,brute_force,0,145,0,0,39.716,85,56,0,40,87,58,0
+mixed,medium,csrf,0,58,0,0,0,56,0,0,0,56,0,2
+mixed,medium,javascript,0,87,0,0,33.333,56,28,0,32.558,58,28,0
+mixed,medium,sqli,0,87,0,29,50,29,58,29,50,29,58,29
+mixed,medium,weak_session_ids,0,87,0,0,0,84,0,0,0,84,0,0
+mixed,medium,xss,0,116,0,0,75,29,87,0,75,29,87,0

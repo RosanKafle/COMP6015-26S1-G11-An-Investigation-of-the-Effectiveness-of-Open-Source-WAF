@@ -1,0 +1,10 @@
+environment,phase,load_level,reported_detection_percent,repetition_detection_percent,detection_check,server_errors,error_denominator,reported_error_percent,calculated_error_percent,error_check,overall_check
+baseline,attack_only,none,0.0,0.0,PASS,21,468,4.487,4.487,PASS,PASS
+baseline,mixed,medium,0.0,0.0,PASS,29,5990,0.484,0.484,PASS,PASS
+baseline,setup,setup,0.0,0.0,PASS,0,0,0.0,0.0,PASS,PASS
+coraza,attack_only,none,34.773,34.773,PASS,21,463,4.536,4.536,PASS,PASS
+coraza,mixed,medium,35.069,35.069,PASS,29,5873,0.494,0.494,PASS,PASS
+coraza,setup,setup,0.0,0.0,PASS,0,0,0.0,0.0,PASS,PASS
+modsec,attack_only,none,34.839,34.839,PASS,21,465,4.516,4.516,PASS,PASS
+modsec,mixed,medium,34.947,34.947,PASS,31,5939,0.522,0.522,PASS,PASS
+modsec,setup,setup,0.0,0.0,PASS,0,0,0.0,0.0,PASS,PASS

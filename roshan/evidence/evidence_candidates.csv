@@ -1,0 +1,1660 @@
+branch,score,extension,path
+Tools-Attack-Lead,41,.csv,evidence/manual_validation/results/manual_sqli_missed_by_waf.csv
+comp6016-controlled-testing,41,.csv,evidence/manual_validation/results/manual_sqli_missed_by_waf.csv
+integrate-tools-attack-lead,41,.csv,evidence/manual_validation/results/manual_sqli_missed_by_waf.csv
+main,41,.csv,evidence/manual_validation/results/manual_sqli_missed_by_waf.csv
+r11-r12-waf-evaluation,41,.csv,evidence/manual_validation/results/manual_sqli_missed_by_waf.csv
+Tools-Attack-Lead,38,.csv,evidence/manual_validation/results/manual_sqli_expanded_overall_summary.csv
+Tools-Attack-Lead,38,.csv,evidence/manual_validation/results/manual_sqli_overall_summary.csv
+Tools-Attack-Lead,38,.csv,evidence/manual_validation/results/manual_sqli_summary.csv
+comp6016-controlled-testing,38,.csv,evidence/manual_validation/results/manual_sqli_expanded_overall_summary.csv
+comp6016-controlled-testing,38,.csv,evidence/manual_validation/results/manual_sqli_overall_summary.csv
+comp6016-controlled-testing,38,.csv,evidence/manual_validation/results/manual_sqli_summary.csv
+integrate-tools-attack-lead,38,.csv,evidence/manual_validation/results/manual_sqli_expanded_overall_summary.csv
+integrate-tools-attack-lead,38,.csv,evidence/manual_validation/results/manual_sqli_overall_summary.csv
+integrate-tools-attack-lead,38,.csv,evidence/manual_validation/results/manual_sqli_summary.csv
+main,38,.csv,evidence/manual_validation/results/manual_sqli_expanded_overall_summary.csv
+main,38,.csv,evidence/manual_validation/results/manual_sqli_overall_summary.csv
+main,38,.csv,evidence/manual_validation/results/manual_sqli_summary.csv
+r11-r12-waf-evaluation,38,.csv,evidence/manual_validation/results/manual_sqli_expanded_overall_summary.csv
+r11-r12-waf-evaluation,38,.csv,evidence/manual_validation/results/manual_sqli_overall_summary.csv
+r11-r12-waf-evaluation,38,.csv,evidence/manual_validation/results/manual_sqli_summary.csv
+Tools-Attack-Lead,36,.csv,evidence/manual_validation/results/manual_confusion_style_summary.csv
+Tools-Attack-Lead,36,.csv,evidence/manual_validation/results/manual_sqli_blocked_by_waf.csv
+bishal-weekly-evidence,36,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_sqli_summary.csv
+comp6016-controlled-testing,36,.csv,evidence/manual_validation/results/manual_confusion_style_summary.csv
+comp6016-controlled-testing,36,.csv,evidence/manual_validation/results/manual_sqli_blocked_by_waf.csv
+integrate-tools-attack-lead,36,.csv,evidence/manual_validation/results/manual_confusion_style_summary.csv
+integrate-tools-attack-lead,36,.csv,evidence/manual_validation/results/manual_sqli_blocked_by_waf.csv
+main,36,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_sqli_summary.csv
+main,36,.csv,evidence/manual_validation/results/manual_confusion_style_summary.csv
+main,36,.csv,evidence/manual_validation/results/manual_sqli_blocked_by_waf.csv
+r11-r12-waf-evaluation,36,.csv,evidence/manual_validation/results/manual_confusion_style_summary.csv
+r11-r12-waf-evaluation,36,.csv,evidence/manual_validation/results/manual_sqli_blocked_by_waf.csv
+Tools-Attack-Lead,33,.csv,evidence/manual_validation/results/baseline_manual_sqli.csv
+Tools-Attack-Lead,33,.csv,evidence/manual_validation/results/baseline_manual_sqli_expanded.csv
+Tools-Attack-Lead,33,.csv,evidence/manual_validation/results/baseline_sqli_transport.csv
+Tools-Attack-Lead,33,.csv,evidence/manual_validation/results/coraza_manual_sqli.csv
+Tools-Attack-Lead,33,.csv,evidence/manual_validation/results/coraza_manual_sqli_expanded.csv
+Tools-Attack-Lead,33,.csv,evidence/manual_validation/results/manual_sqli_expanded_by_pattern.csv
+Tools-Attack-Lead,33,.csv,evidence/manual_validation/results/manual_sqli_expanded_not_cleanly_blocked.csv
+Tools-Attack-Lead,33,.csv,evidence/manual_validation/results/modsec_manual_sqli.csv
+Tools-Attack-Lead,33,.csv,evidence/manual_validation/results/modsec_manual_sqli_expanded.csv
+comp6016-controlled-testing,33,.csv,evidence/manual_validation/results/baseline_manual_sqli.csv
+comp6016-controlled-testing,33,.csv,evidence/manual_validation/results/baseline_manual_sqli_expanded.csv
+comp6016-controlled-testing,33,.csv,evidence/manual_validation/results/baseline_sqli_transport.csv
+comp6016-controlled-testing,33,.csv,evidence/manual_validation/results/coraza_manual_sqli.csv
+comp6016-controlled-testing,33,.csv,evidence/manual_validation/results/coraza_manual_sqli_expanded.csv
+comp6016-controlled-testing,33,.csv,evidence/manual_validation/results/manual_sqli_expanded_by_pattern.csv
+comp6016-controlled-testing,33,.csv,evidence/manual_validation/results/manual_sqli_expanded_not_cleanly_blocked.csv
+comp6016-controlled-testing,33,.csv,evidence/manual_validation/results/modsec_manual_sqli.csv
+comp6016-controlled-testing,33,.csv,evidence/manual_validation/results/modsec_manual_sqli_expanded.csv
+integrate-tools-attack-lead,33,.csv,evidence/manual_validation/results/baseline_manual_sqli.csv
+integrate-tools-attack-lead,33,.csv,evidence/manual_validation/results/baseline_manual_sqli_expanded.csv
+integrate-tools-attack-lead,33,.csv,evidence/manual_validation/results/baseline_sqli_transport.csv
+integrate-tools-attack-lead,33,.csv,evidence/manual_validation/results/coraza_manual_sqli.csv
+integrate-tools-attack-lead,33,.csv,evidence/manual_validation/results/coraza_manual_sqli_expanded.csv
+integrate-tools-attack-lead,33,.csv,evidence/manual_validation/results/manual_sqli_expanded_by_pattern.csv
+integrate-tools-attack-lead,33,.csv,evidence/manual_validation/results/manual_sqli_expanded_not_cleanly_blocked.csv
+integrate-tools-attack-lead,33,.csv,evidence/manual_validation/results/modsec_manual_sqli.csv
+integrate-tools-attack-lead,33,.csv,evidence/manual_validation/results/modsec_manual_sqli_expanded.csv
+main,33,.csv,evidence/manual_validation/results/baseline_manual_sqli.csv
+main,33,.csv,evidence/manual_validation/results/baseline_manual_sqli_expanded.csv
+main,33,.csv,evidence/manual_validation/results/baseline_sqli_transport.csv
+main,33,.csv,evidence/manual_validation/results/coraza_manual_sqli.csv
+main,33,.csv,evidence/manual_validation/results/coraza_manual_sqli_expanded.csv
+main,33,.csv,evidence/manual_validation/results/manual_sqli_expanded_by_pattern.csv
+main,33,.csv,evidence/manual_validation/results/manual_sqli_expanded_not_cleanly_blocked.csv
+main,33,.csv,evidence/manual_validation/results/modsec_manual_sqli.csv
+main,33,.csv,evidence/manual_validation/results/modsec_manual_sqli_expanded.csv
+r11-r12-waf-evaluation,33,.csv,evidence/manual_validation/results/baseline_manual_sqli.csv
+r11-r12-waf-evaluation,33,.csv,evidence/manual_validation/results/baseline_manual_sqli_expanded.csv
+r11-r12-waf-evaluation,33,.csv,evidence/manual_validation/results/baseline_sqli_transport.csv
+r11-r12-waf-evaluation,33,.csv,evidence/manual_validation/results/coraza_manual_sqli.csv
+r11-r12-waf-evaluation,33,.csv,evidence/manual_validation/results/coraza_manual_sqli_expanded.csv
+r11-r12-waf-evaluation,33,.csv,evidence/manual_validation/results/manual_sqli_expanded_by_pattern.csv
+r11-r12-waf-evaluation,33,.csv,evidence/manual_validation/results/manual_sqli_expanded_not_cleanly_blocked.csv
+r11-r12-waf-evaluation,33,.csv,evidence/manual_validation/results/modsec_manual_sqli.csv
+r11-r12-waf-evaluation,33,.csv,evidence/manual_validation/results/modsec_manual_sqli_expanded.csv
+Tools-Attack-Lead,31,.csv,evidence/manual_validation/results/manual_classification_summary.csv
+Tools-Attack-Lead,31,.csv,evidence/manual_validation/results/manual_csrf_overall_summary.csv
+Tools-Attack-Lead,31,.csv,evidence/manual_validation/results/manual_csrf_summary.csv
+bishal-weekly-evidence,31,.csv,Bishal/Final_Evidence/Results/performance_metrics.csv
+bishal-weekly-evidence,31,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_sqli_detail.csv
+bishal-weekly-evidence,31,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_sqli_results.csv
+bishal-weekly-evidence,31,.csv,Week_07/results/final/naxsi-missed-detections.csv
+bishal-weekly-evidence,31,.csv,Week_07/results/final/summary_metrics.csv
+comp6016-controlled-testing,31,.csv,evidence/manual_validation/results/manual_classification_summary.csv
+comp6016-controlled-testing,31,.csv,evidence/manual_validation/results/manual_csrf_overall_summary.csv
+comp6016-controlled-testing,31,.csv,evidence/manual_validation/results/manual_csrf_summary.csv
+integrate-tools-attack-lead,31,.csv,evidence/manual_validation/results/manual_classification_summary.csv
+integrate-tools-attack-lead,31,.csv,evidence/manual_validation/results/manual_csrf_overall_summary.csv
+integrate-tools-attack-lead,31,.csv,evidence/manual_validation/results/manual_csrf_summary.csv
+main,31,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_sqli_detail.csv
+main,31,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_sqli_results.csv
+main,31,.csv,evidence/manual_validation/results/manual_classification_summary.csv
+main,31,.csv,evidence/manual_validation/results/manual_csrf_overall_summary.csv
+main,31,.csv,evidence/manual_validation/results/manual_csrf_summary.csv
+r11-r12-waf-evaluation,31,.csv,evidence/manual_validation/results/manual_classification_summary.csv
+r11-r12-waf-evaluation,31,.csv,evidence/manual_validation/results/manual_csrf_overall_summary.csv
+r11-r12-waf-evaluation,31,.csv,evidence/manual_validation/results/manual_csrf_summary.csv
+Tools-Attack-Lead,30,.md,evidence/manual_validation/results/manual_sqli_interpretation.md
+comp6016-controlled-testing,30,.md,evidence/manual_validation/results/manual_sqli_interpretation.md
+integrate-tools-attack-lead,30,.md,evidence/manual_validation/results/manual_sqli_interpretation.md
+main,30,.md,evidence/manual_validation/results/manual_sqli_interpretation.md
+r11-r12-waf-evaluation,30,.md,evidence/manual_validation/results/manual_sqli_interpretation.md
+Tools-Attack-Lead,29,.csv,evidence/manual_validation/results/manual_csrf_blocked_by_waf.csv
+Tools-Attack-Lead,29,.csv,evidence/manual_validation/results/manual_csrf_non_clean_by_waf.csv
+bishal-weekly-evidence,29,.csv,Bishal/Final_Evidence/Results/attack_category_detection.csv
+bishal-weekly-evidence,29,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_all_tests_summary.csv
+bishal-weekly-evidence,29,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_authenticated_mixed_summary.csv
+bishal-weekly-evidence,29,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_mixed_summary.csv
+bishal-weekly-evidence,29,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_mixed_traffic_summary.csv
+bishal-weekly-evidence,29,.txt,WAF Ongoing/zap-waf-framework/results/modsecurity_sqli_replay.txt
+bishal-weekly-evidence,29,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_summary.csv
+bishal-weekly-evidence,29,.csv,WAF Ongoing/zap-waf-framework/results/naxsi_mixed_traffic_summary.csv
+bishal-weekly-evidence,29,.csv,WAF Ongoing/zap-waf-framework/results/naxsi_summary.csv
+bishal-weekly-evidence,29,.csv,WAF Ongoing/zap-waf-framework/results/zap_active_modsecurity_summary.csv
+comp6016-controlled-testing,29,.csv,evidence/manual_validation/results/manual_csrf_blocked_by_waf.csv
+comp6016-controlled-testing,29,.csv,evidence/manual_validation/results/manual_csrf_non_clean_by_waf.csv
+integrate-tools-attack-lead,29,.csv,evidence/manual_validation/results/manual_csrf_blocked_by_waf.csv
+integrate-tools-attack-lead,29,.csv,evidence/manual_validation/results/manual_csrf_non_clean_by_waf.csv
+main,29,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_all_tests_summary.csv
+main,29,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_authenticated_mixed_summary.csv
+main,29,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_mixed_summary.csv
+main,29,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_mixed_traffic_summary.csv
+main,29,.txt,WAF Ongoing/zap-waf-framework/results/modsecurity_sqli_replay.txt
+main,29,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_summary.csv
+main,29,.csv,WAF Ongoing/zap-waf-framework/results/naxsi_mixed_traffic_summary.csv
+main,29,.csv,WAF Ongoing/zap-waf-framework/results/naxsi_summary.csv
+main,29,.csv,WAF Ongoing/zap-waf-framework/results/zap_active_modsecurity_summary.csv
+main,29,.csv,evidence/manual_validation/results/manual_csrf_blocked_by_waf.csv
+main,29,.csv,evidence/manual_validation/results/manual_csrf_non_clean_by_waf.csv
+r11-r12-waf-evaluation,29,.csv,evidence/manual_validation/results/manual_csrf_blocked_by_waf.csv
+r11-r12-waf-evaluation,29,.csv,evidence/manual_validation/results/manual_csrf_non_clean_by_waf.csv
+r11-r12-waf-evaluation,29,.jsonl,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/results.jsonl
+r11-r12-waf-evaluation,29,.json,r11_r12_waf_evaluation/evidence/r11-browser-o5al4wr_/browser_results.json
+r11-r12-waf-evaluation,29,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/browser_results.json
+r11-r12-waf-evaluation,29,.jsonl,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/results.jsonl
+Tools-Attack-Lead,28,.md,evidence/manual_validation/results/manual_classification_summary.md
+comp6016-controlled-testing,28,.md,evidence/manual_validation/results/manual_classification_summary.md
+integrate-tools-attack-lead,28,.md,evidence/manual_validation/results/manual_classification_summary.md
+main,28,.md,evidence/manual_validation/results/manual_classification_summary.md
+r11-r12-waf-evaluation,28,.md,evidence/manual_validation/results/manual_classification_summary.md
+r11-r12-waf-evaluation,28,.json,r11_r12_waf_evaluation/evidence/r11-benign-expansion-20260922T102036Z/summary.json
+r11-r12-waf-evaluation,28,.json,r11_r12_waf_evaluation/evidence/r11-live-xss-confirmation-20260922T101343Z/summary.json
+r11-r12-waf-evaluation,28,.json,r11_r12_waf_evaluation/evidence/r11-live-xss-confirmation-20260922T101436Z/summary.json
+bishal-weekly-evidence,27,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_attack_breakdown.csv
+bishal-weekly-evidence,27,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_attack_matrix.csv
+bishal-weekly-evidence,27,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_authenticated_mixed_attack_matrix.csv
+bishal-weekly-evidence,27,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_mixed_attack_matrix.csv
+bishal-weekly-evidence,27,.csv,WAF Ongoing/zap-waf-framework/results/naxsi_attack_breakdown.csv
+bishal-weekly-evidence,27,.csv,WAF Ongoing/zap-waf-framework/results/naxsi_mixed_attack_matrix.csv
+main,27,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_attack_breakdown.csv
+main,27,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_attack_matrix.csv
+main,27,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_authenticated_mixed_attack_matrix.csv
+main,27,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_mixed_attack_matrix.csv
+main,27,.csv,WAF Ongoing/zap-waf-framework/results/naxsi_attack_breakdown.csv
+main,27,.csv,WAF Ongoing/zap-waf-framework/results/naxsi_mixed_attack_matrix.csv
+Tools-Attack-Lead,26,.csv,evidence/manual_validation/results/baseline_manual_csrf.csv
+Tools-Attack-Lead,26,.csv,evidence/manual_validation/results/coraza_manual_csrf.csv
+Tools-Attack-Lead,26,.csv,evidence/manual_validation/results/manual_classification_detailed.csv
+Tools-Attack-Lead,26,.csv,evidence/manual_validation/results/manual_what_was_blocked.csv
+Tools-Attack-Lead,26,.csv,evidence/manual_validation/results/manual_what_was_not_cleanly_blocked.csv
+Tools-Attack-Lead,26,.csv,evidence/manual_validation/results/modsec_manual_csrf.csv
+bishal-weekly-evidence,26,.csv,Bishal/Final_Evidence/Results/transformation_detection_detail.csv
+bishal-weekly-evidence,26,.csv,Week_05/results/final/comparison.csv
+bishal-weekly-evidence,26,.json,Week_07/results/final/modsecurity-metrics.json
+bishal-weekly-evidence,26,.json,Week_07/results/final/naxsi-metrics.json
+bishal-weekly-evidence,26,.csv,Week_07/results/final/variant-comparison.csv
+bishal-weekly-evidence,26,.csv,Week_07/results/final/week6-comparison.csv
+comp6016-controlled-testing,26,.csv,evidence/manual_validation/results/baseline_manual_csrf.csv
+comp6016-controlled-testing,26,.csv,evidence/manual_validation/results/coraza_manual_csrf.csv
+comp6016-controlled-testing,26,.csv,evidence/manual_validation/results/manual_classification_detailed.csv
+comp6016-controlled-testing,26,.csv,evidence/manual_validation/results/manual_what_was_blocked.csv
+comp6016-controlled-testing,26,.csv,evidence/manual_validation/results/manual_what_was_not_cleanly_blocked.csv
+comp6016-controlled-testing,26,.csv,evidence/manual_validation/results/modsec_manual_csrf.csv
+integrate-tools-attack-lead,26,.csv,evidence/manual_validation/results/baseline_manual_csrf.csv
+integrate-tools-attack-lead,26,.csv,evidence/manual_validation/results/coraza_manual_csrf.csv
+integrate-tools-attack-lead,26,.csv,evidence/manual_validation/results/manual_classification_detailed.csv
+integrate-tools-attack-lead,26,.csv,evidence/manual_validation/results/manual_what_was_blocked.csv
+integrate-tools-attack-lead,26,.csv,evidence/manual_validation/results/manual_what_was_not_cleanly_blocked.csv
+integrate-tools-attack-lead,26,.csv,evidence/manual_validation/results/modsec_manual_csrf.csv
+main,26,.csv,evidence/manual_validation/results/baseline_manual_csrf.csv
+main,26,.csv,evidence/manual_validation/results/coraza_manual_csrf.csv
+main,26,.csv,evidence/manual_validation/results/manual_classification_detailed.csv
+main,26,.csv,evidence/manual_validation/results/manual_what_was_blocked.csv
+main,26,.csv,evidence/manual_validation/results/manual_what_was_not_cleanly_blocked.csv
+main,26,.csv,evidence/manual_validation/results/modsec_manual_csrf.csv
+r11-r12-waf-evaluation,26,.csv,evidence/manual_validation/results/baseline_manual_csrf.csv
+r11-r12-waf-evaluation,26,.csv,evidence/manual_validation/results/coraza_manual_csrf.csv
+r11-r12-waf-evaluation,26,.csv,evidence/manual_validation/results/manual_classification_detailed.csv
+r11-r12-waf-evaluation,26,.csv,evidence/manual_validation/results/manual_what_was_blocked.csv
+r11-r12-waf-evaluation,26,.csv,evidence/manual_validation/results/manual_what_was_not_cleanly_blocked.csv
+r11-r12-waf-evaluation,26,.csv,evidence/manual_validation/results/modsec_manual_csrf.csv
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-SQLI-E01.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-SQLI-E02.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-SQLI-E03.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-SQLI-E04.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-SQLI-E05.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-SQLI-E06.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-SQLI-E07.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-SQLI-E08.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E01__coraza__r1.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E01__coraza__r2.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E01__coraza__r3.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E01__modsec__r1.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E01__modsec__r2.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E01__modsec__r3.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E01__naxsi__r1.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E01__naxsi__r2.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E01__naxsi__r3.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E02__coraza__r1.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E02__coraza__r2.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E02__coraza__r3.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E02__modsec__r1.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E02__modsec__r2.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E02__modsec__r3.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E02__naxsi__r1.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E02__naxsi__r2.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E02__naxsi__r3.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E04__coraza__r1.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E04__coraza__r2.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E04__coraza__r3.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E04__modsec__r1.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E04__modsec__r2.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E04__modsec__r3.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E04__naxsi__r1.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E04__naxsi__r2.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E04__naxsi__r3.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E05__coraza__r1.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E05__coraza__r2.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E05__coraza__r3.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E05__modsec__r1.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E05__modsec__r2.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E05__modsec__r3.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E05__naxsi__r1.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E05__naxsi__r2.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E05__naxsi__r3.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E06__coraza__r1.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E06__coraza__r2.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E06__coraza__r3.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E06__modsec__r1.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E06__modsec__r2.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E06__modsec__r3.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E06__naxsi__r1.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E06__naxsi__r2.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E06__naxsi__r3.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E07__coraza__r1.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E07__coraza__r2.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E07__coraza__r3.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E07__modsec__r1.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E07__modsec__r2.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E07__modsec__r3.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E07__naxsi__r1.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E07__naxsi__r2.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E07__naxsi__r3.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E08__coraza__r1.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E08__coraza__r2.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E08__coraza__r3.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E08__modsec__r1.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E08__modsec__r2.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E08__modsec__r3.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E08__naxsi__r1.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E08__naxsi__r2.request.json
+r11-r12-waf-evaluation,26,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-SQLI-E08__naxsi__r3.request.json
+Tools-Attack-Lead,24,.txt,evidence/manual_validation/results/modsec_relevant_error_log.txt
+bishal-weekly-evidence,24,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_all_tests_detail.csv
+bishal-weekly-evidence,24,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_all_zap_messages.csv
+bishal-weekly-evidence,24,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_authenticated_mixed_detail.csv
+bishal-weekly-evidence,24,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_classification_matrix.csv
+bishal-weekly-evidence,24,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_mixed_detail.csv
+bishal-weekly-evidence,24,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_mixed_traffic_detail.csv
+bishal-weekly-evidence,24,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_zap_alerts.csv
+bishal-weekly-evidence,24,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_zap_results.csv
+bishal-weekly-evidence,24,.csv,WAF Ongoing/zap-waf-framework/results/naxsi_all_zap_messages.csv
+bishal-weekly-evidence,24,.csv,WAF Ongoing/zap-waf-framework/results/naxsi_mixed_traffic_detail.csv
+bishal-weekly-evidence,24,.csv,WAF Ongoing/zap-waf-framework/results/naxsi_zap_alerts.csv
+bishal-weekly-evidence,24,.csv,WAF Ongoing/zap-waf-framework/results/zap_active_modsecurity_alerts.csv
+bishal-weekly-evidence,24,.csv,WAF Ongoing/zap-waf-framework/results/zap_active_modsecurity_messages.csv
+comp6016-controlled-testing,24,.csv,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/benign_results.csv
+comp6016-controlled-testing,24,.csv,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/xss_control_results.csv
+comp6016-controlled-testing,24,.txt,evidence/manual_validation/results/modsec_relevant_error_log.txt
+integrate-tools-attack-lead,24,.txt,evidence/manual_validation/results/modsec_relevant_error_log.txt
+main,24,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_all_tests_detail.csv
+main,24,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_all_zap_messages.csv
+main,24,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_authenticated_mixed_detail.csv
+main,24,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_classification_matrix.csv
+main,24,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_mixed_detail.csv
+main,24,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_mixed_traffic_detail.csv
+main,24,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_zap_alerts.csv
+main,24,.csv,WAF Ongoing/zap-waf-framework/results/modsecurity_zap_results.csv
+main,24,.csv,WAF Ongoing/zap-waf-framework/results/naxsi_all_zap_messages.csv
+main,24,.csv,WAF Ongoing/zap-waf-framework/results/naxsi_mixed_traffic_detail.csv
+main,24,.csv,WAF Ongoing/zap-waf-framework/results/naxsi_zap_alerts.csv
+main,24,.csv,WAF Ongoing/zap-waf-framework/results/zap_active_modsecurity_alerts.csv
+main,24,.csv,WAF Ongoing/zap-waf-framework/results/zap_active_modsecurity_messages.csv
+main,24,.txt,evidence/manual_validation/results/modsec_relevant_error_log.txt
+r11-r12-waf-evaluation,24,.csv,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/benign_results.csv
+r11-r12-waf-evaluation,24,.csv,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/xss_control_results.csv
+r11-r12-waf-evaluation,24,.txt,evidence/manual_validation/results/modsec_relevant_error_log.txt
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-XSS-E01.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-XSS-E02.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-XSS-E03.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-XSS-E04.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-XSS-E05.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-XSS-E06.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-XSS-E07.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-XSS-E08.request.json
+r11-r12-waf-evaluation,23,.jsonl,r11_r12_waf_evaluation/evidence/r11-benign-expansion-20260922T102036Z/benign_expansion_manifest.jsonl
+r11-r12-waf-evaluation,23,.jsonl,r11_r12_waf_evaluation/evidence/r11-live-xss-confirmation-20260922T101343Z/live_xss_manifest.jsonl
+r11-r12-waf-evaluation,23,.jsonl,r11_r12_waf_evaluation/evidence/r11-live-xss-confirmation-20260922T101436Z/live_xss_manifest.jsonl
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E01__coraza__r1.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E01__coraza__r2.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E01__coraza__r3.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E01__modsec__r1.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E01__modsec__r2.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E01__modsec__r3.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E01__naxsi__r1.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E01__naxsi__r2.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E01__naxsi__r3.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E02__coraza__r1.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E02__coraza__r2.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E02__coraza__r3.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E02__modsec__r1.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E02__modsec__r2.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E02__modsec__r3.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E02__naxsi__r1.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E02__naxsi__r2.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E02__naxsi__r3.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E03__coraza__r1.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E03__coraza__r2.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E03__coraza__r3.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E03__modsec__r1.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E03__modsec__r2.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E03__modsec__r3.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E03__naxsi__r1.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E03__naxsi__r2.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E03__naxsi__r3.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E05__coraza__r1.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E05__coraza__r2.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E05__coraza__r3.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E05__modsec__r1.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E05__modsec__r2.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E05__modsec__r3.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E05__naxsi__r1.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E05__naxsi__r2.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E05__naxsi__r3.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E06__coraza__r1.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E06__coraza__r2.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E06__coraza__r3.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E06__modsec__r1.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E06__modsec__r2.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E06__modsec__r3.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E06__naxsi__r1.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E06__naxsi__r2.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E06__naxsi__r3.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E07__coraza__r1.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E07__coraza__r2.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E07__coraza__r3.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E07__modsec__r1.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E07__modsec__r2.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E07__modsec__r3.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E07__naxsi__r1.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E07__naxsi__r2.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E07__naxsi__r3.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E08__coraza__r1.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E08__coraza__r2.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E08__coraza__r3.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E08__modsec__r1.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E08__modsec__r2.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E08__modsec__r3.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E08__naxsi__r1.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E08__naxsi__r2.request.json
+r11-r12-waf-evaluation,23,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-XSS-E08__naxsi__r3.request.json
+bishal-weekly-evidence,22,.md,Bishal/Performance_and_Test_Results_Summary.md
+bishal-weekly-evidence,22,.md,Bishal/Week 09/docs/Performance_and_Test_Results_Summary.md
+bishal-weekly-evidence,22,.txt,WAF Ongoing/zap-waf-framework/results/modsecurity_master_output.txt
+bishal-weekly-evidence,22,.txt,WAF Ongoing/zap-waf-framework/results/modsecurity_master_run_output.txt
+bishal-weekly-evidence,22,.txt,WAF Ongoing/zap-waf-framework/results/modsecurity_mixed_output.txt
+bishal-weekly-evidence,22,.txt,WAF Ongoing/zap-waf-framework/results/modsecurity_mixed_output_fixed.txt
+bishal-weekly-evidence,22,.txt,WAF Ongoing/zap-waf-framework/results/modsecurity_mixed_output_realistic.txt
+bishal-weekly-evidence,22,.txt,WAF Ongoing/zap-waf-framework/results/zap_active_modsecurity_output.txt
+main,22,.md,Bishal/Performance_and_Test_Results_Summary.md
+main,22,.md,Bishal/Week 09/docs/Performance_and_Test_Results_Summary.md
+main,22,.txt,WAF Ongoing/zap-waf-framework/results/modsecurity_master_output.txt
+main,22,.txt,WAF Ongoing/zap-waf-framework/results/modsecurity_master_run_output.txt
+main,22,.txt,WAF Ongoing/zap-waf-framework/results/modsecurity_mixed_output.txt
+main,22,.txt,WAF Ongoing/zap-waf-framework/results/modsecurity_mixed_output_fixed.txt
+main,22,.txt,WAF Ongoing/zap-waf-framework/results/modsecurity_mixed_output_realistic.txt
+main,22,.txt,WAF Ongoing/zap-waf-framework/results/zap_active_modsecurity_output.txt
+r11-r12-waf-evaluation,22,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-BEN-SQL01.request.json
+r11-r12-waf-evaluation,22,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-SQL01__coraza__r1.request.json
+r11-r12-waf-evaluation,22,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-SQL01__coraza__r2.request.json
+r11-r12-waf-evaluation,22,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-SQL01__coraza__r3.request.json
+r11-r12-waf-evaluation,22,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-SQL01__modsec__r1.request.json
+r11-r12-waf-evaluation,22,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-SQL01__modsec__r2.request.json
+r11-r12-waf-evaluation,22,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-SQL01__modsec__r3.request.json
+r11-r12-waf-evaluation,22,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-SQL01__naxsi__r1.request.json
+r11-r12-waf-evaluation,22,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-SQL01__naxsi__r2.request.json
+r11-r12-waf-evaluation,22,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-SQL01__naxsi__r3.request.json
+bishal-weekly-evidence,21,.csv,Bishal/Final_Evidence/Results/naxsi_fn_by_category.csv
+bishal-weekly-evidence,21,.csv,Bishal/Final_Evidence/Results/naxsi_fn_by_transformation.csv
+bishal-weekly-evidence,21,.csv,Week_05/results/final/20260921T155000Z_d194f19db17d-reviewed.csv
+bishal-weekly-evidence,21,.csv,Week_05/results/final/20260921T164645Z_a1ab5dc9e495-reviewed.csv
+bishal-weekly-evidence,21,.csv,Week_05/results/final/modsecurity-reviewed-decisions.csv
+bishal-weekly-evidence,21,.csv,Week_05/results/final/naxsi-reviewed-decisions.csv
+bishal-weekly-evidence,21,.csv,Week_07/results/final/modsecurity-categories.csv
+bishal-weekly-evidence,21,.json,Week_07/results/final/modsecurity-latency.json
+bishal-weekly-evidence,21,.csv,Week_07/results/final/modsecurity-week6-reviewed.csv
+bishal-weekly-evidence,21,.csv,Week_07/results/final/naxsi-categories.csv
+bishal-weekly-evidence,21,.json,Week_07/results/final/naxsi-latency.json
+bishal-weekly-evidence,21,.csv,Week_07/results/final/naxsi-week6-reviewed.csv
+role4,21,.txt,Pabin_WAF_Analysis/validation_results.txt
+Tools-Attack-Lead,20,.csv,evidence/manual_validation/payloads/manual_sqli_payloads.csv
+Tools-Attack-Lead,20,.csv,evidence/manual_validation/payloads/manual_sqli_payloads_expanded.csv
+Tools-Attack-Lead,20,.csv,evidence/manual_validation/payloads/manual_sqli_transport_tests.csv
+bishal-weekly-evidence,20,.md,Bishal/Week 09/tool-output/github_tools_attack_lead_week8_performance/performance-results.md
+bishal-weekly-evidence,20,.md,Bishal/Week 10/tool-output/github_coraza_waf2_evidence/performance-results.md
+comp6016-controlled-testing,20,.csv,evidence/manual_validation/payloads/manual_sqli_payloads.csv
+comp6016-controlled-testing,20,.csv,evidence/manual_validation/payloads/manual_sqli_payloads_expanded.csv
+comp6016-controlled-testing,20,.csv,evidence/manual_validation/payloads/manual_sqli_transport_tests.csv
+integrate-tools-attack-lead,20,.csv,evidence/manual_validation/payloads/manual_sqli_payloads.csv
+integrate-tools-attack-lead,20,.csv,evidence/manual_validation/payloads/manual_sqli_payloads_expanded.csv
+integrate-tools-attack-lead,20,.csv,evidence/manual_validation/payloads/manual_sqli_transport_tests.csv
+main,20,.md,Bishal/Week 09/tool-output/github_tools_attack_lead_week8_performance/performance-results.md
+main,20,.md,Bishal/Week 10/tool-output/github_coraza_waf2_evidence/performance-results.md
+main,20,.csv,evidence/manual_validation/payloads/manual_sqli_payloads.csv
+main,20,.csv,evidence/manual_validation/payloads/manual_sqli_payloads_expanded.csv
+main,20,.csv,evidence/manual_validation/payloads/manual_sqli_transport_tests.csv
+r11-r12-waf-evaluation,20,.csv,evidence/manual_validation/payloads/manual_sqli_payloads.csv
+r11-r12-waf-evaluation,20,.csv,evidence/manual_validation/payloads/manual_sqli_payloads_expanded.csv
+r11-r12-waf-evaluation,20,.csv,evidence/manual_validation/payloads/manual_sqli_transport_tests.csv
+bishal-weekly-evidence,19,.txt,Week_05/results/final/SHA256SUMS.txt
+bishal-weekly-evidence,19,.txt,Week_05/results/modsecurity_baseline_digest.txt
+bishal-weekly-evidence,19,.txt,Week_05/results/modsecurity_baseline_run.txt
+bishal-weekly-evidence,19,.txt,Week_05/results/naxsi_baseline_run.txt
+bishal-weekly-evidence,19,.txt,Week_06/results/modsecurity_baseline_run.txt
+bishal-weekly-evidence,19,.txt,Week_06/results/modsecurity_week6_digest.txt
+bishal-weekly-evidence,19,.txt,Week_06/results/naxsi_baseline_run.txt
+bishal-weekly-evidence,19,.txt,Week_07/results/final/SHA256SUMS.txt
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-BEN-E01.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-BEN-E02.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-BEN-E05.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-CMD-E01.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-CMD-E02.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-CMD-E03.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-CMD-E04.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-CMD-E05.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-PTH-E01.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-PTH-E02.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/R11-PTH-E03.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-baseline-20260921T072551Z-8696e008/run_metadata.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E01__coraza__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E01__coraza__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E01__coraza__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E01__modsec__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E01__modsec__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E01__modsec__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E01__naxsi__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E01__naxsi__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E01__naxsi__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E02__coraza__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E02__coraza__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E02__coraza__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E02__modsec__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E02__modsec__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E02__modsec__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E02__naxsi__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E02__naxsi__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E02__naxsi__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E05__coraza__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E05__coraza__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E05__coraza__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E05__modsec__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E05__modsec__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E05__modsec__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E05__naxsi__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E05__naxsi__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-BEN-E05__naxsi__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E01__coraza__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E01__coraza__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E01__coraza__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E01__modsec__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E01__modsec__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E01__modsec__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E01__naxsi__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E01__naxsi__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E01__naxsi__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E02__coraza__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E02__coraza__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E02__coraza__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E02__modsec__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E02__modsec__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E02__modsec__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E02__naxsi__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E02__naxsi__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E02__naxsi__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E03__coraza__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E03__coraza__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E03__coraza__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E03__modsec__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E03__modsec__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E03__modsec__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E03__naxsi__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E03__naxsi__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E03__naxsi__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E04__coraza__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E04__coraza__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E04__coraza__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E04__modsec__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E04__modsec__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E04__modsec__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E04__naxsi__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E04__naxsi__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E04__naxsi__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E05__coraza__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E05__coraza__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E05__coraza__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E05__modsec__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E05__modsec__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E05__modsec__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E05__naxsi__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E05__naxsi__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-CMD-E05__naxsi__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-PTH-E01__coraza__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-PTH-E01__coraza__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-PTH-E01__coraza__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-PTH-E01__modsec__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-PTH-E01__modsec__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-PTH-E01__modsec__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-PTH-E01__naxsi__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-PTH-E01__naxsi__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-PTH-E01__naxsi__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-PTH-E02__coraza__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-PTH-E02__coraza__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-PTH-E02__coraza__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-PTH-E02__modsec__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-PTH-E02__modsec__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-PTH-E02__modsec__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-PTH-E02__naxsi__r1.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-PTH-E02__naxsi__r2.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/R11-PTH-E02__naxsi__r3.request.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/catalogue.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r11-protected-20260922T060455Z-5abafbad/run_metadata.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r12-baseline-20260922T070829Z/baseline_gate_report.json
+r11-r12-waf-evaluation,19,.jsonl,r11_r12_waf_evaluation/evidence/r12-baseline-20260922T070829Z/run_manifest.jsonl
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r12-baseline-20260922T070829Z/run_metadata.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r12-baseline-20260922T070912Z/baseline_gate_report.json
+r11-r12-waf-evaluation,19,.jsonl,r11_r12_waf_evaluation/evidence/r12-baseline-20260922T070912Z/run_manifest.jsonl
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r12-baseline-20260922T070912Z/run_metadata.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r12-baseline-20260922T070936Z/baseline_gate_report.json
+r11-r12-waf-evaluation,19,.jsonl,r11_r12_waf_evaluation/evidence/r12-baseline-20260922T070936Z/run_manifest.jsonl
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r12-baseline-20260922T070936Z/run_metadata.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r12-baseline-20260922T070944Z/baseline_gate_report.json
+r11-r12-waf-evaluation,19,.jsonl,r11_r12_waf_evaluation/evidence/r12-baseline-20260922T070944Z/run_manifest.jsonl
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r12-baseline-20260922T070944Z/run_metadata.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r12-baseline-20260922T071103Z/baseline_gate_report.json
+r11-r12-waf-evaluation,19,.jsonl,r11_r12_waf_evaluation/evidence/r12-baseline-20260922T071103Z/run_manifest.jsonl
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r12-baseline-20260922T071103Z/run_metadata.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r12-baseline-20260922T072332Z/baseline_gate_report.json
+r11-r12-waf-evaluation,19,.jsonl,r11_r12_waf_evaluation/evidence/r12-baseline-20260922T072332Z/run_manifest.jsonl
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r12-baseline-20260922T072332Z/run_metadata.json
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r12-baseline-20260922T073107Z/baseline_gate_report.json
+r11-r12-waf-evaluation,19,.jsonl,r11_r12_waf_evaluation/evidence/r12-baseline-20260922T073107Z/protected_manifest.jsonl
+r11-r12-waf-evaluation,19,.jsonl,r11_r12_waf_evaluation/evidence/r12-baseline-20260922T073107Z/run_manifest.jsonl
+r11-r12-waf-evaluation,19,.json,r11_r12_waf_evaluation/evidence/r12-baseline-20260922T073107Z/run_metadata.json
+bishal-weekly-evidence,18,.xlsx,Bishal/Week 03/docs/github_Pabin_Final_WAF_Test_Results.xlsx
+bishal-weekly-evidence,18,.md,Bishal/Week 06/tool-output/github_tools_attack_lead_week6/baseline-waf2-results.md
+bishal-weekly-evidence,18,.md,Week_04/results/processed/README.md
+bishal-weekly-evidence,18,.md,Week_04/results/raw/README.md
+bishal-weekly-evidence,18,.md,Week_05/results/processed/README.md
+bishal-weekly-evidence,18,.md,Week_05/results/raw/README.md
+bishal-weekly-evidence,18,.md,Week_06/results/processed/README.md
+bishal-weekly-evidence,18,.md,Week_06/results/raw/README.md
+bishal-weekly-evidence,18,.md,Week_07/results/final/modsecurity-week6-analysis.md
+bishal-weekly-evidence,18,.md,Week_07/results/final/naxsi-week6-analysis.md
+bishal-weekly-evidence,18,.md,Week_07/results/processed/README.md
+bishal-weekly-evidence,18,.md,Week_07/results/raw/README.md
+comp6016-controlled-testing,18,.xlsx,role3_analysis/Pabin_Final_WAF_Test_Results.xlsx
+integrate-tools-attack-lead,18,.xlsx,role3_analysis/Pabin_Final_WAF_Test_Results.xlsx
+main,18,.xlsx,Bishal/Week 03/docs/github_Pabin_Final_WAF_Test_Results.xlsx
+main,18,.md,Bishal/Week 06/tool-output/github_tools_attack_lead_week6/baseline-waf2-results.md
+r11-r12-waf-evaluation,18,.xlsx,role3_analysis/Pabin_Final_WAF_Test_Results.xlsx
+role4,18,.csv,Pabin_WAF_Analysis/reviewed_group_evidence/performance_metrics.csv
+role4,18,.xlsx,role3_analysis/Pabin_Final_WAF_Test_Results.xlsx
+Tools-Attack-Lead,17,.md,docs/week8/performance-results.md
+bishal-weekly-evidence,17,.md,Bishal/Week 09/docs/github_week8_performance-results.md
+comp6016-controlled-testing,17,.md,docs/week8/performance-results.md
+integrate-tools-attack-lead,17,.md,docs/week8/performance-results.md
+main,17,.md,Bishal/Week 09/docs/github_week8_performance-results.md
+main,17,.md,docs/week8/performance-results.md
+r11-r12-waf-evaluation,17,.md,docs/week8/performance-results.md
+r11-r12-waf-evaluation,17,.txt,r11_r12_waf_evaluation/evidence/r12-baseline-20260922T073107Z/gated_cases.txt
+bishal-weekly-evidence,16,.txt,Bishal/Week 01/tool-output/manual_sql_injection_results.txt
+bishal-weekly-evidence,16,.txt,Bishal/Week 06/tool-output/sqlmap_and_manual_results.txt
+bishal-weekly-evidence,16,.csv,Week_05/analysis/comparison_template.csv
+bishal-weekly-evidence,16,.csv,Week_06/analysis/comparison_template.csv
+bishal-weekly-evidence,16,.csv,Week_07/analysis/comparison_template.csv
+main,16,.txt,Bishal/Week 01/tool-output/manual_sql_injection_results.txt
+main,16,.txt,Bishal/Week 06/tool-output/sqlmap_and_manual_results.txt
+role4,16,.txt,Pabin_WAF_Analysis/naxsi_misses_results.txt
+Tools-Attack-Lead,15,.md,docs/week6/baseline-waf2-results.md
+bishal-weekly-evidence,15,.csv,Bishal/Local_Test_Results_Dataset.csv
+bishal-weekly-evidence,15,.md,Bishal/Week 03/tool-output/github_tools_attack_lead_week3/baseline-results.md
+bishal-weekly-evidence,15,.md,Bishal/Week 10/tool-output/github_coraza_waf2_evidence/baseline-waf2-results.md
+bishal-weekly-evidence,15,.json,WAF Ongoing/zap-waf-framework/traffic/sqli_raw.json
+comp6016-controlled-testing,15,.md,docs/week6/baseline-waf2-results.md
+comp6016-controlled-testing,15,.csv,evidence/controlled_validation/schemas/result_fields.csv
+integrate-tools-attack-lead,15,.md,docs/week6/baseline-waf2-results.md
+main,15,.csv,Bishal/Local_Test_Results_Dataset.csv
+main,15,.md,Bishal/Week 03/tool-output/github_tools_attack_lead_week3/baseline-results.md
+main,15,.md,Bishal/Week 10/tool-output/github_coraza_waf2_evidence/baseline-waf2-results.md
+main,15,.json,WAF Ongoing/zap-waf-framework/traffic/sqli_raw.json
+main,15,.md,docs/week6/baseline-waf2-results.md
+r11-r12-waf-evaluation,15,.md,docs/week6/baseline-waf2-results.md
+r11-r12-waf-evaluation,15,.csv,evidence/controlled_validation/schemas/result_fields.csv
+Tools-Attack-Lead,14,.csv,analysis/final/final_benign_summary.csv
+comp6016-controlled-testing,14,.csv,analysis/final/final_benign_summary.csv
+integrate-tools-attack-lead,14,.csv,analysis/final/final_benign_summary.csv
+main,14,.csv,analysis/final/final_benign_summary.csv
+r11-r12-waf-evaluation,14,.csv,analysis/final/final_benign_summary.csv
+Tools-Attack-Lead,13,.csv,analysis/final/final_attack_type_summary.csv
+Tools-Attack-Lead,13,.csv,analysis/final/final_waf_comparison.csv
+Tools-Attack-Lead,13,.csv,analysis/final/missed_attacks.csv
+Tools-Attack-Lead,13,.csv,evidence/manual_validation/payloads/manual_csrf_tests.csv
+Tools-Attack-Lead,13,.json,output/baseline/attack_only/none/run_20260519_063833/run_summary.json
+Tools-Attack-Lead,13,.csv,output/baseline/attack_only/none/run_20260519_063833/summary.csv
+Tools-Attack-Lead,13,.json,output/coraza/attack_only/none/run_20260519_074907/run_summary.json
+Tools-Attack-Lead,13,.csv,output/coraza/attack_only/none/run_20260519_074907/summary.csv
+Tools-Attack-Lead,13,.json,output/modsec/attack_only/none/run_20260519_064610/run_summary.json
+Tools-Attack-Lead,13,.csv,output/modsec/attack_only/none/run_20260519_064610/summary.csv
+bishal-weekly-evidence,13,.txt,Bishal/results.txt
+comp6016-controlled-testing,13,.csv,analysis/final/final_attack_type_summary.csv
+comp6016-controlled-testing,13,.csv,analysis/final/final_waf_comparison.csv
+comp6016-controlled-testing,13,.csv,analysis/final/missed_attacks.csv
+comp6016-controlled-testing,13,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/correlation_summary.txt
+comp6016-controlled-testing,13,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/naxsi_recent_detections.txt
+comp6016-controlled-testing,13,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/naxsi_selected_detections.txt
+comp6016-controlled-testing,13,.csv,evidence/manual_validation/payloads/manual_csrf_tests.csv
+comp6016-controlled-testing,13,.json,output/baseline/attack_only/none/run_20260519_063833/run_summary.json
+comp6016-controlled-testing,13,.csv,output/baseline/attack_only/none/run_20260519_063833/summary.csv
+comp6016-controlled-testing,13,.json,output/coraza/attack_only/none/run_20260519_074907/run_summary.json
+comp6016-controlled-testing,13,.csv,output/coraza/attack_only/none/run_20260519_074907/summary.csv
+comp6016-controlled-testing,13,.json,output/modsec/attack_only/none/run_20260519_064610/run_summary.json
+comp6016-controlled-testing,13,.csv,output/modsec/attack_only/none/run_20260519_064610/summary.csv
+integrate-tools-attack-lead,13,.csv,analysis/final/final_attack_type_summary.csv
+integrate-tools-attack-lead,13,.csv,analysis/final/final_waf_comparison.csv
+integrate-tools-attack-lead,13,.csv,analysis/final/missed_attacks.csv
+integrate-tools-attack-lead,13,.csv,evidence/manual_validation/payloads/manual_csrf_tests.csv
+integrate-tools-attack-lead,13,.json,output/baseline/attack_only/none/run_20260519_063833/run_summary.json
+integrate-tools-attack-lead,13,.csv,output/baseline/attack_only/none/run_20260519_063833/summary.csv
+integrate-tools-attack-lead,13,.json,output/coraza/attack_only/none/run_20260519_074907/run_summary.json
+integrate-tools-attack-lead,13,.csv,output/coraza/attack_only/none/run_20260519_074907/summary.csv
+integrate-tools-attack-lead,13,.json,output/modsec/attack_only/none/run_20260519_064610/run_summary.json
+integrate-tools-attack-lead,13,.csv,output/modsec/attack_only/none/run_20260519_064610/summary.csv
+main,13,.txt,Bishal/results.txt
+main,13,.csv,analysis/final/final_attack_type_summary.csv
+main,13,.csv,analysis/final/final_waf_comparison.csv
+main,13,.csv,analysis/final/missed_attacks.csv
+main,13,.csv,evidence/manual_validation/payloads/manual_csrf_tests.csv
+main,13,.json,output/baseline/attack_only/none/run_20260519_063833/run_summary.json
+main,13,.csv,output/baseline/attack_only/none/run_20260519_063833/summary.csv
+main,13,.json,output/coraza/attack_only/none/run_20260519_074907/run_summary.json
+main,13,.csv,output/coraza/attack_only/none/run_20260519_074907/summary.csv
+main,13,.json,output/modsec/attack_only/none/run_20260519_064610/run_summary.json
+main,13,.csv,output/modsec/attack_only/none/run_20260519_064610/summary.csv
+r11-r12-waf-evaluation,13,.csv,analysis/final/final_attack_type_summary.csv
+r11-r12-waf-evaluation,13,.csv,analysis/final/final_waf_comparison.csv
+r11-r12-waf-evaluation,13,.csv,analysis/final/missed_attacks.csv
+r11-r12-waf-evaluation,13,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/correlation_summary.txt
+r11-r12-waf-evaluation,13,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/naxsi_recent_detections.txt
+r11-r12-waf-evaluation,13,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/naxsi_selected_detections.txt
+r11-r12-waf-evaluation,13,.csv,evidence/manual_validation/payloads/manual_csrf_tests.csv
+r11-r12-waf-evaluation,13,.json,output/baseline/attack_only/none/run_20260519_063833/run_summary.json
+r11-r12-waf-evaluation,13,.csv,output/baseline/attack_only/none/run_20260519_063833/summary.csv
+r11-r12-waf-evaluation,13,.json,output/coraza/attack_only/none/run_20260519_074907/run_summary.json
+r11-r12-waf-evaluation,13,.csv,output/coraza/attack_only/none/run_20260519_074907/summary.csv
+r11-r12-waf-evaluation,13,.json,output/modsec/attack_only/none/run_20260519_064610/run_summary.json
+r11-r12-waf-evaluation,13,.csv,output/modsec/attack_only/none/run_20260519_064610/summary.csv
+r11-r12-waf-evaluation,13,.json,r11_r12_waf_evaluation/catalogue.json
+role4,13,.csv,Pabin_WAF_Analysis/reviewed_group_evidence/transformation_detection_detail.csv
+role4,13,.csv,Pabin_WAF_Analysis/waf_comparison.csv
+Tools-Attack-Lead,12,.md,RESULTS_INDEX.md
+Tools-Attack-Lead,12,.md,docs/week3/baseline-results.md
+Tools-Attack-Lead,12,.md,docs/week9/false-positive-results.md
+Tools-Attack-Lead,12,.md,docs/week9/final-results.md
+bishal-weekly-evidence,12,.txt,Bishal/Week 06/tool-output/github_tools_attack_lead_week6/sqlmap-waf1-week6.txt
+bishal-weekly-evidence,12,.txt,Bishal/Week 06/tool-output/github_tools_attack_lead_week6/sqlmap-waf2.txt
+bishal-weekly-evidence,12,.txt,Bishal/Week 09/tool-output/paired_performance_test_commands.txt
+bishal-weekly-evidence,12,.json,WAF Ongoing/zap-waf-framework/traffic/xss_raw.json
+bishal-weekly-evidence,12,.csv,Week_03/test_cases/sqli.csv
+bishal-weekly-evidence,12,.csv,Week_04/test_cases/sqli.csv
+bishal-weekly-evidence,12,.csv,Week_05/test_cases/sqli.csv
+bishal-weekly-evidence,12,.csv,Week_06/test_cases/sqli.csv
+bishal-weekly-evidence,12,.csv,Week_07/test_cases/sqli.csv
+comp6016-controlled-testing,12,.md,RESULTS_INDEX.md
+comp6016-controlled-testing,12,.md,docs/week3/baseline-results.md
+comp6016-controlled-testing,12,.md,docs/week9/false-positive-results.md
+comp6016-controlled-testing,12,.md,docs/week9/final-results.md
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/baseline_01_headers.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/baseline_02_headers.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/baseline_03_headers.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/benign_equivalence_validation.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/coraza_01_headers.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/coraza_02_headers.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/coraza_03_headers.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/modsec_01_headers.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/modsec_02_headers.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/modsec_03_headers.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/naxsi_01_headers.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/naxsi_02_headers.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/naxsi_03_headers.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/baseline_01_headers.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/baseline_02_headers.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/baseline_03_headers.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/coraza_01_headers.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/coraza_02_headers.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/coraza_03_headers.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/modsec_01_headers.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/modsec_02_headers.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/modsec_03_headers.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/naxsi_01_headers.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/naxsi_02_headers.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/naxsi_03_headers.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/probe_definition.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/xss_control_pilot.txt
+comp6016-controlled-testing,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/04_baseline_control/benign_headers.txt
+integrate-tools-attack-lead,12,.md,RESULTS_INDEX.md
+integrate-tools-attack-lead,12,.md,docs/week3/baseline-results.md
+integrate-tools-attack-lead,12,.md,docs/week9/false-positive-results.md
+integrate-tools-attack-lead,12,.md,docs/week9/final-results.md
+main,12,.txt,Bishal/Week 06/tool-output/github_tools_attack_lead_week6/sqlmap-waf1-week6.txt
+main,12,.txt,Bishal/Week 06/tool-output/github_tools_attack_lead_week6/sqlmap-waf2.txt
+main,12,.txt,Bishal/Week 09/tool-output/paired_performance_test_commands.txt
+main,12,.md,RESULTS_INDEX.md
+main,12,.json,WAF Ongoing/zap-waf-framework/traffic/xss_raw.json
+main,12,.md,docs/week3/baseline-results.md
+main,12,.md,docs/week9/false-positive-results.md
+main,12,.md,docs/week9/final-results.md
+r11-r12-waf-evaluation,12,.md,RESULTS_INDEX.md
+r11-r12-waf-evaluation,12,.md,docs/week3/baseline-results.md
+r11-r12-waf-evaluation,12,.md,docs/week9/false-positive-results.md
+r11-r12-waf-evaluation,12,.md,docs/week9/final-results.md
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/baseline_01_headers.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/baseline_02_headers.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/baseline_03_headers.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/benign_equivalence_validation.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/coraza_01_headers.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/coraza_02_headers.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/coraza_03_headers.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/modsec_01_headers.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/modsec_02_headers.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/modsec_03_headers.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/naxsi_01_headers.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/naxsi_02_headers.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/06_benign_equivalence/naxsi_03_headers.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/baseline_01_headers.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/baseline_02_headers.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/baseline_03_headers.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/coraza_01_headers.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/coraza_02_headers.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/coraza_03_headers.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/modsec_01_headers.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/modsec_02_headers.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/modsec_03_headers.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/naxsi_01_headers.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/naxsi_02_headers.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/naxsi_03_headers.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/probe_definition.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/07_xss_control_pilot/xss_control_pilot.txt
+r11-r12-waf-evaluation,12,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/04_baseline_control/benign_headers.txt
+Tools-Attack-Lead,11,.txt,output/baseline/attack_only/none/run_20260519_063833/validation.txt
+Tools-Attack-Lead,11,.txt,output/coraza/attack_only/none/run_20260519_074907/validation.txt
+Tools-Attack-Lead,11,.txt,output/modsec/attack_only/none/run_20260519_064610/validation.txt
+bishal-weekly-evidence,11,.txt,Bishal/Week 03/tool-output/github_tools_attack_lead_week3/week3_before_after_comparison.txt
+bishal-weekly-evidence,11,.md,Bishal/Week 06/tool-output/github_tools_attack_lead_week6/waf1-sqlmap-notes.md
+bishal-weekly-evidence,11,.txt,Bishal/Week 09/tool-output/github_tools_attack_lead_week8_performance/baseline-load.txt
+bishal-weekly-evidence,11,.txt,Bishal/Week 09/tool-output/github_tools_attack_lead_week8_performance/coraza-load.txt
+bishal-weekly-evidence,11,.txt,Bishal/Week 09/tool-output/github_tools_attack_lead_week8_performance/modsecurity-load.txt
+bishal-weekly-evidence,11,.json,WAF Ongoing/zap-waf-framework/traffic/attack_traffic.json
+comp6016-controlled-testing,11,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/03_configuration_freeze/waf_configuration_freeze.txt
+comp6016-controlled-testing,11,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/recent_server_log_files.txt
+comp6016-controlled-testing,11,.txt,output/baseline/attack_only/none/run_20260519_063833/validation.txt
+comp6016-controlled-testing,11,.txt,output/coraza/attack_only/none/run_20260519_074907/validation.txt
+comp6016-controlled-testing,11,.txt,output/modsec/attack_only/none/run_20260519_064610/validation.txt
+integrate-tools-attack-lead,11,.txt,output/baseline/attack_only/none/run_20260519_063833/validation.txt
+integrate-tools-attack-lead,11,.txt,output/coraza/attack_only/none/run_20260519_074907/validation.txt
+integrate-tools-attack-lead,11,.txt,output/modsec/attack_only/none/run_20260519_064610/validation.txt
+main,11,.txt,Bishal/Week 03/tool-output/github_tools_attack_lead_week3/week3_before_after_comparison.txt
+main,11,.md,Bishal/Week 06/tool-output/github_tools_attack_lead_week6/waf1-sqlmap-notes.md
+main,11,.txt,Bishal/Week 09/tool-output/github_tools_attack_lead_week8_performance/baseline-load.txt
+main,11,.txt,Bishal/Week 09/tool-output/github_tools_attack_lead_week8_performance/coraza-load.txt
+main,11,.txt,Bishal/Week 09/tool-output/github_tools_attack_lead_week8_performance/modsecurity-load.txt
+main,11,.json,WAF Ongoing/zap-waf-framework/traffic/attack_traffic.json
+main,11,.txt,output/baseline/attack_only/none/run_20260519_063833/validation.txt
+main,11,.txt,output/coraza/attack_only/none/run_20260519_074907/validation.txt
+main,11,.txt,output/modsec/attack_only/none/run_20260519_064610/validation.txt
+r11-r12-waf-evaluation,11,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/03_configuration_freeze/waf_configuration_freeze.txt
+r11-r12-waf-evaluation,11,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/recent_server_log_files.txt
+r11-r12-waf-evaluation,11,.txt,output/baseline/attack_only/none/run_20260519_063833/validation.txt
+r11-r12-waf-evaluation,11,.txt,output/coraza/attack_only/none/run_20260519_074907/validation.txt
+r11-r12-waf-evaluation,11,.txt,output/modsec/attack_only/none/run_20260519_064610/validation.txt
+r11-r12-waf-evaluation,11,.txt,r11_r12_waf_evaluation/configuration_r12/r12-apache-vhosts-20260922T073906Z.txt
+r11-r12-waf-evaluation,11,.txt,r11_r12_waf_evaluation/configuration_r12/r12-coraza-conf-20260922T073809Z.txt
+r11-r12-waf-evaluation,11,.txt,r11_r12_waf_evaluation/configuration_r12/r12-coraza-crs-setup-20260922T073809Z.txt
+Tools-Attack-Lead,10,.csv,analysis/final/confusion_matrices.csv
+Tools-Attack-Lead,10,.csv,analysis/final/final_classification_summary.csv
+Tools-Attack-Lead,10,.csv,analysis/final/final_repetition_summary.csv
+Tools-Attack-Lead,10,.csv,analysis/final/final_summary.csv
+Tools-Attack-Lead,10,.txt,docs/clean-evidence/baseline/manual-sqli-baseline.txt
+Tools-Attack-Lead,10,.md,evidence/manual_validation/ATTACK_TAXONOMY_AND_TEST_DESIGN.md
+Tools-Attack-Lead,10,.json,output/baseline/mixed/medium/run_20260519_074733/run_summary.json
+Tools-Attack-Lead,10,.csv,output/baseline/mixed/medium/run_20260519_074733/summary.csv
+Tools-Attack-Lead,10,.json,output/coraza/mixed/medium/run_20260519_064803/run_summary.json
+Tools-Attack-Lead,10,.csv,output/coraza/mixed/medium/run_20260519_064803/summary.csv
+Tools-Attack-Lead,10,.json,output/modsec/mixed/medium/run_20260519_033300_rerun/run_summary.json
+Tools-Attack-Lead,10,.csv,output/modsec/mixed/medium/run_20260519_033300_rerun/summary.csv
+bishal-weekly-evidence,10,.md,Bishal/Week 06/docs/github_week6-waf-comparison.md
+bishal-weekly-evidence,10,.txt,Bishal/Week 06/tool-output/sqlmap_command_notes.txt
+bishal-weekly-evidence,10,.md,Bishal/Week 09/tool-output/github_tools_attack_lead_week8_performance/light-attack-under-load.md
+bishal-weekly-evidence,10,.md,Bishal/Week 10/docs/github_week6-waf-comparison.md
+bishal-weekly-evidence,10,.txt,Week_01/legacy_reference/automate_modsecurity_sqli.py.txt
+bishal-weekly-evidence,10,.txt,Week_02/legacy_reference/automate_modsecurity_sqli.py.txt
+bishal-weekly-evidence,10,.txt,Week_03/legacy_reference/automate_modsecurity_sqli.py.txt
+bishal-weekly-evidence,10,.txt,Week_04/legacy_reference/automate_modsecurity_sqli.py.txt
+bishal-weekly-evidence,10,.txt,Week_05/legacy_reference/automate_modsecurity_sqli.py.txt
+bishal-weekly-evidence,10,.txt,Week_06/legacy_reference/automate_modsecurity_sqli.py.txt
+bishal-weekly-evidence,10,.csv,Week_06/outputs/variant_semantic_validation.csv
+bishal-weekly-evidence,10,.txt,Week_07/legacy_reference/automate_modsecurity_sqli.py.txt
+bishal-weekly-evidence,10,.csv,historical/final_report/modsecurity_mixed_summary.csv
+comp6016-controlled-testing,10,.csv,analysis/final/confusion_matrices.csv
+comp6016-controlled-testing,10,.csv,analysis/final/final_classification_summary.csv
+comp6016-controlled-testing,10,.csv,analysis/final/final_repetition_summary.csv
+comp6016-controlled-testing,10,.csv,analysis/final/final_summary.csv
+comp6016-controlled-testing,10,.txt,docs/clean-evidence/baseline/manual-sqli-baseline.txt
+comp6016-controlled-testing,10,.csv,evidence/controlled_validation/catalogues/canonical_test_catalogue.csv
+comp6016-controlled-testing,10,.csv,evidence/controlled_validation/environment_manifest.csv
+comp6016-controlled-testing,10,.csv,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/combined_rule_correlation.csv
+comp6016-controlled-testing,10,.jsonl,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/coraza_correlation_source.jsonl
+comp6016-controlled-testing,10,.jsonl,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/coraza_selected_transactions.jsonl
+comp6016-controlled-testing,10,.md,evidence/manual_validation/ATTACK_TAXONOMY_AND_TEST_DESIGN.md
+comp6016-controlled-testing,10,.json,output/baseline/mixed/medium/run_20260519_074733/run_summary.json
+comp6016-controlled-testing,10,.csv,output/baseline/mixed/medium/run_20260519_074733/summary.csv
+comp6016-controlled-testing,10,.json,output/coraza/mixed/medium/run_20260519_064803/run_summary.json
+comp6016-controlled-testing,10,.csv,output/coraza/mixed/medium/run_20260519_064803/summary.csv
+comp6016-controlled-testing,10,.json,output/modsec/mixed/medium/run_20260519_033300_rerun/run_summary.json
+comp6016-controlled-testing,10,.csv,output/modsec/mixed/medium/run_20260519_033300_rerun/summary.csv
+comp6016-controlled-testing,10,.md,role3_analysis/week6-waf-comparison.md
+integrate-tools-attack-lead,10,.csv,analysis/final/confusion_matrices.csv
+integrate-tools-attack-lead,10,.csv,analysis/final/final_classification_summary.csv
+integrate-tools-attack-lead,10,.csv,analysis/final/final_repetition_summary.csv
+integrate-tools-attack-lead,10,.csv,analysis/final/final_summary.csv
+integrate-tools-attack-lead,10,.txt,docs/clean-evidence/baseline/manual-sqli-baseline.txt
+integrate-tools-attack-lead,10,.md,evidence/manual_validation/ATTACK_TAXONOMY_AND_TEST_DESIGN.md
+integrate-tools-attack-lead,10,.json,output/baseline/mixed/medium/run_20260519_074733/run_summary.json
+integrate-tools-attack-lead,10,.csv,output/baseline/mixed/medium/run_20260519_074733/summary.csv
+integrate-tools-attack-lead,10,.json,output/coraza/mixed/medium/run_20260519_064803/run_summary.json
+integrate-tools-attack-lead,10,.csv,output/coraza/mixed/medium/run_20260519_064803/summary.csv
+integrate-tools-attack-lead,10,.json,output/modsec/mixed/medium/run_20260519_033300_rerun/run_summary.json
+integrate-tools-attack-lead,10,.csv,output/modsec/mixed/medium/run_20260519_033300_rerun/summary.csv
+integrate-tools-attack-lead,10,.md,role3_analysis/week6-waf-comparison.md
+main,10,.md,Bishal/Week 06/docs/github_week6-waf-comparison.md
+main,10,.txt,Bishal/Week 06/tool-output/sqlmap_command_notes.txt
+main,10,.md,Bishal/Week 09/tool-output/github_tools_attack_lead_week8_performance/light-attack-under-load.md
+main,10,.md,Bishal/Week 10/docs/github_week6-waf-comparison.md
+main,10,.csv,analysis/final/confusion_matrices.csv
+main,10,.csv,analysis/final/final_classification_summary.csv
+main,10,.csv,analysis/final/final_repetition_summary.csv
+main,10,.csv,analysis/final/final_summary.csv
+main,10,.txt,docs/clean-evidence/baseline/manual-sqli-baseline.txt
+main,10,.md,evidence/manual_validation/ATTACK_TAXONOMY_AND_TEST_DESIGN.md
+main,10,.json,output/baseline/mixed/medium/run_20260519_074733/run_summary.json
+main,10,.csv,output/baseline/mixed/medium/run_20260519_074733/summary.csv
+main,10,.json,output/coraza/mixed/medium/run_20260519_064803/run_summary.json
+main,10,.csv,output/coraza/mixed/medium/run_20260519_064803/summary.csv
+main,10,.json,output/modsec/mixed/medium/run_20260519_033300_rerun/run_summary.json
+main,10,.csv,output/modsec/mixed/medium/run_20260519_033300_rerun/summary.csv
+r11-r12-waf-evaluation,10,.csv,analysis/final/confusion_matrices.csv
+r11-r12-waf-evaluation,10,.csv,analysis/final/final_classification_summary.csv
+r11-r12-waf-evaluation,10,.csv,analysis/final/final_repetition_summary.csv
+r11-r12-waf-evaluation,10,.csv,analysis/final/final_summary.csv
+r11-r12-waf-evaluation,10,.json,corpus_summary.json
+r11-r12-waf-evaluation,10,.txt,docs/clean-evidence/baseline/manual-sqli-baseline.txt
+r11-r12-waf-evaluation,10,.csv,evidence/controlled_validation/catalogues/canonical_test_catalogue.csv
+r11-r12-waf-evaluation,10,.csv,evidence/controlled_validation/environment_manifest.csv
+r11-r12-waf-evaluation,10,.csv,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/combined_rule_correlation.csv
+r11-r12-waf-evaluation,10,.jsonl,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/coraza_correlation_source.jsonl
+r11-r12-waf-evaluation,10,.jsonl,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/coraza_selected_transactions.jsonl
+r11-r12-waf-evaluation,10,.md,evidence/manual_validation/ATTACK_TAXONOMY_AND_TEST_DESIGN.md
+r11-r12-waf-evaluation,10,.json,output/baseline/mixed/medium/run_20260519_074733/run_summary.json
+r11-r12-waf-evaluation,10,.csv,output/baseline/mixed/medium/run_20260519_074733/summary.csv
+r11-r12-waf-evaluation,10,.json,output/coraza/mixed/medium/run_20260519_064803/run_summary.json
+r11-r12-waf-evaluation,10,.csv,output/coraza/mixed/medium/run_20260519_064803/summary.csv
+r11-r12-waf-evaluation,10,.json,output/modsec/mixed/medium/run_20260519_033300_rerun/run_summary.json
+r11-r12-waf-evaluation,10,.csv,output/modsec/mixed/medium/run_20260519_033300_rerun/summary.csv
+r11-r12-waf-evaluation,10,.md,r11_r12_waf_evaluation/README.md
+r11-r12-waf-evaluation,10,.md,r11_r12_waf_evaluation/WORK_SYNC.md
+r11-r12-waf-evaluation,10,.md,r11_r12_waf_evaluation/WORK_SYNC_PROTECTED.md
+r11-r12-waf-evaluation,10,.md,role3_analysis/week6-waf-comparison.md
+role4,10,.md,Pabin_WAF_Analysis/DATA_VALIDATION.md
+role4,10,.md,Pabin_WAF_Analysis/TRANSFORMATION_AND_PERFORMANCE_REVIEW.md
+role4,10,.md,role3_analysis/week6-waf-comparison.md
+Tools-Attack-Lead,9,.csv,analysis/final/benign_live_traffic_breakdown.csv
+Tools-Attack-Lead,9,.txt,docs/week6/sqlmap-waf1-week6.txt
+Tools-Attack-Lead,9,.txt,docs/week6/sqlmap-waf2.txt
+bishal-weekly-evidence,9,.txt,Bishal/Week 03/tool-output/github_tools_attack_lead_week3/sqlmap-baseline.txt
+bishal-weekly-evidence,9,.txt,Bishal/Week 03/tool-output/github_tools_attack_lead_week3/sqlmap-fixed.txt
+bishal-weekly-evidence,9,.txt,Bishal/Week 03/tool-output/github_tools_attack_lead_week3/sqlmap-low.txt
+bishal-weekly-evidence,9,.txt,Bishal/Week 03/tool-output/github_tools_attack_lead_week3/sqlmap-tamper.txt
+bishal-weekly-evidence,9,.txt,Bishal/Week 03/tool-output/github_tools_attack_lead_week3/sqlmap-week3.txt
+bishal-weekly-evidence,9,.md,Bishal/Week 06/docs/week06_dvwa_environment_and_sqli_tests.md
+bishal-weekly-evidence,9,.txt,Bishal/Week 06/tool-output/github_tools_attack_lead_week6/nikto-waf2.txt
+bishal-weekly-evidence,9,.txt,Bishal/Week 06/tool-output/github_tools_attack_lead_week6/wapiti-waf2.txt
+bishal-weekly-evidence,9,.txt,Bishal/Week 07/tool-output/github_tools_attack_lead_week7/sqlmap/192.168.187.129/target.txt
+bishal-weekly-evidence,9,.txt,Bishal/Week 07/tool-output/github_tools_attack_lead_week7/sqlmap/W7-03-sqlmap-tamper-space2comment.txt
+bishal-weekly-evidence,9,.txt,Bishal/Week 10/tool-output/github_coraza_waf2_evidence/sqlmap-waf2.txt
+bishal-weekly-evidence,9,.csv,Week_03/test_cases/command_injection.csv
+bishal-weekly-evidence,9,.csv,Week_03/test_cases/path_traversal.csv
+bishal-weekly-evidence,9,.csv,Week_03/test_cases/xss.csv
+bishal-weekly-evidence,9,.csv,Week_04/test_cases/command_injection.csv
+bishal-weekly-evidence,9,.csv,Week_04/test_cases/path_traversal.csv
+bishal-weekly-evidence,9,.csv,Week_04/test_cases/xss.csv
+bishal-weekly-evidence,9,.csv,Week_05/test_cases/command_injection.csv
+bishal-weekly-evidence,9,.csv,Week_05/test_cases/path_traversal.csv
+bishal-weekly-evidence,9,.csv,Week_05/test_cases/xss.csv
+bishal-weekly-evidence,9,.csv,Week_06/test_cases/command_injection.csv
+bishal-weekly-evidence,9,.csv,Week_06/test_cases/path_traversal.csv
+bishal-weekly-evidence,9,.csv,Week_06/test_cases/xss.csv
+bishal-weekly-evidence,9,.csv,Week_07/test_cases/command_injection.csv
+bishal-weekly-evidence,9,.csv,Week_07/test_cases/path_traversal.csv
+bishal-weekly-evidence,9,.csv,Week_07/test_cases/xss.csv
+comp6016-controlled-testing,9,.csv,analysis/final/benign_live_traffic_breakdown.csv
+comp6016-controlled-testing,9,.txt,docs/week6/sqlmap-waf1-week6.txt
+comp6016-controlled-testing,9,.txt,docs/week6/sqlmap-waf2.txt
+integrate-tools-attack-lead,9,.csv,analysis/final/benign_live_traffic_breakdown.csv
+integrate-tools-attack-lead,9,.txt,docs/week6/sqlmap-waf1-week6.txt
+integrate-tools-attack-lead,9,.txt,docs/week6/sqlmap-waf2.txt
+main,9,.txt,Bishal/Week 03/tool-output/github_tools_attack_lead_week3/sqlmap-baseline.txt
+main,9,.txt,Bishal/Week 03/tool-output/github_tools_attack_lead_week3/sqlmap-fixed.txt
+main,9,.txt,Bishal/Week 03/tool-output/github_tools_attack_lead_week3/sqlmap-low.txt
+main,9,.txt,Bishal/Week 03/tool-output/github_tools_attack_lead_week3/sqlmap-tamper.txt
+main,9,.txt,Bishal/Week 03/tool-output/github_tools_attack_lead_week3/sqlmap-week3.txt
+main,9,.md,Bishal/Week 06/docs/week06_dvwa_environment_and_sqli_tests.md
+main,9,.txt,Bishal/Week 06/tool-output/github_tools_attack_lead_week6/nikto-waf2.txt
+main,9,.txt,Bishal/Week 06/tool-output/github_tools_attack_lead_week6/wapiti-waf2.txt
+main,9,.txt,Bishal/Week 07/tool-output/github_tools_attack_lead_week7/sqlmap/192.168.187.129/target.txt
+main,9,.txt,Bishal/Week 07/tool-output/github_tools_attack_lead_week7/sqlmap/W7-03-sqlmap-tamper-space2comment.txt
+main,9,.txt,Bishal/Week 10/tool-output/github_coraza_waf2_evidence/sqlmap-waf2.txt
+main,9,.csv,analysis/final/benign_live_traffic_breakdown.csv
+main,9,.txt,docs/week6/sqlmap-waf1-week6.txt
+main,9,.txt,docs/week6/sqlmap-waf2.txt
+r11-r12-waf-evaluation,9,.csv,analysis/final/benign_live_traffic_breakdown.csv
+r11-r12-waf-evaluation,9,.txt,docs/week6/sqlmap-waf1-week6.txt
+r11-r12-waf-evaluation,9,.txt,docs/week6/sqlmap-waf2.txt
+Tools-Attack-Lead,8,.csv,analysis/final/attack_class_breakdown.csv
+Tools-Attack-Lead,8,.md,docs/week6/waf1-sqlmap-notes.md
+Tools-Attack-Lead,8,.csv,output/baseline/attack_only/none/run_20260519_063833/detailed.csv
+Tools-Attack-Lead,8,.json,output/baseline/attack_only/none/run_20260519_063833/metadata.json
+Tools-Attack-Lead,8,.txt,output/baseline/mixed/medium/run_20260519_074733/validation.txt
+Tools-Attack-Lead,8,.csv,output/coraza/attack_only/none/run_20260519_074907/detailed.csv
+Tools-Attack-Lead,8,.json,output/coraza/attack_only/none/run_20260519_074907/metadata.json
+Tools-Attack-Lead,8,.txt,output/coraza/mixed/medium/run_20260519_064803/validation.txt
+Tools-Attack-Lead,8,.csv,output/modsec/attack_only/none/run_20260519_064610/detailed.csv
+Tools-Attack-Lead,8,.json,output/modsec/attack_only/none/run_20260519_064610/metadata.json
+Tools-Attack-Lead,8,.txt,output/modsec/mixed/medium/run_20260519_033300_rerun/validation.txt
+bishal-weekly-evidence,8,.json,WAF Ongoing/zap-waf-framework/traffic/normal_traffic_clean.json
+bishal-weekly-evidence,8,.json,WAF Ongoing/zap-waf-framework/traffic/normal_traffic_raw.json
+bishal-weekly-evidence,8,.json,Week_01/config/waf_inventory.json
+bishal-weekly-evidence,8,.json,Week_02/config/waf_inventory.json
+bishal-weekly-evidence,8,.json,Week_03/config/waf_inventory.json
+bishal-weekly-evidence,8,.json,Week_04/config/waf_inventory.json
+bishal-weekly-evidence,8,.md,Week_05/analysis/README.md
+bishal-weekly-evidence,8,.json,Week_05/config/waf_inventory.json
+bishal-weekly-evidence,8,.md,Week_06/analysis/README.md
+bishal-weekly-evidence,8,.json,Week_06/config/waf_inventory.json
+bishal-weekly-evidence,8,.md,Week_07/analysis/README.md
+bishal-weekly-evidence,8,.json,Week_07/config/waf_inventory.json
+bishal-weekly-evidence,8,.csv,historical/final_report/modsecurity_attack_matrix.csv
+comp6016-controlled-testing,8,.csv,analysis/final/attack_class_breakdown.csv
+comp6016-controlled-testing,8,.md,docs/week6/waf1-sqlmap-notes.md
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/01_project_snapshot/framework_target_verification.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/01_project_snapshot/project_snapshot.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/02b_network_revalidation/current_network_address_validation.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/02b_network_revalidation/hosts_after.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/02b_network_revalidation/hosts_before.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/10_repository_integration/week4_repository_integration.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/03_configuration_freeze/active_crs_path_diagnosis.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/04_baseline_control/baseline_control_validation.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/04_baseline_control/probe_headers.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/05_routing_topology/apache_route_controls.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/05_routing_topology/apache_vhost_map.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/05_routing_topology/coraza_route_directives.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/05_routing_topology/coraza_route_variables.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/05_routing_topology/four_path_routing_topology.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/05_routing_topology/naxsi_route_directives.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/baseline_recent_requests.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/baseline_selected_requests.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/coraza_logging_directives.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/coraza_logging_variables.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/coraza_recent_container_logs.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/coraza_relevant_excerpt.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/discovered_pilot_log_files.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/final_rule_log_correlation.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/log_source_discovery.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/modsecurity_log_configuration.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/modsecurity_selected_transactions.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/naxsi_pilot_access.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/naxsi_selected_access.txt
+comp6016-controlled-testing,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu_evidence_import.txt
+comp6016-controlled-testing,8,.csv,output/baseline/attack_only/none/run_20260519_063833/detailed.csv
+comp6016-controlled-testing,8,.json,output/baseline/attack_only/none/run_20260519_063833/metadata.json
+comp6016-controlled-testing,8,.txt,output/baseline/mixed/medium/run_20260519_074733/validation.txt
+comp6016-controlled-testing,8,.csv,output/coraza/attack_only/none/run_20260519_074907/detailed.csv
+comp6016-controlled-testing,8,.json,output/coraza/attack_only/none/run_20260519_074907/metadata.json
+comp6016-controlled-testing,8,.txt,output/coraza/mixed/medium/run_20260519_064803/validation.txt
+comp6016-controlled-testing,8,.csv,output/modsec/attack_only/none/run_20260519_064610/detailed.csv
+comp6016-controlled-testing,8,.json,output/modsec/attack_only/none/run_20260519_064610/metadata.json
+comp6016-controlled-testing,8,.txt,output/modsec/mixed/medium/run_20260519_033300_rerun/validation.txt
+integrate-tools-attack-lead,8,.csv,analysis/final/attack_class_breakdown.csv
+integrate-tools-attack-lead,8,.md,docs/week6/waf1-sqlmap-notes.md
+integrate-tools-attack-lead,8,.csv,output/baseline/attack_only/none/run_20260519_063833/detailed.csv
+integrate-tools-attack-lead,8,.json,output/baseline/attack_only/none/run_20260519_063833/metadata.json
+integrate-tools-attack-lead,8,.txt,output/baseline/mixed/medium/run_20260519_074733/validation.txt
+integrate-tools-attack-lead,8,.csv,output/coraza/attack_only/none/run_20260519_074907/detailed.csv
+integrate-tools-attack-lead,8,.json,output/coraza/attack_only/none/run_20260519_074907/metadata.json
+integrate-tools-attack-lead,8,.txt,output/coraza/mixed/medium/run_20260519_064803/validation.txt
+integrate-tools-attack-lead,8,.csv,output/modsec/attack_only/none/run_20260519_064610/detailed.csv
+integrate-tools-attack-lead,8,.json,output/modsec/attack_only/none/run_20260519_064610/metadata.json
+integrate-tools-attack-lead,8,.txt,output/modsec/mixed/medium/run_20260519_033300_rerun/validation.txt
+main,8,.json,WAF Ongoing/zap-waf-framework/traffic/normal_traffic_clean.json
+main,8,.json,WAF Ongoing/zap-waf-framework/traffic/normal_traffic_raw.json
+main,8,.csv,analysis/final/attack_class_breakdown.csv
+main,8,.md,docs/week6/waf1-sqlmap-notes.md
+main,8,.csv,output/baseline/attack_only/none/run_20260519_063833/detailed.csv
+main,8,.json,output/baseline/attack_only/none/run_20260519_063833/metadata.json
+main,8,.txt,output/baseline/mixed/medium/run_20260519_074733/validation.txt
+main,8,.csv,output/coraza/attack_only/none/run_20260519_074907/detailed.csv
+main,8,.json,output/coraza/attack_only/none/run_20260519_074907/metadata.json
+main,8,.txt,output/coraza/mixed/medium/run_20260519_064803/validation.txt
+main,8,.csv,output/modsec/attack_only/none/run_20260519_064610/detailed.csv
+main,8,.json,output/modsec/attack_only/none/run_20260519_064610/metadata.json
+main,8,.txt,output/modsec/mixed/medium/run_20260519_033300_rerun/validation.txt
+r11-r12-waf-evaluation,8,.csv,analysis/final/attack_class_breakdown.csv
+r11-r12-waf-evaluation,8,.md,docs/week6/waf1-sqlmap-notes.md
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/01_project_snapshot/framework_target_verification.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/01_project_snapshot/project_snapshot.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/02b_network_revalidation/current_network_address_validation.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/02b_network_revalidation/hosts_after.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/02b_network_revalidation/hosts_before.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/kali/10_repository_integration/week4_repository_integration.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/03_configuration_freeze/active_crs_path_diagnosis.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/04_baseline_control/baseline_control_validation.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/04_baseline_control/probe_headers.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/05_routing_topology/apache_route_controls.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/05_routing_topology/apache_vhost_map.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/05_routing_topology/coraza_route_directives.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/05_routing_topology/coraza_route_variables.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/05_routing_topology/four_path_routing_topology.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/05_routing_topology/naxsi_route_directives.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/baseline_recent_requests.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/baseline_selected_requests.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/coraza_logging_directives.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/coraza_logging_variables.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/coraza_recent_container_logs.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/coraza_relevant_excerpt.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/discovered_pilot_log_files.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/final_rule_log_correlation.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/log_source_discovery.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/modsecurity_log_configuration.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/modsecurity_selected_transactions.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/naxsi_pilot_access.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu/08_log_correlation/naxsi_selected_access.txt
+r11-r12-waf-evaluation,8,.txt,evidence/controlled_validation/week4_rigorous_revalidation/ubuntu_evidence_import.txt
+r11-r12-waf-evaluation,8,.csv,output/baseline/attack_only/none/run_20260519_063833/detailed.csv
+r11-r12-waf-evaluation,8,.json,output/baseline/attack_only/none/run_20260519_063833/metadata.json
+r11-r12-waf-evaluation,8,.txt,output/baseline/mixed/medium/run_20260519_074733/validation.txt
+r11-r12-waf-evaluation,8,.csv,output/coraza/attack_only/none/run_20260519_074907/detailed.csv
+r11-r12-waf-evaluation,8,.json,output/coraza/attack_only/none/run_20260519_074907/metadata.json
+r11-r12-waf-evaluation,8,.txt,output/coraza/mixed/medium/run_20260519_064803/validation.txt
+r11-r12-waf-evaluation,8,.csv,output/modsec/attack_only/none/run_20260519_064610/detailed.csv
+r11-r12-waf-evaluation,8,.json,output/modsec/attack_only/none/run_20260519_064610/metadata.json
+r11-r12-waf-evaluation,8,.txt,output/modsec/mixed/medium/run_20260519_033300_rerun/validation.txt
+role4,8,.json,Pabin_WAF_Analysis/reported_aggregates.json
+role4,8,.csv,Pabin_WAF_Analysis/reviewed_group_evidence/naxsi_fn_by_transformation.csv
+Tools-Attack-Lead,7,.md,docs/clean-evidence/baseline/baseline-summary.md
+Tools-Attack-Lead,7,.txt,docs/clean-evidence/baseline/manual-xss-baseline.txt
+Tools-Attack-Lead,7,.md,docs/clean-evidence/week4-detection-artifact.md
+Tools-Attack-Lead,7,.md,evidence/manual_validation/README.md
+bishal-weekly-evidence,7,.md,Bishal/Week 02/docs/week02_evaluation_design.md
+bishal-weekly-evidence,7,.md,Bishal/Week 03/notes/tool_comparison_notes.md
+bishal-weekly-evidence,7,.txt,Bishal/Week 03/tool-output/optional_tool_output_commands.txt
+bishal-weekly-evidence,7,.md,Bishal/Week 04/notes/github_import_summary.md
+bishal-weekly-evidence,7,.md,Bishal/Week 04/notes/owasp_top10_mapping_summary.md
+bishal-weekly-evidence,7,.txt,Bishal/Week 06/configs/modsecurity_dvwa_config_export_commands.txt
+bishal-weekly-evidence,7,.md,Bishal/Week 06/notes/github_import_summary.md
+bishal-weekly-evidence,7,.md,Bishal/Week 07/notes/github_import_summary.md
+bishal-weekly-evidence,7,.txt,Bishal/Week 07/tool-output/multi_vulnerability_test_commands.txt
+bishal-weekly-evidence,7,.md,Bishal/Week 08/docs/week08_performance_and_stability_plan.md
+bishal-weekly-evidence,7,.md,Bishal/Week 09/notes/github_import_summary.md
+bishal-weekly-evidence,7,.md,Bishal/Week 10/notes/github_import_summary.md
+bishal-weekly-evidence,7,.md,VALIDATION.md
+comp6016-controlled-testing,7,.md,docs/clean-evidence/baseline/baseline-summary.md
+comp6016-controlled-testing,7,.txt,docs/clean-evidence/baseline/manual-xss-baseline.txt
+comp6016-controlled-testing,7,.md,docs/clean-evidence/week4-detection-artifact.md
+comp6016-controlled-testing,7,.md,evidence/controlled_validation/README.md
+comp6016-controlled-testing,7,.md,evidence/controlled_validation/environments/naxsi_deployment.md
+comp6016-controlled-testing,7,.md,evidence/controlled_validation/week4_rigorous_revalidation/README.md
+comp6016-controlled-testing,7,.md,evidence/manual_validation/README.md
+integrate-tools-attack-lead,7,.md,docs/clean-evidence/baseline/baseline-summary.md
+integrate-tools-attack-lead,7,.txt,docs/clean-evidence/baseline/manual-xss-baseline.txt
+integrate-tools-attack-lead,7,.md,docs/clean-evidence/week4-detection-artifact.md
+integrate-tools-attack-lead,7,.md,evidence/manual_validation/README.md
+main,7,.md,Bishal/Week 02/docs/week02_evaluation_design.md
+main,7,.md,Bishal/Week 03/notes/tool_comparison_notes.md
+main,7,.txt,Bishal/Week 03/tool-output/optional_tool_output_commands.txt
+main,7,.md,Bishal/Week 04/notes/github_import_summary.md
+main,7,.md,Bishal/Week 04/notes/owasp_top10_mapping_summary.md
+main,7,.txt,Bishal/Week 06/configs/modsecurity_dvwa_config_export_commands.txt
+main,7,.md,Bishal/Week 06/notes/github_import_summary.md
+main,7,.md,Bishal/Week 07/notes/github_import_summary.md
+main,7,.txt,Bishal/Week 07/tool-output/multi_vulnerability_test_commands.txt
+main,7,.md,Bishal/Week 08/docs/week08_performance_and_stability_plan.md
+main,7,.md,Bishal/Week 09/notes/github_import_summary.md
+main,7,.md,Bishal/Week 10/notes/github_import_summary.md
+main,7,.md,docs/clean-evidence/baseline/baseline-summary.md
+main,7,.txt,docs/clean-evidence/baseline/manual-xss-baseline.txt
+main,7,.md,docs/clean-evidence/week4-detection-artifact.md
+main,7,.md,evidence/manual_validation/README.md
+r11-r12-waf-evaluation,7,.md,docs/clean-evidence/baseline/baseline-summary.md
+r11-r12-waf-evaluation,7,.txt,docs/clean-evidence/baseline/manual-xss-baseline.txt
+r11-r12-waf-evaluation,7,.md,docs/clean-evidence/week4-detection-artifact.md
+r11-r12-waf-evaluation,7,.md,evidence/controlled_validation/README.md
+r11-r12-waf-evaluation,7,.md,evidence/controlled_validation/environments/naxsi_deployment.md
+r11-r12-waf-evaluation,7,.md,evidence/controlled_validation/week4_rigorous_revalidation/README.md
+r11-r12-waf-evaluation,7,.md,evidence/manual_validation/README.md
+role4,7,.md,role3_analysis/ROLE4_CONTRIBUTION_SUMMARY.md
+Tools-Attack-Lead,6,.txt,docs/clean-evidence/baseline/sqlmap-authenticated-baseline-test-output.txt
+Tools-Attack-Lead,6,.txt,docs/clean-evidence/baseline/sqlmap-authenticated-baseline.txt
+Tools-Attack-Lead,6,.txt,docs/week3/sqlmap-baseline.txt
+Tools-Attack-Lead,6,.txt,docs/week3/sqlmap-fixed.txt
+Tools-Attack-Lead,6,.txt,docs/week3/sqlmap-low.txt
+Tools-Attack-Lead,6,.txt,docs/week3/sqlmap-tamper.txt
+Tools-Attack-Lead,6,.txt,docs/week3/sqlmap-week3.txt
+Tools-Attack-Lead,6,.txt,docs/week6/wapiti-waf2.txt
+Tools-Attack-Lead,6,.txt,docs/week7/sqlmap/192.168.187.129/target.txt
+Tools-Attack-Lead,6,.txt,docs/week7/sqlmap/W7-03-sqlmap-tamper-space2comment.txt
+bishal-weekly-evidence,6,.txt,Bishal/Week 03/tool-output/github_tools_attack_lead_week3/wapiti-week3.txt
+bishal-weekly-evidence,6,.txt,Bishal/Week 03/tool-output/github_tools_attack_lead_week3/week3_precision_recall.txt
+bishal-weekly-evidence,6,.txt,Bishal/Week 10/tool-output/github_coraza_waf2_evidence/coraza-load.txt
+bishal-weekly-evidence,6,.txt,Bishal/Week 10/tool-output/github_coraza_waf2_evidence/wapiti-waf2.txt
+bishal-weekly-evidence,6,.md,COMMANDS.md
+bishal-weekly-evidence,6,.txt,WAF Ongoing/Python Automation Tested before master script/Pyton Automaion ZAP API mode.txt
+bishal-weekly-evidence,6,.txt,WAF Ongoing/Python Automation/Pyton Automaion ZAP API mode.txt
+bishal-weekly-evidence,6,.txt,WAF Ongoing/Pyton Automaion ZAP API mode.txt
+comp6016-controlled-testing,6,.txt,docs/clean-evidence/baseline/sqlmap-authenticated-baseline-test-output.txt
+comp6016-controlled-testing,6,.txt,docs/clean-evidence/baseline/sqlmap-authenticated-baseline.txt
+comp6016-controlled-testing,6,.txt,docs/week3/sqlmap-baseline.txt
+comp6016-controlled-testing,6,.txt,docs/week3/sqlmap-fixed.txt
+comp6016-controlled-testing,6,.txt,docs/week3/sqlmap-low.txt
+comp6016-controlled-testing,6,.txt,docs/week3/sqlmap-tamper.txt
+comp6016-controlled-testing,6,.txt,docs/week3/sqlmap-week3.txt
+comp6016-controlled-testing,6,.txt,docs/week6/wapiti-waf2.txt
+comp6016-controlled-testing,6,.txt,docs/week7/sqlmap/192.168.187.129/target.txt
+comp6016-controlled-testing,6,.txt,docs/week7/sqlmap/W7-03-sqlmap-tamper-space2comment.txt
+integrate-tools-attack-lead,6,.txt,docs/clean-evidence/baseline/sqlmap-authenticated-baseline-test-output.txt
+integrate-tools-attack-lead,6,.txt,docs/clean-evidence/baseline/sqlmap-authenticated-baseline.txt
+integrate-tools-attack-lead,6,.txt,docs/week3/sqlmap-baseline.txt
+integrate-tools-attack-lead,6,.txt,docs/week3/sqlmap-fixed.txt
+integrate-tools-attack-lead,6,.txt,docs/week3/sqlmap-low.txt
+integrate-tools-attack-lead,6,.txt,docs/week3/sqlmap-tamper.txt
+integrate-tools-attack-lead,6,.txt,docs/week3/sqlmap-week3.txt
+integrate-tools-attack-lead,6,.txt,docs/week6/wapiti-waf2.txt
+integrate-tools-attack-lead,6,.txt,docs/week7/sqlmap/192.168.187.129/target.txt
+integrate-tools-attack-lead,6,.txt,docs/week7/sqlmap/W7-03-sqlmap-tamper-space2comment.txt
+main,6,.txt,Bishal/Week 03/tool-output/github_tools_attack_lead_week3/wapiti-week3.txt
+main,6,.txt,Bishal/Week 03/tool-output/github_tools_attack_lead_week3/week3_precision_recall.txt
+main,6,.txt,Bishal/Week 10/tool-output/github_coraza_waf2_evidence/coraza-load.txt
+main,6,.txt,Bishal/Week 10/tool-output/github_coraza_waf2_evidence/wapiti-waf2.txt
+main,6,.txt,WAF Ongoing/Python Automation Tested before master script/Pyton Automaion ZAP API mode.txt
+main,6,.txt,WAF Ongoing/Python Automation/Pyton Automaion ZAP API mode.txt
+main,6,.txt,WAF Ongoing/Pyton Automaion ZAP API mode.txt
+main,6,.txt,docs/clean-evidence/baseline/sqlmap-authenticated-baseline-test-output.txt
+main,6,.txt,docs/clean-evidence/baseline/sqlmap-authenticated-baseline.txt
+main,6,.txt,docs/week3/sqlmap-baseline.txt
+main,6,.txt,docs/week3/sqlmap-fixed.txt
+main,6,.txt,docs/week3/sqlmap-low.txt
+main,6,.txt,docs/week3/sqlmap-tamper.txt
+main,6,.txt,docs/week3/sqlmap-week3.txt
+main,6,.txt,docs/week6/wapiti-waf2.txt
+main,6,.txt,docs/week7/sqlmap/192.168.187.129/target.txt
+main,6,.txt,docs/week7/sqlmap/W7-03-sqlmap-tamper-space2comment.txt
+r11-r12-waf-evaluation,6,.txt,docs/clean-evidence/baseline/sqlmap-authenticated-baseline-test-output.txt
+r11-r12-waf-evaluation,6,.txt,docs/clean-evidence/baseline/sqlmap-authenticated-baseline.txt
+r11-r12-waf-evaluation,6,.txt,docs/week3/sqlmap-baseline.txt
+r11-r12-waf-evaluation,6,.txt,docs/week3/sqlmap-fixed.txt
+r11-r12-waf-evaluation,6,.txt,docs/week3/sqlmap-low.txt
+r11-r12-waf-evaluation,6,.txt,docs/week3/sqlmap-tamper.txt
+r11-r12-waf-evaluation,6,.txt,docs/week3/sqlmap-week3.txt
+r11-r12-waf-evaluation,6,.txt,docs/week6/wapiti-waf2.txt
+r11-r12-waf-evaluation,6,.txt,docs/week7/sqlmap/192.168.187.129/target.txt
+r11-r12-waf-evaluation,6,.txt,docs/week7/sqlmap/W7-03-sqlmap-tamper-space2comment.txt
+role4,6,.txt,Pabin_WAF_Analysis/requirements.txt
+Tools-Attack-Lead,5,.csv,analysis/final/final_classification_matrix.csv
+Tools-Attack-Lead,5,.md,analysis/final/report_summary.md
+Tools-Attack-Lead,5,.md,docs/week8/light-attack-under-load.md
+Tools-Attack-Lead,5,.csv,output/baseline/mixed/medium/run_20260519_074733/detailed.csv
+Tools-Attack-Lead,5,.json,output/baseline/mixed/medium/run_20260519_074733/metadata.json
+Tools-Attack-Lead,5,.csv,output/coraza/mixed/medium/run_20260519_064803/detailed.csv
+Tools-Attack-Lead,5,.json,output/coraza/mixed/medium/run_20260519_064803/metadata.json
+Tools-Attack-Lead,5,.csv,output/modsec/mixed/medium/run_20260519_033300_rerun/detailed.csv
+Tools-Attack-Lead,5,.json,output/modsec/mixed/medium/run_20260519_033300_rerun/metadata.json
+bishal-weekly-evidence,5,.md,Bishal/Tools_Attack_Lead_Evidence_Map.md
+bishal-weekly-evidence,5,.md,Bishal/Week 02/notes/waf_and_bypass_research_notes.md
+bishal-weekly-evidence,5,.md,Bishal/Week 03/tool-output/github_tools_attack_lead_week3/status.md
+bishal-weekly-evidence,5,.md,Bishal/Week 03/tool-output/github_tools_attack_lead_week3/week3_rule_rationale.md
+bishal-weekly-evidence,5,.md,Bishal/Week 04/docs/week04_waf1_deployment_and_owasp_mapping.md
+bishal-weekly-evidence,5,.md,Bishal/Week 04/tool-output/github_tools_attack_lead_week4/status.md
+bishal-weekly-evidence,5,.md,Bishal/Week 05/docs/week05_waf1_tuning_and_progress.md
+bishal-weekly-evidence,5,.md,Bishal/Week 05/tool-output/github_tools_attack_lead_week5/status.md
+bishal-weekly-evidence,5,.md,Bishal/Week 06/tool-output/github_tools_attack_lead_week6/status.md
+bishal-weekly-evidence,5,.md,Bishal/Week 07/docs/week07_dvwa_multi_attack_tests.md
+bishal-weekly-evidence,5,.md,Bishal/Week 07/tool-output/github_tools_attack_lead_week7/status.md
+bishal-weekly-evidence,5,.md,Bishal/Week 07/tool-output/github_tools_attack_lead_week7/week7-notes.md
+bishal-weekly-evidence,5,.md,Bishal/Week 07/tool-output/github_tools_attack_lead_week7/week7-test-matrix.md
+bishal-weekly-evidence,5,.md,Bishal/Week 10/notes/second_waf_coraza_evidence_note.md
+bishal-weekly-evidence,5,.json,Week_01/config/environment.example.json
+bishal-weekly-evidence,5,.json,Week_01/legacy_reference/source_manifest.json
+bishal-weekly-evidence,5,.csv,Week_01/outputs/environment_check.csv
+bishal-weekly-evidence,5,.json,Week_02/config/environment.example.json
+bishal-weekly-evidence,5,.json,Week_02/config/test_config.json
+bishal-weekly-evidence,5,.json,Week_02/legacy_reference/source_manifest.json
+bishal-weekly-evidence,5,.json,Week_03/config/corpus_manifest.json
+bishal-weekly-evidence,5,.json,Week_03/config/environment.example.json
+bishal-weekly-evidence,5,.json,Week_03/config/inherited_test_templates.json
+bishal-weekly-evidence,5,.json,Week_03/config/test_config.json
+bishal-weekly-evidence,5,.json,Week_03/legacy_reference/source_manifest.json
+bishal-weekly-evidence,5,.csv,Week_03/outputs/test_inventory.csv
+bishal-weekly-evidence,5,.csv,Week_03/test_cases/normal.csv
+bishal-weekly-evidence,5,.json,Week_03/traffic/pilot/corpus_manifest.json
+bishal-weekly-evidence,5,.csv,Week_03/traffic/pilot/mixed.csv
+bishal-weekly-evidence,5,.json,Week_04/config/corpus_manifest.json
+bishal-weekly-evidence,5,.json,Week_04/config/environment.example.json
+bishal-weekly-evidence,5,.json,Week_04/config/inherited_test_templates.json
+bishal-weekly-evidence,5,.json,Week_04/config/test_config.json
+bishal-weekly-evidence,5,.json,Week_04/legacy_reference/source_manifest.json
+bishal-weekly-evidence,5,.csv,Week_04/outputs/test_inventory.csv
+bishal-weekly-evidence,5,.csv,Week_04/test_cases/normal.csv
+bishal-weekly-evidence,5,.json,Week_05/config/corpus_manifest.json
+bishal-weekly-evidence,5,.json,Week_05/config/environment.example.json
+bishal-weekly-evidence,5,.json,Week_05/config/inherited_test_templates.json
+bishal-weekly-evidence,5,.json,Week_05/config/modsecurity.example.json
+bishal-weekly-evidence,5,.json,Week_05/config/naxsi.example.json
+bishal-weekly-evidence,5,.json,Week_05/config/test_config.json
+bishal-weekly-evidence,5,.json,Week_05/legacy_reference/source_manifest.json
+bishal-weekly-evidence,5,.csv,Week_05/outputs/test_inventory.csv
+bishal-weekly-evidence,5,.csv,Week_05/test_cases/normal.csv
+bishal-weekly-evidence,5,.json,Week_06/config/corpus_manifest.json
+bishal-weekly-evidence,5,.json,Week_06/config/environment.example.json
+bishal-weekly-evidence,5,.json,Week_06/config/inherited_test_templates.json
+bishal-weekly-evidence,5,.json,Week_06/config/modsecurity.example.json
+bishal-weekly-evidence,5,.json,Week_06/config/naxsi.example.json
+bishal-weekly-evidence,5,.json,Week_06/config/test_config.json
+bishal-weekly-evidence,5,.json,Week_06/legacy_reference/source_manifest.json
+bishal-weekly-evidence,5,.csv,Week_06/outputs/generated_variants-original.csv
+bishal-weekly-evidence,5,.csv,Week_06/outputs/generated_variants-preapproval-20260922T074139Z.csv
+bishal-weekly-evidence,5,.csv,Week_06/outputs/test_inventory.csv
+bishal-weekly-evidence,5,.csv,Week_06/outputs/variant_inventory-approved.csv
+bishal-weekly-evidence,5,.csv,Week_06/outputs/variant_inventory.csv
+bishal-weekly-evidence,5,.csv,Week_06/outputs/variant_review_sample.csv
+bishal-weekly-evidence,5,.csv,Week_06/test_cases/normal.csv
+bishal-weekly-evidence,5,.csv,Week_06/test_cases/variants/generated_variants.csv
+bishal-weekly-evidence,5,.json,Week_07/config/corpus_manifest.json
+bishal-weekly-evidence,5,.json,Week_07/config/environment.example.json
+bishal-weekly-evidence,5,.json,Week_07/config/inherited_test_templates.json
+bishal-weekly-evidence,5,.json,Week_07/config/modsecurity.example.json
+bishal-weekly-evidence,5,.json,Week_07/config/naxsi.example.json
+bishal-weekly-evidence,5,.json,Week_07/config/test_config.json
+bishal-weekly-evidence,5,.json,Week_07/legacy_reference/source_manifest.json
+bishal-weekly-evidence,5,.csv,Week_07/outputs/test_inventory.csv
+bishal-weekly-evidence,5,.csv,Week_07/outputs/variant_inventory.csv
+bishal-weekly-evidence,5,.csv,Week_07/test_cases/normal.csv
+bishal-weekly-evidence,5,.csv,Week_07/test_cases/variants/generated_variants.csv
+bishal-weekly-evidence,5,.csv,docs/source_inventory.csv
+bishal-weekly-evidence,5,.csv,historical/final_report/modsecurity_classification_matrix.csv
+bishal-weekly-evidence,5,.csv,historical/final_report/modsecurity_mixed_detail.csv
+bishal-weekly-evidence,5,.json,historical/final_report/source_manifest.json
+comp6016-controlled-testing,5,.csv,analysis/final/final_classification_matrix.csv
+comp6016-controlled-testing,5,.md,analysis/final/report_summary.md
+comp6016-controlled-testing,5,.md,docs/week8/light-attack-under-load.md
+comp6016-controlled-testing,5,.csv,output/baseline/mixed/medium/run_20260519_074733/detailed.csv
+comp6016-controlled-testing,5,.json,output/baseline/mixed/medium/run_20260519_074733/metadata.json
+comp6016-controlled-testing,5,.csv,output/coraza/mixed/medium/run_20260519_064803/detailed.csv
+comp6016-controlled-testing,5,.json,output/coraza/mixed/medium/run_20260519_064803/metadata.json
+comp6016-controlled-testing,5,.csv,output/modsec/mixed/medium/run_20260519_033300_rerun/detailed.csv
+comp6016-controlled-testing,5,.json,output/modsec/mixed/medium/run_20260519_033300_rerun/metadata.json
+integrate-tools-attack-lead,5,.csv,analysis/final/final_classification_matrix.csv
+integrate-tools-attack-lead,5,.md,analysis/final/report_summary.md
+integrate-tools-attack-lead,5,.md,docs/week8/light-attack-under-load.md
+integrate-tools-attack-lead,5,.csv,output/baseline/mixed/medium/run_20260519_074733/detailed.csv
+integrate-tools-attack-lead,5,.json,output/baseline/mixed/medium/run_20260519_074733/metadata.json
+integrate-tools-attack-lead,5,.csv,output/coraza/mixed/medium/run_20260519_064803/detailed.csv
+integrate-tools-attack-lead,5,.json,output/coraza/mixed/medium/run_20260519_064803/metadata.json
+integrate-tools-attack-lead,5,.csv,output/modsec/mixed/medium/run_20260519_033300_rerun/detailed.csv
+integrate-tools-attack-lead,5,.json,output/modsec/mixed/medium/run_20260519_033300_rerun/metadata.json
+main,5,.md,Bishal/Tools_Attack_Lead_Evidence_Map.md
+main,5,.md,Bishal/Week 02/notes/waf_and_bypass_research_notes.md
+main,5,.md,Bishal/Week 03/tool-output/github_tools_attack_lead_week3/status.md
+main,5,.md,Bishal/Week 03/tool-output/github_tools_attack_lead_week3/week3_rule_rationale.md
+main,5,.md,Bishal/Week 04/docs/week04_waf1_deployment_and_owasp_mapping.md
+main,5,.md,Bishal/Week 04/tool-output/github_tools_attack_lead_week4/status.md
+main,5,.md,Bishal/Week 05/docs/week05_waf1_tuning_and_progress.md
+main,5,.md,Bishal/Week 05/tool-output/github_tools_attack_lead_week5/status.md
+main,5,.md,Bishal/Week 06/tool-output/github_tools_attack_lead_week6/status.md
+main,5,.md,Bishal/Week 07/docs/week07_dvwa_multi_attack_tests.md
+main,5,.md,Bishal/Week 07/tool-output/github_tools_attack_lead_week7/status.md
+main,5,.md,Bishal/Week 07/tool-output/github_tools_attack_lead_week7/week7-notes.md
+main,5,.md,Bishal/Week 07/tool-output/github_tools_attack_lead_week7/week7-test-matrix.md
+main,5,.md,Bishal/Week 10/notes/second_waf_coraza_evidence_note.md
+main,5,.csv,analysis/final/final_classification_matrix.csv
+main,5,.md,analysis/final/report_summary.md
+main,5,.md,docs/week8/light-attack-under-load.md
+main,5,.csv,output/baseline/mixed/medium/run_20260519_074733/detailed.csv
+main,5,.json,output/baseline/mixed/medium/run_20260519_074733/metadata.json
+main,5,.csv,output/coraza/mixed/medium/run_20260519_064803/detailed.csv
+main,5,.json,output/coraza/mixed/medium/run_20260519_064803/metadata.json
+main,5,.csv,output/modsec/mixed/medium/run_20260519_033300_rerun/detailed.csv
+main,5,.json,output/modsec/mixed/medium/run_20260519_033300_rerun/metadata.json
+r11-r12-waf-evaluation,5,.csv,analysis/final/final_classification_matrix.csv
+r11-r12-waf-evaluation,5,.md,analysis/final/report_summary.md
+r11-r12-waf-evaluation,5,.jsonl,corpus.jsonl
+r11-r12-waf-evaluation,5,.md,docs/week8/light-attack-under-load.md
+r11-r12-waf-evaluation,5,.csv,output/baseline/mixed/medium/run_20260519_074733/detailed.csv
+r11-r12-waf-evaluation,5,.json,output/baseline/mixed/medium/run_20260519_074733/metadata.json
+r11-r12-waf-evaluation,5,.csv,output/coraza/mixed/medium/run_20260519_064803/detailed.csv
+r11-r12-waf-evaluation,5,.json,output/coraza/mixed/medium/run_20260519_064803/metadata.json
+r11-r12-waf-evaluation,5,.csv,output/modsec/mixed/medium/run_20260519_033300_rerun/detailed.csv
+r11-r12-waf-evaluation,5,.json,output/modsec/mixed/medium/run_20260519_033300_rerun/metadata.json
+r11-r12-waf-evaluation,5,.json,run_metadata.json
+role4,5,.md,Pabin_WAF_Analysis/README.md
+Tools-Attack-Lead,3,.txt,analysis/final/key_findings.txt
+Tools-Attack-Lead,3,.txt,docs/week3/wapiti-week3.txt
+Tools-Attack-Lead,3,.txt,docs/week8/baseline-load.txt
+Tools-Attack-Lead,3,.txt,docs/week8/coraza-load.txt
+Tools-Attack-Lead,3,.txt,docs/week8/modsecurity-load.txt
+Tools-Attack-Lead,3,.txt,requirements.txt
+bishal-weekly-evidence,3,.txt,Bishal/Week 04/tool-output/tool_output_notes.txt
+bishal-weekly-evidence,3,.txt,Bishal/Week 08/configs/environment_configuration_note.txt
+bishal-weekly-evidence,3,.txt,Bishal/Week 09/tool-output/apachebench_output_reconstructed_from_screenshot.txt
+bishal-weekly-evidence,3,.txt,Bishal/Week 09/tool-output/hey_output_reconstructed_from_screenshot.txt
+bishal-weekly-evidence,3,.txt,DIRECTORY_TREE.txt
+bishal-weekly-evidence,3,.md,WAF Ongoing/ZAP on DVWA Security Low NAXII NGINX/2026-05-03-ZAP-Report-/2026-05-03-ZAP-Report-/normalize/LICENSE.md
+bishal-weekly-evidence,3,.md,WAF Ongoing/ZAP on DVWA Security Low NAXII NGINX/2026-05-03-ZAP-Report-/normalize/LICENSE.md
+bishal-weekly-evidence,3,.txt,Week_01/legacy_reference/run_all_modsecurity_tests.py.txt
+bishal-weekly-evidence,3,.txt,Week_01/legacy_reference/zap_active_master_modsecurity.py.txt
+bishal-weekly-evidence,3,.txt,Week_01/legacy_reference/zap_active_mixed_modsecurity.py.txt
+bishal-weekly-evidence,3,.txt,Week_01/requirements.txt
+bishal-weekly-evidence,3,.txt,Week_02/legacy_reference/run_all_modsecurity_tests.py.txt
+bishal-weekly-evidence,3,.txt,Week_02/legacy_reference/zap_active_master_modsecurity.py.txt
+bishal-weekly-evidence,3,.txt,Week_02/legacy_reference/zap_active_mixed_modsecurity.py.txt
+bishal-weekly-evidence,3,.txt,Week_02/requirements.txt
+bishal-weekly-evidence,3,.txt,Week_03/legacy_reference/run_all_modsecurity_tests.py.txt
+bishal-weekly-evidence,3,.txt,Week_03/legacy_reference/zap_active_master_modsecurity.py.txt
+bishal-weekly-evidence,3,.txt,Week_03/legacy_reference/zap_active_mixed_modsecurity.py.txt
+bishal-weekly-evidence,3,.txt,Week_03/requirements.txt
+bishal-weekly-evidence,3,.txt,Week_04/legacy_reference/run_all_modsecurity_tests.py.txt
+bishal-weekly-evidence,3,.txt,Week_04/legacy_reference/zap_active_master_modsecurity.py.txt
+bishal-weekly-evidence,3,.txt,Week_04/legacy_reference/zap_active_mixed_modsecurity.py.txt
+bishal-weekly-evidence,3,.txt,Week_04/requirements.txt
+bishal-weekly-evidence,3,.txt,Week_05/legacy_reference/run_all_modsecurity_tests.py.txt
+bishal-weekly-evidence,3,.txt,Week_05/legacy_reference/zap_active_master_modsecurity.py.txt
+bishal-weekly-evidence,3,.txt,Week_05/legacy_reference/zap_active_mixed_modsecurity.py.txt
+bishal-weekly-evidence,3,.txt,Week_05/requirements.txt
+bishal-weekly-evidence,3,.txt,Week_06/legacy_reference/run_all_modsecurity_tests.py.txt
+bishal-weekly-evidence,3,.txt,Week_06/legacy_reference/zap_active_master_modsecurity.py.txt
+bishal-weekly-evidence,3,.txt,Week_06/legacy_reference/zap_active_mixed_modsecurity.py.txt
+bishal-weekly-evidence,3,.txt,Week_06/outputs/week06-approved-variant-hashes.txt
+bishal-weekly-evidence,3,.txt,Week_06/requirements.txt
+bishal-weekly-evidence,3,.txt,Week_07/legacy_reference/run_all_modsecurity_tests.py.txt
+bishal-weekly-evidence,3,.txt,Week_07/legacy_reference/zap_active_master_modsecurity.py.txt
+bishal-weekly-evidence,3,.txt,Week_07/legacy_reference/zap_active_mixed_modsecurity.py.txt
+bishal-weekly-evidence,3,.txt,Week_07/requirements.txt
+bishal-weekly-evidence,3,.txt,requirements.txt
+comp6016-controlled-testing,3,.txt,analysis/final/key_findings.txt
+comp6016-controlled-testing,3,.txt,docs/week3/wapiti-week3.txt
+comp6016-controlled-testing,3,.txt,docs/week8/baseline-load.txt
+comp6016-controlled-testing,3,.txt,docs/week8/coraza-load.txt
+comp6016-controlled-testing,3,.txt,docs/week8/modsecurity-load.txt
+comp6016-controlled-testing,3,.txt,requirements.txt
+integrate-tools-attack-lead,3,.txt,analysis/final/key_findings.txt
+integrate-tools-attack-lead,3,.txt,docs/week3/wapiti-week3.txt
+integrate-tools-attack-lead,3,.txt,docs/week8/baseline-load.txt
+integrate-tools-attack-lead,3,.txt,docs/week8/coraza-load.txt
+integrate-tools-attack-lead,3,.txt,docs/week8/modsecurity-load.txt
+integrate-tools-attack-lead,3,.txt,requirements.txt
+main,3,.txt,Bishal/Week 04/tool-output/tool_output_notes.txt
+main,3,.txt,Bishal/Week 08/configs/environment_configuration_note.txt
+main,3,.txt,Bishal/Week 09/tool-output/apachebench_output_reconstructed_from_screenshot.txt
+main,3,.txt,Bishal/Week 09/tool-output/hey_output_reconstructed_from_screenshot.txt
+main,3,.md,WAF Ongoing/ZAP on DVWA Security Low NAXII NGINX/2026-05-03-ZAP-Report-/2026-05-03-ZAP-Report-/normalize/LICENSE.md
+main,3,.md,WAF Ongoing/ZAP on DVWA Security Low NAXII NGINX/2026-05-03-ZAP-Report-/normalize/LICENSE.md
+main,3,.txt,analysis/final/key_findings.txt
+main,3,.txt,docs/week3/wapiti-week3.txt
+main,3,.txt,docs/week8/baseline-load.txt
+main,3,.txt,docs/week8/coraza-load.txt
+main,3,.txt,docs/week8/modsecurity-load.txt
+main,3,.txt,requirements.txt
+r11-r12-waf-evaluation,3,.txt,analysis/final/key_findings.txt
+r11-r12-waf-evaluation,3,.txt,corpus_digest.txt
+r11-r12-waf-evaluation,3,.txt,docs/week3/wapiti-week3.txt
+r11-r12-waf-evaluation,3,.txt,docs/week8/baseline-load.txt
+r11-r12-waf-evaluation,3,.txt,docs/week8/coraza-load.txt
+r11-r12-waf-evaluation,3,.txt,docs/week8/modsecurity-load.txt
+r11-r12-waf-evaluation,3,.txt,requirements.txt
+Tools-Attack-Lead,2,.md,ANALYSIS_GUIDE.md
+Tools-Attack-Lead,2,.md,README.md
+Tools-Attack-Lead,2,.md,analysis/README.md
+Tools-Attack-Lead,2,.md,analysis/final/README.md
+Tools-Attack-Lead,2,.md,docs/README.md
+Tools-Attack-Lead,2,.md,docs/clean-evidence/scope.md
+Tools-Attack-Lead,2,.md,docs/environment.md
+Tools-Attack-Lead,2,.md,docs/week3/status.md
+Tools-Attack-Lead,2,.md,docs/week4/status.md
+Tools-Attack-Lead,2,.md,docs/week5/status.md
+Tools-Attack-Lead,2,.md,docs/week6/status.md
+Tools-Attack-Lead,2,.md,docs/week7/status.md
+Tools-Attack-Lead,2,.md,docs/week7/week7-notes.md
+Tools-Attack-Lead,2,.md,docs/week7/week7-test-matrix.md
+Tools-Attack-Lead,2,.md,docs/week9/status.md
+Tools-Attack-Lead,2,.md,evidence/README.md
+Tools-Attack-Lead,2,.md,framework/README.md
+Tools-Attack-Lead,2,.md,output/README.md
+Tools-Attack-Lead,2,.md,scripts/README.md
+Tools-Attack-Lead,2,.md,tools/README.md
+bishal-weekly-evidence,2,.md,Bishal/Final_Evidence/README.md
+bishal-weekly-evidence,2,.md,Bishal/GitHub_Import_Index.md
+bishal-weekly-evidence,2,.md,Bishal/Project_Proposal_Draft.md
+bishal-weekly-evidence,2,.md,Bishal/Test_Plan_and_Reproducibility_Runbook.md
+bishal-weekly-evidence,2,.md,Bishal/Week 01/README.md
+bishal-weekly-evidence,2,.md,Bishal/Week 01/docs/week01_project_scope_and_roles.md
+bishal-weekly-evidence,2,.md,Bishal/Week 02/README.md
+bishal-weekly-evidence,2,.md,Bishal/Week 02/notes/initial_tool_research_nikto_zap.md
+bishal-weekly-evidence,2,.md,Bishal/Week 03/README.md
+bishal-weekly-evidence,2,.md,Bishal/Week 03/docs/github_week3-baseline-analysis.md
+bishal-weekly-evidence,2,.md,Bishal/Week 03/docs/week03_baseline_and_owasp_scope.md
+bishal-weekly-evidence,2,.md,Bishal/Week 04/README.md
+bishal-weekly-evidence,2,.md,Bishal/Week 05/README.md
+bishal-weekly-evidence,2,.md,Bishal/Week 05/docs/Project_Proposal_Draft.md
+bishal-weekly-evidence,2,.md,Bishal/Week 05/notes/proposal_preparation_notes.md
+bishal-weekly-evidence,2,.md,Bishal/Week 06/README.md
+bishal-weekly-evidence,2,.md,Bishal/Week 07/README.md
+bishal-weekly-evidence,2,.md,Bishal/Week 07/configs/crs_tuning_note.md
+bishal-weekly-evidence,2,.md,Bishal/Week 07/docs/github_week7-bypass-analysis.md
+bishal-weekly-evidence,2,.md,Bishal/Week 08/README.md
+bishal-weekly-evidence,2,.md,Bishal/Week 08/docs/Test_Plan_and_Reproducibility_Runbook.md
+bishal-weekly-evidence,2,.md,Bishal/Week 09/README.md
+bishal-weekly-evidence,2,.md,Bishal/Week 10/README.md
+bishal-weekly-evidence,2,.md,Bishal/Week 10/configs/final_crs_configuration_note.md
+bishal-weekly-evidence,2,.md,Bishal/Week 10/docs/week10_final_documentation_pack.md
+bishal-weekly-evidence,2,.md,PROJECT_STATUS.md
+bishal-weekly-evidence,2,.md,README.md
+bishal-weekly-evidence,2,.md,REVISION_RECORD.md
+bishal-weekly-evidence,2,.md,VM_SETUP_STEP_BY_STEP.md
+bishal-weekly-evidence,2,.md,Week_01/README.md
+bishal-weekly-evidence,2,.md,Week_01/WEEKLY_CHANGELOG.md
+bishal-weekly-evidence,2,.md,Week_01/docs/architecture.md
+bishal-weekly-evidence,2,.md,Week_01/docs/environment_inventory.md
+bishal-weekly-evidence,2,.md,Week_01/docs/experimental_scope.md
+bishal-weekly-evidence,2,.md,Week_01/legacy_reference/README.md
+bishal-weekly-evidence,2,.md,Week_02/README.md
+bishal-weekly-evidence,2,.md,Week_02/WEEKLY_CHANGELOG.md
+bishal-weekly-evidence,2,.md,Week_02/docs/architecture.md
+bishal-weekly-evidence,2,.md,Week_02/docs/classification_rules.md
+bishal-weekly-evidence,2,.md,Week_02/docs/environment_inventory.md
+bishal-weekly-evidence,2,.md,Week_02/docs/experimental_scope.md
+bishal-weekly-evidence,2,.md,Week_02/docs/methodology.md
+bishal-weekly-evidence,2,.md,Week_02/docs/test_workflow.md
+bishal-weekly-evidence,2,.md,Week_02/legacy_reference/README.md
+bishal-weekly-evidence,2,.md,Week_03/README.md
+bishal-weekly-evidence,2,.md,Week_03/WEEKLY_CHANGELOG.md
+bishal-weekly-evidence,2,.md,Week_03/docs/architecture.md
+bishal-weekly-evidence,2,.md,Week_03/docs/classification_rules.md
+bishal-weekly-evidence,2,.md,Week_03/docs/environment_inventory.md
+bishal-weekly-evidence,2,.md,Week_03/docs/experimental_scope.md
+bishal-weekly-evidence,2,.md,Week_03/docs/methodology.md
+bishal-weekly-evidence,2,.md,Week_03/docs/test_workflow.md
+bishal-weekly-evidence,2,.md,Week_03/legacy_reference/README.md
+bishal-weekly-evidence,2,.md,Week_03/test_cases/README.md
+bishal-weekly-evidence,2,.md,Week_04/README.md
+bishal-weekly-evidence,2,.md,Week_04/WEEKLY_CHANGELOG.md
+bishal-weekly-evidence,2,.md,Week_04/docs/architecture.md
+bishal-weekly-evidence,2,.md,Week_04/docs/classification_rules.md
+bishal-weekly-evidence,2,.md,Week_04/docs/environment_inventory.md
+bishal-weekly-evidence,2,.md,Week_04/docs/evidence_review.md
+bishal-weekly-evidence,2,.md,Week_04/docs/experimental_scope.md
+bishal-weekly-evidence,2,.md,Week_04/docs/methodology.md
+bishal-weekly-evidence,2,.md,Week_04/docs/test_workflow.md
+bishal-weekly-evidence,2,.md,Week_04/legacy_reference/README.md
+bishal-weekly-evidence,2,.md,Week_04/logs/README.md
+bishal-weekly-evidence,2,.md,Week_04/test_cases/README.md
+bishal-weekly-evidence,2,.md,Week_05/README.md
+bishal-weekly-evidence,2,.md,Week_05/WEEKLY_CHANGELOG.md
+bishal-weekly-evidence,2,.md,Week_05/docs/architecture.md
+bishal-weekly-evidence,2,.md,Week_05/docs/classification_rules.md
+bishal-weekly-evidence,2,.md,Week_05/docs/environment_inventory.md
+bishal-weekly-evidence,2,.md,Week_05/docs/evidence_review.md
+bishal-weekly-evidence,2,.md,Week_05/docs/experimental_scope.md
+bishal-weekly-evidence,2,.md,Week_05/docs/methodology.md
+bishal-weekly-evidence,2,.md,Week_05/docs/test_workflow.md
+bishal-weekly-evidence,2,.md,Week_05/legacy_reference/README.md
+bishal-weekly-evidence,2,.md,Week_05/logs/README.md
+bishal-weekly-evidence,2,.md,Week_05/test_cases/README.md
+bishal-weekly-evidence,2,.md,Week_06/README.md
+bishal-weekly-evidence,2,.md,Week_06/WEEKLY_CHANGELOG.md
+bishal-weekly-evidence,2,.md,Week_06/docs/architecture.md
+bishal-weekly-evidence,2,.md,Week_06/docs/classification_rules.md
+bishal-weekly-evidence,2,.md,Week_06/docs/environment_inventory.md
+bishal-weekly-evidence,2,.md,Week_06/docs/evidence_review.md
+bishal-weekly-evidence,2,.md,Week_06/docs/experimental_scope.md
+bishal-weekly-evidence,2,.md,Week_06/docs/methodology.md
+bishal-weekly-evidence,2,.md,Week_06/docs/obfuscation_methodology.md
+bishal-weekly-evidence,2,.md,Week_06/docs/test_workflow.md
+bishal-weekly-evidence,2,.md,Week_06/legacy_reference/README.md
+bishal-weekly-evidence,2,.md,Week_06/logs/README.md
+bishal-weekly-evidence,2,.md,Week_06/test_cases/README.md
+bishal-weekly-evidence,2,.md,Week_06/test_cases/variants/README.md
+bishal-weekly-evidence,2,.md,Week_07/README.md
+bishal-weekly-evidence,2,.md,Week_07/WEEKLY_CHANGELOG.md
+bishal-weekly-evidence,2,.md,Week_07/docs/architecture.md
+bishal-weekly-evidence,2,.md,Week_07/docs/classification_rules.md
+bishal-weekly-evidence,2,.md,Week_07/docs/environment_inventory.md
+bishal-weekly-evidence,2,.md,Week_07/docs/evidence_review.md
+bishal-weekly-evidence,2,.md,Week_07/docs/experimental_scope.md
+bishal-weekly-evidence,2,.md,Week_07/docs/methodology.md
+bishal-weekly-evidence,2,.md,Week_07/docs/obfuscation_methodology.md
+bishal-weekly-evidence,2,.md,Week_07/docs/test_workflow.md
+bishal-weekly-evidence,2,.md,Week_07/legacy_reference/README.md
+bishal-weekly-evidence,2,.md,Week_07/logs/README.md
+bishal-weekly-evidence,2,.md,Week_07/test_cases/README.md
+bishal-weekly-evidence,2,.md,Week_07/test_cases/variants/README.md
+bishal-weekly-evidence,2,.md,docs/architecture.md
+bishal-weekly-evidence,2,.md,docs/continuity_mapping.md
+bishal-weekly-evidence,2,.md,docs/data_management.md
+bishal-weekly-evidence,2,.md,docs/experimental_scope.md
+bishal-weekly-evidence,2,.md,docs/methodology.md
+bishal-weekly-evidence,2,.md,docs/placeholders.md
+bishal-weekly-evidence,2,.md,docs/prior_semester_review.md
+bishal-weekly-evidence,2,.md,docs/snapshot_lineage.md
+comp6016-controlled-testing,2,.md,ANALYSIS_GUIDE.md
+comp6016-controlled-testing,2,.md,README.md
+comp6016-controlled-testing,2,.md,analysis/README.md
+comp6016-controlled-testing,2,.md,analysis/final/README.md
+comp6016-controlled-testing,2,.md,docs/README.md
+comp6016-controlled-testing,2,.md,docs/clean-evidence/scope.md
+comp6016-controlled-testing,2,.md,docs/environment.md
+comp6016-controlled-testing,2,.md,docs/week3/status.md
+comp6016-controlled-testing,2,.md,docs/week4/status.md
+comp6016-controlled-testing,2,.md,docs/week5/status.md
+comp6016-controlled-testing,2,.md,docs/week6/status.md
+comp6016-controlled-testing,2,.md,docs/week7/status.md
+comp6016-controlled-testing,2,.md,docs/week7/week7-notes.md
+comp6016-controlled-testing,2,.md,docs/week7/week7-test-matrix.md
+comp6016-controlled-testing,2,.md,docs/week9/status.md
+comp6016-controlled-testing,2,.md,evidence/README.md
+comp6016-controlled-testing,2,.md,framework/README.md
+comp6016-controlled-testing,2,.md,output/README.md
+comp6016-controlled-testing,2,.md,role3_analysis/week3-baseline-analysis.md
+comp6016-controlled-testing,2,.md,role3_analysis/week7-bypass-analysis.md
+comp6016-controlled-testing,2,.md,scripts/README.md
+comp6016-controlled-testing,2,.md,tools/README.md
+integrate-tools-attack-lead,2,.md,ANALYSIS_GUIDE.md
+integrate-tools-attack-lead,2,.md,README.md
+integrate-tools-attack-lead,2,.md,analysis/README.md
+integrate-tools-attack-lead,2,.md,analysis/final/README.md
+integrate-tools-attack-lead,2,.md,docs/README.md
+integrate-tools-attack-lead,2,.md,docs/clean-evidence/scope.md
+integrate-tools-attack-lead,2,.md,docs/environment.md
+integrate-tools-attack-lead,2,.md,docs/week3/status.md
+integrate-tools-attack-lead,2,.md,docs/week4/status.md
+integrate-tools-attack-lead,2,.md,docs/week5/status.md
+integrate-tools-attack-lead,2,.md,docs/week6/status.md
+integrate-tools-attack-lead,2,.md,docs/week7/status.md
+integrate-tools-attack-lead,2,.md,docs/week7/week7-notes.md
+integrate-tools-attack-lead,2,.md,docs/week7/week7-test-matrix.md
+integrate-tools-attack-lead,2,.md,docs/week9/status.md
+integrate-tools-attack-lead,2,.md,evidence/README.md
+integrate-tools-attack-lead,2,.md,framework/README.md
+integrate-tools-attack-lead,2,.md,output/README.md
+integrate-tools-attack-lead,2,.md,role3_analysis/week3-baseline-analysis.md
+integrate-tools-attack-lead,2,.md,role3_analysis/week7-bypass-analysis.md
+integrate-tools-attack-lead,2,.md,scripts/README.md
+integrate-tools-attack-lead,2,.md,tools/README.md
+main,2,.md,ANALYSIS_GUIDE.md
+main,2,.md,Bishal/GitHub_Import_Index.md
+main,2,.md,Bishal/Project_Proposal_Draft.md
+main,2,.md,Bishal/Test_Plan_and_Reproducibility_Runbook.md
+main,2,.md,Bishal/Week 01/README.md
+main,2,.md,Bishal/Week 01/docs/week01_project_scope_and_roles.md
+main,2,.md,Bishal/Week 02/README.md
+main,2,.md,Bishal/Week 02/notes/initial_tool_research_nikto_zap.md
+main,2,.md,Bishal/Week 03/README.md
+main,2,.md,Bishal/Week 03/docs/github_week3-baseline-analysis.md
+main,2,.md,Bishal/Week 03/docs/week03_baseline_and_owasp_scope.md
+main,2,.md,Bishal/Week 04/README.md
+main,2,.md,Bishal/Week 05/README.md
+main,2,.md,Bishal/Week 05/docs/Project_Proposal_Draft.md
+main,2,.md,Bishal/Week 05/notes/proposal_preparation_notes.md
+main,2,.md,Bishal/Week 06/README.md
+main,2,.md,Bishal/Week 07/README.md
+main,2,.md,Bishal/Week 07/configs/crs_tuning_note.md
+main,2,.md,Bishal/Week 07/docs/github_week7-bypass-analysis.md
+main,2,.md,Bishal/Week 08/README.md
+main,2,.md,Bishal/Week 08/docs/Test_Plan_and_Reproducibility_Runbook.md
+main,2,.md,Bishal/Week 09/README.md
+main,2,.md,Bishal/Week 10/README.md
+main,2,.md,Bishal/Week 10/configs/final_crs_configuration_note.md
+main,2,.md,Bishal/Week 10/docs/week10_final_documentation_pack.md
+main,2,.md,README.md
+main,2,.md,analysis/README.md
+main,2,.md,analysis/final/README.md
+main,2,.md,docs/README.md
+main,2,.md,docs/clean-evidence/scope.md
+main,2,.md,docs/environment.md
+main,2,.md,docs/week3/status.md
+main,2,.md,docs/week4/status.md
+main,2,.md,docs/week5/status.md
+main,2,.md,docs/week6/status.md
+main,2,.md,docs/week7/status.md
+main,2,.md,docs/week7/week7-notes.md
+main,2,.md,docs/week7/week7-test-matrix.md
+main,2,.md,docs/week9/status.md
+main,2,.md,evidence/README.md
+main,2,.md,framework/README.md
+main,2,.md,output/README.md
+main,2,.md,scripts/README.md
+main,2,.md,tools/README.md
+r11-r12-waf-evaluation,2,.md,ANALYSIS_GUIDE.md
+r11-r12-waf-evaluation,2,.md,README.md
+r11-r12-waf-evaluation,2,.md,analysis/README.md
+r11-r12-waf-evaluation,2,.md,analysis/final/README.md
+r11-r12-waf-evaluation,2,.md,docs/README.md
+r11-r12-waf-evaluation,2,.md,docs/clean-evidence/scope.md
+r11-r12-waf-evaluation,2,.md,docs/environment.md
+r11-r12-waf-evaluation,2,.md,docs/week3/status.md
+r11-r12-waf-evaluation,2,.md,docs/week4/status.md
+r11-r12-waf-evaluation,2,.md,docs/week5/status.md
+r11-r12-waf-evaluation,2,.md,docs/week6/status.md
+r11-r12-waf-evaluation,2,.md,docs/week7/status.md
+r11-r12-waf-evaluation,2,.md,docs/week7/week7-notes.md
+r11-r12-waf-evaluation,2,.md,docs/week7/week7-test-matrix.md
+r11-r12-waf-evaluation,2,.md,docs/week9/status.md
+r11-r12-waf-evaluation,2,.md,evidence/README.md
+r11-r12-waf-evaluation,2,.md,framework/README.md
+r11-r12-waf-evaluation,2,.md,output/README.md
+r11-r12-waf-evaluation,2,.md,role3_analysis/week3-baseline-analysis.md
+r11-r12-waf-evaluation,2,.md,role3_analysis/week7-bypass-analysis.md
+r11-r12-waf-evaluation,2,.md,scripts/README.md
+r11-r12-waf-evaluation,2,.md,tools/README.md
+role4,2,.md,README.md
+role4,2,.md,role3_analysis/week3-baseline-analysis.md
+role4,2,.md,role3_analysis/week7-bypass-analysis.md
