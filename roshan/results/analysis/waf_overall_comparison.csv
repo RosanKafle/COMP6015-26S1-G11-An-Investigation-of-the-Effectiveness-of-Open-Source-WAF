@@ -1,0 +1,7 @@
+environment,waf_type,phase,load_level,run_id,total_requests,attack_requests,benign_requests,detection_rate_percent,false_positive_rate_percent,server_error_rate_percent,avg_response_time_ms
+baseline,none,attack_only,none,20260519_063833,468,468,0,0.0,0.0,4.487,6.196
+baseline,none,mixed,medium,20260519_074733,5990,665,5325,0.0,0.0,0.484,6.22
+coraza,coraza,attack_only,none,20260519_074907,463,463,0,34.773,0.0,4.536,9.022
+coraza,coraza,mixed,medium,20260519_064803,5873,653,5220,35.069,0.0,0.494,16.686
+modsec,modsecurity,attack_only,none,20260519_064610,465,465,0,34.839,0.0,4.516,7.946
+modsec,modsecurity,mixed,medium,20260519_073041,5939,661,5278,34.947,0.0,0.522,9.925

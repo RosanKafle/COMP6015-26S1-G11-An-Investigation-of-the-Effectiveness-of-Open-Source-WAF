@@ -1,0 +1,7 @@
+environment,phase,load_level,total_benign_requests,allowed,blocked,reported_fp_percent,calculated_fp_percent,count_check,fp_check,overall_check
+baseline,mixed,medium,5325,5325,0,0.0,0.0,PASS,PASS,PASS
+baseline,setup,setup,102,68,0,0.0,N/A,EXCLUDED,EXCLUDED,EXCLUDED_SETUP
+coraza,mixed,medium,5220,5220,0,0.0,0.0,PASS,PASS,PASS
+coraza,setup,setup,102,68,0,0.0,N/A,EXCLUDED,EXCLUDED,EXCLUDED_SETUP
+modsec,mixed,medium,5278,5278,0,0.0,0.0,PASS,PASS,PASS
+modsec,setup,setup,102,68,0,0.0,N/A,EXCLUDED,EXCLUDED,EXCLUDED_SETUP

@@ -1,0 +1,13 @@
+environment,phase,load_level,run_id,total_requests,attack_requests,benign_requests,reported_detection_percent,reported_fp_percent,server_errors,total_check
+baseline,attack_only,none,20260519_063833,468,468,0,0.0,0.0,21,PASS
+baseline,mixed,medium,20260519_074733,5990,665,5325,0.0,0.0,29,PASS
+baseline,setup,setup,20260519_063833,6,0,6,0.0,0.0,0,PASS
+baseline,setup,setup,20260519_074733,96,0,96,0.0,0.0,0,PASS
+coraza,attack_only,none,20260519_074907,463,463,0,34.773,0.0,21,PASS
+coraza,mixed,medium,20260519_064803,5873,653,5220,35.069,0.0,29,PASS
+coraza,setup,setup,20260519_064803,96,0,96,0.0,0.0,0,PASS
+coraza,setup,setup,20260519_074907,6,0,6,0.0,0.0,0,PASS
+modsec,attack_only,none,20260519_064610,465,465,0,34.839,0.0,21,PASS
+modsec,mixed,medium,20260519_073041,5939,661,5278,34.947,0.0,31,PASS
+modsec,setup,setup,20260519_064610,6,0,6,0.0,0.0,0,PASS
+modsec,setup,setup,20260519_073041,96,0,96,0.0,0.0,0,PASS

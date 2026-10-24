@@ -1,0 +1,9 @@
+deliverable_id,individual_deliverable,analysis_focus,status
+R1,Advanced and obfuscated payload test results,Validate existing transformed and obfuscated payload outcomes,IN PROGRESS
+R2,XML XPath and server-side attack results,Locate and validate existing evidence for these attack classes,IN PROGRESS
+R3,Command injection traversal and file inclusion results,Validate existing test cases and available outcomes,IN PROGRESS
+R4,Valid hits and false hits,Classify legitimate detections versus false positives,IN PROGRESS
+R5,Requests responses WAF logs and screenshots,Map result records to supporting evidence,IN PROGRESS
+R6,Missed attacks and follow-up tests,Identify non-cleanly-blocked cases and follow-up validation,IN PROGRESS
+R7,Repeated validation tests,Check repeated runs and consistency of results,IN PROGRESS
+R8,Comparison tables and analysis,Produce validated baseline-versus-WAF comparisons,IN PROGRESS
