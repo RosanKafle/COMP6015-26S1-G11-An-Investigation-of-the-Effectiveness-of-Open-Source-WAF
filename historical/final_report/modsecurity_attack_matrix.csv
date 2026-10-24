@@ -1,0 +1,5 @@
+attack_type,rule_group,blocked,allowed,detection_rate_percent,false_negative_rate_percent
+SQL Injection,942,300,0,100.0,0.0
+XSS,941,300,0,100.0,0.0
+Command Injection,932,300,0,100.0,0.0
+Path Traversal,930,300,0,100.0,0.0

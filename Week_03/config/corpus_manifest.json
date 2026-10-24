@@ -1,0 +1,6 @@
+{
+  "seed": 2026,
+  "per_class": 120,
+  "count": 600,
+  "note": "Generated test inputs, not experimental results; repeated templates are not independent payloads."
+}

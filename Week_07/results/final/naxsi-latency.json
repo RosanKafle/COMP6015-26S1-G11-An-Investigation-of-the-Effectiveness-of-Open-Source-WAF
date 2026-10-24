@@ -1,0 +1,6 @@
+{
+  "measured_responses": 1684,
+  "median_seconds": 0.00484,
+  "p95_seconds": 0.048407,
+  "note": "Client timings include ZAP, network and application. Not isolated WAF overhead; concurrency/throughput benchmarking remains a separate experiment."
+}

@@ -1,0 +1,8 @@
+variant,total,modsecurity_tp,modsecurity_fn,naxsi_tp,naxsi_fn
+case,190,190,0,190,0
+comments,98,98,0,98,0
+doubleenc,240,240,0,28,212
+encoding,120,120,0,120,0
+separators,98,98,0,98,0
+urlenc,240,240,0,240,0
+whitespace,98,98,0,98,0

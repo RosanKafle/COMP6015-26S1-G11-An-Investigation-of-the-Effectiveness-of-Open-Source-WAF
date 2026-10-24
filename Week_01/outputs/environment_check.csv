@@ -1,0 +1,5 @@
+component,url,reachable,http_status,timestamp,notes
+dvwa,http://192.168.56.20/DVWA,True,302,2026-09-09T15:41:47.421594+00:00,"HTTP responded; identity, authentication and WAF mode NOT VERIFIED."
+modsecurity,http://192.168.56.20/DVWA,True,302,2026-09-09T15:41:47.439809+00:00,"HTTP responded; identity, authentication and WAF mode NOT VERIFIED."
+naxsi,http://192.168.56.20/DVWA,True,302,2026-09-09T15:41:47.447556+00:00,"HTTP responded; identity, authentication and WAF mode NOT VERIFIED."
+zap,http://127.0.0.1:8080,True,200,2026-09-09T15:41:47.452533+00:00,"HTTP responded; identity, authentication and WAF mode NOT VERIFIED."
