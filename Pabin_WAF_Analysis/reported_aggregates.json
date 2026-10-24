@@ -1,0 +1,14 @@
+{
+  "source_status": "Previously reported group aggregate figures; raw observations not independently verified",
+  "experiments": [
+    {"id":"A", "description":"Larger matched dataset", "records":[
+      {"waf":"ModSecurity","tp":1564,"fn":0,"fp":11,"tn":109,"median_response_ms":8.68},
+      {"waf":"NAXSI","tp":1310,"fn":254,"fp":12,"tn":108,"median_response_ms":4.84}
+    ]},
+    {"id":"B", "description":"Smaller controlled R11/R12 evaluation", "records":[
+      {"waf":"ModSecurity","tp":87,"fn":0,"fp":0,"tn":24},
+      {"waf":"Coraza","tp":87,"fn":0,"fp":0,"tn":24},
+      {"waf":"NAXSI","tp":78,"fn":9,"fp":21,"tn":3}
+    ]}
+  ]
+}
