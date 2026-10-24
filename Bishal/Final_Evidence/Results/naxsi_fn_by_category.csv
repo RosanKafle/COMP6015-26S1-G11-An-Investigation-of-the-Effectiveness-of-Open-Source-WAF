@@ -1,0 +1,4 @@
+category,false_negatives
+path_traversal,42
+sqli,92
+xss,120
