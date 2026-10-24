@@ -1,0 +1,14 @@
+NAXSI Missed Detection Analysis
+Total false negatives: 254
+
+Misses by attack category:
+path_traversal 42
+sqli 92
+xss 120
+
+Misses by payload variant:
+baseline 42
+doubleenc 212
+
+VALIDATION PASSED
+All missed-detection counts match the reported results.

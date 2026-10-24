@@ -1,0 +1,6 @@
+experiment,waf,tp,fn,fp,tn,recall_pct,precision_pct,false_positive_rate_pct,accuracy_pct
+A,ModSecurity,1564,0,11,109,100.0,99.3,9.17,99.35
+A,NAXSI,1310,254,12,108,83.76,99.09,10.0,84.2
+B,ModSecurity,87,0,0,24,100.0,100.0,0.0,100.0
+B,Coraza,87,0,0,24,100.0,100.0,0.0,100.0
+B,NAXSI,78,9,21,3,89.66,78.79,87.5,72.97

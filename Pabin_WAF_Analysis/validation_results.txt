@@ -1,0 +1,17 @@
+Checking file: source_comparison.csv
+Total records: 1684
+
+WAF: ModSecurity
+TP Actual: 1564 Expected: 1564
+TN Actual: 109 Expected: 109
+FP Actual: 11 Expected: 11
+FN Actual: 0 Expected: 0
+
+WAF: NAXSI
+TP Actual: 1310 Expected: 1310
+TN Actual: 108 Expected: 108
+FP Actual: 12 Expected: 12
+FN Actual: 254 Expected: 254
+
+VALIDATION PASSED
+All records and reported classification totals matched.
