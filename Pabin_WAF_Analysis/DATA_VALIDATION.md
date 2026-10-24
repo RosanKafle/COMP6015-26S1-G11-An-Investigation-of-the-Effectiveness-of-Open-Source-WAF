@@ -1,145 +1,235 @@
-# WAF Data Validation
+# Data Validation and Evidence Management
 
-**Project:** An Investigation of the Effectiveness of Open-Source Web Application Firewalls  
-**Student:** Pabin Gurung (22343460)  
-**Role:** Measurement, Analysis and Documentation Lead
+**Student:** Pabin Gurung  
+**Student ID:** 22343460  
+**Course:** COMP6016 Computer Science Project 2  
+**Group:** 11  
+**Role:** Measurement, Analysis and Documentation Lead  
+**Project:** An Investigation of the Effectiveness of Open-Source Web Application Firewalls
 
 ## 1. Purpose
 
-This document explains how I checked the WAF analysis results against the reviewed experimental data.
+This document records the source evidence, validation procedures, consistency checks, software tests and limitations for my individual WAF results-analysis contribution.
 
-The main objective was to identify errors in the dataset, check the reported classification counts and record the limitations of the analysis.
+The work focuses on verifying reported classification totals, reviewing false negatives and ensuring that Experiment A and Experiment B are not combined incorrectly.
 
-## 2. Source Data
+The original WAF testing and supporting evidence were produced by project team members. My individual contribution involves results analysis, validation, interpretation and documentation.
 
-The analysis used two input sources.
+## 2. Evidence Sources
 
-The first was `reported_aggregates.json`, containing previously reported figures for Experiments A and B.
+The principal Experiment A source is the reviewed comparison CSV from Bishal Giri's preserved group archive.
 
-The second was the reviewed Experiment A classification file, `comparison.csv`, obtained from the group evidence archive:
+**Archive:** `COMP6016_Group11_BishalGiri_Complete_Code_Data.zip`
 
-`COMP6016_Group11_BishalGiri_Complete_Code_Data.zip`
-
-Original archive path:
+**Internal path:**
 
 `Final_Submission_Complete/Project/Week_06/results/processed/comparison.csv`
 
-A local copy was saved as `source_comparison.csv`.
+**Local analysis filename:** `source_comparison.csv`
 
-The file contained 1,684 request records.
-
-SHA-256 checksum:
+**SHA-256 checksum:**
 
 `20154dff8b3c20580e0b94bc208d68b89dd8d34983d4e611580b308bbda021c2`
 
-## 3. Analysis and Validation
+The source CSV contains 1,684 reviewed test records and has the columns:
 
-Two Python programs were used.
+`test_id,category,variant,modsecurity_action,naxsi_action,modsecurity_classification,naxsi_classification`
 
-`analyze_waf_results.py` calculates recall, precision, false-positive rate and accuracy using the previously reported confusion-matrix figures. It generates a comparison CSV and chart.
+The local source CSV is excluded from this individual GitHub folder. The original group archive must remain accessible for full reproduction of the request-level validation.
 
-`validate_waf_evidence.py` checks the reviewed Experiment A records.
+## 3. Additional Supporting Evidence
 
-The request-level validator checks:
+Three further CSV files were extracted from the preserved group archive:
 
-- Required CSV columns.
-- Missing test identifiers.
-- Duplicate test identifiers.
-- The expected number of records.
-- Invalid classification labels.
-- Agreement between recalculated classification counts and reported totals.
+| File | Description |
+|---|---|
+| `transformation_detection_detail.csv` | Category-level detection counts for transformed malicious requests |
+| `naxsi_fn_by_transformation.csv` | NAXSI false-negative counts grouped by transformation |
+| `performance_metrics.csv` | Confusion-matrix-based classification metrics |
 
-The aggregate-analysis program rejects negative counts and mismatched experiment totals. It does not yet enforce integer-only input types.
+These files are preserved in `reviewed_group_evidence/`.
 
-## 4. Validation Results
+Their original location in the archive is:
 
-The reviewed Experiment A dataset contained 1,684 requests per WAF.
+`Final_Submission_Complete/Final_Analysis/Results/`
+
+These supporting files describe Experiment A. They are not the source of Experiment B results.
+
+## 4. Request-Level Validation
+
+The `validate_waf_evidence.py` program reads the reviewed Experiment A comparison CSV.
+
+It checks the presence of required columns, missing and duplicate test identifiers, total record count, recognised classification values and reported confusion-matrix totals.
+
+The reviewed file contains 1,684 records: 1,564 malicious-labelled requests and 120 benign-labelled requests.
 
 | Classification | ModSecurity | NAXSI |
 |---|---:|---:|
 | True positives | 1,564 | 1,310 |
-| True negatives | 109 | 108 |
-| False positives | 11 | 12 |
 | False negatives | 0 | 254 |
+| False positives | 11 | 12 |
+| True negatives | 109 | 108 |
 
-All eight classification counts matched the previously reported results.
+The validation program confirmed that all eight classification counts matched the expected results and displayed `VALIDATION PASSED`.
 
-The validation program displayed `VALIDATION PASSED`.
+This establishes agreement between the reviewed records and reported classification totals. It does not independently reconstruct every original WAF decision from raw logs.
 
-## 5. Negative Testing
+## 5. NAXSI False-Negative Validation
 
-I tested the programs using deliberately modified input data.
+The `analyze_naxsi_misses.py` program examined Experiment A records classified as NAXSI false negatives.
 
-**Test 1 — Negative count**
+The program confirmed 254 false negatives.
 
-A negative true-positive value was introduced into a temporary copy of the aggregate dataset.
+### By attack category
 
-The analysis program rejected this value with:
+| Category | False negatives |
+|---|---:|
+| XSS | 120 |
+| SQL injection | 92 |
+| Path traversal | 42 |
+| **Total** | **254** |
 
-`ValueError: Counts cannot be negative`
+### By payload variant
 
-The original dataset was restored and analysed successfully afterward.
+| Variant | False negatives |
+|---|---:|
+| Baseline | 42 |
+| Double encoding | 212 |
+| **Total** | **254** |
 
-**Test 2 — Duplicate request ID**
+These results agree with the supporting `naxsi_fn_by_transformation.csv` file.
 
-A separate copy of the reviewed comparison CSV was modified so that two records had the same test identifier.
+## 6. Transformation Evidence Review
 
-The request-level validator rejected the modified dataset with:
+The `transformation_detection_detail.csv` file was inspected separately to check the detection results for different request transformations.
+
+The largest observed difference was associated with double encoding.
+
+| Category | ModSecurity detected | NAXSI detected | NAXSI missed |
+|---|---:|---:|---:|
+| Double-encoded SQL injection | 120/120 | 28/120 | 92 |
+| Double-encoded XSS | 120/120 | 0/120 | 120 |
+| **Total** | **240/240** | **28/240** | **212** |
+
+The resulting detection rates were 100% for ModSecurity and 11.67% for NAXSI within this subset.
+
+The double-encoding totals reconcile with the 212 false negatives identified by the request-level NAXSI analysis.
+
+The complete interpretation is documented in `TRANSFORMATION_AND_PERFORMANCE_REVIEW.md`.
+
+These figures describe detection within the tested malicious-labelled requests, not successful exploitation.
+
+## 7. Classification Metrics Verification
+
+The additional `performance_metrics.csv` contains classification metrics, including precision, recall, F1-score, specificity, false-positive rate, false-negative rate and accuracy.
+
+| Metric | ModSecurity | NAXSI |
+|---|---:|---:|
+| Precision | 99.30% | 99.09% |
+| Recall | 100.00% | 83.76% |
+| F1-score | 99.65% | 90.78% |
+| Specificity | 90.83% | 90.00% |
+| False-positive rate | 9.17% | 10.00% |
+| False-negative rate | 0.00% | 16.24% |
+| Accuracy | 99.35% | 84.20% |
+
+These metrics are consistent with the Experiment A classification totals.
+
+Despite its name, `performance_metrics.csv` does not contain latency, throughput, CPU usage or memory measurements.
+
+Consequently, it cannot establish isolated WAF processing overhead.
+
+## 8. Aggregate Results Analysis
+
+The `analyze_waf_results.py` program reads `reported_aggregates.json`.
+
+It calculates recall, precision, false-positive rate and accuracy, then generates `waf_comparison.csv` and `waf_detection_chart.png`.
+
+The aggregates represent two different evaluations:
+
+- **Experiment A:** 1,684 reviewed requests per WAF for ModSecurity and NAXSI.
+- **Experiment B:** 111 reported requests per WAF for ModSecurity, Coraza and NAXSI.
+
+The experiments are reported separately because their datasets and conditions differ.
+
+Experiment B currently uses reported aggregate totals and has not been independently reconciled against the latest complete request-level evidence.
+
+The chart presents classification results, not system performance or isolated latency overhead.
+
+## 9. Software Testing and Error Handling
+
+The three Python programs were syntax-checked and executed successfully.
+
+The aggregate-analysis program was tested with a negative true-positive count in a temporary input file. The invalid value was rejected.
+
+The request-level validator was tested using a modified temporary CSV containing a duplicate test identifier. The program rejected it with:
 
 `ValueError: Duplicate test IDs found`
 
-The original source file was not modified.
+The temporary test file was kept separate from the original source CSV.
 
-## 6. Experiment Separation
+A successful request-level validation output is preserved in `validation_results.txt`.
 
-Experiment A contains 1,684 reviewed requests per WAF and compares ModSecurity with NAXSI.
+The NAXSI missed-detection output is preserved in `naxsi_misses_results.txt`.
 
-Experiment B is a separate controlled evaluation involving ModSecurity, Coraza and NAXSI, with 87 malicious and 24 benign confirmed observations per WAF in the previously reported R11/R12 summary.
+These tests demonstrate selected input checks and successful processing of the reviewed data. They are not a comprehensive automated test suite covering all possible malformed inputs.
 
-The two experiments use different datasets and must not be combined.
+## 10. Data Integrity and Management
 
-The newer R11/R12 evidence has not yet been reconciled through this validation workflow.
+The original evidence archive was preserved without alteration.
 
-## 7. Limitations
+The reviewed request-level comparison file was extracted into a separate local working copy.
 
-The Experiment A validation confirms consistency between the reviewed classification records and the group's reported totals. It does not independently establish that every WAF decision was correctly classified.
+A SHA-256 checksum was recorded for that file to support identification and subsequent integrity checks.
 
-The original WAF audit logs and backend response evidence have not been independently checked for every request in this individual workflow.
+The three additional group summary CSVs were also copied into a separate inspection folder before being included in `reviewed_group_evidence/`.
 
-An allowed malicious-labelled request does not automatically indicate successful exploitation.
+The project uses controlled laboratory applications and WAF configurations. The analysis contribution does not require production credentials or personal information.
 
-The benign cases in Experiment B were deliberately attack-like and are not representative of ordinary internet traffic.
+Raw logs and test evidence should remain available in the group's preserved submission package where needed for supervisor inspection.
 
-The available response-time observations include network and backend processing. They cannot be treated as isolated WAF overhead.
+## 11. Reproducibility
 
-## 8. Reproducibility
+The analysis was executed on macOS using Python 3.13.7 and Matplotlib.
 
-To repeat the Experiment A validation, obtain the source archive and extract the identified comparison CSV into the analysis folder as `source_comparison.csv`.
-
-Check the source file's checksum using:
-
-```bash
-shasum -a 256 source_comparison.csv
-```
-
-Run the validator:
-
-```bash
-python3 validate_waf_evidence.py source_comparison.csv
-```
-
-Run the aggregate analysis separately:
+To reproduce the aggregate results:
 
 ```bash
 python3 analyze_waf_results.py
 ```
 
-Compare the outputs with `validation_results.txt` and `waf_comparison.csv`.
+To reproduce the Experiment A classification validation after obtaining the reviewed comparison CSV:
 
-The original comparison CSV and deliberately modified test data are excluded from the public GitHub package.
+```bash
+python3 validate_waf_evidence.py source_comparison.csv
+```
 
-## 9. Future Improvements
+To reproduce the NAXSI false-negative breakdown:
 
-The validation workflow could be extended to check each classification against WAF and backend logs, reconcile the latest controlled-testing data, and automatically produce a discrepancy report.
+```bash
+python3 analyze_naxsi_misses.py
+```
 
-Further evidence from other group members should be reviewed separately before being included in the final research results.
+The original group archive is necessary for a complete re-run of the two request-level programs because `source_comparison.csv` is not included in the individual GitHub folder.
+
+## 12. Known Limitations
+
+The principal limitations are:
+
+- Validation checks consistency with reviewed labels; it does not independently adjudicate all original WAF and Apache logs.
+- False negatives identify malicious-labelled requests that were allowed, not confirmed exploitation.
+- The tested corpus and WAF configurations limit generalisation.
+- Transformation groups contain different numbers of requests.
+- Experiment A and Experiment B cannot be pooled into a single overall performance estimate.
+- Classification metrics must not be interpreted as latency, throughput or resource overhead.
+- Experiment B aggregate figures still require independent reconciliation with the latest request-level records.
+
+## 13. Outcome and Future Verification
+
+The Experiment A request-level classifications matched the reported confusion-matrix totals.
+
+The NAXSI missed-detection analysis identified 254 false negatives, including 212 double-encoded requests and 42 baseline path-traversal requests.
+
+The additional group evidence was consistent with these findings and clarified the distinction between classification effectiveness and system performance.
+
+Further verification could include checking individual decisions against preserved raw logs, examining updated Experiment B evidence and evaluating latency overhead using appropriately controlled timing data.
