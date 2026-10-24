@@ -1,0 +1,8 @@
+Engine=baseline Requests=3 HTTP=200 Rules=none Scores=not_applicable Decision=allowed
+Engine=modsecurity Requests=3 HTTP=403 Rules=941100|941110|941160|941390|949110|980170 Scores=20 Decision=blocked
+Engine=coraza Requests=3 HTTP=403 Rules=941100|941110|941160|941390|949110 Scores=20 Decision=blocked
+Engine=naxsi Requests=3 HTTP=403 Rules=1010 Scores=8 Decision=blocked
+Direct_WAF_test_ID_coverage=9/9
+Baseline_correlation=source_ip+timestamp+identical_uri+client_result
+Total_correlated_outcomes=12/12
+Rule_attribution=PASS

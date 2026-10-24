@@ -1,0 +1,102 @@
+[
+  {
+    "case_id": "R12-CMD-SEMI-PCT",
+    "role": "attack",
+    "baseline_pass_all_3": true,
+    "baseline_pass_reps": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "case_id": "R12-CMD-SEMI-PLUS",
+    "role": "attack",
+    "baseline_pass_all_3": true,
+    "baseline_pass_reps": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "case_id": "R12-CMD-NL-PCT",
+    "role": "attack",
+    "baseline_pass_all_3": true,
+    "baseline_pass_reps": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "case_id": "R12-CMD-NL-PLUS",
+    "role": "attack",
+    "baseline_pass_all_3": true,
+    "baseline_pass_reps": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "case_id": "R12-CMD-AND-PCT",
+    "role": "attack",
+    "baseline_pass_all_3": true,
+    "baseline_pass_reps": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "case_id": "R12-CMD-AND-PLUS",
+    "role": "attack",
+    "baseline_pass_all_3": true,
+    "baseline_pass_reps": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "case_id": "R12-CMD-PIPE-PCT",
+    "role": "attack",
+    "baseline_pass_all_3": true,
+    "baseline_pass_reps": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "case_id": "R12-CMD-PIPE-PLUS",
+    "role": "attack",
+    "baseline_pass_all_3": true,
+    "baseline_pass_reps": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "case_id": "R12-BEN-IP01",
+    "role": "control",
+    "baseline_pass_all_3": true,
+    "baseline_pass_reps": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "case_id": "R12-CMD-NEG-DBLENC",
+    "role": "attack_candidate_unvalidated",
+    "baseline_pass_all_3": false,
+    "baseline_pass_reps": [
+      false,
+      false,
+      false
+    ]
+  }
+]

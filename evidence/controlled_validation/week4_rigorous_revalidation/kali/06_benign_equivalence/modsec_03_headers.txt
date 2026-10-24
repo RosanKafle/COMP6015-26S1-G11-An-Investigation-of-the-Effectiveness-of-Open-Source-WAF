@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 04 Sep 2026 04:51:26 GMT
+Server: Apache/2.4.66 (Ubuntu)
+Set-Cookie: security=impossible; path=/; HttpOnly
+Set-Cookie: PHPSESSID=ab287efeac24dc04dc0b517767808183; expires=Sat, 05 Sep 2026 04:51:26 GMT; Max-Age=86400; path=/; HttpOnly; SameSite=Strict
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Set-Cookie: PHPSESSID=d590d45136ac442b920966ab0bb8b423; expires=Sat, 05 Sep 2026 04:51:26 GMT; Max-Age=86400; path=/; HttpOnly; SameSite=Strict
+Vary: Accept-Encoding
+Content-Length: 1342
+Content-Type: text/html;charset=utf-8
+

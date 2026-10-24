@@ -1,0 +1,13 @@
+environment,run,test_id,expected_http,observed_http,bytes,time_seconds,effective_url
+baseline,1,W4-XSS-PILOT-01,200,200,1342,0.003000,http://192.168.187.134:8081/DVWA/login.php?probe=%3cscript%3ealert%281%29%3c%2fscript%3e
+baseline,2,W4-XSS-PILOT-02,200,200,1342,0.001622,http://192.168.187.134:8081/DVWA/login.php?probe=%3cscript%3ealert%281%29%3c%2fscript%3e
+baseline,3,W4-XSS-PILOT-03,200,200,1342,0.001551,http://192.168.187.134:8081/DVWA/login.php?probe=%3cscript%3ealert%281%29%3c%2fscript%3e
+modsec,1,W4-XSS-PILOT-01,403,403,318,0.002335,http://192.168.187.134:80/DVWA/login.php?probe=%3cscript%3ealert%281%29%3c%2fscript%3e
+modsec,2,W4-XSS-PILOT-02,403,403,318,0.002088,http://192.168.187.134:80/DVWA/login.php?probe=%3cscript%3ealert%281%29%3c%2fscript%3e
+modsec,3,W4-XSS-PILOT-03,403,403,318,0.002048,http://192.168.187.134:80/DVWA/login.php?probe=%3cscript%3ealert%281%29%3c%2fscript%3e
+coraza,1,W4-XSS-PILOT-01,403,403,146,0.001911,http://192.168.187.134:8080/DVWA/login.php?probe=%3cscript%3ealert%281%29%3c%2fscript%3e
+coraza,2,W4-XSS-PILOT-02,403,403,146,0.001188,http://192.168.187.134:8080/DVWA/login.php?probe=%3cscript%3ealert%281%29%3c%2fscript%3e
+coraza,3,W4-XSS-PILOT-03,403,403,146,0.001429,http://192.168.187.134:8080/DVWA/login.php?probe=%3cscript%3ealert%281%29%3c%2fscript%3e
+naxsi,1,W4-XSS-PILOT-01,403,403,153,0.000908,http://192.168.187.134:8084/DVWA/login.php?probe=%3cscript%3ealert%281%29%3c%2fscript%3e
+naxsi,2,W4-XSS-PILOT-02,403,403,153,0.000526,http://192.168.187.134:8084/DVWA/login.php?probe=%3cscript%3ealert%281%29%3c%2fscript%3e
+naxsi,3,W4-XSS-PILOT-03,403,403,153,0.000649,http://192.168.187.134:8084/DVWA/login.php?probe=%3cscript%3ealert%281%29%3c%2fscript%3e

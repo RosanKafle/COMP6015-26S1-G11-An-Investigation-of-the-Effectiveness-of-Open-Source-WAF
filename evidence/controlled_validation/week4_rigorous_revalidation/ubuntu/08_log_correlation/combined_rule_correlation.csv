@@ -1,0 +1,13 @@
+engine,test_id,transaction_id,http_status,rule_ids,anomaly_score,decision,ruleset,correlation_basis
+baseline,W4-XSS-PILOT-01,not_logged,200,none,not_applicable,allowed,none,source_ip+timestamp+identical_uri+client_result
+baseline,W4-XSS-PILOT-02,not_logged,200,none,not_applicable,allowed,none,source_ip+timestamp+identical_uri+client_result
+baseline,W4-XSS-PILOT-03,not_logged,200,none,not_applicable,allowed,none,source_ip+timestamp+identical_uri+client_result
+modsecurity,W4-XSS-PILOT-01,63350a6b,403,941100|941110|941160|941390|949110|980170,20,blocked,OWASP_CRS/4.25.0,direct_test_id_in_audit_transaction
+modsecurity,W4-XSS-PILOT-02,63350a6b,403,941100|941110|941160|941390|949110|980170,20,blocked,OWASP_CRS/4.25.0,direct_test_id_in_audit_transaction
+modsecurity,W4-XSS-PILOT-03,63350a6b,403,941100|941110|941160|941390|949110|980170,20,blocked,OWASP_CRS/4.25.0,direct_test_id_in_audit_transaction
+coraza,W4-XSS-PILOT-01,nHPZzBSrAOsFZfVgjgL,403,941100|941110|941160|941390|949110,20,blocked,OWASP_CRS/4.25.0,direct_test_id_in_json_audit_event
+coraza,W4-XSS-PILOT-02,DJmFcGQDDwMDSIHnvHx,403,941100|941110|941160|941390|949110,20,blocked,OWASP_CRS/4.25.0,direct_test_id_in_json_audit_event
+coraza,W4-XSS-PILOT-03,XwaEMRohuFuYFWfvCjx,403,941100|941110|941160|941390|949110,20,blocked,OWASP_CRS/4.25.0,direct_test_id_in_json_audit_event
+naxsi,W4-XSS-PILOT-01,6f01e955f4ed44a1b780451fe468221b,403,1010,8,blocked,NAXSI_Core_Rules,test_id_to_naxsi_id_to_detection_event
+naxsi,W4-XSS-PILOT-02,c00d2a33e0b2f18c7f9da8412c1ab2d8,403,1010,8,blocked,NAXSI_Core_Rules,test_id_to_naxsi_id_to_detection_event
+naxsi,W4-XSS-PILOT-03,6c9b4a28a17b1485abfb941c1040e69a,403,1010,8,blocked,NAXSI_Core_Rules,test_id_to_naxsi_id_to_detection_event

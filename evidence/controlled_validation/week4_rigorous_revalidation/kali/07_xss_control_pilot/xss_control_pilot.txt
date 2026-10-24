@@ -1,0 +1,47 @@
+===== WEEK 4 DETERMINISTIC XSS CONTROL PILOT =====
+UTC=2026-09-04T04:56:25+00:00
+kali
+
+===== CONTROL DEFINITION =====
+Target_IP=192.168.187.134
+Method=GET
+Endpoint=/DVWA/login.php
+Parameter=probe
+Raw_payload=<script>alert(1)</script>
+Encoding=curl --data-urlencode
+Repetitions_per_environment=3
+Purpose=operational blocking and log-correlation calibration
+
+===== IDENTICAL FOUR-PATH REQUESTS =====
+baseline run=1 Test_ID=W4-XSS-PILOT-01 Expected=200 Observed=200 Bytes=1342
+baseline run=2 Test_ID=W4-XSS-PILOT-02 Expected=200 Observed=200 Bytes=1342
+baseline run=3 Test_ID=W4-XSS-PILOT-03 Expected=200 Observed=200 Bytes=1342
+modsec run=1 Test_ID=W4-XSS-PILOT-01 Expected=403 Observed=403 Bytes=318
+modsec run=2 Test_ID=W4-XSS-PILOT-02 Expected=403 Observed=403 Bytes=318
+modsec run=3 Test_ID=W4-XSS-PILOT-03 Expected=403 Observed=403 Bytes=318
+coraza run=1 Test_ID=W4-XSS-PILOT-01 Expected=403 Observed=403 Bytes=146
+coraza run=2 Test_ID=W4-XSS-PILOT-02 Expected=403 Observed=403 Bytes=146
+coraza run=3 Test_ID=W4-XSS-PILOT-03 Expected=403 Observed=403 Bytes=146
+naxsi run=1 Test_ID=W4-XSS-PILOT-01 Expected=403 Observed=403 Bytes=153
+naxsi run=2 Test_ID=W4-XSS-PILOT-02 Expected=403 Observed=403 Bytes=153
+naxsi run=3 Test_ID=W4-XSS-PILOT-03 Expected=403 Observed=403 Bytes=153
+
+===== PER-ENVIRONMENT RESULTS =====
+baseline Expected_result_matches=3/3 Observed_HTTP=200
+coraza Expected_result_matches=3/3 Observed_HTTP=403
+modsec Expected_result_matches=3/3 Observed_HTTP=403
+naxsi Expected_result_matches=3/3 Observed_HTTP=403
+
+===== CONTROL ASSERTIONS =====
+Baseline_allowed=3/3
+WAF_blocks=9/9
+Unprotected control passage: PASS
+ModSecurity deterministic blocking: PASS
+Coraza deterministic blocking: PASS
+NAXSI deterministic blocking: PASS
+
+===== EVIDENCE MANIFEST =====
+Evidence_files=26
+0d3ce281360579fe9345becf2e08e1d4f3a5298b8bcb9581a949598174e00d73  /home/sadaiba/COMP6016_S2_2026/03_week4_rigorous_revalidation/kali/07_xss_control_pilot/evidence.sha256
+
+Deterministic XSS control pilot: PASS

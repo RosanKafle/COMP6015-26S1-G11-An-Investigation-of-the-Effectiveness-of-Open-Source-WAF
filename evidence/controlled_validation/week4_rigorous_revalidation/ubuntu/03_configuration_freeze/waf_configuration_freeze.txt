@@ -1,0 +1,97 @@
+===== WEEK 4 WAF CONFIGURATION FREEZE =====
+2026-09-04T04:28:55+00:00
+sadaiba-VMware20-1
+
+===== APACHE AND MODSECURITY =====
+Server version: Apache/2.4.66 (Ubuntu)
+Server built:   2026-05-05T13:04:33
+Package=apache2 Version=2.4.66-2ubuntu2.1
+Package=libapache2-mod-security2 Version=2.9.12-2build1
+ security2_module (shared)
+
+===== ACTIVE CRS INCLUDE VERIFICATION =====
+Active CRS root=/etc/crs4-comp6016-4.25.0
+Packaged CRS rules active=NO
+
+===== ACTIVE CRS VERSION =====
+OWASP_CRS/4.25.0
+
+===== ACTIVE CRS SECURITY SETTINGS =====
+/etc/crs4-comp6016-4.25.0/crs-setup.conf:184:   setvar:tx.blocking_paranoia_level=1"
+/etc/crs4-comp6016-4.25.0/crs-setup.conf:195:# will be executed, but only the rules up to tx.blocking_paranoia_level affect the
+/etc/crs4-comp6016-4.25.0/crs-setup.conf:197:# By default, tx.detection_paranoia_level is set to tx.blocking_paranoia_level.
+/etc/crs4-comp6016-4.25.0/crs-setup.conf:198:# tx.detection_paranoia_level must not be lower than tx.blocking_paranoia_level.
+/etc/crs4-comp6016-4.25.0/crs-setup.conf:202:# tx.blocking_paranoia_level to said level.
+/etc/crs4-comp6016-4.25.0/crs-setup.conf:332:   setvar:tx.inbound_anomaly_score_threshold=5,  \
+/etc/crs4-comp6016-4.25.0/rules/REQUEST-901-INITIALIZATION.conf:83:    setvar:'tx.inbound_anomaly_score_threshold=5'"
+/etc/crs4-comp6016-4.25.0/rules/REQUEST-901-INITIALIZATION.conf:123:    setvar:'tx.blocking_paranoia_level=1'"
+/etc/crs4-comp6016-4.25.0/rules/REQUEST-901-INITIALIZATION.conf:482:SecRule TX:detection_paranoia_level "@lt %{tx.blocking_paranoia_level}" \
+CRS paranoia level=1
+Inbound threshold=5
+ModSecurity blocking mode=ON
+
+===== APACHE VIRTUAL HOSTS =====
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+VirtualHost configuration:
+*:80                   127.0.1.1 (/etc/apache2/sites-enabled/000-default.conf:1)
+*:8081                 dvwa-baseline.local (/etc/apache2/sites-enabled/comp6016-baseline.conf:1)
+ServerRoot: "/etc/apache2"
+Main DocumentRoot: "/var/www/html"
+Main ErrorLog: "/var/log/apache2/error.log"
+Mutex default: dir="/run/apache2/" mechanism=default 
+Mutex mpm-accept: using_defaults
+Mutex watchdog-callback: using_defaults
+PidFile: "/run/apache2/apache2.pid"
+Define: DUMP_VHOSTS
+Define: DUMP_RUN_CFG
+Define: MODSEC_2.5
+Define: MODSEC_2.9
+User: name="www-data" id=33
+Group: name="www-data" id=33
+
+===== CORAZA CONTAINER IDENTITY =====
+Name=/coraza-waf ImageReference=ghcr.io/coreruleset/coraza-crs:nginx ImageID=sha256:30db4bd104739ba1062bfe53d1250109b30b6459c5683e400049e301c39c8239 Status=running
+Created=2026-04-12T16:07:56.90107982Z Architecture=arm64 OS=linux RepoDigests=["ghcr.io/coreruleset/coraza-crs@sha256:30db4bd104739ba1062bfe53d1250109b30b6459c5683e400049e301c39c8239"]
+
+===== CORAZA CONFIGURATION MOUNTS =====
+
+
+===== CORAZA CRS VERSION CHECK =====
+OWASP_CRS/3.1.0
+OWASP_CRS/4.25.0
+Coraza CRS version: VERIFIED
+
+===== CORAZA CONTAINER CONFIG DIGEST =====
+21ddf9ff206599b178708a65ad6389baf40a338b4533b946ae800c314a2d9600  -
+
+===== NAXSI COMPONENT IDENTITY =====
+nginx version: nginx/1.28.3 (Ubuntu)
+/usr/lib/nginx/modules/ngx_http_naxsi_module.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, BuildID[sha1]=ba2db7e29a5fdc8b3a20cf9213ed059335bd0d63, with debug_info, not stripped
+
+===== IMPORTANT FILE HASHES =====
+4fbc8d742c2d647c7525229a2613b9cad6b32d026d4432b383d8fc9ff19b687f  /etc/apache2/mods-available/security2.conf
+ecaa84b5eef7dac80bdb9b66d04f512f52d939227d03732418750690f5435a7b  /etc/modsecurity/modsecurity.conf
+c7d2801bbc252d945f376ddf293de7a460c0f99001ba283f1a53da1f0e39f2de  /etc/crs4-comp6016-4.25.0/crs-setup.conf
+bf01991d140b07661f4edecbd02a22d8d2d88651132e396a1e0e6eaafb097193  /etc/crs4-comp6016-4.25.0/rules/REQUEST-901-INITIALIZATION.conf
+8d41fafa15146f984b87108c84ef864023d54afda4eef074b0bb233db3735b22  /usr/lib/nginx/modules/ngx_http_naxsi_module.so
+dc2afe04a9861ac8011bbabb23635b5e80617aa1c444d461a0ba6868bd00d433  /etc/comp6016-naxsi/naxsi_core.rules
+04c58ab27f5ddc7115bc79b4e3a7fdeab27777adda9a72c82963cb4a20c714ff  /etc/comp6016-naxsi/nginx.conf
+9a1459ed880c4cf62c141d164cd6cd80a025eedbca50ebc97c906da98a2e4a45  /etc/systemd/system/comp6016-naxsi.service
+
+===== CONFIGURATION TREE DIGESTS =====
+Apache enabled sites files=2 SHA256=b301478f9ae29d191d00d0e9589fd9ee86809c0d28295f0eefb40e5cd3ebe16f
+Active CRS 4.25.0 files=57 SHA256=439a11a03a0c5d019f2c0ef3b2502c3ba583b489d83e91b6b5d44d2246e0d267
+NAXSI configuration files=2 SHA256=5c835681024c109ec135c4b44f05fd54a2b7e11bf0a41259e08b4536e81d44d0
+
+===== CONFIGURATION TESTS =====
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Syntax OK
+nginx: the configuration file /etc/comp6016-naxsi/nginx.conf syntax is ok
+nginx: configuration file /etc/comp6016-naxsi/nginx.conf test is successful
+
+===== FROZEN SERVICE STATES =====
+Apache=active
+NAXSI=active
+Coraza=running
+
+WAF configuration freeze: PASS

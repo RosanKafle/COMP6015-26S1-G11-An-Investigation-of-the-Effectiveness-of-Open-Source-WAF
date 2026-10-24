@@ -1,0 +1,126 @@
+{
+  "run_id": "r11-protected-20260922T060455Z-5abafbad",
+  "started_utc": "2026-09-22T06:04:55.190923+00:00",
+  "catalogue_sha256": "ed557ae6df5ce8c7028bb68ba634af7b80ce26825779f061296983b2c12b0211",
+  "runner_sha256": "3b326d6a0d99c1b0a5ea23aa7b35140df53d330c91c82be50b4eaba2f517876b",
+  "core_sha256": "830974d3ff2dc10b58f4b668e48a8dcb6dc758090f8f3a94aca792a3a94a0c38",
+  "login_helper_sha256": "b403e37a857aec2853f653199376fc65831365690d3cc11eaafeb1dd8cbdfbfc",
+  "baseline_directory": "evidence/r11-baseline-20260921T072551Z-8696e008",
+  "browser_results_sha256": "541e3cabff3ac1ed530dc767ec64d7ab4aa03e31664ffafc316f16e08d137c17",
+  "environments": {
+    "modsec": "http://waf-lab.local",
+    "coraza": "http://waf-lab.local:8080",
+    "naxsi": "http://waf-lab.local:8084"
+  },
+  "authentication": {
+    "modsec": {
+      "passed": true,
+      "http_status": 200,
+      "final_url": "http://waf-lab.local/DVWA/index.php",
+      "security_cookie": "low",
+      "security": {
+        "passed": true,
+        "security_cookie_before": "impossible",
+        "security_cookie_after_post": "low",
+        "security_cookie_entries_before": [
+          {
+            "domain": "waf-lab.local",
+            "path": "/",
+            "value": "impossible"
+          }
+        ],
+        "security_cookie_entries_after_post": [
+          {
+            "domain": "waf-lab.local",
+            "path": "/",
+            "value": "low"
+          }
+        ],
+        "security_cookie": "low",
+        "manual_cookie_override": false,
+        "security_page_get_http_status": 200,
+        "security_page_token_found": true,
+        "post_http_status": 200,
+        "probe_url_not_sent": "http://waf-lab.local/DVWA/index.php"
+      }
+    },
+    "coraza": {
+      "passed": true,
+      "http_status": 200,
+      "final_url": "http://waf-lab.local:8080/DVWA/index.php",
+      "security_cookie": "low",
+      "security": {
+        "passed": true,
+        "security_cookie_before": "impossible",
+        "security_cookie_after_post": "low",
+        "security_cookie_entries_before": [
+          {
+            "domain": "waf-lab.local",
+            "path": "/",
+            "value": "impossible"
+          }
+        ],
+        "security_cookie_entries_after_post": [
+          {
+            "domain": "waf-lab.local",
+            "path": "/",
+            "value": "low"
+          }
+        ],
+        "security_cookie": "low",
+        "manual_cookie_override": false,
+        "security_page_get_http_status": 200,
+        "security_page_token_found": true,
+        "post_http_status": 200,
+        "probe_url_not_sent": "http://waf-lab.local:8080/DVWA/index.php"
+      }
+    },
+    "naxsi": {
+      "passed": true,
+      "http_status": 200,
+      "final_url": "http://waf-lab.local:8084/DVWA/index.php",
+      "security_cookie": "low",
+      "security": {
+        "passed": true,
+        "security_cookie_before": "impossible",
+        "security_cookie_after_post": "low",
+        "security_cookie_entries_before": [
+          {
+            "domain": "waf-lab.local",
+            "path": "/",
+            "value": "impossible"
+          }
+        ],
+        "security_cookie_entries_after_post": [
+          {
+            "domain": "waf-lab.local",
+            "path": "/",
+            "value": "low"
+          }
+        ],
+        "security_cookie": "low",
+        "manual_cookie_override": false,
+        "security_page_get_http_status": 200,
+        "security_page_token_found": true,
+        "post_http_status": 200,
+        "probe_url_not_sent": "http://waf-lab.local:8084/DVWA/index.php"
+      }
+    }
+  },
+  "repetitions": 3,
+  "attack_cases": 21,
+  "control_cases": 4,
+  "planned_observations": 225,
+  "excluded_no_baseline_effect": [
+    "R11-PTH-E03",
+    "R11-SQLI-E03",
+    "R11-XSS-E04"
+  ],
+  "xml": "NOT_EXECUTED",
+  "classification": "PENDING_SERVER_LOG_CORRELATION",
+  "xss_validation": "offline replay; live-origin execution not established",
+  "observations": 225,
+  "requests_attempted": 225,
+  "collection_status": "COMPLETE_PENDING_ANALYSIS",
+  "completed_utc": "2026-09-22T06:05:06.830517+00:00"
+}

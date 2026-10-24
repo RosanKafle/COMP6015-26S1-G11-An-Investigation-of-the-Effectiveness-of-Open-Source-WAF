@@ -1,0 +1,14 @@
+{
+  "run_id": "r12-20260922T073114Z-7220d26c",
+  "phase": "baseline",
+  "runner_version": "v2-authenticated",
+  "generated_utc": "2026-09-22T07:32:38.177451+00:00",
+  "authentication": {
+    "passed": true,
+    "http_status": 200,
+    "final_url": "http://waf-lab.local:8081/DVWA/index.php",
+    "security_cookie": "low"
+  },
+  "n_cases": 10,
+  "n_observations": 30
+}

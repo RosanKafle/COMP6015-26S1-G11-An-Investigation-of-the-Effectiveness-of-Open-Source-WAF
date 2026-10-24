@@ -7,9 +7,9 @@ from urllib.parse import urlencode
 from bs4 import BeautifulSoup
 
 TARGETS = {
-    "baseline": "http://192.168.209.130/DVWA",
-    "modsec": "http://192.168.209.130/DVWA",
-    "coraza": "http://192.168.209.130:8080/DVWA",
+    "baseline": "http://waf-lab.local:8081/DVWA",
+    "modsec": "http://waf-lab.local/DVWA",
+    "coraza": "http://waf-lab.local:8080/DVWA",
 }
 
 BLOCK_CODES = {403, 406, 501}

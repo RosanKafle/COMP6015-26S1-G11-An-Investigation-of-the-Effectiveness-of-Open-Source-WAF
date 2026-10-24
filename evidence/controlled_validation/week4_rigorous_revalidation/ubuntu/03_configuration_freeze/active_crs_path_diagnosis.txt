@@ -1,0 +1,133 @@
+===== ACTIVE CRS PATH DIAGNOSIS =====
+2026-09-01T14:46:38+00:00
+sadaiba-VMware20-1
+
+===== INSTALLED CRS PACKAGE =====
+Package=modsecurity-crs Version=3.3.8-1
+CRS package query: COMPLETE
+
+===== APACHE SECURITY MODULE CONFIGURATION =====
+lrwxrwxrwx 1 root root 32 May 24 06:57 /etc/apache2/mods-enabled/security2.conf -> ../mods-available/security2.conf
+/etc/apache2/mods-available/security2.conf
+<IfModule security2_module>
+    SecDataDir /var/cache/modsecurity
+
+    IncludeOptional /etc/modsecurity/*.conf
+
+    IncludeOptional /etc/crs4-comp6016-4.25.0/crs-setup.conf
+    IncludeOptional /etc/crs4-comp6016-4.25.0/plugins/*-config.conf
+    IncludeOptional /etc/crs4-comp6016-4.25.0/plugins/*-before.conf
+    IncludeOptional /etc/crs4-comp6016-4.25.0/rules/*.conf
+    IncludeOptional /etc/crs4-comp6016-4.25.0/plugins/*-after.conf
+</IfModule>
+
+===== APACHE INCLUDE MAP =====
+    (146) /etc/apache2/mods-enabled/security2.load
+    (147) /etc/apache2/mods-enabled/security2.conf
+      (4) /etc/modsecurity/modsecurity.conf
+      (6) /etc/crs4-comp6016-4.25.0/crs-setup.conf
+      (7) /etc/crs4-comp6016-4.25.0/plugins/empty-config.conf
+      (8) /etc/crs4-comp6016-4.25.0/plugins/empty-before.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/REQUEST-900-EXCLUSION-RULES-BEFORE-CRS.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/REQUEST-901-INITIALIZATION.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/REQUEST-905-COMMON-EXCEPTIONS.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/REQUEST-911-METHOD-ENFORCEMENT.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/REQUEST-913-SCANNER-DETECTION.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/REQUEST-921-PROTOCOL-ATTACK.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/REQUEST-922-MULTIPART-ATTACK.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/REQUEST-930-APPLICATION-ATTACK-LFI.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/REQUEST-931-APPLICATION-ATTACK-RFI.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/REQUEST-933-APPLICATION-ATTACK-PHP.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/REQUEST-934-APPLICATION-ATTACK-GENERIC.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/REQUEST-942-APPLICATION-ATTACK-SQLI.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/REQUEST-943-APPLICATION-ATTACK-SESSION-FIXATION.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/REQUEST-944-APPLICATION-ATTACK-JAVA.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/REQUEST-949-BLOCKING-EVALUATION.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/REQUEST-999-COMMON-EXCEPTIONS-AFTER.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/RESPONSE-950-DATA-LEAKAGES.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/RESPONSE-951-DATA-LEAKAGES-SQL.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/RESPONSE-952-DATA-LEAKAGES-JAVA.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/RESPONSE-953-DATA-LEAKAGES-PHP.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/RESPONSE-954-DATA-LEAKAGES-IIS.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/RESPONSE-955-WEB-SHELLS.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/RESPONSE-956-DATA-LEAKAGES-RUBY.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/RESPONSE-959-BLOCKING-EVALUATION.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/RESPONSE-980-CORRELATION.conf
+      (9) /etc/crs4-comp6016-4.25.0/rules/RESPONSE-999-EXCLUSION-RULES-AFTER-CRS.conf
+      (10) /etc/crs4-comp6016-4.25.0/plugins/empty-after.conf
+    (222) /etc/apache2/conf-enabled/security.conf
+
+===== CONFIGURED CRS INCLUDE DIRECTIVES =====
+/etc/apache2/mods-available/security2.conf:4:    IncludeOptional /etc/modsecurity/*.conf
+/etc/apache2/mods-available/security2.conf:6:    IncludeOptional /etc/crs4-comp6016-4.25.0/crs-setup.conf
+/etc/apache2/mods-available/security2.conf:7:    IncludeOptional /etc/crs4-comp6016-4.25.0/plugins/*-config.conf
+/etc/apache2/mods-available/security2.conf:8:    IncludeOptional /etc/crs4-comp6016-4.25.0/plugins/*-before.conf
+/etc/apache2/mods-available/security2.conf:9:    IncludeOptional /etc/crs4-comp6016-4.25.0/rules/*.conf
+/etc/apache2/mods-available/security2.conf:10:    IncludeOptional /etc/crs4-comp6016-4.25.0/plugins/*-after.conf
+/etc/apache2/mods-enabled/security2.conf.bak:4:	IncludeOptional /etc/modsecurity/*.conf
+/etc/apache2/mods-enabled/security2.conf.bak:5:	IncludeOptional /usr/share/modsecurity-crs/*.conf
+/etc/apache2/mods-enabled/security2.conf.bak:6:	IncludeOptional /usr/share/modsecurity-crs/rules/*.conf
+/etc/apache2/mods-enabled/security2.conf:4:    IncludeOptional /etc/modsecurity/*.conf
+/etc/apache2/mods-enabled/security2.conf:6:    IncludeOptional /etc/crs4-comp6016-4.25.0/crs-setup.conf
+/etc/apache2/mods-enabled/security2.conf:7:    IncludeOptional /etc/crs4-comp6016-4.25.0/plugins/*-config.conf
+/etc/apache2/mods-enabled/security2.conf:8:    IncludeOptional /etc/crs4-comp6016-4.25.0/plugins/*-before.conf
+/etc/apache2/mods-enabled/security2.conf:9:    IncludeOptional /etc/crs4-comp6016-4.25.0/rules/*.conf
+/etc/apache2/mods-enabled/security2.conf:10:    IncludeOptional /etc/crs4-comp6016-4.25.0/plugins/*-after.conf
+
+===== CRS CONFIGURATION CANDIDATES =====
+Candidate file count=6
+
+File=/etc/crs4-comp6016-4.25.0/crs-setup.conf
+OWASP_CRS/4.25.0
+OWASP_CRS/4.25.0
+OWASP_CRS/4.25.0
+c7d2801bbc252d945f376ddf293de7a460c0f99001ba283f1a53da1f0e39f2de  /etc/crs4-comp6016-4.25.0/crs-setup.conf
+
+File=/etc/crs4-comp6016-4.25.0/rules/REQUEST-901-INITIALIZATION.conf
+OWASP_CRS/3.1.0
+OWASP_CRS/4.25.0
+OWASP_CRS/4.25.0
+bf01991d140b07661f4edecbd02a22d8d2d88651132e396a1e0e6eaafb097193  /etc/crs4-comp6016-4.25.0/rules/REQUEST-901-INITIALIZATION.conf
+
+File=/etc/modsecurity/crs/crs-setup.conf
+Version string not present in this file
+1ea75acd03d83f0e59c26cc808f35441c6f50cb8db57367f60e678cde0c248bf  /etc/modsecurity/crs/crs-setup.conf
+
+File=/home/sadaiba/COMP6016_S2_2026/02_common_test_set/ubuntu/crs_alignment/pre_activation_backup/modsecurity.before_crs4/crs/crs-setup.conf
+Version string not present in this file
+1ea75acd03d83f0e59c26cc808f35441c6f50cb8db57367f60e678cde0c248bf  /home/sadaiba/COMP6016_S2_2026/02_common_test_set/ubuntu/crs_alignment/pre_activation_backup/modsecurity.before_crs4/crs/crs-setup.conf
+
+File=/home/sadaiba/COMP6016_S2_2026/02_common_test_set/ubuntu/crs_alignment/staging/crs-4.25.0/rules/REQUEST-901-INITIALIZATION.conf
+OWASP_CRS/3.1.0
+OWASP_CRS/4.25.0
+OWASP_CRS/4.25.0
+bf01991d140b07661f4edecbd02a22d8d2d88651132e396a1e0e6eaafb097193  /home/sadaiba/COMP6016_S2_2026/02_common_test_set/ubuntu/crs_alignment/staging/crs-4.25.0/rules/REQUEST-901-INITIALIZATION.conf
+
+File=/usr/share/modsecurity-crs/rules/REQUEST-901-INITIALIZATION.conf
+OWASP_CRS/3.1.0
+OWASP_CRS/3.3.8
+OWASP_CRS/3.3.8
+f962a980baf0fc6d49116b4f8296e447ae0d0e7016b101d468c00929c309244b  /usr/share/modsecurity-crs/rules/REQUEST-901-INITIALIZATION.conf
+
+===== CRS VERSIONS FOUND IN APACHE LOGS =====
+OWASP_CRS/3.3.8
+OWASP_CRS/4.25.0
+
+===== ACTIVE SECURITY DIRECTIVES =====
+/etc/apache2/sites-enabled/comp6016-baseline.conf:6:        SecRuleEngine Off
+/etc/apache2/sites-available/comp6016-baseline.conf:6:        SecRuleEngine Off
+/etc/modsecurity/modsecurity.conf-recommended:7:SecRuleEngine DetectionOnly
+/etc/modsecurity/modsecurity.conf-recommended:56:# when SecRuleEngine is set to DetectionOnly mode in order to minimize
+/etc/modsecurity/crs/crs-setup.conf.bak:13:  setvar:tx.paranoia_level=1,\
+/etc/modsecurity/crs/crs-setup.conf:3:SecAction "id:900000,phase:1,pass,nolog,setvar:tx.paranoia_level=1,setvar:tx.executing_paranoia_level=1,setvar:tx.blocking_paranoia_level=1,setvar:tx.detection_paranoia_level=1"
+/etc/modsecurity/modsecurity.conf:7:SecRuleEngine on
+/etc/modsecurity/modsecurity.conf:56:# when SecRuleEngine is set to DetectionOnly mode in order to minimize
+
+===== APACHE CONFIGURATION TEST =====
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Syntax OK
+
+Active CRS path diagnosis: COMPLETE

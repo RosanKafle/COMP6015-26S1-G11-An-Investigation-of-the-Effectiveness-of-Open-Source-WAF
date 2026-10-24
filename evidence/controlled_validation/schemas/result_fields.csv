@@ -1,0 +1,42 @@
+field,required,description
+run_id,yes,Unique identifier for the complete experiment run
+test_id,yes,Unique identifier for the exact test variant
+base_test_id,yes,Identifier shared by the base payload and its variants
+variant_id,yes,Identifier for the applied obfuscation variant
+repetition,yes,Repetition number starting at 1
+timestamp_utc,yes,UTC request timestamp
+environment,yes,baseline modsecurity coraza naxsi or additional WAF
+waf_type,yes,WAF engine or none for baseline
+waf_version,yes,Recorded WAF engine version
+ruleset_name,yes,CRS NAXSI rules or other ruleset
+ruleset_version,yes,Exact ruleset version
+paranoia_level,yes,Configured paranoia level or not_applicable
+inbound_threshold,yes,Configured inbound threshold or not_applicable
+method,yes,HTTP request method
+endpoint,yes,Application endpoint path
+input_location,yes,query form json xml header cookie or multipart
+content_type,yes,HTTP content type
+parameter_name,yes,Tested parameter header or cookie name
+raw_payload,yes,Canonical unencoded payload
+encoding_transform,yes,Declared transformation applied by the runner
+encoding_layers,yes,Number of URL encoding layers
+wire_payload,yes,Final payload transmitted on the wire
+prepared_url,yes,Final prepared request URL
+request_headers_path,yes,Path to preserved request headers
+request_body_path,yes,Path to preserved request body or not_applicable
+response_status,yes,HTTP response status
+response_time_ms,yes,Measured response time in milliseconds
+response_headers_path,yes,Path to preserved response headers
+response_body_path,yes,Path to preserved response body
+response_body_sha256,yes,SHA256 hash of response body
+baseline_validated,yes,Whether vulnerable baseline behaviour was confirmed
+backend_effect,yes,Observed application-side outcome
+waf_detected,yes,Whether a correlated WAF rule or alert exists
+waf_blocked,yes,Whether the WAF interrupted the request
+classification,yes,Controlled result classification
+transaction_id,yes,WAF transaction ID or not_applicable
+rule_ids,yes,Matched WAF rule IDs or none
+rule_messages,yes,Matched WAF rule messages or none
+anomaly_score,yes,Recorded anomaly score or not_applicable
+waf_log_path,yes,Path to preserved correlated WAF log
+notes,no,Analyst explanation or limitation

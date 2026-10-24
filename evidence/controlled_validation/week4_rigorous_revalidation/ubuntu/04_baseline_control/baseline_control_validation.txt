@@ -1,0 +1,45 @@
+===== WEEK 4 BASELINE CONTROL VALIDATION =====
+UTC=2026-09-04T04:32:31+00:00
+sadaiba-VMware20-1
+
+===== BASELINE VHOST CONTROL =====
+1:<VirtualHost *:8081>
+3:    DocumentRoot /var/www/html
+6:        SecRuleEngine Off
+15:    ErrorLog ${APACHE_LOG_DIR}/comp6016_baseline_error.log
+16:    CustomLog ${APACHE_LOG_DIR}/comp6016_baseline_access.log combined
+17:</VirtualHost>
+Baseline SecRuleEngine=Off: PASS
+
+===== PORT 8081 LISTENER =====
+LISTEN 0      511                *:8081             *:*    users:(("apache2",pid=29411,fd=7),("apache2",pid=29410,fd=7),("apache2",pid=29409,fd=7),("apache2",pid=29408,fd=7),("apache2",pid=29407,fd=7),("apache2",pid=1773,fd=7))
+Baseline listener ownership: PASS
+
+===== BENIGN CONTROL REQUEST =====
+Benign HTTP=200 Bytes=1342
+HTTP/1.1 200 OK
+Content-Type: text/html;charset=utf-8
+
+===== NON-DATASET CONTROL PROBE =====
+Test_ID=W4-BASELINE-CONTROL-001
+Raw_probe=<script>alert(1)</script>
+Probe HTTP=200 Bytes=1342
+HTTP/1.1 200 OK
+Content-Type: text/html;charset=utf-8
+
+===== APPLICATION IDENTITY =====
+Benign response contains DVWA identity: PASS
+Probe response contains DVWA identity: PASS
+
+===== CONTROL ASSERTIONS =====
+Benign availability: PASS
+Unprotected probe passage: PASS
+
+===== EVIDENCE HASHES =====
+cde3bd48ab68814fdc0e1b521d90532259ff94338daa65591106de82e7ac93a0  /etc/apache2/sites-enabled/comp6016-baseline.conf
+f2dce04ca37cd1d31eddd6f7cbaa96b1998bcf0a6bcca1ed73f2460fb675a267  /home/sadaiba/COMP6016_S2_2026/03_week4_rigorous_revalidation/ubuntu/04_baseline_control/benign_headers.txt
+9f4c0b6049c8170c30724e9b24efe36f863e08a95a6c689021b6d55ffb5a1c99  /home/sadaiba/COMP6016_S2_2026/03_week4_rigorous_revalidation/ubuntu/04_baseline_control/benign_body.html
+2f91045889aee450148b75ac8bfaaeaeeb90e78b5b9747d00e6ff0ed512acfbf  /home/sadaiba/COMP6016_S2_2026/03_week4_rigorous_revalidation/ubuntu/04_baseline_control/probe_headers.txt
+47aad43e053870c9c0969bd28b6ed24fb4783067ec60d432367a7de061356992  /home/sadaiba/COMP6016_S2_2026/03_week4_rigorous_revalidation/ubuntu/04_baseline_control/probe_body.html
+
+Baseline control validation: PASS

@@ -1,0 +1,48 @@
+===== WEEK 4 CURRENT NETWORK ADDRESS VALIDATION =====
+UTC=2026-09-04T04:49:13+00:00
+kali
+
+===== KALI ADDRESS =====
+lo               UNKNOWN        127.0.0.1/8 
+eth0             UP             192.168.187.130/24 
+docker0          DOWN           172.17.0.1/16 
+
+===== PREVIOUS HOSTNAME MAPPING =====
+8:10.35.27.193 waf-lab.local
+
+===== UPDATED HOSTNAME MAPPING =====
+8:192.168.187.134 waf-lab.local
+Resolved_IP=192.168.187.134
+Hostname mapping: PASS
+
+===== DIRECT ROUTE =====
+192.168.187.134 dev eth0 src 192.168.187.130 uid 1000 
+    cache 
+
+===== ICMP CONNECTIVITY =====
+PING 192.168.187.134 (192.168.187.134) 56(84) bytes of data.
+64 bytes from 192.168.187.134: icmp_seq=1 ttl=64 time=0.590 ms
+64 bytes from 192.168.187.134: icmp_seq=2 ttl=64 time=1.06 ms
+64 bytes from 192.168.187.134: icmp_seq=3 ttl=64 time=1.07 ms
+
+--- 192.168.187.134 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2018ms
+rtt min/avg/max/mdev = 0.590/0.905/1.066/0.223 ms
+
+===== FOUR-PORT CONNECTIVITY =====
+waf-lab.local [192.168.187.134] 80 (http) open
+Port 80: PASS
+waf-lab.local [192.168.187.134] 8080 (http-alt) open
+Port 8080: PASS
+waf-lab.local [192.168.187.134] 8081 (tproxy) open
+Port 8081: PASS
+waf-lab.local [192.168.187.134] 8084 (?) open
+Port 8084: PASS
+
+===== FOUR-PATH HTTP CONNECTIVITY =====
+Port=80 HTTP=200 Connect=0.000467s Total=0.014280s
+Port=8080 HTTP=200 Connect=0.000227s Total=0.004724s
+Port=8081 HTTP=200 Connect=0.000302s Total=0.002124s
+Port=8084 HTTP=200 Connect=0.000232s Total=0.003231s
+
+Current network address validation: PASS
