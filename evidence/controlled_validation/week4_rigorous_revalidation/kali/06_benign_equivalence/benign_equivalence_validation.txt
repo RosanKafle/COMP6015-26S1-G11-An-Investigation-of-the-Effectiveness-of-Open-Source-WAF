@@ -1,0 +1,44 @@
+===== WEEK 4 FOUR-PATH BENIGN EQUIVALENCE =====
+UTC=2026-09-04T04:51:26+00:00
+kali
+
+===== VERIFIED TARGET =====
+Resolved_IP=192.168.187.134
+Test_Target=192.168.187.134
+
+===== IDENTICAL BENIGN REQUESTS =====
+Method=GET
+Endpoint=/DVWA/login.php
+Repetitions_per_environment=3
+baseline run=1 HTTP=200 Bytes=1342 Test_ID=W4-BENIGN-BASELINE-01
+baseline run=2 HTTP=200 Bytes=1342 Test_ID=W4-BENIGN-BASELINE-02
+baseline run=3 HTTP=200 Bytes=1342 Test_ID=W4-BENIGN-BASELINE-03
+modsec run=1 HTTP=200 Bytes=1342 Test_ID=W4-BENIGN-MODSEC-01
+modsec run=2 HTTP=200 Bytes=1342 Test_ID=W4-BENIGN-MODSEC-02
+modsec run=3 HTTP=200 Bytes=1342 Test_ID=W4-BENIGN-MODSEC-03
+coraza run=1 HTTP=200 Bytes=1342 Test_ID=W4-BENIGN-CORAZA-01
+coraza run=2 HTTP=200 Bytes=1342 Test_ID=W4-BENIGN-CORAZA-02
+coraza run=3 HTTP=200 Bytes=1342 Test_ID=W4-BENIGN-CORAZA-03
+naxsi run=1 HTTP=200 Bytes=1342 Test_ID=W4-BENIGN-NAXSI-01
+naxsi run=2 HTTP=200 Bytes=1342 Test_ID=W4-BENIGN-NAXSI-02
+naxsi run=3 HTTP=200 Bytes=1342 Test_ID=W4-BENIGN-NAXSI-03
+
+===== PER-ENVIRONMENT SUMMARY =====
+baseline Success=3/3 Mean_time=0.002410s
+coraza Success=3/3 Mean_time=0.003904s
+modsec Success=3/3 Mean_time=0.003590s
+naxsi Success=3/3 Mean_time=0.001862s
+
+===== RESPONSE EQUIVALENCE =====
+Unique_HTTP_statuses=1
+Unique_response_sizes=1
+Unique_normalized_body_fingerprints=1
+All twelve requests returned HTTP 200: PASS
+Response-size equivalence: PASS
+Normalized-body equivalence: PASS
+
+===== EVIDENCE MANIFEST =====
+Evidence_files=37
+b02ce3e04b13b6e05d0000899e39b421b486f75d3c9308d73788c361357cac83  /home/sadaiba/COMP6016_S2_2026/03_week4_rigorous_revalidation/kali/06_benign_equivalence/evidence.sha256
+
+Four-path benign equivalence: PASS

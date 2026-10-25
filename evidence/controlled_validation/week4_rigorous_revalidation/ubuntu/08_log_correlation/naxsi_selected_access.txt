@@ -1,0 +1,3 @@
+2026-09-04T12:56:25+08:00 client=192.168.187.130 test_id="W4-XSS-PILOT-01" naxsi_id="6f01e955f4ed44a1b780451fe468221b" request="GET /DVWA/login.php?probe=%3cscript%3ealert%281%29%3c%2fscript%3e HTTP/1.1" status=403 bytes=153 time=0.000
+2026-09-04T12:56:25+08:00 client=192.168.187.130 test_id="W4-XSS-PILOT-02" naxsi_id="c00d2a33e0b2f18c7f9da8412c1ab2d8" request="GET /DVWA/login.php?probe=%3cscript%3ealert%281%29%3c%2fscript%3e HTTP/1.1" status=403 bytes=153 time=0.000
+2026-09-04T12:56:25+08:00 client=192.168.187.130 test_id="W4-XSS-PILOT-03" naxsi_id="6c9b4a28a17b1485abfb941c1040e69a" request="GET /DVWA/login.php?probe=%3cscript%3ealert%281%29%3c%2fscript%3e HTTP/1.1" status=403 bytes=153 time=0.000

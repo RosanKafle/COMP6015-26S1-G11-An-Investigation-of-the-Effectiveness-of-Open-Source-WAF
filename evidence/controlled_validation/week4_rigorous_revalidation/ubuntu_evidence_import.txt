@@ -1,0 +1,17 @@
+===== WEEK 4 UBUNTU EVIDENCE IMPORT =====
+UTC=2026-09-04T05:17:36+00:00
+kali
+Source_host=192.168.187.134
+Expected_SHA256=6f14c5083320fbecd5f0fe42468ee1269e27e6158bda0a67e9c0d12be0f86026
+Actual_SHA256=6f14c5083320fbecd5f0fe42468ee1269e27e6158bda0a67e9c0d12be0f86026
+Transfer hash verification: PASS
+Gzip integrity: PASS
+Archive_files=38
+
+===== ARCHIVE SECTIONS =====
+ubuntu/03_configuration_freeze
+ubuntu/04_baseline_control
+ubuntu/05_routing_topology
+ubuntu/08_log_correlation
+
+Ubuntu evidence import: PASS

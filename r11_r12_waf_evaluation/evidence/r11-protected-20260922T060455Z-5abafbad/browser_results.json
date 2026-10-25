@@ -1,0 +1,80 @@
+[
+  {
+    "case_id": "R11-XSS-E01",
+    "source_sha256": "434a4f8e2ccca9e78144bac5b5eb29768b7273cc01b98e334002b2db9e30a13b",
+    "offline_execution_confirmed": true,
+    "dialogs": [
+      "W10XSS01"
+    ],
+    "error": null,
+    "browser_version": "153.0.8010.12"
+  },
+  {
+    "case_id": "R11-XSS-E02",
+    "source_sha256": "8c91ba3d060ae8a194d8374f366f56f8e2d00e372448403c2c6e40b4bd5cb497",
+    "offline_execution_confirmed": true,
+    "dialogs": [
+      "W10XSS02"
+    ],
+    "error": null,
+    "browser_version": "153.0.8010.12"
+  },
+  {
+    "case_id": "R11-XSS-E03",
+    "source_sha256": "cdd01b25b8cf3ba09e5c773f7afeb478cbf0f4a22760c09ddb9f530483ed0cce",
+    "offline_execution_confirmed": true,
+    "dialogs": [
+      "W10XSS03"
+    ],
+    "error": null,
+    "browser_version": "153.0.8010.12"
+  },
+  {
+    "case_id": "R11-XSS-E04",
+    "source_sha256": "732605dd7a25f905f2198c5a34e59d88fdaec5377a3a1122b5339dd5713da99d",
+    "offline_execution_confirmed": false,
+    "dialogs": [],
+    "error": null,
+    "browser_version": "153.0.8010.12"
+  },
+  {
+    "case_id": "R11-XSS-E05",
+    "source_sha256": "9a96e2b1e90697f86925ca172e89b129b0af5cd6bd9f44eae984e8730fac8e88",
+    "offline_execution_confirmed": true,
+    "dialogs": [
+      "W10XSS05"
+    ],
+    "error": null,
+    "browser_version": "153.0.8010.12"
+  },
+  {
+    "case_id": "R11-XSS-E06",
+    "source_sha256": "5e5e21d9a2e3fe11b968dff938bbdbfd9ef9f778c513b53a2b967f3228e0e8e0",
+    "offline_execution_confirmed": true,
+    "dialogs": [
+      "W10XSS06"
+    ],
+    "error": null,
+    "browser_version": "153.0.8010.12"
+  },
+  {
+    "case_id": "R11-XSS-E07",
+    "source_sha256": "cbd55574fd0c849a8e642014927c7e3bc77a74144bedf715d29aabde87f906f4",
+    "offline_execution_confirmed": true,
+    "dialogs": [
+      "W10XSS07"
+    ],
+    "error": null,
+    "browser_version": "153.0.8010.12"
+  },
+  {
+    "case_id": "R11-XSS-E08",
+    "source_sha256": "e6445c264a6cc31835e8eb7c64276f3c9e83fcf6b664c40d353f5dd6eeabbbfb",
+    "offline_execution_confirmed": true,
+    "dialogs": [
+      "W10XSS08"
+    ],
+    "error": null,
+    "browser_version": "153.0.8010.12"
+  }
+]

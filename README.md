@@ -166,3 +166,11 @@ python3 scripts/validate_structure.py
 python3 scripts/list_experiment_coverage.py
 ```
 
+
+## COMP6016 Semester 2 integration
+
+- [Bishal's continuation and testing guide](Bishal/README_CONTINUATION.md)
+- [R11/R12 WAF evaluation](r11_r12_waf_evaluation/README.md)
+
+Historical experiment results and Semester 2 controlled-testing
+results must be interpreted separately.

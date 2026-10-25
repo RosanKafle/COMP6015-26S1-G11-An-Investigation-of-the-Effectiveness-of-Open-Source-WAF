@@ -1,0 +1,15 @@
+{
+  "method": "GET",
+  "url": "http://waf-lab.local/DVWA/vulnerabilities/xss_r/index.php?name=%3Cimg%20src%3Dx%20onerror%3Dalert%28%27W10XSS03%27%29%3E",
+  "headers": {
+    "User-Agent": "COMP6016-Corrected-v11/1.0",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "X-WAF-Test-ID": "R11-XSS-E03",
+    "X-WAF-Run-ID": "r11-protected-20260922T060455Z-5abafbad",
+    "X-WAF-Repetition": "2"
+  },
+  "body": null,
+  "intended_encoded_parameter_string": "name=%3Cimg%20src%3Dx%20onerror%3Dalert%28%27W10XSS03%27%29%3E"
+}

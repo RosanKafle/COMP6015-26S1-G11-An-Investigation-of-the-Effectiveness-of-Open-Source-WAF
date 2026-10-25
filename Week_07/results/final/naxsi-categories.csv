@@ -1,0 +1,5 @@
+category,total_malicious,blocked_malicious,allowed_malicious,detection_rate,unknown_sent_malicious,errors,skipped
+command_injection,120,120,0,1.0,0,0,0
+path_traversal,120,78,42,0.65,0,0,0
+sqli,724,632,92,0.8729281767955801,0,0,0
+xss,600,480,120,0.8,0,0,0

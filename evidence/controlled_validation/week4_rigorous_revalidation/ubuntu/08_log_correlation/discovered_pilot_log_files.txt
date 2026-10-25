@@ -1,0 +1,2 @@
+/var/log/apache2/modsec_audit.log
+/var/log/nginx/comp6016_naxsi_access.log.1

@@ -1,0 +1,16 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+**/results/raw/*
+!**/results/raw/README.md
+**/logs/*
+!**/logs/README.md
+**/secrets/*
+!**/secrets/README.md
+*.log
+**/config/environment.json
+**/config/modsecurity.json
+**/config/naxsi.json
+**/config/local*.json

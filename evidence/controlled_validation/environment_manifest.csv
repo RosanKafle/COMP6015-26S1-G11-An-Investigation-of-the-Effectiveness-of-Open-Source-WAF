@@ -1,0 +1,6 @@
+environment,waf_type,base_url,backend,waf_version,ruleset_name,ruleset_version,paranoia_level,inbound_threshold,status
+baseline,none,http://waf-lab.local:8081/DVWA,DVWA Apache clean backend,not_applicable,none,not_applicable,not_applicable,not_applicable,ready
+modsecurity,modsecurity,http://waf-lab.local/DVWA,DVWA Apache,2.9.12,OWASP CRS,4.25.0,1,5,ready
+coraza,coraza,http://waf-lab.local:8080/DVWA,DVWA Apache clean backend,container image sha256:30db4bd10473,OWASP CRS,4.25.0,1,5,ready
+naxsi,naxsi,http://waf-lab.local:8084/DVWA,DVWA Apache clean backend,1.7 commit 867a61f with GCC compatibility patch,NAXSI Core Rules,bundled with NAXSI 1.7,not_applicable,SQL8;RFI8;TRAVERSAL4;EVADE4;XSS8,ready
+additional,to_be_selected,to_be_assigned,DVWA Apache clean backend,to_be_recorded,to_be_recorded,to_be_recorded,to_be_recorded,to_be_recorded,not_selected

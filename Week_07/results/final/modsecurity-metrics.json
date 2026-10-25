@@ -1,0 +1,15 @@
+{
+  "TP": 1564,
+  "TN": 109,
+  "FP": 11,
+  "FN": 0,
+  "UNKNOWN": 0,
+  "total_rows": 1684,
+  "sent": 1684,
+  "errors": 0,
+  "skipped": 0,
+  "detection_rate": 1.0,
+  "false_negative_rate": 0.0,
+  "false_positive_rate": 0.09166666666666666,
+  "normal_allow_rate": 0.9083333333333333
+}

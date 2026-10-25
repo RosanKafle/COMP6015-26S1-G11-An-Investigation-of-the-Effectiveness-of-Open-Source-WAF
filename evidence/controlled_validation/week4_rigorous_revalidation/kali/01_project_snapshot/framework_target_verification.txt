@@ -1,0 +1,38 @@
+===== FRAMEWORK TARGET VERIFICATION =====
+2026-09-01T14:37:34+00:00
+kali
+
+===== CONFIGURED TARGET BLOCKS =====
+40:    "baseline": {
+44:    "modsec": {
+48:    "coraza": {
+52:    "naxsi": {
+
+Detected target count=4
+
+===== TARGET CONFIGURATION EXCERPT =====
+    36	ZAP_API_KEY = _env("ZAP_API_KEY", "")
+    37	
+    38	
+    39	TARGETS = {
+    40	    "baseline": {
+    41	        "waf_type": "none",
+    42	        "base_url": _target("BASELINE_BASE_URL", "http://waf-lab.local:8081/DVWA"),
+    43	    },
+    44	    "modsec": {
+    45	        "waf_type": "modsecurity",
+    46	        "base_url": _target("MODSEC_BASE_URL", "http://waf-lab.local/DVWA"),
+    47	    },
+    48	    "coraza": {
+    49	        "waf_type": "coraza",
+    50	        "base_url": _target("CORAZA_BASE_URL", "http://waf-lab.local:8080/DVWA"),
+    51	    },
+    52	    "naxsi": {
+    53	        "waf_type": "naxsi",
+    54	        "base_url": _target("NAXSI_BASE_URL", "http://waf-lab.local:8084/DVWA"),
+    55	    },
+    56	}
+    57	
+    58	
+
+Framework target verification: PASS

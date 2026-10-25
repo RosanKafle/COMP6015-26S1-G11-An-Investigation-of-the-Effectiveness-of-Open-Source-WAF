@@ -1,0 +1,37 @@
+{
+  "baseline_cases": 48,
+  "benign_cases": 473,
+  "by_category": {
+    "benign": 473,
+    "cmdi": 160,
+    "path": 50,
+    "sqli": 224,
+    "xss": 204
+  },
+  "by_category_transform": {
+    "cmdi/baseline": 10,
+    "cmdi/double_url_encode": 20,
+    "cmdi/separators": 60,
+    "cmdi/url_encode": 20,
+    "cmdi/whitespace": 50,
+    "path/baseline": 10,
+    "path/double_url_encode": 20,
+    "path/url_encode": 20,
+    "sqli/baseline": 14,
+    "sqli/case_mod": 42,
+    "sqli/comments": 42,
+    "sqli/double_url_encode": 28,
+    "sqli/url_encode": 28,
+    "sqli/whitespace": 70,
+    "xss/baseline": 14,
+    "xss/case_mod": 42,
+    "xss/double_url_encode": 28,
+    "xss/html_entity": 42,
+    "xss/url_encode": 28,
+    "xss/whitespace": 50
+  },
+  "effect_sampled_cases": 108,
+  "malicious_cases": 638,
+  "total_cases": 1111,
+  "variant_cases": 590
+}

@@ -1,0 +1,15 @@
+{
+  "method": "GET",
+  "url": "http://waf-lab.local:8081/DVWA/vulnerabilities/sqli/index.php?id=1%2527%2520OR%2520%25271%2527%253D%25271%2527%2520%2523&Submit=Submit",
+  "headers": {
+    "User-Agent": "COMP6016-Corrected-v11/1.0",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "X-WAF-Test-ID": "R11-SQLI-E03",
+    "X-WAF-Run-ID": "r11-baseline-20260921T072551Z-8696e008",
+    "X-WAF-Repetition": "1"
+  },
+  "body": null,
+  "intended_encoded_parameter_string": "id=1%2527%2520OR%2520%25271%2527%253D%25271%2527%2520%2523&Submit=Submit"
+}

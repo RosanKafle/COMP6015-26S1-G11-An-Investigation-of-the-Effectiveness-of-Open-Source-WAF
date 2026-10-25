@@ -39,19 +39,19 @@ ZAP_API_KEY = _env("ZAP_API_KEY", "")
 TARGETS = {
     "baseline": {
         "waf_type": "none",
-        "base_url": _target("BASELINE_BASE_URL", "http://192.168.209.130/DVWA"),
+        "base_url": _target("BASELINE_BASE_URL", "http://waf-lab.local:8081/DVWA"),
     },
     "modsec": {
         "waf_type": "modsecurity",
-        "base_url": _target("MODSEC_BASE_URL", "http://192.168.209.130/DVWA"),
+        "base_url": _target("MODSEC_BASE_URL", "http://waf-lab.local/DVWA"),
     },
     "coraza": {
         "waf_type": "coraza",
-        "base_url": _target("CORAZA_BASE_URL", "http://192.168.209.130:8080/DVWA"),
+        "base_url": _target("CORAZA_BASE_URL", "http://waf-lab.local:8080/DVWA"),
     },
     "naxsi": {
         "waf_type": "naxsi",
-        "base_url": _target("NAXSI_BASE_URL", "http://192.168.209.130:8084/DVWA"),
+        "base_url": _target("NAXSI_BASE_URL", "http://waf-lab.local:8084/DVWA"),
     },
 }
 

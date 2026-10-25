@@ -1,0 +1,8 @@
+{
+  "run_id": "r12-20260922T071103Z-bc82baba",
+  "phase": "baseline",
+  "generated_utc": "2026-09-22T07:11:03.907932+00:00",
+  "n_cases": 10,
+  "n_observations": 30,
+  "note": "Baseline-only. No WAF paths contacted. Gate report determines which case_ids proceed to --phase protected."
+}

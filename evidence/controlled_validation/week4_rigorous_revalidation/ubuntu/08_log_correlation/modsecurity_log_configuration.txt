@@ -1,0 +1,10 @@
+/etc/modsecurity/modsecurity.conf-recommended:195:SecAuditEngine RelevantOnly
+/etc/modsecurity/modsecurity.conf-recommended:196:SecAuditLogRelevantStatus "^(?:5|4(?!04))"
+/etc/modsecurity/modsecurity.conf-recommended:199:SecAuditLogParts ABDEFHIJZ
+/etc/modsecurity/modsecurity.conf-recommended:204:SecAuditLogType Serial
+/etc/modsecurity/modsecurity.conf-recommended:205:SecAuditLog /var/log/apache2/modsec_audit.log
+/etc/modsecurity/modsecurity.conf:195:SecAuditEngine RelevantOnly
+/etc/modsecurity/modsecurity.conf:196:SecAuditLogRelevantStatus "^(?:5|4(?!04))"
+/etc/modsecurity/modsecurity.conf:199:SecAuditLogParts ABDEFHIJZ
+/etc/modsecurity/modsecurity.conf:204:SecAuditLogType Serial
+/etc/modsecurity/modsecurity.conf:205:SecAuditLog /var/log/apache2/modsec_audit.log

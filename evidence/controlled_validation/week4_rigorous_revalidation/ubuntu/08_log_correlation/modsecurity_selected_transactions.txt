@@ -1,0 +1,152 @@
+--63350a6b-A--
+[04/Sep/2026:12:56:25.453932 +0800] appPeYlPgugClY05yFwT5gAAAAQ 192.168.187.130 43244 192.168.187.134 80
+--63350a6b-B--
+GET /DVWA/login.php?probe=%3cscript%3ealert%281%29%3c%2fscript%3e HTTP/1.1
+Host: waf-lab.local
+User-Agent: curl/8.19.0
+Accept: */*
+Cache-Control: no-cache
+X-WAF-Test-ID: W4-XSS-PILOT-01
+
+--63350a6b-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 318
+Content-Type: text/html; charset=iso-8859-1
+
+--63350a6b-E--
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+<hr>
+<address>Apache/2.4.66 (Ubuntu) Server at waf-lab.local Port 80</address>
+</body></html>
+
+--63350a6b-H--
+Message: Warning. detected XSS using libinjection. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "102"] [id "941100"] [msg "XSS Attack Detected via libinjection"] [data "Matched Data: XSS data found within ARGS:probe: <script>alert(1)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/4.25.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "xss-perf-disable"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "OWASP_CRS/ATTACK-XSS"] [tag "capec/1000/152/242"]
+Message: Warning. Pattern match "(?i)<script[^>]*>[\\s\\S]*?" at ARGS:probe. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "130"] [id "941110"] [msg "XSS Filter - Category 1: Script Tag Vector"] [data "Matched Data: <script> found within ARGS:probe: <script>alert(1)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/4.25.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "xss-perf-disable"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "OWASP_CRS/ATTACK-XSS"] [tag "capec/1000/152/242"]
+Message: Warning. Pattern match "(?i)<[^0-9<>A-Z_a-z]*(?:[^\\s\\x0b\"'<>]*:)?[^0-9<>A-Z_a-z]*[^0-9A-Z_a-z]*?(?:s[^0-9A-Z_a-z]*?(?:c[^0-9A-Z_a-z]*?r[^0-9A-Z_a-z]*?i[^0-9A-Z_a-z]*?p[^0-9A-Z_a-z]*?t|t[^0-9A-Z_a-z]*?y[^0-9A-Z_a-z]*?l[^0-9A-Z_a-z]*?e|v[^0-9A-Z_a-z]*?g|e[^0-9A-Z_a-z]*?t[^0- ..." at ARGS:probe. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "268"] [id "941160"] [msg "NoScript XSS InjectionChecker: HTML Injection"] [data "Matched Data: <script found within ARGS:probe: <script>alert(1)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/4.25.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "xss-perf-disable"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "OWASP_CRS/ATTACK-XSS"] [tag "capec/1000/152/242"]
+Message: Warning. Pattern match "(?i)\\b(?:eval|set(?:timeout|interval)|new[\\s\\x0b]+Function|a(?:lert|tob)|btoa|(?:promp|impor)t|con(?:firm|sole\\.(?:log|dir))|fetch)[\\s\\x0b]*[\\(\\{]" at ARGS:probe. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "836"] [id "941390"] [msg "Javascript method detected"] [data "Matched Data: alert( found within ARGS:probe: <script>alert(1)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/4.25.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-nodejs"] [tag "attack-xss"] [tag "xss-perf-disable"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "OWASP_CRS/ATTACK-XSS"] [tag "capec/1000/152/242"]
+Message: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:blocking_inbound_anomaly_score. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "233"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 20)"] [ver "OWASP_CRS/4.25.0"] [tag "anomaly-evaluation"] [tag "OWASP_CRS"]
+Message: Warning. Unconditional match in SecAction. [file "/etc/crs4-comp6016-4.25.0/rules/RESPONSE-980-CORRELATION.conf"] [line "98"] [id "980170"] [msg "Anomaly Scores: (Inbound Scores: blocking=20, detection=20, per_pl=20-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=0, XSS=20, RFI=0, LFI=0, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=20)"] [ver "OWASP_CRS/4.25.0"] [tag "reporting"] [tag "OWASP_CRS"]
+Apache-Error: [file "apache2_util.c"] [line 286] [level 3] ModSecurity: Warning. detected XSS using libinjection. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "102"] [id "941100"] [msg "XSS Attack Detected via libinjection"] [data "Matched Data: XSS data found within ARGS:probe: <script>alert(1)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/4.25.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "xss-perf-disable"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "OWASP_CRS/ATTACK-XSS"] [tag "capec/1000/152/242"] [hostname "waf-lab.local"] [uri "/DVWA/login.php"] [unique_id "appPeYlPgugClY05yFwT5gAAAAQ"]
+Apache-Error: [file "apache2_util.c"] [line 286] [level 3] ModSecurity: Warning. Pattern match "(?i)<script[^>]*>[\\\\\\\\s\\\\\\\\S]*?" at ARGS:probe. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "130"] [id "941110"] [msg "XSS Filter - Category 1: Script Tag Vector"] [data "Matched Data: <script> found within ARGS:probe: <script>alert(1)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/4.25.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "xss-perf-disable"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "OWASP_CRS/ATTACK-XSS"] [tag "capec/1000/152/242"] [hostname "waf-lab.local"] [uri "/DVWA/login.php"] [unique_id "appPeYlPgugClY05yFwT5gAAAAQ"]
+Apache-Error: [file "apache2_util.c"] [line 286] [level 3] ModSecurity: Warning. Pattern match "(?i)<[^0-9<>A-Z_a-z]*(?:[^\\\\\\\\s\\\\\\\\x0b\\\\"'<>]*:)?[^0-9<>A-Z_a-z]*[^0-9A-Z_a-z]*?(?:s[^0-9A-Z_a-z]*?(?:c[^0-9A-Z_a-z]*?r[^0-9A-Z_a-z]*?i[^0-9A-Z_a-z]*?p[^0-9A-Z_a-z]*?t|t[^0-9A-Z_a-z]*?y[^0-9A-Z_a-z]*?l[^0-9A-Z_a-z]*?e|v[^0-9A-Z_a-z]*?g|e[^0-9A-Z_a-z]*?t[^0- ..." at ARGS:probe. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "268"] [id "941160"] [msg "NoScript XSS InjectionChecker: HTML Injection"] [data "Matched Data: <script found within ARGS:probe: <script>alert(1)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/4.25.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "xss-perf-disable"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "OWASP_CRS/ATTACK-XSS"] [tag "capec/1000/152/242"] [hostname "waf-lab.local"] [uri "/DVWA/login.php"] [unique_id "appPeYlPgugClY05yFwT5gAAAAQ"]
+Apache-Error: [file "apache2_util.c"] [line 286] [level 3] ModSecurity: Warning. Pattern match "(?i)\\\\\\\\b(?:eval|set(?:timeout|interval)|new[\\\\\\\\s\\\\\\\\x0b]+Function|a(?:lert|tob)|btoa|(?:promp|impor)t|con(?:firm|sole\\\\\\\\.(?:log|dir))|fetch)[\\\\\\\\s\\\\\\\\x0b]*[\\\\\\\\(\\\\\\\\{]" at ARGS:probe. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "836"] [id "941390"] [msg "Javascript method detected"] [data "Matched Data: alert( found within ARGS:probe: <script>alert(1)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/4.25.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-nodejs"] [tag "attack-xss"] [tag "xss-perf-disable"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "OWASP_CRS/ATTACK-XSS"] [tag "capec/1000/152/242"] [hostname "waf-lab.local"] [uri "/DVWA/login.php"] [unique_id "appPeYlPgugClY05yFwT5gAAAAQ"]
+Apache-Error: [file "apache2_util.c"] [line 286] [level 3] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:blocking_inbound_anomaly_score. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "233"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 20)"] [ver "OWASP_CRS/4.25.0"] [tag "anomaly-evaluation"] [tag "OWASP_CRS"] [hostname "waf-lab.local"] [uri "/DVWA/login.php"] [unique_id "appPeYlPgugClY05yFwT5gAAAAQ"]
+Apache-Error: [file "apache2_util.c"] [line 286] [level 3] ModSecurity: Warning. Unconditional match in SecAction. [file "/etc/crs4-comp6016-4.25.0/rules/RESPONSE-980-CORRELATION.conf"] [line "98"] [id "980170"] [msg "Anomaly Scores: (Inbound Scores: blocking=20, detection=20, per_pl=20-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=0, XSS=20, RFI=0, LFI=0, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=20)"] [ver "OWASP_CRS/4.25.0"] [tag "reporting"] [tag "OWASP_CRS"] [hostname "waf-lab.local"] [uri "/DVWA/login.php"] [unique_id "appPeYlPgugClY05yFwT5gAAAAQ"]
+Action: Intercepted (phase 2)
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1788497785452083 1859 (- - -)
+Stopwatch2: 1788497785452083 1859; combined=1673, p1=316, p2=1302, p3=0, p4=0, p5=55, sr=0, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.12 (http://www.modsecurity.org/); OWASP_CRS/4.25.0.
+Server: Apache/2.4.66 (Ubuntu)
+Engine-Mode: "ENABLED"
+
+--63350a6b-Z--
+
+
+--63350a6b-A--
+[04/Sep/2026:12:56:25.460676 +0800] appPeS704Wtr1dl8PiX9PgAAAAA 192.168.187.130 43258 192.168.187.134 80
+--63350a6b-B--
+GET /DVWA/login.php?probe=%3cscript%3ealert%281%29%3c%2fscript%3e HTTP/1.1
+Host: waf-lab.local
+User-Agent: curl/8.19.0
+Accept: */*
+Cache-Control: no-cache
+X-WAF-Test-ID: W4-XSS-PILOT-02
+
+--63350a6b-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 318
+Content-Type: text/html; charset=iso-8859-1
+
+--63350a6b-E--
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+<hr>
+<address>Apache/2.4.66 (Ubuntu) Server at waf-lab.local Port 80</address>
+</body></html>
+
+--63350a6b-H--
+Message: Warning. detected XSS using libinjection. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "102"] [id "941100"] [msg "XSS Attack Detected via libinjection"] [data "Matched Data: XSS data found within ARGS:probe: <script>alert(1)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/4.25.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "xss-perf-disable"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "OWASP_CRS/ATTACK-XSS"] [tag "capec/1000/152/242"]
+Message: Warning. Pattern match "(?i)<script[^>]*>[\\s\\S]*?" at ARGS:probe. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "130"] [id "941110"] [msg "XSS Filter - Category 1: Script Tag Vector"] [data "Matched Data: <script> found within ARGS:probe: <script>alert(1)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/4.25.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "xss-perf-disable"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "OWASP_CRS/ATTACK-XSS"] [tag "capec/1000/152/242"]
+Message: Warning. Pattern match "(?i)<[^0-9<>A-Z_a-z]*(?:[^\\s\\x0b\"'<>]*:)?[^0-9<>A-Z_a-z]*[^0-9A-Z_a-z]*?(?:s[^0-9A-Z_a-z]*?(?:c[^0-9A-Z_a-z]*?r[^0-9A-Z_a-z]*?i[^0-9A-Z_a-z]*?p[^0-9A-Z_a-z]*?t|t[^0-9A-Z_a-z]*?y[^0-9A-Z_a-z]*?l[^0-9A-Z_a-z]*?e|v[^0-9A-Z_a-z]*?g|e[^0-9A-Z_a-z]*?t[^0- ..." at ARGS:probe. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "268"] [id "941160"] [msg "NoScript XSS InjectionChecker: HTML Injection"] [data "Matched Data: <script found within ARGS:probe: <script>alert(1)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/4.25.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "xss-perf-disable"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "OWASP_CRS/ATTACK-XSS"] [tag "capec/1000/152/242"]
+Message: Warning. Pattern match "(?i)\\b(?:eval|set(?:timeout|interval)|new[\\s\\x0b]+Function|a(?:lert|tob)|btoa|(?:promp|impor)t|con(?:firm|sole\\.(?:log|dir))|fetch)[\\s\\x0b]*[\\(\\{]" at ARGS:probe. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "836"] [id "941390"] [msg "Javascript method detected"] [data "Matched Data: alert( found within ARGS:probe: <script>alert(1)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/4.25.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-nodejs"] [tag "attack-xss"] [tag "xss-perf-disable"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "OWASP_CRS/ATTACK-XSS"] [tag "capec/1000/152/242"]
+Message: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:blocking_inbound_anomaly_score. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "233"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 20)"] [ver "OWASP_CRS/4.25.0"] [tag "anomaly-evaluation"] [tag "OWASP_CRS"]
+Message: Warning. Unconditional match in SecAction. [file "/etc/crs4-comp6016-4.25.0/rules/RESPONSE-980-CORRELATION.conf"] [line "98"] [id "980170"] [msg "Anomaly Scores: (Inbound Scores: blocking=20, detection=20, per_pl=20-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=0, XSS=20, RFI=0, LFI=0, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=20)"] [ver "OWASP_CRS/4.25.0"] [tag "reporting"] [tag "OWASP_CRS"]
+Apache-Error: [file "apache2_util.c"] [line 286] [level 3] ModSecurity: Warning. detected XSS using libinjection. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "102"] [id "941100"] [msg "XSS Attack Detected via libinjection"] [data "Matched Data: XSS data found within ARGS:probe: <script>alert(1)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/4.25.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "xss-perf-disable"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "OWASP_CRS/ATTACK-XSS"] [tag "capec/1000/152/242"] [hostname "waf-lab.local"] [uri "/DVWA/login.php"] [unique_id "appPeS704Wtr1dl8PiX9PgAAAAA"]
+Apache-Error: [file "apache2_util.c"] [line 286] [level 3] ModSecurity: Warning. Pattern match "(?i)<script[^>]*>[\\\\\\\\s\\\\\\\\S]*?" at ARGS:probe. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "130"] [id "941110"] [msg "XSS Filter - Category 1: Script Tag Vector"] [data "Matched Data: <script> found within ARGS:probe: <script>alert(1)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/4.25.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "xss-perf-disable"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "OWASP_CRS/ATTACK-XSS"] [tag "capec/1000/152/242"] [hostname "waf-lab.local"] [uri "/DVWA/login.php"] [unique_id "appPeS704Wtr1dl8PiX9PgAAAAA"]
+Apache-Error: [file "apache2_util.c"] [line 286] [level 3] ModSecurity: Warning. Pattern match "(?i)<[^0-9<>A-Z_a-z]*(?:[^\\\\\\\\s\\\\\\\\x0b\\\\"'<>]*:)?[^0-9<>A-Z_a-z]*[^0-9A-Z_a-z]*?(?:s[^0-9A-Z_a-z]*?(?:c[^0-9A-Z_a-z]*?r[^0-9A-Z_a-z]*?i[^0-9A-Z_a-z]*?p[^0-9A-Z_a-z]*?t|t[^0-9A-Z_a-z]*?y[^0-9A-Z_a-z]*?l[^0-9A-Z_a-z]*?e|v[^0-9A-Z_a-z]*?g|e[^0-9A-Z_a-z]*?t[^0- ..." at ARGS:probe. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "268"] [id "941160"] [msg "NoScript XSS InjectionChecker: HTML Injection"] [data "Matched Data: <script found within ARGS:probe: <script>alert(1)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/4.25.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "xss-perf-disable"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "OWASP_CRS/ATTACK-XSS"] [tag "capec/1000/152/242"] [hostname "waf-lab.local"] [uri "/DVWA/login.php"] [unique_id "appPeS704Wtr1dl8PiX9PgAAAAA"]
+Apache-Error: [file "apache2_util.c"] [line 286] [level 3] ModSecurity: Warning. Pattern match "(?i)\\\\\\\\b(?:eval|set(?:timeout|interval)|new[\\\\\\\\s\\\\\\\\x0b]+Function|a(?:lert|tob)|btoa|(?:promp|impor)t|con(?:firm|sole\\\\\\\\.(?:log|dir))|fetch)[\\\\\\\\s\\\\\\\\x0b]*[\\\\\\\\(\\\\\\\\{]" at ARGS:probe. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "836"] [id "941390"] [msg "Javascript method detected"] [data "Matched Data: alert( found within ARGS:probe: <script>alert(1)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/4.25.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-nodejs"] [tag "attack-xss"] [tag "xss-perf-disable"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "OWASP_CRS/ATTACK-XSS"] [tag "capec/1000/152/242"] [hostname "waf-lab.local"] [uri "/DVWA/login.php"] [unique_id "appPeS704Wtr1dl8PiX9PgAAAAA"]
+Apache-Error: [file "apache2_util.c"] [line 286] [level 3] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:blocking_inbound_anomaly_score. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "233"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 20)"] [ver "OWASP_CRS/4.25.0"] [tag "anomaly-evaluation"] [tag "OWASP_CRS"] [hostname "waf-lab.local"] [uri "/DVWA/login.php"] [unique_id "appPeS704Wtr1dl8PiX9PgAAAAA"]
+Apache-Error: [file "apache2_util.c"] [line 286] [level 3] ModSecurity: Warning. Unconditional match in SecAction. [file "/etc/crs4-comp6016-4.25.0/rules/RESPONSE-980-CORRELATION.conf"] [line "98"] [id "980170"] [msg "Anomaly Scores: (Inbound Scores: blocking=20, detection=20, per_pl=20-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=0, XSS=20, RFI=0, LFI=0, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=20)"] [ver "OWASP_CRS/4.25.0"] [tag "reporting"] [tag "OWASP_CRS"] [hostname "waf-lab.local"] [uri "/DVWA/login.php"] [unique_id "appPeS704Wtr1dl8PiX9PgAAAAA"]
+Action: Intercepted (phase 2)
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1788497785459110 1576 (- - -)
+Stopwatch2: 1788497785459110 1576; combined=1378, p1=362, p2=963, p3=0, p4=0, p5=53, sr=0, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.12 (http://www.modsecurity.org/); OWASP_CRS/4.25.0.
+Server: Apache/2.4.66 (Ubuntu)
+Engine-Mode: "ENABLED"
+
+--63350a6b-Z--
+
+
+--63350a6b-A--
+[04/Sep/2026:12:56:25.468438 +0800] appPeQXgacaqUGDyZh6CxwAAAAE 192.168.187.130 43268 192.168.187.134 80
+--63350a6b-B--
+GET /DVWA/login.php?probe=%3cscript%3ealert%281%29%3c%2fscript%3e HTTP/1.1
+Host: waf-lab.local
+User-Agent: curl/8.19.0
+Accept: */*
+Cache-Control: no-cache
+X-WAF-Test-ID: W4-XSS-PILOT-03
+
+--63350a6b-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 318
+Content-Type: text/html; charset=iso-8859-1
+
+--63350a6b-E--
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+<hr>
+<address>Apache/2.4.66 (Ubuntu) Server at waf-lab.local Port 80</address>
+</body></html>
+
+--63350a6b-H--
+Message: Warning. detected XSS using libinjection. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "102"] [id "941100"] [msg "XSS Attack Detected via libinjection"] [data "Matched Data: XSS data found within ARGS:probe: <script>alert(1)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/4.25.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "xss-perf-disable"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "OWASP_CRS/ATTACK-XSS"] [tag "capec/1000/152/242"]
+Message: Warning. Pattern match "(?i)<script[^>]*>[\\s\\S]*?" at ARGS:probe. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "130"] [id "941110"] [msg "XSS Filter - Category 1: Script Tag Vector"] [data "Matched Data: <script> found within ARGS:probe: <script>alert(1)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/4.25.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "xss-perf-disable"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "OWASP_CRS/ATTACK-XSS"] [tag "capec/1000/152/242"]
+Message: Warning. Pattern match "(?i)<[^0-9<>A-Z_a-z]*(?:[^\\s\\x0b\"'<>]*:)?[^0-9<>A-Z_a-z]*[^0-9A-Z_a-z]*?(?:s[^0-9A-Z_a-z]*?(?:c[^0-9A-Z_a-z]*?r[^0-9A-Z_a-z]*?i[^0-9A-Z_a-z]*?p[^0-9A-Z_a-z]*?t|t[^0-9A-Z_a-z]*?y[^0-9A-Z_a-z]*?l[^0-9A-Z_a-z]*?e|v[^0-9A-Z_a-z]*?g|e[^0-9A-Z_a-z]*?t[^0- ..." at ARGS:probe. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "268"] [id "941160"] [msg "NoScript XSS InjectionChecker: HTML Injection"] [data "Matched Data: <script found within ARGS:probe: <script>alert(1)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/4.25.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "xss-perf-disable"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "OWASP_CRS/ATTACK-XSS"] [tag "capec/1000/152/242"]
+Message: Warning. Pattern match "(?i)\\b(?:eval|set(?:timeout|interval)|new[\\s\\x0b]+Function|a(?:lert|tob)|btoa|(?:promp|impor)t|con(?:firm|sole\\.(?:log|dir))|fetch)[\\s\\x0b]*[\\(\\{]" at ARGS:probe. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "836"] [id "941390"] [msg "Javascript method detected"] [data "Matched Data: alert( found within ARGS:probe: <script>alert(1)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/4.25.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-nodejs"] [tag "attack-xss"] [tag "xss-perf-disable"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "OWASP_CRS/ATTACK-XSS"] [tag "capec/1000/152/242"]
+Message: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:blocking_inbound_anomaly_score. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "233"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 20)"] [ver "OWASP_CRS/4.25.0"] [tag "anomaly-evaluation"] [tag "OWASP_CRS"]
+Message: Warning. Unconditional match in SecAction. [file "/etc/crs4-comp6016-4.25.0/rules/RESPONSE-980-CORRELATION.conf"] [line "98"] [id "980170"] [msg "Anomaly Scores: (Inbound Scores: blocking=20, detection=20, per_pl=20-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=0, XSS=20, RFI=0, LFI=0, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=20)"] [ver "OWASP_CRS/4.25.0"] [tag "reporting"] [tag "OWASP_CRS"]
+Apache-Error: [file "apache2_util.c"] [line 286] [level 3] ModSecurity: Warning. detected XSS using libinjection. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "102"] [id "941100"] [msg "XSS Attack Detected via libinjection"] [data "Matched Data: XSS data found within ARGS:probe: <script>alert(1)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/4.25.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "xss-perf-disable"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "OWASP_CRS/ATTACK-XSS"] [tag "capec/1000/152/242"] [hostname "waf-lab.local"] [uri "/DVWA/login.php"] [unique_id "appPeQXgacaqUGDyZh6CxwAAAAE"]
+Apache-Error: [file "apache2_util.c"] [line 286] [level 3] ModSecurity: Warning. Pattern match "(?i)<script[^>]*>[\\\\\\\\s\\\\\\\\S]*?" at ARGS:probe. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "130"] [id "941110"] [msg "XSS Filter - Category 1: Script Tag Vector"] [data "Matched Data: <script> found within ARGS:probe: <script>alert(1)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/4.25.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "xss-perf-disable"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "OWASP_CRS/ATTACK-XSS"] [tag "capec/1000/152/242"] [hostname "waf-lab.local"] [uri "/DVWA/login.php"] [unique_id "appPeQXgacaqUGDyZh6CxwAAAAE"]
+Apache-Error: [file "apache2_util.c"] [line 286] [level 3] ModSecurity: Warning. Pattern match "(?i)<[^0-9<>A-Z_a-z]*(?:[^\\\\\\\\s\\\\\\\\x0b\\\\"'<>]*:)?[^0-9<>A-Z_a-z]*[^0-9A-Z_a-z]*?(?:s[^0-9A-Z_a-z]*?(?:c[^0-9A-Z_a-z]*?r[^0-9A-Z_a-z]*?i[^0-9A-Z_a-z]*?p[^0-9A-Z_a-z]*?t|t[^0-9A-Z_a-z]*?y[^0-9A-Z_a-z]*?l[^0-9A-Z_a-z]*?e|v[^0-9A-Z_a-z]*?g|e[^0-9A-Z_a-z]*?t[^0- ..." at ARGS:probe. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "268"] [id "941160"] [msg "NoScript XSS InjectionChecker: HTML Injection"] [data "Matched Data: <script found within ARGS:probe: <script>alert(1)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/4.25.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "xss-perf-disable"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "OWASP_CRS/ATTACK-XSS"] [tag "capec/1000/152/242"] [hostname "waf-lab.local"] [uri "/DVWA/login.php"] [unique_id "appPeQXgacaqUGDyZh6CxwAAAAE"]
+Apache-Error: [file "apache2_util.c"] [line 286] [level 3] ModSecurity: Warning. Pattern match "(?i)\\\\\\\\b(?:eval|set(?:timeout|interval)|new[\\\\\\\\s\\\\\\\\x0b]+Function|a(?:lert|tob)|btoa|(?:promp|impor)t|con(?:firm|sole\\\\\\\\.(?:log|dir))|fetch)[\\\\\\\\s\\\\\\\\x0b]*[\\\\\\\\(\\\\\\\\{]" at ARGS:probe. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "836"] [id "941390"] [msg "Javascript method detected"] [data "Matched Data: alert( found within ARGS:probe: <script>alert(1)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/4.25.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-nodejs"] [tag "attack-xss"] [tag "xss-perf-disable"] [tag "paranoia-level/1"] [tag "OWASP_CRS"] [tag "OWASP_CRS/ATTACK-XSS"] [tag "capec/1000/152/242"] [hostname "waf-lab.local"] [uri "/DVWA/login.php"] [unique_id "appPeQXgacaqUGDyZh6CxwAAAAE"]
+Apache-Error: [file "apache2_util.c"] [line 286] [level 3] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:blocking_inbound_anomaly_score. [file "/etc/crs4-comp6016-4.25.0/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "233"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 20)"] [ver "OWASP_CRS/4.25.0"] [tag "anomaly-evaluation"] [tag "OWASP_CRS"] [hostname "waf-lab.local"] [uri "/DVWA/login.php"] [unique_id "appPeQXgacaqUGDyZh6CxwAAAAE"]
+Apache-Error: [file "apache2_util.c"] [line 286] [level 3] ModSecurity: Warning. Unconditional match in SecAction. [file "/etc/crs4-comp6016-4.25.0/rules/RESPONSE-980-CORRELATION.conf"] [line "98"] [id "980170"] [msg "Anomaly Scores: (Inbound Scores: blocking=20, detection=20, per_pl=20-0-0-0, threshold=5) - (Outbound Scores: blocking=0, detection=0, per_pl=0-0-0-0, threshold=4) - (SQLI=0, XSS=20, RFI=0, LFI=0, RCE=0, PHPI=0, HTTP=0, SESS=0, COMBINED_SCORE=20)"] [ver "OWASP_CRS/4.25.0"] [tag "reporting"] [tag "OWASP_CRS"] [hostname "waf-lab.local"] [uri "/DVWA/login.php"] [unique_id "appPeQXgacaqUGDyZh6CxwAAAAE"]
+Action: Intercepted (phase 2)
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1788497785467018 1432 (- - -)
+Stopwatch2: 1788497785467018 1432; combined=1217, p1=317, p2=849, p3=0, p4=0, p5=51, sr=0, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.12 (http://www.modsecurity.org/); OWASP_CRS/4.25.0.
+Server: Apache/2.4.66 (Ubuntu)
+Engine-Mode: "ENABLED"
+
+--63350a6b-Z--
+

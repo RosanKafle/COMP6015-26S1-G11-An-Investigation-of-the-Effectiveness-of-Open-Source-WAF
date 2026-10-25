@@ -1,0 +1,5 @@
+category,modsecurity_TP,modsecurity_FN,modsecurity_detection_pct,naxsi_TP,naxsi_FN,naxsi_detection_pct
+command_injection,120,0,100.0,120,0,100.0
+path_traversal,120,0,100.0,78,42,65.0
+sqli,724,0,100.0,632,92,87.29
+xss,600,0,100.0,480,120,80.0

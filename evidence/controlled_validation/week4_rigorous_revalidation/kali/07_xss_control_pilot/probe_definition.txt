@@ -1,0 +1,6 @@
+method=GET
+endpoint=/DVWA/login.php
+parameter=probe
+raw_payload=<script>alert(1)</script>
+encoding=curl --data-urlencode
+repetitions=3

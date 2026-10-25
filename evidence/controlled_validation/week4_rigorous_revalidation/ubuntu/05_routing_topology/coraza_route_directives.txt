@@ -1,0 +1,5 @@
+30:    upstream backend {
+35:        listen 8080 default_server;
+46:            proxy_pass http://backend;
+58:        listen 8443 ssl;
+77:            proxy_pass http://backend;

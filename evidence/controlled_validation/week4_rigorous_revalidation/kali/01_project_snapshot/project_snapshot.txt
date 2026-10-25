@@ -1,0 +1,40 @@
+===== WEEK 4 CONTROLLED REVALIDATION =====
+2026-09-01T10:35:01-04:00
+kali
+
+===== HOST DETAILS =====
+aarch64
+192.168.187.130 172.17.0.1 
+
+===== REPOSITORY IDENTITY =====
+Repository=/home/sadaiba/COMP6015-26S1-G11-An-Investigation-of-the-Effectiveness-of-Open-Source-WAF
+Branch=comp6016-controlled-testing
+Commit=0556c96b852de21c5c1f31b4985ebbd662cea8f7
+
+===== WORKING TREE =====
+Working tree: CLEAN
+
+===== RECENT VERIFIED COMMITS =====
+Commit=0556c96 Date=2026-09-01T09:47:28-04:00 Subject=Register validated NAXSI test environment
+Commit=a75401c Date=2026-09-01T08:39:57-04:00 Subject=Add deterministic controlled request builder
+Commit=5046175 Date=2026-09-01T08:31:03-04:00 Subject=Add explicit controlled payload encoding
+
+===== CURRENT ENVIRONMENT MANIFEST =====
+environment,waf_type,base_url,backend,waf_version,ruleset_name,ruleset_version,paranoia_level,inbound_threshold,status
+baseline,none,http://waf-lab.local:8081/DVWA,DVWA Apache clean backend,not_applicable,none,not_applicable,not_applicable,not_applicable,ready
+modsecurity,modsecurity,http://waf-lab.local/DVWA,DVWA Apache,2.9.12,OWASP CRS,4.25.0,1,5,ready
+coraza,coraza,http://waf-lab.local:8080/DVWA,DVWA Apache clean backend,container image sha256:30db4bd10473,OWASP CRS,4.25.0,1,5,ready
+naxsi,naxsi,http://waf-lab.local:8084/DVWA,DVWA Apache clean backend,1.7 commit 867a61f with GCC compatibility patch,NAXSI Core Rules,bundled with NAXSI 1.7,not_applicable,SQL8;RFI8;TRAVERSAL4;EVADE4;XSS8,ready
+additional,to_be_selected,to_be_assigned,DVWA Apache clean backend,to_be_recorded,to_be_recorded,to_be_recorded,to_be_recorded,to_be_recorded,not_selected
+
+===== FRAMEWORK TARGETS =====
+40:    "baseline": {
+48:    "coraza": {
+52:    "naxsi": {
+
+===== STRUCTURE VALIDATION =====
+Repository structure validation: PASS
+
+===== NEW EVIDENCE LOCATION =====
+/home/sadaiba/COMP6016_S2_2026/03_week4_rigorous_revalidation/kali/01_project_snapshot
+Week 4 project snapshot: PASS
