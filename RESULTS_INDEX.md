@@ -14,7 +14,8 @@ The data compares:
 
 The primary automated dataset indexed below contains Baseline, ModSecurity and
 Coraza. A separate reviewed ModSecurity/NAXSI experiment is retained under
-`Bishal/Final_Evidence/` and `Week_07/results/final/`; its percentages must not be
+`contributions/bishal/Final_Evidence/` and
+`experiments/modsecurity-naxsi/implementation/results/final/`; its percentages must not be
 pooled with the primary automated dataset.
 
 ## Experiment Modes

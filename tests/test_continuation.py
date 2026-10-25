@@ -13,7 +13,7 @@ from urllib.parse import parse_qs, urlsplit
 from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
-WEEK = ROOT / "Week_07"
+WEEK = ROOT / "experiments/modsecurity-naxsi/implementation"
 sys.path[:0] = [str(WEEK/"scripts"), str(WEEK/"analysis")]
 from config_loader import Config, environment
 from dvwa_session import DVWASession

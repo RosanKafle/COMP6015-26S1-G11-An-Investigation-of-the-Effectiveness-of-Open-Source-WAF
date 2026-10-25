@@ -14,8 +14,8 @@ Recommended review order:
 1. `DEFENSE_GUIDE.md`
 2. `reports/final/COMP6015_Group11_WAF_Final_Report_SubmissionReady.docx`
 3. `analysis/final/report_summary.md`
-4. `Pabin_WAF_Analysis/INTEGRATED_WAF_EVIDENCE_ANALYSIS.md`
-5. `Bishal/Final_Evidence/README.md`
+4. `contributions/pabin/INTEGRATED_WAF_EVIDENCE_ANALYSIS.md`
+5. `contributions/bishal/Final_Evidence/README.md`
 6. `analysis/final/*.csv` and the linked raw evidence
 7. `framework/`, `tools/`, and `scripts/` for reproducibility details
 
@@ -25,11 +25,18 @@ into a single cross-WAF ranking.
 
 ## Project Map
 
+The top level is organised by purpose. The original automated evaluation remains
+in the primary folders below; later controlled experiments and individual work
+are grouped separately so that similarly named results are not mistaken for one
+combined dataset.
+
 - `framework/` - executable Python framework source.
 - `output/` - raw structured experiment runs.
 - `analysis/final/` - generated final CSV and Markdown analysis outputs.
 - `evidence/manual_validation/` - manual SQLi and CSRF validation evidence.
 - `reports/final/` - submission-ready Word report.
+- `experiments/` - later controlled evaluations, grouped by experiment.
+- `contributions/` - contributor-specific analysis and preserved evidence.
 - `docs/` - historical weekly evidence and cleaned evidence notes.
 - `tools/manual_validation/` - manual validation helper scripts.
 - `scripts/` - validation and coverage helper scripts.
@@ -174,9 +181,9 @@ python3 scripts/list_experiment_coverage.py
 
 ## COMP6016 Semester 2 integration
 
-- [Reviewed ModSecurity/NAXSI evidence](Bishal/Final_Evidence/README.md)
-- [Current tested implementation](Week_07/README.md)
-- [R11/R12 WAF evaluation](r11_r12_waf_evaluation/README.md)
+- [Reviewed ModSecurity/NAXSI evidence](contributions/bishal/Final_Evidence/README.md)
+- [Current ModSecurity/NAXSI implementation](experiments/modsecurity-naxsi/implementation/README.md)
+- [R11/R12 WAF evaluation](experiments/r11-r12/README.md)
 
 Historical experiment results and Semester 2 controlled-testing
 results must be interpreted separately.

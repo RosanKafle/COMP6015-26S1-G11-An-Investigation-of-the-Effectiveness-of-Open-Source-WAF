@@ -31,7 +31,7 @@ Primary source: `analysis/final/report_summary.md` and its linked CSV files.
 - Of NAXSI's 254 misses, 212 were double-encoded SQL injection or XSS requests and
   42 were baseline path-traversal requests.
 
-Primary source: `Bishal/Final_Evidence/README.md` and the preserved evidence package.
+Primary source: `contributions/bishal/Final_Evidence/README.md` and the preserved evidence package.
 
 ### Controlled R11/R12 follow-up
 
@@ -45,8 +45,8 @@ Primary source: `Bishal/Final_Evidence/README.md` and the preserved evidence pac
   deliberately attack-like benign observations, while ModSecurity and Coraza
   allowed them.
 
-Primary source: `Pabin_WAF_Analysis/INTEGRATED_WAF_EVIDENCE_ANALYSIS.md` and
-`r11_r12_waf_evaluation/`.
+Primary source: `contributions/pabin/INTEGRATED_WAF_EVIDENCE_ANALYSIS.md` and
+`experiments/r11-r12/`.
 
 ## Methodology to Explain
 
@@ -100,11 +100,11 @@ retain application-level controls for authentication, authorization and CSRF.
 ## Demonstration Path
 
 1. Open `analysis/final/report_summary.md` for the earlier automated comparison.
-2. Open `Bishal/Final_Evidence/README.md` for the matched ModSecurity/NAXSI matrix.
-3. Open `Pabin_WAF_Analysis/INTEGRATED_WAF_EVIDENCE_ANALYSIS.md` for independent
+2. Open `contributions/bishal/Final_Evidence/README.md` for the matched ModSecurity/NAXSI matrix.
+3. Open `contributions/pabin/INTEGRATED_WAF_EVIDENCE_ANALYSIS.md` for independent
    calculations, R11/R12 interpretation and limitations.
 4. Show `framework/`, `tools/controlled_validation/` and
-   `r11_r12_waf_evaluation/` to explain reproducibility.
+   `experiments/r11-r12/` to explain reproducibility.
 5. Finish with the raw CSV, metadata or log supporting the specific claim being
    discussed.
 
