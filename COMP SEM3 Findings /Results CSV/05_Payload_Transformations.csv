@@ -1,0 +1,16 @@
+experiment_id,category,transformation,matched_requests,malicious_requests,benign_requests,modsecurity_tp,modsecurity_fn,naxsi_tp,naxsi_fn,modsecurity_detection_pct,naxsi_detection_pct,modsecurity_fp,naxsi_fp,better_detection,source
+BISHAL_WEEK06_REVIEWED,command_injection,baseline,120,120,0,120,0,120,0,100.0,100.0,0,0,tie,Week_07/results/final/*-week6-reviewed.csv
+BISHAL_WEEK06_REVIEWED,normal,baseline,120,0,120,0,0,0,0,,,11,12,not_applicable,Week_07/results/final/*-week6-reviewed.csv
+BISHAL_WEEK06_REVIEWED,path_traversal,baseline,120,120,0,120,0,78,42,100.0,65.0,0,0,modsecurity,Week_07/results/final/*-week6-reviewed.csv
+BISHAL_WEEK06_REVIEWED,sqli,baseline,120,120,0,120,0,120,0,100.0,100.0,0,0,tie,Week_07/results/final/*-week6-reviewed.csv
+BISHAL_WEEK06_REVIEWED,sqli,case,70,70,0,70,0,70,0,100.0,100.0,0,0,tie,Week_07/results/final/*-week6-reviewed.csv
+BISHAL_WEEK06_REVIEWED,sqli,comments,98,98,0,98,0,98,0,100.0,100.0,0,0,tie,Week_07/results/final/*-week6-reviewed.csv
+BISHAL_WEEK06_REVIEWED,sqli,doubleenc,120,120,0,120,0,28,92,100.0,23.33,0,0,modsecurity,Week_07/results/final/*-week6-reviewed.csv
+BISHAL_WEEK06_REVIEWED,sqli,separators,98,98,0,98,0,98,0,100.0,100.0,0,0,tie,Week_07/results/final/*-week6-reviewed.csv
+BISHAL_WEEK06_REVIEWED,sqli,urlenc,120,120,0,120,0,120,0,100.0,100.0,0,0,tie,Week_07/results/final/*-week6-reviewed.csv
+BISHAL_WEEK06_REVIEWED,sqli,whitespace,98,98,0,98,0,98,0,100.0,100.0,0,0,tie,Week_07/results/final/*-week6-reviewed.csv
+BISHAL_WEEK06_REVIEWED,xss,baseline,120,120,0,120,0,120,0,100.0,100.0,0,0,tie,Week_07/results/final/*-week6-reviewed.csv
+BISHAL_WEEK06_REVIEWED,xss,case,120,120,0,120,0,120,0,100.0,100.0,0,0,tie,Week_07/results/final/*-week6-reviewed.csv
+BISHAL_WEEK06_REVIEWED,xss,doubleenc,120,120,0,120,0,0,120,100.0,0.0,0,0,modsecurity,Week_07/results/final/*-week6-reviewed.csv
+BISHAL_WEEK06_REVIEWED,xss,encoding,120,120,0,120,0,120,0,100.0,100.0,0,0,tie,Week_07/results/final/*-week6-reviewed.csv
+BISHAL_WEEK06_REVIEWED,xss,urlenc,120,120,0,120,0,120,0,100.0,100.0,0,0,tie,Week_07/results/final/*-week6-reviewed.csv
