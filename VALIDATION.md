@@ -23,6 +23,13 @@ shasum -a 256 -c experiments/modsecurity-naxsi/implementation/results/final/SHA2
 shasum -a 256 -c experiments/modsecurity-naxsi/reviewed-data/outputs/week06-approved-variant-hashes.txt
 ```
 
+The same offline checks plus regenerated-analysis comparison and a safe
+plan-only execution are available through:
+
+```bash
+./scripts/verify_handover.sh
+```
+
 Software tests do not prove live WAF effectiveness. Experimental claims remain
 grounded in the preserved baseline checks, reviewed classifications, correlated
 logs and application-effect evidence described in `DEFENSE_GUIDE.md`.

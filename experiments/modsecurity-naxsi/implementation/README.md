@@ -42,6 +42,11 @@ python zap_active_mixed_modsecurity.py --config config/test_config.json --env-fi
 For active-capable stages this defaults to a plan. Add `--execute` only after genuine
 lab verification and review the configuration and methodology in this directory.
 
+The canonical shared architecture, scope and methodology are maintained once at
+`../../../docs/architecture.md`, `../../../docs/experimental_scope.md` and
+`../../../docs/methodology.md`. Implementation-specific classification,
+environment, evidence-review and obfuscation notes remain under `docs/` here.
+
 ## What remains incomplete
 
 Current VM state and real runs are not verified here. Cases, marker fixture, session,

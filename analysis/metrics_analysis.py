@@ -355,23 +355,38 @@ def write_report_summary(
     lines = [
         "# WAF Evaluation Report Summary",
         "",
-        "## Table 1: Attack Counts by Type",
+        "This summary is based on the authoritative CSV files in `analysis/final/`.",
+        "",
+        "## Table 1: Attack Counts By Type",
+        "",
         markdown_attack_counts(attack_summary),
         "",
-        "## Table 2: Detection Rate by Attack Type",
+        "## Table 2: Detection Rate By Attack Type",
+        "",
         markdown_detection_by_type(attack_summary),
         "",
         "## Table 3: False Positive Rate Under Benign Traffic",
+        "",
         markdown_false_positive_by_load(benign_summary),
         "",
         "## Table 4: Mixed Traffic Detection Impact",
+        "",
         markdown_mixed_detection_impact(data),
         "",
+        "Negative detection drop means the mixed-traffic detection rate was slightly higher than the attack-only detection rate in the available run.",
+        "",
         "## Table 5: Performance Impact",
+        "",
         markdown_performance_impact(data),
         "",
+        "## Key Reading Notes",
+        "",
+        "- Completed automated datasets are available for Baseline, ModSecurity, and Coraza.",
+        "- NAXSI structured outputs are not present in this repository.",
+        "- Neither ModSecurity nor Coraza blocked benign traffic in the available mixed/setup datasets.",
+        "- Logic-style weaknesses such as CSRF, weak session IDs, and authorization bypass were not meaningfully detected by either WAF in the automated data.",
     ]
-    output_path.write_text("\n".join(lines), encoding="utf-8")
+    output_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def write_key_findings(
@@ -382,19 +397,27 @@ def write_key_findings(
 ) -> None:
     lines = ["Key Findings", "============", ""]
     if not attack_summary.empty:
-        by_env = attack_summary.groupby("environment", dropna=False).apply(
-            lambda group: percent(group["blocked_count"].sum(), group["total_requests"].sum())
-        )
+        by_env = {
+            environment: percent(
+                group["blocked_count"].sum(), group["total_requests"].sum()
+            )
+            for environment, group in attack_summary.groupby(
+                "environment", dropna=False
+            )
+        }
         lines.append("Overall attack detection rate by environment:")
         for environment, value in by_env.items():
             lines.append(f"- {environment}: {value:.2f}%")
         lines.append("")
     if not benign_summary.empty:
-        by_env = benign_summary.groupby("environment", dropna=False).apply(
-            lambda group: percent(
+        by_env = {
+            environment: percent(
                 group["benign_blocked"].sum(), group["total_benign_requests"].sum()
             )
-        )
+            for environment, group in benign_summary.groupby(
+                "environment", dropna=False
+            )
+        }
         lines.append("Overall benign false positive rate by environment:")
         for environment, value in by_env.items():
             lines.append(f"- {environment}: {value:.2f}%")
@@ -439,81 +462,107 @@ def markdown_detection_by_type(attack_summary: pd.DataFrame) -> str:
             ]
             blocked = group["blocked_count"].sum()
             total = group["total_requests"].sum()
-            row.append(f"{percent(blocked, total):.2f}%")
+            row.append(f"{percent(blocked, total):.2f}%" if total else "No data")
         rows.append(row)
     return markdown_table(headers, rows)
 
 
 def markdown_false_positive_by_load(benign_summary: pd.DataFrame) -> str:
-    headers = ["Load Level", "ModSecurity", "Coraza", "NAXSI"]
+    headers = ["Dataset", "Baseline", "ModSecurity", "Coraza", "NAXSI"]
     rows = []
-    for load_level in ["none", "low", "medium", "high"]:
-        row = [load_level]
-        for env in ["modsec", "coraza", "naxsi"]:
+    datasets = (
+        benign_summary[["phase", "load_level"]]
+        .drop_duplicates()
+        .sort_values(["phase", "load_level"])
+    )
+    for _, dataset in datasets.iterrows():
+        phase = dataset["phase"]
+        load_level = dataset["load_level"]
+        row = [f"{phase} / {load_level}"]
+        for env in ENVIRONMENT_ORDER:
             group = benign_summary[
                 (benign_summary["environment"] == env)
+                & (benign_summary["phase"] == phase)
                 & (benign_summary["load_level"] == load_level)
             ]
             blocked = group["benign_blocked"].sum()
             total = group["total_benign_requests"].sum()
-            row.append(f"{percent(blocked, total):.2f}%")
+            row.append(f"{percent(blocked, total):.2f}%" if total else "No data")
         rows.append(row)
     return markdown_table(headers, rows)
 
 
 def markdown_mixed_detection_impact(data: pd.DataFrame) -> str:
-    headers = ["WAF", "Attack Only Detection", "Mixed Detection", "Detection Drop"]
+    headers = ["WAF", "Attack-Only Detection", "Mixed Detection", "Detection Drop"]
     rows = []
     for env in ["modsec", "coraza", "naxsi"]:
         attack_only = detection_for(data, env, "attack_only")
         mixed = detection_for(data, env, "mixed")
-        rows.append(
-            [
-                DISPLAY_NAMES[env],
-                f"{attack_only:.2f}%",
-                f"{mixed:.2f}%",
-                f"{attack_only - mixed:.2f}%",
-            ]
-        )
+        if attack_only is None or mixed is None:
+            rows.append([DISPLAY_NAMES[env], "No data", "No data", "No data"])
+        else:
+            rows.append(
+                [
+                    DISPLAY_NAMES[env],
+                    f"{attack_only:.2f}%",
+                    f"{mixed:.2f}%",
+                    f"{attack_only - mixed:.2f}%",
+                ]
+            )
     return markdown_table(headers, rows)
 
 
 def markdown_performance_impact(data: pd.DataFrame) -> str:
     headers = [
         "WAF",
-        "Avg Latency No Load",
-        "Avg Latency Mixed Low",
-        "Avg Latency Mixed Medium",
-        "Avg Latency Mixed High",
+        "Attack-Only Avg Latency",
+        "Attack-Only Over Baseline",
+        "Mixed Avg Latency",
+        "Mixed Over Baseline",
     ]
     rows = []
-    for env in ["modsec", "coraza", "naxsi"]:
+    baseline_attack = latency_for(data, "baseline", "attack_only", "none")
+    baseline_mixed = latency_for(data, "baseline", "mixed", "medium")
+    for env in ENVIRONMENT_ORDER:
+        attack = latency_for(data, env, "attack_only", "none")
+        mixed = latency_for(data, env, "mixed", "medium")
+        if attack is None or mixed is None:
+            rows.append([DISPLAY_NAMES[env], "No data", "No data", "No data", "No data"])
+            continue
+        attack = round(attack, 3)
+        mixed = round(mixed, 3)
+        attack_baseline = round(baseline_attack, 3)
+        mixed_baseline = round(baseline_mixed, 3)
         rows.append(
             [
                 DISPLAY_NAMES[env],
-                f"{latency_for(data, env, 'attack_only', 'none'):.3f}",
-                f"{latency_for(data, env, 'mixed', 'low'):.3f}",
-                f"{latency_for(data, env, 'mixed', 'medium'):.3f}",
-                f"{latency_for(data, env, 'mixed', 'high'):.3f}",
+                f"{attack:.3f} ms",
+                f"{attack - attack_baseline:.3f} ms",
+                f"{mixed:.3f} ms",
+                f"{mixed - mixed_baseline:.3f} ms",
             ]
         )
     return markdown_table(headers, rows)
 
 
-def detection_for(data: pd.DataFrame, environment: str, phase: str) -> float:
+def detection_for(data: pd.DataFrame, environment: str, phase: str) -> float | None:
     group = data[(data["environment"] == environment) & (data["phase"] == phase)]
     attacks = group[group["traffic_type"] == "attack"]
+    if attacks.empty:
+        return None
     return percent(int(attacks["blocked_flag"].sum()), len(attacks))
 
 
-def latency_for(data: pd.DataFrame, environment: str, phase: str, load_level: str) -> float:
+def latency_for(
+    data: pd.DataFrame, environment: str, phase: str, load_level: str
+) -> float | None:
     group = data[
         (data["environment"] == environment)
         & (data["phase"] == phase)
         & (data["load_level"] == load_level)
     ]
     if group.empty:
-        return 0.0
+        return None
     return float(group["response_time_ms"].mean())
 
 
@@ -521,7 +570,7 @@ def markdown_table(headers: list[str], rows: list[list[str]]) -> str:
     if not rows:
         rows = [["0" for _ in headers]]
     header_line = "| " + " | ".join(headers) + " |"
-    separator = "| " + " | ".join(["---"] * len(headers)) + " |"
+    separator = "| " + " | ".join(["---", *(["---:"] * (len(headers) - 1))]) + " |"
     row_lines = ["| " + " | ".join(row) + " |" for row in rows]
     return "\n".join([header_line, separator, *row_lines])
 
@@ -552,7 +601,12 @@ def main() -> int:
     output_dir = args.out.parent
     output_dir.mkdir(parents=True, exist_ok=True)
     environment_summary.to_csv(args.out, index=False)
-    attack_summary.to_csv(output_dir / "final_attack_type_summary.csv", index=False)
+    attack_summary.to_csv(
+        output_dir / "final_attack_type_summary.csv",
+        index=False,
+        float_format=lambda value: f"{value:g}",
+        lineterminator="\n",
+    )
     benign_summary.to_csv(output_dir / "final_benign_summary.csv", index=False)
     waf_comparison.to_csv(output_dir / "final_waf_comparison.csv", index=False)
     repetition_summary.to_csv(

@@ -5,6 +5,11 @@ COMP6015/COMP6016 Group 11 project repository
 Automation repository for:
 
 **An Investigation of the Effectiveness of Open-Source Web Application Firewalls**
+
+For a new reviewer, start with [`HANDOVER_GUIDE.md`](HANDOVER_GUIDE.md). It
+contains the clean-room setup, offline verification, data map, safe execution
+path, live-lab prerequisites, known limitations and Git-history recovery steps.
+
 ## Supervisor Review
 
 Use this README as the first review page.

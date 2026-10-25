@@ -10,6 +10,7 @@ __pycache__/
 ~$*
 .env
 requirements-local.txt
+dist/
 
 # Local/generated output backups
 output_mac_incomplete_backup/
