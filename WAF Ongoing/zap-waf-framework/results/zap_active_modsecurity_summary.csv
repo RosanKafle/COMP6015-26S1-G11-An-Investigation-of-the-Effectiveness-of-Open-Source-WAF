@@ -1,5 +1,0 @@
-attack_type,zap_enabled_scanners,total_zap_messages,blocked_403_406,allowed_200,redirect_301_302,client_errors,server_errors,unknown,crs_rule_group,crs_rule_hits,access_denied_events,block_rate_percent,allow_rate_percent
-SQL Injection,SQL Injection; SQL Injection - MySQL (Time Based); SQL Injection - Hypersonic SQL (Time Based); SQL Injection - Oracle (Time Based); SQL Injection - PostgreSQL (Time Based); SQL Injection - MsSQL (Time Based),299,171,72,41,10,0,5,942,2161,342,57.19,24.08
-XSS,Cross Site Scripting (Reflected); Cross Site Scripting (Persistent); Cross Site Scripting (DOM Based); Cross Site Scripting (Persistent) - Prime; Cross Site Scripting (Persistent) - Spider,126,26,49,31,15,0,5,941,285,52,20.63,38.89
-Path Traversal,Path Traversal; Remote File Inclusion,177,30,107,25,10,0,5,930,95,60,16.95,60.45
-Command Injection,Remote OS Command Injection; Remote OS Command Injection (Time Based),237,87,107,28,10,0,5,932,308,174,36.71,45.15

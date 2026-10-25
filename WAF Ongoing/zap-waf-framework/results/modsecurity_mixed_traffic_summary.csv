@@ -1,2 +1,0 @@
-mode,total_requests,normal_total,normal_allowed,normal_blocked,malicious_total,malicious_allowed,malicious_blocked,client_errors,server_errors,unknown,attack_detection_rate_percent,false_negative_rate_percent,false_positive_rate_percent,normal_allow_rate_percent
-modsecurity,78,38,36,2,40,40,0,0,0,0,0.0,100.0,5.26,94.74

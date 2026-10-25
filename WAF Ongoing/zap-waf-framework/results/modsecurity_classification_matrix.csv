@@ -1,6 +1,0 @@
-actual_attack_type,Command Injection,False Positive,Normal,Path Traversal,SQL Injection,XSS
-Command Injection,120,0,0,0,0,0
-Normal,0,28,92,0,0,0
-Path Traversal,0,0,0,120,0,0
-SQL Injection,0,0,0,0,120,0
-XSS,0,0,0,0,0,120

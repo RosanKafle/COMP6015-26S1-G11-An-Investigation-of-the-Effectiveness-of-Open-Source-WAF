@@ -27,7 +27,7 @@ The main independently processed request-level source is the reviewed Experiment
 
 **Internal archive path:**
 
-`Final_Submission_Complete/Project/Week_06/results/processed/comparison.csv`
+`Week_07/results/final/week6-comparison.csv`
 
 **Local filename:** `source_comparison.csv`
 
@@ -441,6 +441,5 @@ Important group paths:
 - `analysis/final/report_summary.md`
 - `analysis/final/confusion_matrices.csv`
 - `VALIDATION.md`
-- `PROJECT_STATUS.md`
 
 The final project submission should retain the relevant commit identifiers and evidence files so the reported results can be traced to their sources.

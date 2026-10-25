@@ -1,6 +1,0 @@
-{
-  "status": "NOT VERIFIED",
-  "mode": "Sequential existing Ubuntu WAF conditions",
-  "modsecurity": "Existing Apache module and CRS",
-  "naxsi": "Existing Nginx with ModSecurity disabled in its backend"
-}

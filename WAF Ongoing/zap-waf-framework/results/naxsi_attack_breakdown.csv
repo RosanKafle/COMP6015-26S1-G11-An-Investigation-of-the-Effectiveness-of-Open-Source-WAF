@@ -1,7 +1,0 @@
-mode,attack_type,total_requests,allowed,blocked,client_errors,server_errors,unknown,block_rate_percent,allowed_rate_percent
-naxsi,Header / User-Agent Fuzzing,1064,972,18,71,0,3,1.69,91.35
-naxsi,Brute Force / Authentication,447,192,255,0,0,0,57.05,42.95
-naxsi,SQL Injection,205,3,202,0,0,0,98.54,1.46
-naxsi,Path Traversal / File Inclusion,21,0,21,0,0,0,100.0,0.0
-naxsi,Forced Browsing / Directory Discovery,3,2,0,0,0,1,0.0,66.67
-naxsi,File Upload,1,0,1,0,0,0,100.0,0.0

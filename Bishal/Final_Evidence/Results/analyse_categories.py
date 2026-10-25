@@ -5,13 +5,13 @@ import csv
 import json
 import matplotlib.pyplot as plt
 
-ROOT = Path.home() / "waf-semester2"
-OUT = ROOT / "Final_Submission/Evidence/Results"
+ROOT = Path(__file__).resolve().parents[3]
+OUT = Path(__file__).resolve().parent
 OUT.mkdir(parents=True, exist_ok=True)
 
-COMPARISON = ROOT / "Week_06/results/processed/comparison.csv"
-MISSED = ROOT / "Week_07/results/processed/naxsi-week6/missed_detections.csv"
-METRICS = ROOT / "Week_07/results/processed/naxsi-week6/metrics.json"
+COMPARISON = ROOT / "Week_07/results/final/week6-comparison.csv"
+MISSED = ROOT / "Week_07/results/final/naxsi-missed-detections.csv"
+METRICS = ROOT / "Week_07/results/final/naxsi-metrics.json"
 
 def read_csv(path):
     with path.open(newline="", encoding="utf-8-sig") as f:
@@ -42,9 +42,7 @@ for waf in ("modsecurity", "naxsi"):
     assert not (set(counts) - {"TP", "TN", "FP", "FN"}), \
         "Unreviewed classifications found; investigate before charting"
 
-    metrics_file = ROOT / (
-        f"Week_07/results/processed/{waf}-week6/metrics.json"
-    )
+    metrics_file = ROOT / f"Week_07/results/final/{waf}-metrics.json"
     with metrics_file.open() as f:
         m = json.load(f)
 

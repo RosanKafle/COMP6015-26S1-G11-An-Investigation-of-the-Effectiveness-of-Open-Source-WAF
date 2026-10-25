@@ -1,8 +1,0 @@
-actual_attack_type,total,allowed,blocked,client_error,server_error,unknown
-Normal,38,36,2,0,0,0
-CSRF,5,5,0,0,0,0
-XSS,10,10,0,0,0,0
-Command Injection,5,5,0,0,0,0
-SQL Injection,10,10,0,0,0,0
-Brute Force,5,5,0,0,0,0
-Path Traversal,5,5,0,0,0,0

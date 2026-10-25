@@ -1,4 +1,5 @@
 .venv/
+venv/
 __pycache__/
 *.pyc
 *.log
@@ -7,6 +8,8 @@ __pycache__/
 .cache/
 *.zip
 ~$*
+.env
+requirements-local.txt
 
 # Local/generated output backups
 output_mac_incomplete_backup/
@@ -14,24 +17,16 @@ output_old_flat_backup/
 output-week 10-14/
 
 # Additional Semester 2 exclusions
-.env
-__pycache__/
-*.pyc
-.venv/
-venv/
 **/results/raw/*
 !**/results/raw/README.md
 **/logs/*
 !**/logs/README.md
 **/secrets/*
 !**/secrets/README.md
-*.log
 **/config/environment.json
 **/config/modsecurity.json
 **/config/naxsi.json
 **/config/local*.json
-
-requirements-local.txt
 **/traffic/imported*/
 **/results/processed/*
 !**/results/processed/README.md

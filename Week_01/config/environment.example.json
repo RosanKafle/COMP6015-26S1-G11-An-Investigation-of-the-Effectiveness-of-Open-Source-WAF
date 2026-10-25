@@ -1,9 +1,0 @@
-{
-  "timeout": 5,
-  "components": {
-    "dvwa": "http://192.168.56.20/DVWA",
-    "modsecurity": "http://192.168.56.20/DVWA",
-    "naxsi": "http://192.168.56.20/DVWA",
-    "zap": "http://127.0.0.1:8080"
-  }
-}

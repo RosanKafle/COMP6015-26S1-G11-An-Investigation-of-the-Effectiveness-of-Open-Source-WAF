@@ -1,7 +1,0 @@
-mode,attack_type,total_requests,allowed,blocked,client_errors,server_errors,unknown,block_rate_percent,allowed_rate_percent
-modsecurity,Header / User-Agent Fuzzing,1057,980,4,70,0,3,0.38,92.72
-modsecurity,Brute Force / Authentication,437,437,0,0,0,0,0.0,100.0
-modsecurity,SQL Injection,211,211,0,0,0,0,0.0,100.0
-modsecurity,Path Traversal / File Inclusion,21,21,0,0,0,0,0.0,100.0
-modsecurity,Forced Browsing / Directory Discovery,3,2,0,0,0,1,0.0,66.67
-modsecurity,File Upload,1,1,0,0,0,0,0.0,100.0

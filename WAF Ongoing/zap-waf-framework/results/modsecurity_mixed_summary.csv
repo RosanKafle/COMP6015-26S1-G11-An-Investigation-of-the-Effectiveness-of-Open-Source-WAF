@@ -1,2 +1,0 @@
-mode,total_requests,normal_total,normal_allowed,normal_blocked_false_positive,malicious_total,malicious_blocked,malicious_allowed_false_negative,client_errors,server_errors,redirects,unknown,access_denied_events,false_positive_rate_percent,false_negative_rate_percent,attack_block_rate_percent,crs_941_hits,crs_942_hits,crs_930_hits,crs_932_hits
-modsecurity_mixed_fast,600,120,92,28,480,480,0,0,0,0,0,1076,23.33,0.0,100.0,1009,1784,1768,626

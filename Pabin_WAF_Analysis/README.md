@@ -259,7 +259,7 @@ The Experiment A request-level CSV was obtained from Bishal's preserved group ar
 
 Internal archive location:
 
-`Final_Submission_Complete/Project/Week_06/results/processed/comparison.csv`
+`Week_07/results/final/week6-comparison.csv`
 
 Recorded SHA-256:
 

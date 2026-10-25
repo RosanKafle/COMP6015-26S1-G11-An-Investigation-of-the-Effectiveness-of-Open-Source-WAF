@@ -4,14 +4,14 @@ import csv
 import matplotlib.pyplot as plt
 import numpy as np
 
-ROOT = Path.home() / "waf-semester2"
+ROOT = Path(__file__).resolve().parents[3]
 
-OUT = ROOT / "Final_Submission/Evidence/Results"
+OUT = Path(__file__).resolve().parent
 OUT.mkdir(parents=True, exist_ok=True)
 
 paths = {
-    "ModSecurity": ROOT / "Week_07/results/processed/modsecurity-week6/metrics.json",
-    "NAXSI": ROOT / "Week_07/results/processed/naxsi-week6/metrics.json",
+    "ModSecurity": ROOT / "Week_07/results/final/modsecurity-metrics.json",
+    "NAXSI": ROOT / "Week_07/results/final/naxsi-metrics.json",
 }
 
 data = {}

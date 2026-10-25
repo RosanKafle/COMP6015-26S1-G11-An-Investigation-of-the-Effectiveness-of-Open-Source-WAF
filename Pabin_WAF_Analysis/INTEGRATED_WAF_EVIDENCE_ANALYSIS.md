@@ -362,6 +362,5 @@ The supporting project paths are:
 - `analysis/final/report_summary.md`
 - `analysis/final/confusion_matrices.csv`
 - `VALIDATION.md`
-- `PROJECT_STATUS.md`
 
 All references use the group's `comp6016-final-integration` branch. The final report should record the exact integration commit used during final evidence verification.

@@ -1,2 +1,0 @@
-mode,target,total_zap_requests,total_allowed,total_blocked,total_client_errors,total_server_errors,total_alerts,overall_block_rate_percent,overall_allowed_rate_percent
-modsecurity,http://192.168.56.20/DVWA/,1730,1652,4,70,0,92,0.23,95.49

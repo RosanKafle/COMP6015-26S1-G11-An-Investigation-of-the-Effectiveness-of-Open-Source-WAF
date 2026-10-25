@@ -4,8 +4,8 @@ from collections import defaultdict, Counter
 import csv
 import matplotlib.pyplot as plt
 
-ROOT = Path.home() / "waf-semester2"
-OUT = ROOT / "Final_Submission/Evidence/Results"
+ROOT = Path(__file__).resolve().parents[3]
+OUT = Path(__file__).resolve().parent
 OUT.mkdir(parents=True, exist_ok=True)
 
 def read_csv(path):
@@ -13,7 +13,7 @@ def read_csv(path):
         return list(csv.DictReader(f))
 
 comparison = read_csv(
-    ROOT / "Week_06/results/processed/comparison.csv"
+    ROOT / "Week_07/results/final/week6-comparison.csv"
 )
 
 validation = read_csv(

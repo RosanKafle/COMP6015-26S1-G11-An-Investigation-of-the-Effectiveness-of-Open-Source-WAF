@@ -1,6 +1,0 @@
-category,count,placeholder_cases
-command_injection,120,0
-normal,120,0
-path_traversal,120,0
-sqli,120,0
-xss,120,0

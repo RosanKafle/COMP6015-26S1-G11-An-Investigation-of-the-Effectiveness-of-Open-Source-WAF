@@ -6,10 +6,10 @@ Current catch-up implementation. Milestones do not claim historical execution.
 
 Actual-data metrics, missed detections, observed rule categories, latency summary and analysis report.
 
-## Built on previous week
+## Maintained implementation
 
-Built on Week_06. Retains Kali -> ZAP -> Ubuntu, existing DVWA /DVWA/,
-source references and earlier capabilities. No sibling week is imported at runtime.
+This is the retained Semester 2 implementation. Earlier source snapshots were
+removed after their reviewed data and final evidence had been consolidated.
 
 ## Work implemented
 
@@ -29,8 +29,6 @@ source references and earlier capabilities. No sibling week is imported at runti
 ## Files modified
 
 README.md, WEEKLY_CHANGELOG.md, configuration and architecture/methodology documents.
-See root docs/snapshot_lineage.md for actual adjacent-snapshot file changes.
-The earlier generated implementation is archived; original semester files are untouched.
 
 ## How to run
 
@@ -40,8 +38,8 @@ On Kali, Python 3.11+, from this week directory:
 python zap_active_mixed_modsecurity.py --config config/test_config.json --env-file ../.env
 ~~~
 
-For active-capable stages this defaults to a plan. Add --execute only after genuine
-lab verification. Root VM_SETUP_STEP_BY_STEP.md provides full commands and checkpoints.
+For active-capable stages this defaults to a plan. Add `--execute` only after genuine
+lab verification and review the configuration and methodology in this directory.
 
 ## What remains incomplete
 

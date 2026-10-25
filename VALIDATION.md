@@ -1,23 +1,26 @@
-# Validation of the inherited-workflow revision
+# Repository Validation
 
-Validated on 9 September 2026 (Australia/Perth).
+Validated on 25 October 2026 (Australia/Perth) after branch integration and
+repository consolidation.
 
-- 27 unit tests passed, including temporary proxy/session/login fixtures, native
-  audit parsing, review gates, active-scan API mocks and all earlier analysis tests.
-- 111 snapshot Python files passed syntax validation.
-- 78 CLI help/import checks passed.
-- Every earlier-week file path remains in the next snapshot.
-- All five baseline CSVs validate: 600 rows, 120 per category.
-- Week 6/7 contain 1,084 generated review-gated variants, not detection outcomes.
-- 43 Bash guide blocks and 3 inline Python snippets passed syntax checks.
-- Original source hashes and historical CSV copies match.
-- Local Markdown links resolve; no new experimental results.csv exists in raw folders.
-- No-input analysis refuses to create a report.
+- Repository structure validation passed.
+- 27 inherited framework tests passed using synthetic fixtures and temporary
+  loopback HTTP servers.
+- 16 controlled-validation encoding and request-builder tests passed.
+- The tests wrote no generated files into the repository.
+- The main README contains no literal SSH password.
+- Superseded weekly source snapshots and duplicate working folders were removed.
+- `Week_07/` is the maintained Semester 2 implementation.
+- `Week_06/` retains only the reviewed data required by the final evidence analysis.
 
-Tests used synthetic fixtures and temporary loopback HTTP servers only. ZAP scan
-orchestration was exercised with mocks, not a real installed ZAP. No Kali/Ubuntu
-VM, Apache/NAXSI configuration or actual WAF experiment was executed here.
-Run the guide's checkpoints on the existing lab before claiming operational success.
+Validation commands:
 
-Concurrent benchmarking, new OWASP fixtures and measured research findings remain
-incomplete. PROJECT_STATUS.md is not ticked by software generation.
+```bash
+python3 scripts/validate_structure.py
+python3 -m unittest discover -s tests -p 'test_*.py'
+python3 -m unittest discover -s tools/controlled_validation -p 'test_*.py'
+```
+
+Software tests do not prove live WAF effectiveness. Experimental claims remain
+grounded in the preserved baseline checks, reviewed classifications, correlated
+logs and application-effect evidence described in `DEFENSE_GUIDE.md`.
