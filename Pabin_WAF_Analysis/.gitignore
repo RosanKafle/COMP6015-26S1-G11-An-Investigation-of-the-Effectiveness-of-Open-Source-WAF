@@ -1,0 +1,13 @@
+# Local experimental data copies
+source_comparison.csv
+test_duplicate.csv
+
+# Local testing logs
+duplicate_test_results.txt
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Mac temporary files
+.DS_Store
