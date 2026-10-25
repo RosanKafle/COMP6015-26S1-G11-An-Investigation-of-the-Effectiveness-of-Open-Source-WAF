@@ -1,6 +1,6 @@
 # WAF Evaluation Framework
 
-Group Computer Science Project 1 (Sem-3)
+COMP6015/COMP6016 Group 11 project repository
 
 Automation repository for:
 
@@ -11,14 +11,17 @@ Use this README as the first review page.
 
 Recommended review order:
 
-1. `reports/final/COMP6015_Group11_WAF_Final_Report_SubmissionReady.docx`
-2. `analysis/final/report_summary.md`
-3. `analysis/final/key_findings.txt`
-4. `analysis/final/*.csv`
-5. `output/`
-6. `evidence/manual_validation/`
-7. `docs/`
-8. `framework/`, `tools/manual_validation/`, and `scripts/` for reproducibility details
+1. `DEFENSE_GUIDE.md`
+2. `reports/final/COMP6015_Group11_WAF_Final_Report_SubmissionReady.docx`
+3. `analysis/final/report_summary.md`
+4. `Pabin_WAF_Analysis/INTEGRATED_WAF_EVIDENCE_ANALYSIS.md`
+5. `Bishal/Final_Evidence/README.md`
+6. `analysis/final/*.csv` and the linked raw evidence
+7. `framework/`, `tools/`, and `scripts/` for reproducibility details
+
+The repository contains multiple controlled experiments with different corpora and
+validation methods. Keep their results separate; do not combine their percentages
+into a single cross-WAF ranking.
 
 ## Project Map
 
@@ -136,8 +139,10 @@ python3 -m framework.experiment_runner \
 Add:
 
 ```bash
---remote-host 192.168.209.130 --remote-user sadaiba --remote-password 1234 --check-remote-state
+--remote-host <LAB_HOST> --remote-user <LAB_USER> --check-remote-state
 ```
+
+The runner prompts for the SSH password when `--remote-password` is omitted.
 
 ## Run Analysis
 
