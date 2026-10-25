@@ -59,3 +59,5 @@ XSS also produced allowed requests for both WAFs, while several other attack cat
 
 The analysis reads the project datasets directly from the Git repository and produces separate files under roshan/results/analysis/.
 The original group result files remain unchanged.
+The CSVs under `roshan/evidence/` are historical cross-branch inventories, so
+their paths are not expected to mirror the cleaned `main` working tree.

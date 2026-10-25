@@ -42,15 +42,22 @@ These findings describe the tested configurations and corpus. They do not establ
 
 ## Evidence and Reproducibility
 
-- `Code/`: Preserved automation and analysis scripts
-- `Documentation/`: Experimental architecture, workflow and methodology documents
-- `Data/`: Reviewed and processed classification results
-- `Evidence/Logs/`: Preserved WAF and backend evidence
-- `Evidence/Results/`: Generated metrics, CSV summaries and figures
-- `Evidence/Screenshots/`: Captured experimental evidence
-- `evidence_manifest.csv`: Evidence inventory and SHA-256 hashes
+- `Results/`: Generated metrics, CSV summaries, figures and their analysis scripts.
+- `../../Week_07/results/final/`: Reviewed request-level ModSecurity/NAXSI results and final comparisons.
+- `../COMP6016_Group11_BishalGiri_Complete_Code_Data.zip`: Preserved Week 1–7 code, raw requests and responses, correlated WAF/backend logs, processed data and the original final-analysis package.
+- `../../Pabin_WAF_Analysis/reviewed_group_evidence/`: Independently reviewed supporting summaries.
 
-Raw experimental files are preserved in the original Week 5–7 project directories. Copies in the submission package are provided for examination.
+The retained ZIP has SHA-256
+`3b05598679870830061df7450aae3eb5bc4f8c7217eafe0ab4db5ef1b0d90575`.
+Its original CSV byte hashes differ from some working-tree copies because Git
+normalised line endings; the reviewed CSV rows were checked as semantically
+identical during repository cleanup.
+
+The ZIP contains private RFC1918 laboratory addresses used for experimental
+provenance. A targeted publication review found no private keys, GitHub or AWS
+tokens, bearer/authorization headers, ZAP API keys or retained PHP session IDs.
+The archive must still be kept with the evidence package because it contains raw
+logs that are not duplicated elsewhere in the cleaned tree.
 
 WAF decisions were reviewed using available WAF and backend evidence rather than HTTP response status alone.
 
